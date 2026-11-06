@@ -2,6 +2,8 @@
 
 This is a proposed manual research register for the questions in [culture, intimacy and power](15-CULTURE-INTIMACY-AND-POWER.md). It contains no measured baseline, registered probability or automatic monitoring programme. The point is to identify observations that could change a scenario argument before collecting an impressive but uninformative dashboard.
 
+The [scoped evidence table](../evidence/companions-and-civic-dependence.md) now records thirteen source lineages, opposing findings and design limits. [Eight measurement protocols](../evidence/social-measurement-protocol.md) specify proposed populations/windows, baseline status, exclusions and missing-data handling. They are uncommissioned designs, not measured baselines, registered odds or monitoring.
+
 ## Eight questions worth instrumenting
 
 | Candidate | What to look for | What it would not establish |

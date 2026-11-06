@@ -22,4 +22,4 @@ The right question is which failure the control can detect or prevent, using wha
 
 Even success on those technical questions leaves public choices. A reliable system helping one authority dominate others is not made legitimate by its reliability. Equally, representative institutions need operational competence if they are to exercise real oversight.
 
-This project treats the distribution and contestability of power as independent questions alongside system behaviour. This chapter presents analysis and proposals, not an alignment solution or executable proof.
+This project treats the distribution and contestability of power as independent questions alongside system behaviour. This chapter presents analysis and proposals, not an alignment solution or executable proof. [PROP-501/502](../worlds/proposed-branch-contracts.md) specify distinct evasion and useful-containment contract families, their opposing cases and prospective observations. They are numbered proposals, not registered OMNI worlds or executed formal checks.
