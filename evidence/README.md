@@ -10,6 +10,8 @@ Track capability and concentration separately. Candidate indicators include prac
 
 For intimate AI and youth development, distinguish adult choice from adolescent exposure, frequency from dependency, and correlation from causation. Longitudinal evidence is needed to estimate relationship or demographic effects. A viral song can show a cultural motif; it cannot estimate public belief or job loss.
 
+The [companions and civic dependence table](companions-and-civic-dependence.md) separates assigned-condition effects, associations, official investigations and policy analysis. Its [proposed measurement protocols](social-measurement-protocol.md) make baseline and missing-data requirements concrete.
+
 ## Forecast discipline
 
 Prediction submissions must meet the [superforecasting-style contribution standard](../docs/forecasting-guide.md). Prefer our public skill/tool; equivalent manual analysis is accepted. Numerical belief, resolution terms, outside-view rationale, clashing cases, dependence disclosure and update/scoring plans are required. TLA+ verification is encouraged but optional, and its absence is never an acceptance blocker. Question-design ideas without odds remain ideas.

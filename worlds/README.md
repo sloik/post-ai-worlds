@@ -27,7 +27,7 @@ The public edition omits private source excerpts. CLM-007 is conditional, CLM-01
 
 ## Coverage and gaps
 
-[Mapping](mapping.json) gives each public chapter a conceptual relevance disposition and a limit. Alignment failure modes, cosmic horizons, developmental effects and many institutional mechanisms are **not encoded** by the current ten worlds. An explicit gap is preferable to forcing an unrelated chapter into a false formal branch.
+[Mapping](mapping.json) gives each public chapter a conceptual relevance disposition and a limit. Alignment failure modes, cosmic horizons, developmental effects and many institutional mechanisms are **not encoded** by the current ten worlds. An explicit gap is preferable to forcing an unrelated chapter into a false formal branch. [Four separately numbered proposal contracts](proposed-branch-contracts.md) now define alignment/evasion, useful containment, lifecycle resources and delayed authority. They remain proposed and not modelled, outside the ten registered universes; no admission or assurance transfers.
 
 [Coverage](coverage.json) records exact public file bytes and actual ATX heading locations outside code fences. Every heading is inventoried; sentences are not automatically interpreted or proved. Run `python3 tools/update_inventory.py` to update it. This is an explicit editorial baseline change, reviewed in the same PR as the text; update mapping for new or moved chapters. There is no dependency on another repository's history or a private baseline.
 
