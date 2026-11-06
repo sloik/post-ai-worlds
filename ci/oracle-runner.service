@@ -1,0 +1,30 @@
+[Unit]
+Description=Post-AI Worlds maintained-main TLA runner
+After=network-online.target
+Wants=network-online.target
+[Service]
+User=post-ai-runner
+Group=post-ai-runner
+WorkingDirectory=/opt/post-ai-runner
+Environment=HOME=/var/lib/post-ai-runner
+ExecStart=/opt/post-ai-runner/runsvc.sh
+Restart=always
+RestartSec=5
+KillMode=mixed
+TimeoutStopSec=120
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+ReadWritePaths=/var/lib/post-ai-runner /opt/post-ai-runner/_diag
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictSUIDSGID=true
+CapabilityBoundingSet=
+CPUQuota=100%
+MemoryMax=2G
+TasksMax=256
+[Install]
+WantedBy=multi-user.target

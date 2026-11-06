@@ -1,38 +1,96 @@
-name: Forecast proposal
-description: Propose a prospective, resolvable question without registering it automatically.
-title: "[Forecast proposal] "
+name: Prediction (superforecasting style)
+description: Submit a quantified, resolvable prediction with evidence, opposing cases and an update/scoring
+  plan.
+title: '[Prediction] '
 body:
-  - type: markdown
-    attributes:
-      value: "Please write in English. This form proposes a question; it does not register odds or change an existing forecast. Clearly label any field that still needs design."
-  - type: textarea
-    id: event
-    attributes:
-      label: Future event and scope
-      description: Define what would count, including jurisdiction, population or domain where relevant. Link any assumptions or OMNI IDs.
-    validations:
-      required: true
-  - type: textarea
-    id: timing
-    attributes:
-      label: Observation window and deadline
-      description: Give proposed dates and explain how already-realised events will be excluded. Mark unresolved dates as needing design.
-    validations:
-      required: true
-  - type: textarea
-    id: resolution
-    attributes:
-      label: Resolution criteria
-      description: Name admissible evidence, exclusions and the outcome when evidence is missing or a conditional premise never occurs.
-    validations:
-      required: true
-  - type: textarea
-    id: arguments
-    attributes:
-      label: Supporting and opposing cases
-      description: Include public sources, a possible reference class and why the question might resolve either way. Separate measured base rates from subjective judgment.
-  - type: textarea
-    id: odds
-    attributes:
-      label: Optional probability and update triggers
-      description: Explain any proposed odds, uncertainty and evidence that would change them. No probability is required to propose a question.
+- type: markdown
+  attributes:
+    value: 'Prediction proposals must follow our superforecasting-style standard: https://github.com/sloik/post-ai-worlds/blob/main/docs/forecasting-guide.md
+      . Prefer our public skill/tool https://github.com/sloik/superforecasting ; an equivalent manual
+      analysis is sufficient. TLA+ work is encouraged but optional and never an admission blocker. Submission
+      alone does not register a project forecast or change frozen records.'
+- type: textarea
+  id: question
+  attributes:
+    label: Question and scope
+    description: Define an observable future event/quantity, population/domain/jurisdiction and relevant
+      chapters/OMNI IDs (or mapping unknown). If no numerical belief is ready, open an Idea instead.
+  validations:
+    required: true
+- type: textarea
+  id: resolution
+  attributes:
+    label: Prospective resolution contract
+    description: Give event cutoff/timezone, resolution date, judge/data source and fallback, inclusion/exclusion
+      rules, edge cases and treatment of missing/ambiguous data or a conditional antecedent that never
+      occurs. Exclude already-realised events.
+  validations:
+    required: true
+- type: textarea
+  id: estimate
+  attributes:
+    label: Numerical forecast and attribution
+    description: State a binary probability or a mutually exclusive/exhaustive distribution summing to
+      100%, with ordered nonoverlapping bins where applicable. Include forecast date, information cutoff
+      and forecaster identity. A bare uncertainty interval is not an outcome distribution.
+  validations:
+    required: true
+- type: textarea
+  id: outside_view
+  attributes:
+    label: Outside view and public evidence
+    description: 'Begin with a relevant reference class: sources, dates, counts/denominator and selection
+      limits. If no defensible base rate exists, describe your search, nearest analogues, why they fail
+      and your honestly labelled judgmental anchor. Do not invent counts.'
+  validations:
+    required: true
+- type: textarea
+  id: drivers
+  attributes:
+    label: Decomposition and inside-view adjustments
+    description: Explain drivers/subevents, dependencies and what moves the anchor to your estimate. Show
+      arithmetic or actual tool output where used; justify subjective adjustments and sensitivity. Explain
+      if quantitative decomposition is not defensible; do not invent likelihood ratios.
+  validations:
+    required: true
+- type: textarea
+  id: cases
+  attributes:
+    label: Why I think this is right / why I might be wrong
+    description: 'Supply both labelled cases: strongest supporting evidence and concrete opposing mechanisms/assumptions
+      that could fail, with direction of change. Link public primary sources where possible; separate
+      observation, inference and speculation.'
+  validations:
+    required: true
+- type: textarea
+  id: perspectives
+  attributes:
+    label: Alternative perspectives and dependence
+    description: Address a critic/alternative framing and disagreement. Disclose shared sources, AI models/prompts
+      or prior exposure. If pooling, retain component estimates, weights and method. Multiple agents and
+      pooling are optional; do not manufacture independence.
+  validations:
+    required: true
+- type: textarea
+  id: updates
+  attributes:
+    label: Update, resolution and scoring plan
+    description: Name up/down triggers and justified direction/magnitude, review date/cadence, responsible
+      resolver and scoring convention. State how initial wording and dated revisions will be preserved.
+      Specify binary Brier or appropriate distribution scoring and which pre-outcome estimate is scored.
+  validations:
+    required: true
+- type: textarea
+  id: methods
+  attributes:
+    label: Optional skill/tool usage and assistance
+    description: Link actual calculations or tool outputs if used; disclose material AI assistance and
+      what was verified. Manual equivalent is accepted; no installation or multi-agent panel is required.
+- type: textarea
+  id: formal
+  attributes:
+    label: Optional TLA+ / formal verification
+    description: 'Encouraged, NOT required or blocking. If present: source, assumptions, properties, bounds,
+      actual run/control evidence and limits. A model pass cannot establish empirical truth or odds.'
+  validations:
+    required: false

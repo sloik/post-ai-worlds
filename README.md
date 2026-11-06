@@ -30,6 +30,8 @@ Document coverage, conceptual relevance and formal assurance are separate. A cha
 
 Use **Issues** for evidence, contradictions, ideas and forecast proposals. Use **Discussions** for exploratory questions and conversation. Use a **pull request** for a concrete proposed change. Corrections and counterexamples are welcome; you do not need a formal model to open a question.
 
+Prediction issues follow the [superforecasting standard](docs/forecasting-guide.md); our skill/tool is preferred and manual equivalent accepted. TLA+ attachments are optional.
+
 Read [CONTRIBUTING.md](CONTRIBUTING.md), [GOVERNANCE.md](GOVERNANCE.md) and the [Code of Conduct](CODE_OF_CONDUCT.md). Project discussion and maintained documents are English only.
 
 **Open with attribution:** original writing, data and illustrations use **CC BY 4.0**; code and formal specifications use **MIT**. Discussion, adaptation, experimentation and commercial reuse are welcome. See [LICENSING.md](LICENSING.md) for exact scope and [ATTRIBUTION.md](ATTRIBUTION.md) for ready-to-use credit.

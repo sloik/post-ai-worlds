@@ -33,3 +33,7 @@ python3 -m unittest discover -s tests -v
 Run in a workspace whose native output contains no personal filesystem identities. The runner stores fresh output captures and refuses personal home paths; it does not redact logs and retain old hashes. The offline check needs only the repository, not Java, network access, the producer's installation path, private Git objects or credentials. CI executes the native campaign afresh.
 
 [Shared worlds](../worlds/README.md) · [Contribution guidance](../CONTRIBUTING.md)
+
+## Oracle execution
+
+Maintained-main checks also run on the existing shared Oracle host through a separate repository registration and isolated service account. Public PR checks stay GitHub-hosted. See [runner operation and admission boundary](../docs/oracle-runner.md). Prediction proposals may include formal work, but its absence is nonblocking; the [forecasting standard](../docs/forecasting-guide.md) governs their empirical reasoning.

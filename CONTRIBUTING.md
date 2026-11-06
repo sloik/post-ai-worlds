@@ -7,10 +7,10 @@ This repository is the canonical source for both Post-AI Era Vision and Omnicorp
 - **Evidence or source:** identify the claim and explain what the source supports or challenges.
 - **Contradiction or counterexample:** identify the assumptions, scope and consequence that do not fit together.
 - **Idea or scenario:** explain the question, proposed assumptions and what would distinguish it from existing worlds.
-- **Forecast proposal:** define a future event and how it could be resolved. A proposed question is not a registered prediction.
+- **Prediction:** follow the required [superforecasting-style standard](docs/forecasting-guide.md), including numerical belief, outside view, opposing cases and an update/scoring plan. Prefer [our skill/tool](https://github.com/sloik/superforecasting); manual equivalent is sufficient. TLA+ work is encouraged, optional and nonblocking. An unquantified question belongs in an Idea issue. Submission is not automatic forecast registration.
 - **Small correction:** a focused pull request can go directly to review. Discuss substantial reorganisations first to avoid unnecessary work.
 
-The issue forms collect useful context, not a test of membership. If a field is unknown, say so. Exploratory conversation belongs in Discussions; an actionable source challenge or proposed correction belongs in an issue.
+The issue forms collect useful context, not a test of membership. If supporting evidence is unknown, say so and explain the limit. Prediction submissions still require a numerical belief and prospective resolution terms; unresolved question design belongs in Ideas. Exploratory conversation belongs in Discussions; an actionable source challenge or proposed correction belongs in an issue.
 
 ## Label what kind of claim you are making
 
