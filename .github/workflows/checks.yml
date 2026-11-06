@@ -17,6 +17,7 @@ jobs:
           python-version: '3.12'
       - name: Check retained public source and evidence
         run: |
+          python3 tools/build_navigation.py
           python3 tools/check.py
           python3 -m unittest discover -s tests -v
       - name: Rebuild canonical website introduction

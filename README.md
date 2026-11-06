@@ -20,6 +20,8 @@ This is a collection of arguments to inspect and improve. Evidence, assumptions,
 
 The [Omnicorp website](https://stocki-apps.pages.dev/omnicorp/) is a public introduction. This repository is the single canonical source for both projects: documents, shared worlds, reviewed website source, evidence, issues and proposed changes. The website is a short introduction; older private notes are historical archives, not a second maintained canon. New work belongs here. A website statement or historical result does not substitute for the exact evidence attached to a repository claim.
 
+[Explore the canonical navigation graph](graphs/README.md), including source-bound public document links.
+
 ## One shared world register
 
 Both tracks refer to the same numbered OMNI scenarios. Numbers identify assumption bundles; they do not rank worlds or assign probabilities. Scenarios can overlap across countries, sectors and time horizons.

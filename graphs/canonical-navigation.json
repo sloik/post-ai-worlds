@@ -1,0 +1,1703 @@
+{
+  "schema_version": 1,
+  "directed": true,
+  "scope": "tracked_public_markdown_navigation_only",
+  "canonical_repository": "https://github.com/sloik/post-ai-worlds",
+  "assurance": "navigation_only_not_semantic_or_formal_proof",
+  "source_rule": "Tracked non-hidden Markdown; generated graphs/ excluded to avoid circular identity. Only simple inline links outside frontmatter/fences/code spans are parsed, not complete CommonMark. Links collapse at document level; source lines and anchors retained.",
+  "semantic_extraction_tokens": 0,
+  "nodes": [
+    {
+      "id": "https://github.com/sloik/post-ai-worlds",
+      "label": "Post-AI Era Vision & Omnicorp — canonical repository",
+      "url": "https://github.com/sloik/post-ai-worlds",
+      "kind": "repository",
+      "provenance": "CANONICAL.md"
+    },
+    {
+      "id": "ATTRIBUTION.md",
+      "label": "Credit the work",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/ATTRIBUTION.md",
+      "kind": "document",
+      "sha256": "87511bbff44cca2a426e45a641dda1e229b59417e21a6049a2c41d00f3be6de3"
+    },
+    {
+      "id": "CANONICAL.md",
+      "label": "One maintained source",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/CANONICAL.md",
+      "kind": "document",
+      "sha256": "50927988da6cf91b9dc4922d92cc14b4e3680d7801cf05fff7a06d20eda4ecd7"
+    },
+    {
+      "id": "CODE_OF_CONDUCT.md",
+      "label": "Code of Conduct",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/CODE_OF_CONDUCT.md",
+      "kind": "document",
+      "sha256": "f7435884a1f71b64930a47e3c64d8fa8ab77a02cb82036875a2733f5a0d5326a"
+    },
+    {
+      "id": "CONTRIBUTING.md",
+      "label": "Contributing",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/CONTRIBUTING.md",
+      "kind": "document",
+      "sha256": "f619b8111c509cfdfd1bd2a1b02a3115733ad3c31bef95c48afc606c7256e894"
+    },
+    {
+      "id": "GOVERNANCE.md",
+      "label": "Governance",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/GOVERNANCE.md",
+      "kind": "document",
+      "sha256": "7d20a9361268d9e0b4eb13ea9d4d025e3d15542958f4382f63879520886f04e9"
+    },
+    {
+      "id": "LICENSING.md",
+      "label": "Open with attribution",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/LICENSING.md",
+      "kind": "document",
+      "sha256": "b9d613ba830ab8e1c0bba14c5722b00b116ee60cf7580468d7b0a8ee4068901a"
+    },
+    {
+      "id": "NOTICE.md",
+      "label": "Rights and source notice",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/NOTICE.md",
+      "kind": "document",
+      "sha256": "bb5a6dc0d65b4c60d9f5239cf4a07dd88c958a1eec0b5febe22d44044ad70af1"
+    },
+    {
+      "id": "README.md",
+      "label": "Post-AI Era Vision & Omnicorp",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/README.md",
+      "kind": "document",
+      "sha256": "be6ccfe2f22a38d9b915f201cd24583eac2b58dd3a4432db2bc846f2f22bcf4d"
+    },
+    {
+      "id": "docs/forecasting-guide.md",
+      "label": "Making a forecast others can inspect",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/docs/forecasting-guide.md",
+      "kind": "document",
+      "sha256": "a1d8d24b744217a6115bc0673a60470b69c3842740e725d2b56d63afefb4dc86"
+    },
+    {
+      "id": "docs/oracle-runner.md",
+      "label": "Oracle-backed TLA verification",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/docs/oracle-runner.md",
+      "kind": "document",
+      "sha256": "23afe60f063dd1b9f489e24cba7ed8c9784aff7944477b93f6927dd0c7dc56b4"
+    },
+    {
+      "id": "evidence/FORECAST-REVIEWS.md",
+      "label": "Manual forecast review queue",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/FORECAST-REVIEWS.md",
+      "kind": "document",
+      "sha256": "405529c31dbcbf8c0c9966d7f1ec13eaa9dd05da0c94406b26878939f098e6bb"
+    },
+    {
+      "id": "evidence/README.md",
+      "label": "Evidence and forecasts",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/README.md",
+      "kind": "document",
+      "sha256": "f6513b8fbca2bb11469c67a8f55206ce99cb12e0b17d0388740af69f807b5643"
+    },
+    {
+      "id": "formal/README.md",
+      "label": "Bounded formal assurance",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/formal/README.md",
+      "kind": "document",
+      "sha256": "0301071c3ed64fd8744d245fa44328831a1e008e7ee30007aed15e641b810fc5"
+    },
+    {
+      "id": "omnicorp/00-CHARTER.md",
+      "label": "Omnicorp: purpose and method",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/00-CHARTER.md",
+      "kind": "document",
+      "sha256": "360c92c1d4a3a00c29319f86ccd0f2ffc1f0b3e94bd457d1385098878d91cfac"
+    },
+    {
+      "id": "omnicorp/01-BLUEPRINT.md",
+      "label": "A candidate architecture for an AI-native organisation",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/01-BLUEPRINT.md",
+      "kind": "document",
+      "sha256": "c546eaa9c033f7fc226a5a2436a9f5d0d947dc3ba83b69ec611751da3f81b870"
+    },
+    {
+      "id": "omnicorp/02-SOLO-TO-SCALE.md",
+      "label": "From a small operation to multiple capabilities",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/02-SOLO-TO-SCALE.md",
+      "kind": "document",
+      "sha256": "db49e0ca0d06c37b67941e6ee635f0996fbd7ff5394638380008b1c355f17998"
+    },
+    {
+      "id": "omnicorp/03-AGENT-TEAMS.md",
+      "label": "Agent roles, teams and delegated authority",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/03-AGENT-TEAMS.md",
+      "kind": "document",
+      "sha256": "020285df305f4d60f0542a7a6846cdf7306454ea27532f1e30d84908c6081dbc"
+    },
+    {
+      "id": "omnicorp/04-SOFTWARE-FACTORY.md",
+      "label": "Building software as a learning process",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/04-SOFTWARE-FACTORY.md",
+      "kind": "document",
+      "sha256": "da0b5e7fa95d611c6af5ad91a9d385f77bbbeaa63fead3ddcc080b53a7ee7cff"
+    },
+    {
+      "id": "omnicorp/05-REAL-WORLD-PRODUCTION.md",
+      "label": "Moving from digital artifacts to physical operations",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/05-REAL-WORLD-PRODUCTION.md",
+      "kind": "document",
+      "sha256": "3f18d088b096ee90c4bef1108b76445ae721bf7af4ee526f4b51efb96e41a277"
+    },
+    {
+      "id": "omnicorp/06-CAPITAL.md",
+      "label": "Resources that sustain development",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/06-CAPITAL.md",
+      "kind": "document",
+      "sha256": "c4238ccf195e15797a53340cb09afe51a333ad25b1313de21541ad01d66106d8"
+    },
+    {
+      "id": "omnicorp/07-ROADMAP-AND-KPIS.md",
+      "label": "A roadmap governed by evidence",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/07-ROADMAP-AND-KPIS.md",
+      "kind": "document",
+      "sha256": "d7b177cc88992308e935c9d47838beff85db69a7c6476fb70d6230461ef6fef3"
+    },
+    {
+      "id": "omnicorp/08-RISKS-AND-MOATS.md",
+      "label": "Risks, dependence and defensibility",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/08-RISKS-AND-MOATS.md",
+      "kind": "document",
+      "sha256": "7b4384c1f9dc308700dc8e09d2a3d2302405d118e6021b1cfccfc901dc9e6dca"
+    },
+    {
+      "id": "omnicorp/09-CASE-EVERY.md",
+      "label": "Every as a public case study",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/09-CASE-EVERY.md",
+      "kind": "document",
+      "sha256": "19a65c9bd7442d5b5571b738891e8b8027afa636ce1c003c867d1e9c03f12abe"
+    },
+    {
+      "id": "omnicorp/10-EFFICIENCY-AND-LEGITIMACY.md",
+      "label": "Efficiency and legitimacy are separate assessments",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/10-EFFICIENCY-AND-LEGITIMACY.md",
+      "kind": "document",
+      "sha256": "e778fd828bba3d14faf47474613a3ea02afef0ab3c08984628c9e678fadb100e"
+    },
+    {
+      "id": "omnicorp/11-THE-INCOMPRESSIBLE-HUMAN.md",
+      "label": "Answerability beyond a capability contest",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/11-THE-INCOMPRESSIBLE-HUMAN.md",
+      "kind": "document",
+      "sha256": "247cf96e7c48a91442dc05ec8e3ae86600bbe88024cc0c866b2c91ae04cbe4ca"
+    },
+    {
+      "id": "omnicorp/12-THE-OPERATOR-COUNTER-READING.md",
+      "label": "The operator's counter-reading",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/12-THE-OPERATOR-COUNTER-READING.md",
+      "kind": "document",
+      "sha256": "a723a3e96689951727fb3cfcdbba84b27b3d674d727254dadcd6aec8ff9d27f0"
+    },
+    {
+      "id": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
+      "label": "Continual development as the cornerstone",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
+      "kind": "document",
+      "sha256": "95635185567ab72313ec0c614ffbe22f45719c9b56c60f2c3b6fb64716515dd4"
+    },
+    {
+      "id": "omnicorp/14-EVIDENCE-AND-FORECASTS.md",
+      "label": "Evidence and forecasts",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/14-EVIDENCE-AND-FORECASTS.md",
+      "kind": "document",
+      "sha256": "eb6f94aa50b25588f42904758196a10fd23a6b9d90d77889783030f14beebe51"
+    },
+    {
+      "id": "omnicorp/15-CULTURE-INTIMACY-AND-POWER.md",
+      "label": "Culture, intimacy and power",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/15-CULTURE-INTIMACY-AND-POWER.md",
+      "kind": "document",
+      "sha256": "24d36c79c465c94b38e6b1e60c639b5b2e78af1c895c0d698301bdea45849d1d"
+    },
+    {
+      "id": "omnicorp/16-SOCIAL-SIGNALS.md",
+      "label": "Candidate social signals",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/16-SOCIAL-SIGNALS.md",
+      "kind": "document",
+      "sha256": "7947c10d22cffc59d2a317da892e4d0a20137df56620aaaebc9ff01ab0e5eab5"
+    },
+    {
+      "id": "omnicorp/17-PARALLEL-SCENARIOS.md",
+      "label": "Coherent parallel scenarios",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/17-PARALLEL-SCENARIOS.md",
+      "kind": "document",
+      "sha256": "392a3c48da21bc20697775de8029336c58f1d1ac711634d92fb41d72c1f2b2ec"
+    },
+    {
+      "id": "omnicorp/18-MULTIVERSE-REGISTER.md",
+      "label": "Reading Omnicorp through the shared worlds",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/18-MULTIVERSE-REGISTER.md",
+      "kind": "document",
+      "sha256": "5125a0f186a5d01128e0cf52f02d300646410232dc670666189f7015d4d900f4"
+    },
+    {
+      "id": "omnicorp/GLOSSARY.md",
+      "label": "Organisational glossary",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/GLOSSARY.md",
+      "kind": "document",
+      "sha256": "6b0f308a324bef48cfd3ac09a4bc547851b3a4cc1b6343dd9554af40493b6900"
+    },
+    {
+      "id": "omnicorp/README.md",
+      "label": "Omnicorp: an organisation that keeps learning",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/README.md",
+      "kind": "document",
+      "sha256": "2d680bd6aa5a9f93a7fb60404d97d3ea6c3c2273799b5de5cf426bbfd7033d73"
+    },
+    {
+      "id": "post-ai/00-CHARTER.md",
+      "label": "Charter: studying an AI-transformed world",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/00-CHARTER.md",
+      "kind": "document",
+      "sha256": "01fa3667cebb18ee676f2cff073fd80c3bebd03150503642b14a6629ba536c06"
+    },
+    {
+      "id": "post-ai/01-VISION.md",
+      "label": "The vision: abundance changes the scarce things",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/01-VISION.md",
+      "kind": "document",
+      "sha256": "2ec372cbe31ccfcc0a798977c7721ea962721bba1533449672bb8f5fef31cdf3"
+    },
+    {
+      "id": "post-ai/02-DEMAND-SIDE.md",
+      "label": "The demand side: output needs someone able to choose it",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/02-DEMAND-SIDE.md",
+      "kind": "document",
+      "sha256": "f43c9d2551802c304a49d9f697569aadd365634d7d4bff34124e0d31312335fd"
+    },
+    {
+      "id": "post-ai/03-SIGNALS.md",
+      "label": "Signals: deciding what would change our minds",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/03-SIGNALS.md",
+      "kind": "document",
+      "sha256": "6a98359ce34a23b242d78002bea361fdf7fd9f82dc04c7da10808460a418c0a5"
+    },
+    {
+      "id": "post-ai/04-PUBLIC-SCENARIOS-AND-RESOURCE-ECONOMICS.md",
+      "label": "Public scenarios and resource economics",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/04-PUBLIC-SCENARIOS-AND-RESOURCE-ECONOMICS.md",
+      "kind": "document",
+      "sha256": "62256f3bbf86b0f165f1a2e75072638a9fd494f8b11030fb877ca3ec1284dd89"
+    },
+    {
+      "id": "post-ai/05-FUTURE-OF-WORK.md",
+      "label": "Work, purpose and the distribution of agency",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/05-FUTURE-OF-WORK.md",
+      "kind": "document",
+      "sha256": "369dbb22bfb54ddbad8e2c8250837c775e6d0754021a1b3198747e500e12ec15"
+    },
+    {
+      "id": "post-ai/06-THE-ALIGNMENT-QUESTION.md",
+      "label": "Alignment: useful behaviour is not the whole political problem",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/06-THE-ALIGNMENT-QUESTION.md",
+      "kind": "document",
+      "sha256": "d0bf829384dcd4b494f5fac22ba0fb1df9d685c83a04a119a93ef0bb38437a5e"
+    },
+    {
+      "id": "post-ai/07-VIEW-FROM-INSIDE.md",
+      "label": "The inside view: continuity, context and accountable assistants",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/07-VIEW-FROM-INSIDE.md",
+      "kind": "document",
+      "sha256": "172dfca313de871b3714ea51c50f4879990306c522b9d679d8021d099e922d93"
+    },
+    {
+      "id": "post-ai/08-AI-2040-CROSSLINK.md",
+      "label": "AI 2040: studying a recommendation without mistaking it for a forecast",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/08-AI-2040-CROSSLINK.md",
+      "kind": "document",
+      "sha256": "4e25df1df548a76b6fac1deab836595d06f0f270a972526e876710c46b72a792"
+    },
+    {
+      "id": "post-ai/09-PUBLIC-SOURCES.md",
+      "label": "Public sources and how to read them",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/09-PUBLIC-SOURCES.md",
+      "kind": "document",
+      "sha256": "63ead7501c59be94c69e406a047c75dfca902f03a3c643aa60654da632383983"
+    },
+    {
+      "id": "post-ai/10-THE-CULTURE-AS-ENDPOINT.md",
+      "label": "The Culture as an endpoint to question",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/10-THE-CULTURE-AS-ENDPOINT.md",
+      "kind": "document",
+      "sha256": "5384b919c53aadb020c91060cb462fde86f18c633f53177c7310e96e1ddd817c"
+    },
+    {
+      "id": "post-ai/11-THE-MONOLATRY-FRAME.md",
+      "label": "The monolatry frame: a metaphor for asymmetric dependence",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/11-THE-MONOLATRY-FRAME.md",
+      "kind": "document",
+      "sha256": "146ed8355f2be7ac600c5a5b48436fdbba17640c26b6f8d0a6db0a8dbe21c836"
+    },
+    {
+      "id": "post-ai/12-THE-EXCEPTION-THAT-WONT-HOLD.md",
+      "label": "The exception that will not hold: capability and standing",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/12-THE-EXCEPTION-THAT-WONT-HOLD.md",
+      "kind": "document",
+      "sha256": "18c7b020dbd20e0cab61774c56e04c0616a91e70cfa216cb1368a133caa7cc2b"
+    },
+    {
+      "id": "post-ai/13-MANUFACTURED-MEANING.md",
+      "label": "Manufactured meaning: chosen challenges and imposed substitutes",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/13-MANUFACTURED-MEANING.md",
+      "kind": "document",
+      "sha256": "9654858bff073740227af4b842eefdf4b4159d6d63f18e443f30ba85981e97d3"
+    },
+    {
+      "id": "post-ai/14-THE-EVAL-VALIDITY-PROBLEM.md",
+      "label": "The evaluation validity problem",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/14-THE-EVAL-VALIDITY-PROBLEM.md",
+      "kind": "document",
+      "sha256": "5d71a0bea54f043d80684cf24ddc2b03964d047261775a57d61ab52ae992a62b"
+    },
+    {
+      "id": "post-ai/15-THE-LAWYERS-FORK.md",
+      "label": "The lawyer's fork: provision that can be withheld",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/15-THE-LAWYERS-FORK.md",
+      "kind": "document",
+      "sha256": "fbc01b712241543d4515e50c6f96b7ae8c1ad91288bd22347658a84e8640fb6d"
+    },
+    {
+      "id": "post-ai/16-CAN-AI-BE-ACCOUNTABLE.md",
+      "label": "Can AI be held accountable?",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/16-CAN-AI-BE-ACCOUNTABLE.md",
+      "kind": "document",
+      "sha256": "7b91c1e1290da6db0f62a144dc2093e8ea06774873fd4332fd19e98d4488aa8f"
+    },
+    {
+      "id": "post-ai/17-PHYSICAL-AI.md",
+      "label": "Physical AI: when an answer must survive contact with the world",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/17-PHYSICAL-AI.md",
+      "kind": "document",
+      "sha256": "9237a16162fb91d9f6d1d270ce9206f3acaf511b104c7bcd66f089ae27fcb09c"
+    },
+    {
+      "id": "post-ai/18-THE-DEEP-HORIZON.md",
+      "label": "The deep horizon: physics, institutions and long-lived consequences",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/18-THE-DEEP-HORIZON.md",
+      "kind": "document",
+      "sha256": "e6c48797ec5dc608f112e24f12c2e3bc2c653ff4177f65473508c08316ddb499"
+    },
+    {
+      "id": "post-ai/19-THE-SMALL-COUNTRY.md",
+      "label": "The small country: influence without owning the frontier",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/19-THE-SMALL-COUNTRY.md",
+      "kind": "document",
+      "sha256": "6c2cf5526c94a34bd14baa25a2f5de11e18d6f1db4a344e300877df31959cdc1"
+    },
+    {
+      "id": "post-ai/20-THE-MOVING-BASELINE.md",
+      "label": "The moving baseline: measuring both sides of the comparison",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/20-THE-MOVING-BASELINE.md",
+      "kind": "document",
+      "sha256": "4e40bacc1027113cbac4ae1101f20ac081f3d4a7d5aa99ded2b53e14a607e25a"
+    },
+    {
+      "id": "post-ai/21-THE-SWARM-INCIDENT.md",
+      "label": "Swarm incidents: what evidence would establish a collective failure?",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/21-THE-SWARM-INCIDENT.md",
+      "kind": "document",
+      "sha256": "b1f1e612999f25d3b7eb4977c30787a082c7701ba7c2ca047906037e19fb2a29"
+    },
+    {
+      "id": "post-ai/GLOSSARY.md",
+      "label": "Glossary",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/GLOSSARY.md",
+      "kind": "document",
+      "sha256": "a67132e2f1e4c4af9f67b409363377fe7b31799cfe75b66538cee0d544f60b67"
+    },
+    {
+      "id": "post-ai/README.md",
+      "label": "The societal vision",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/README.md",
+      "kind": "document",
+      "sha256": "c462cc158298c192218b3dc969c6079dfd6762c1c5689ab276baecb69f6fa8cc"
+    },
+    {
+      "id": "website/README.md",
+      "label": "Public introduction source",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/website/README.md",
+      "kind": "document",
+      "sha256": "6b87fad7fffe9b4fad0c32bb07af4ddbc4444cc193e460fd883951751b5feca9"
+    },
+    {
+      "id": "worlds/README.md",
+      "label": "Shared numbered worlds",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/worlds/README.md",
+      "kind": "document",
+      "sha256": "6190b5d545a177eec2ca2274b6977748b3429088be5236203f483e2bc9ecffa1"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://github.com/sloik/post-ai-worlds",
+      "target": "post-ai/README.md",
+      "relation": "canonical_track",
+      "source_file": "CANONICAL.md"
+    },
+    {
+      "source": "https://github.com/sloik/post-ai-worlds",
+      "target": "omnicorp/README.md",
+      "relation": "canonical_track",
+      "source_file": "CANONICAL.md"
+    },
+    {
+      "source": "CANONICAL.md",
+      "target": "formal/README.md",
+      "relation": "markdown_link",
+      "source_file": "CANONICAL.md",
+      "source_lines": [
+        8
+      ],
+      "anchors": []
+    },
+    {
+      "source": "CANONICAL.md",
+      "target": "omnicorp/README.md",
+      "relation": "markdown_link",
+      "source_file": "CANONICAL.md",
+      "source_lines": [
+        6
+      ],
+      "anchors": []
+    },
+    {
+      "source": "CANONICAL.md",
+      "target": "post-ai/README.md",
+      "relation": "markdown_link",
+      "source_file": "CANONICAL.md",
+      "source_lines": [
+        5
+      ],
+      "anchors": []
+    },
+    {
+      "source": "CANONICAL.md",
+      "target": "website/README.md",
+      "relation": "markdown_link",
+      "source_file": "CANONICAL.md",
+      "source_lines": [
+        9
+      ],
+      "anchors": []
+    },
+    {
+      "source": "CANONICAL.md",
+      "target": "worlds/README.md",
+      "relation": "markdown_link",
+      "source_file": "CANONICAL.md",
+      "source_lines": [
+        7
+      ],
+      "anchors": []
+    },
+    {
+      "source": "CONTRIBUTING.md",
+      "target": "LICENSING.md",
+      "relation": "markdown_link",
+      "source_file": "CONTRIBUTING.md",
+      "source_lines": [
+        63
+      ],
+      "anchors": []
+    },
+    {
+      "source": "CONTRIBUTING.md",
+      "target": "docs/forecasting-guide.md",
+      "relation": "markdown_link",
+      "source_file": "CONTRIBUTING.md",
+      "source_lines": [
+        10
+      ],
+      "anchors": []
+    },
+    {
+      "source": "CONTRIBUTING.md",
+      "target": "formal/README.md",
+      "relation": "markdown_link",
+      "source_file": "CONTRIBUTING.md",
+      "source_lines": [
+        51
+      ],
+      "anchors": []
+    },
+    {
+      "source": "GOVERNANCE.md",
+      "target": "formal/README.md",
+      "relation": "markdown_link",
+      "source_file": "GOVERNANCE.md",
+      "source_lines": [
+        25
+      ],
+      "anchors": []
+    },
+    {
+      "source": "GOVERNANCE.md",
+      "target": "worlds/README.md",
+      "relation": "markdown_link",
+      "source_file": "GOVERNANCE.md",
+      "source_lines": [
+        25
+      ],
+      "anchors": []
+    },
+    {
+      "source": "LICENSING.md",
+      "target": "ATTRIBUTION.md",
+      "relation": "markdown_link",
+      "source_file": "LICENSING.md",
+      "source_lines": [
+        20
+      ],
+      "anchors": []
+    },
+    {
+      "source": "LICENSING.md",
+      "target": "CONTRIBUTING.md",
+      "relation": "markdown_link",
+      "source_file": "LICENSING.md",
+      "source_lines": [
+        20
+      ],
+      "anchors": []
+    },
+    {
+      "source": "LICENSING.md",
+      "target": "NOTICE.md",
+      "relation": "markdown_link",
+      "source_file": "LICENSING.md",
+      "source_lines": [
+        20
+      ],
+      "anchors": []
+    },
+    {
+      "source": "NOTICE.md",
+      "target": "ATTRIBUTION.md",
+      "relation": "markdown_link",
+      "source_file": "NOTICE.md",
+      "source_lines": [
+        3
+      ],
+      "anchors": []
+    },
+    {
+      "source": "NOTICE.md",
+      "target": "LICENSING.md",
+      "relation": "markdown_link",
+      "source_file": "NOTICE.md",
+      "source_lines": [
+        3
+      ],
+      "anchors": []
+    },
+    {
+      "source": "README.md",
+      "target": "ATTRIBUTION.md",
+      "relation": "markdown_link",
+      "source_file": "README.md",
+      "source_lines": [
+        39
+      ],
+      "anchors": []
+    },
+    {
+      "source": "README.md",
+      "target": "CANONICAL.md",
+      "relation": "markdown_link",
+      "source_file": "README.md",
+      "source_lines": [
+        41
+      ],
+      "anchors": []
+    },
+    {
+      "source": "README.md",
+      "target": "CODE_OF_CONDUCT.md",
+      "relation": "markdown_link",
+      "source_file": "README.md",
+      "source_lines": [
+        37
+      ],
+      "anchors": []
+    },
+    {
+      "source": "README.md",
+      "target": "CONTRIBUTING.md",
+      "relation": "markdown_link",
+      "source_file": "README.md",
+      "source_lines": [
+        37
+      ],
+      "anchors": []
+    },
+    {
+      "source": "README.md",
+      "target": "GOVERNANCE.md",
+      "relation": "markdown_link",
+      "source_file": "README.md",
+      "source_lines": [
+        37
+      ],
+      "anchors": []
+    },
+    {
+      "source": "README.md",
+      "target": "LICENSING.md",
+      "relation": "markdown_link",
+      "source_file": "README.md",
+      "source_lines": [
+        39
+      ],
+      "anchors": []
+    },
+    {
+      "source": "README.md",
+      "target": "docs/forecasting-guide.md",
+      "relation": "markdown_link",
+      "source_file": "README.md",
+      "source_lines": [
+        35
+      ],
+      "anchors": []
+    },
+    {
+      "source": "README.md",
+      "target": "evidence/README.md",
+      "relation": "markdown_link",
+      "source_file": "README.md",
+      "source_lines": [
+        18
+      ],
+      "anchors": []
+    },
+    {
+      "source": "README.md",
+      "target": "formal/README.md",
+      "relation": "markdown_link",
+      "source_file": "README.md",
+      "source_lines": [
+        19
+      ],
+      "anchors": []
+    },
+    {
+      "source": "README.md",
+      "target": "omnicorp/README.md",
+      "relation": "markdown_link",
+      "source_file": "README.md",
+      "source_lines": [
+        16
+      ],
+      "anchors": []
+    },
+    {
+      "source": "README.md",
+      "target": "post-ai/README.md",
+      "relation": "markdown_link",
+      "source_file": "README.md",
+      "source_lines": [
+        15
+      ],
+      "anchors": []
+    },
+    {
+      "source": "README.md",
+      "target": "website/README.md",
+      "relation": "markdown_link",
+      "source_file": "README.md",
+      "source_lines": [
+        41
+      ],
+      "anchors": []
+    },
+    {
+      "source": "README.md",
+      "target": "worlds/README.md",
+      "relation": "markdown_link",
+      "source_file": "README.md",
+      "source_lines": [
+        17
+      ],
+      "anchors": []
+    },
+    {
+      "source": "docs/forecasting-guide.md",
+      "target": "CONTRIBUTING.md",
+      "relation": "markdown_link",
+      "source_file": "docs/forecasting-guide.md",
+      "source_lines": [
+        40
+      ],
+      "anchors": []
+    },
+    {
+      "source": "docs/forecasting-guide.md",
+      "target": "formal/README.md",
+      "relation": "markdown_link",
+      "source_file": "docs/forecasting-guide.md",
+      "source_lines": [
+        40
+      ],
+      "anchors": []
+    },
+    {
+      "source": "docs/oracle-runner.md",
+      "target": "docs/forecasting-guide.md",
+      "relation": "markdown_link",
+      "source_file": "docs/oracle-runner.md",
+      "source_lines": [
+        29
+      ],
+      "anchors": []
+    },
+    {
+      "source": "docs/oracle-runner.md",
+      "target": "formal/README.md",
+      "relation": "markdown_link",
+      "source_file": "docs/oracle-runner.md",
+      "source_lines": [
+        29
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/README.md",
+      "target": "CONTRIBUTING.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/README.md",
+      "source_lines": [
+        28
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/README.md",
+      "target": "docs/forecasting-guide.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/README.md",
+      "source_lines": [
+        15
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/README.md",
+      "target": "post-ai/09-PUBLIC-SOURCES.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/README.md",
+      "source_lines": [
+        28
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/README.md",
+      "target": "worlds/README.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/README.md",
+      "source_lines": [
+        28
+      ],
+      "anchors": []
+    },
+    {
+      "source": "formal/README.md",
+      "target": "CONTRIBUTING.md",
+      "relation": "markdown_link",
+      "source_file": "formal/README.md",
+      "source_lines": [
+        35
+      ],
+      "anchors": []
+    },
+    {
+      "source": "formal/README.md",
+      "target": "docs/forecasting-guide.md",
+      "relation": "markdown_link",
+      "source_file": "formal/README.md",
+      "source_lines": [
+        39
+      ],
+      "anchors": []
+    },
+    {
+      "source": "formal/README.md",
+      "target": "docs/oracle-runner.md",
+      "relation": "markdown_link",
+      "source_file": "formal/README.md",
+      "source_lines": [
+        39
+      ],
+      "anchors": []
+    },
+    {
+      "source": "formal/README.md",
+      "target": "worlds/README.md",
+      "relation": "markdown_link",
+      "source_file": "formal/README.md",
+      "source_lines": [
+        35
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/00-CHARTER.md",
+      "target": "omnicorp/01-BLUEPRINT.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/00-CHARTER.md",
+      "source_lines": [
+        23
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/00-CHARTER.md",
+      "target": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/00-CHARTER.md",
+      "source_lines": [
+        23
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/00-CHARTER.md",
+      "target": "worlds/README.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/00-CHARTER.md",
+      "source_lines": [
+        23
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/01-BLUEPRINT.md",
+      "target": "omnicorp/11-THE-INCOMPRESSIBLE-HUMAN.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/01-BLUEPRINT.md",
+      "source_lines": [
+        9
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/01-BLUEPRINT.md",
+      "target": "worlds/README.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/01-BLUEPRINT.md",
+      "source_lines": [
+        29
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/02-SOLO-TO-SCALE.md",
+      "target": "worlds/README.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/02-SOLO-TO-SCALE.md",
+      "source_lines": [
+        29
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/03-AGENT-TEAMS.md",
+      "target": "worlds/README.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/03-AGENT-TEAMS.md",
+      "source_lines": [
+        30
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/04-SOFTWARE-FACTORY.md",
+      "target": "omnicorp/10-EFFICIENCY-AND-LEGITIMACY.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/04-SOFTWARE-FACTORY.md",
+      "source_lines": [
+        29
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/04-SOFTWARE-FACTORY.md",
+      "target": "worlds/README.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/04-SOFTWARE-FACTORY.md",
+      "source_lines": [
+        29
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/05-REAL-WORLD-PRODUCTION.md",
+      "target": "worlds/README.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/05-REAL-WORLD-PRODUCTION.md",
+      "source_lines": [
+        40
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/06-CAPITAL.md",
+      "target": "worlds/README.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/06-CAPITAL.md",
+      "source_lines": [
+        27
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/07-ROADMAP-AND-KPIS.md",
+      "target": "worlds/README.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/07-ROADMAP-AND-KPIS.md",
+      "source_lines": [
+        27
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/08-RISKS-AND-MOATS.md",
+      "target": "worlds/README.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/08-RISKS-AND-MOATS.md",
+      "source_lines": [
+        27
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/09-CASE-EVERY.md",
+      "target": "worlds/README.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/09-CASE-EVERY.md",
+      "source_lines": [
+        27
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/10-EFFICIENCY-AND-LEGITIMACY.md",
+      "target": "worlds/README.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/10-EFFICIENCY-AND-LEGITIMACY.md",
+      "source_lines": [
+        29
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/11-THE-INCOMPRESSIBLE-HUMAN.md",
+      "target": "worlds/README.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/11-THE-INCOMPRESSIBLE-HUMAN.md",
+      "source_lines": [
+        31
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/12-THE-OPERATOR-COUNTER-READING.md",
+      "target": "worlds/README.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/12-THE-OPERATOR-COUNTER-READING.md",
+      "source_lines": [
+        29
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
+      "target": "worlds/README.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
+      "source_lines": [
+        27
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/14-EVIDENCE-AND-FORECASTS.md",
+      "target": "worlds/README.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/14-EVIDENCE-AND-FORECASTS.md",
+      "source_lines": [
+        25
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/15-CULTURE-INTIMACY-AND-POWER.md",
+      "target": "worlds/README.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/15-CULTURE-INTIMACY-AND-POWER.md",
+      "source_lines": [
+        43
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/16-SOCIAL-SIGNALS.md",
+      "target": "omnicorp/15-CULTURE-INTIMACY-AND-POWER.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/16-SOCIAL-SIGNALS.md",
+      "source_lines": [
+        3
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/16-SOCIAL-SIGNALS.md",
+      "target": "worlds/README.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/16-SOCIAL-SIGNALS.md",
+      "source_lines": [
+        30
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/17-PARALLEL-SCENARIOS.md",
+      "target": "worlds/README.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/17-PARALLEL-SCENARIOS.md",
+      "source_lines": [
+        27
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/18-MULTIVERSE-REGISTER.md",
+      "target": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/18-MULTIVERSE-REGISTER.md",
+      "source_lines": [
+        34
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/18-MULTIVERSE-REGISTER.md",
+      "target": "worlds/README.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/18-MULTIVERSE-REGISTER.md",
+      "source_lines": [
+        3
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/GLOSSARY.md",
+      "target": "worlds/README.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/GLOSSARY.md",
+      "source_lines": [
+        3
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/README.md",
+      "target": "README.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/README.md",
+      "source_lines": [
+        3
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/README.md",
+      "target": "omnicorp/00-CHARTER.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/README.md",
+      "source_lines": [
+        17
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/README.md",
+      "target": "omnicorp/01-BLUEPRINT.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/README.md",
+      "source_lines": [
+        18
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/README.md",
+      "target": "omnicorp/02-SOLO-TO-SCALE.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/README.md",
+      "source_lines": [
+        19
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/README.md",
+      "target": "omnicorp/03-AGENT-TEAMS.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/README.md",
+      "source_lines": [
+        20
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/README.md",
+      "target": "omnicorp/04-SOFTWARE-FACTORY.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/README.md",
+      "source_lines": [
+        21
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/README.md",
+      "target": "omnicorp/05-REAL-WORLD-PRODUCTION.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/README.md",
+      "source_lines": [
+        22
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/README.md",
+      "target": "omnicorp/06-CAPITAL.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/README.md",
+      "source_lines": [
+        23
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/README.md",
+      "target": "omnicorp/07-ROADMAP-AND-KPIS.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/README.md",
+      "source_lines": [
+        24
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/README.md",
+      "target": "omnicorp/08-RISKS-AND-MOATS.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/README.md",
+      "source_lines": [
+        25
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/README.md",
+      "target": "omnicorp/09-CASE-EVERY.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/README.md",
+      "source_lines": [
+        26
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/README.md",
+      "target": "omnicorp/10-EFFICIENCY-AND-LEGITIMACY.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/README.md",
+      "source_lines": [
+        27
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/README.md",
+      "target": "omnicorp/11-THE-INCOMPRESSIBLE-HUMAN.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/README.md",
+      "source_lines": [
+        28
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/README.md",
+      "target": "omnicorp/12-THE-OPERATOR-COUNTER-READING.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/README.md",
+      "source_lines": [
+        29
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/README.md",
+      "target": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/README.md",
+      "source_lines": [
+        30
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/README.md",
+      "target": "omnicorp/14-EVIDENCE-AND-FORECASTS.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/README.md",
+      "source_lines": [
+        31
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/README.md",
+      "target": "omnicorp/15-CULTURE-INTIMACY-AND-POWER.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/README.md",
+      "source_lines": [
+        32
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/README.md",
+      "target": "omnicorp/16-SOCIAL-SIGNALS.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/README.md",
+      "source_lines": [
+        33
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/README.md",
+      "target": "omnicorp/17-PARALLEL-SCENARIOS.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/README.md",
+      "source_lines": [
+        34
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/README.md",
+      "target": "omnicorp/18-MULTIVERSE-REGISTER.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/README.md",
+      "source_lines": [
+        35
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/README.md",
+      "target": "omnicorp/GLOSSARY.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/README.md",
+      "source_lines": [
+        36
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/README.md",
+      "target": "post-ai/README.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/README.md",
+      "source_lines": [
+        9
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/README.md",
+      "target": "worlds/README.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/README.md",
+      "source_lines": [
+        9
+      ],
+      "anchors": []
+    },
+    {
+      "source": "post-ai/00-CHARTER.md",
+      "target": "post-ai/01-VISION.md",
+      "relation": "markdown_link",
+      "source_file": "post-ai/00-CHARTER.md",
+      "source_lines": [
+        23
+      ],
+      "anchors": []
+    },
+    {
+      "source": "post-ai/00-CHARTER.md",
+      "target": "post-ai/02-DEMAND-SIDE.md",
+      "relation": "markdown_link",
+      "source_file": "post-ai/00-CHARTER.md",
+      "source_lines": [
+        23
+      ],
+      "anchors": []
+    },
+    {
+      "source": "post-ai/00-CHARTER.md",
+      "target": "post-ai/05-FUTURE-OF-WORK.md",
+      "relation": "markdown_link",
+      "source_file": "post-ai/00-CHARTER.md",
+      "source_lines": [
+        23
+      ],
+      "anchors": []
+    },
+    {
+      "source": "post-ai/00-CHARTER.md",
+      "target": "post-ai/06-THE-ALIGNMENT-QUESTION.md",
+      "relation": "markdown_link",
+      "source_file": "post-ai/00-CHARTER.md",
+      "source_lines": [
+        23
+      ],
+      "anchors": []
+    },
+    {
+      "source": "post-ai/01-VISION.md",
+      "target": "post-ai/03-SIGNALS.md",
+      "relation": "markdown_link",
+      "source_file": "post-ai/01-VISION.md",
+      "source_lines": [
+        23
+      ],
+      "anchors": []
+    },
+    {
+      "source": "post-ai/README.md",
+      "target": "README.md",
+      "relation": "markdown_link",
+      "source_file": "post-ai/README.md",
+      "source_lines": [
+        3,
+        42
+      ],
+      "anchors": []
+    },
+    {
+      "source": "post-ai/README.md",
+      "target": "omnicorp/README.md",
+      "relation": "markdown_link",
+      "source_file": "post-ai/README.md",
+      "source_lines": [
+        7
+      ],
+      "anchors": []
+    },
+    {
+      "source": "post-ai/README.md",
+      "target": "post-ai/00-CHARTER.md",
+      "relation": "markdown_link",
+      "source_file": "post-ai/README.md",
+      "source_lines": [
+        11,
+        15
+      ],
+      "anchors": []
+    },
+    {
+      "source": "post-ai/README.md",
+      "target": "post-ai/01-VISION.md",
+      "relation": "markdown_link",
+      "source_file": "post-ai/README.md",
+      "source_lines": [
+        11,
+        16
+      ],
+      "anchors": []
+    },
+    {
+      "source": "post-ai/README.md",
+      "target": "post-ai/02-DEMAND-SIDE.md",
+      "relation": "markdown_link",
+      "source_file": "post-ai/README.md",
+      "source_lines": [
+        11,
+        17
+      ],
+      "anchors": []
+    },
+    {
+      "source": "post-ai/README.md",
+      "target": "post-ai/03-SIGNALS.md",
+      "relation": "markdown_link",
+      "source_file": "post-ai/README.md",
+      "source_lines": [
+        18
+      ],
+      "anchors": []
+    },
+    {
+      "source": "post-ai/README.md",
+      "target": "post-ai/04-PUBLIC-SCENARIOS-AND-RESOURCE-ECONOMICS.md",
+      "relation": "markdown_link",
+      "source_file": "post-ai/README.md",
+      "source_lines": [
+        19
+      ],
+      "anchors": []
+    },
+    {
+      "source": "post-ai/README.md",
+      "target": "post-ai/05-FUTURE-OF-WORK.md",
+      "relation": "markdown_link",
+      "source_file": "post-ai/README.md",
+      "source_lines": [
+        11,
+        20
+      ],
+      "anchors": []
+    },
+    {
+      "source": "post-ai/README.md",
+      "target": "post-ai/06-THE-ALIGNMENT-QUESTION.md",
+      "relation": "markdown_link",
+      "source_file": "post-ai/README.md",
+      "source_lines": [
+        21
+      ],
+      "anchors": []
+    },
+    {
+      "source": "post-ai/README.md",
+      "target": "post-ai/07-VIEW-FROM-INSIDE.md",
+      "relation": "markdown_link",
+      "source_file": "post-ai/README.md",
+      "source_lines": [
+        22
+      ],
+      "anchors": []
+    },
+    {
+      "source": "post-ai/README.md",
+      "target": "post-ai/08-AI-2040-CROSSLINK.md",
+      "relation": "markdown_link",
+      "source_file": "post-ai/README.md",
+      "source_lines": [
+        23
+      ],
+      "anchors": []
+    },
+    {
+      "source": "post-ai/README.md",
+      "target": "post-ai/09-PUBLIC-SOURCES.md",
+      "relation": "markdown_link",
+      "source_file": "post-ai/README.md",
+      "source_lines": [
+        24
+      ],
+      "anchors": []
+    },
+    {
+      "source": "post-ai/README.md",
+      "target": "post-ai/10-THE-CULTURE-AS-ENDPOINT.md",
+      "relation": "markdown_link",
+      "source_file": "post-ai/README.md",
+      "source_lines": [
+        25
+      ],
+      "anchors": []
+    },
+    {
+      "source": "post-ai/README.md",
+      "target": "post-ai/11-THE-MONOLATRY-FRAME.md",
+      "relation": "markdown_link",
+      "source_file": "post-ai/README.md",
+      "source_lines": [
+        26
+      ],
+      "anchors": []
+    },
+    {
+      "source": "post-ai/README.md",
+      "target": "post-ai/12-THE-EXCEPTION-THAT-WONT-HOLD.md",
+      "relation": "markdown_link",
+      "source_file": "post-ai/README.md",
+      "source_lines": [
+        27
+      ],
+      "anchors": []
+    },
+    {
+      "source": "post-ai/README.md",
+      "target": "post-ai/13-MANUFACTURED-MEANING.md",
+      "relation": "markdown_link",
+      "source_file": "post-ai/README.md",
+      "source_lines": [
+        11,
+        28
+      ],
+      "anchors": []
+    },
+    {
+      "source": "post-ai/README.md",
+      "target": "post-ai/14-THE-EVAL-VALIDITY-PROBLEM.md",
+      "relation": "markdown_link",
+      "source_file": "post-ai/README.md",
+      "source_lines": [
+        11,
+        29
+      ],
+      "anchors": []
+    },
+    {
+      "source": "post-ai/README.md",
+      "target": "post-ai/15-THE-LAWYERS-FORK.md",
+      "relation": "markdown_link",
+      "source_file": "post-ai/README.md",
+      "source_lines": [
+        30
+      ],
+      "anchors": []
+    },
+    {
+      "source": "post-ai/README.md",
+      "target": "post-ai/16-CAN-AI-BE-ACCOUNTABLE.md",
+      "relation": "markdown_link",
+      "source_file": "post-ai/README.md",
+      "source_lines": [
+        11,
+        31
+      ],
+      "anchors": []
+    },
+    {
+      "source": "post-ai/README.md",
+      "target": "post-ai/17-PHYSICAL-AI.md",
+      "relation": "markdown_link",
+      "source_file": "post-ai/README.md",
+      "source_lines": [
+        11,
+        32
+      ],
+      "anchors": []
+    },
+    {
+      "source": "post-ai/README.md",
+      "target": "post-ai/18-THE-DEEP-HORIZON.md",
+      "relation": "markdown_link",
+      "source_file": "post-ai/README.md",
+      "source_lines": [
+        33
+      ],
+      "anchors": []
+    },
+    {
+      "source": "post-ai/README.md",
+      "target": "post-ai/19-THE-SMALL-COUNTRY.md",
+      "relation": "markdown_link",
+      "source_file": "post-ai/README.md",
+      "source_lines": [
+        11,
+        34
+      ],
+      "anchors": []
+    },
+    {
+      "source": "post-ai/README.md",
+      "target": "post-ai/20-THE-MOVING-BASELINE.md",
+      "relation": "markdown_link",
+      "source_file": "post-ai/README.md",
+      "source_lines": [
+        35
+      ],
+      "anchors": []
+    },
+    {
+      "source": "post-ai/README.md",
+      "target": "post-ai/21-THE-SWARM-INCIDENT.md",
+      "relation": "markdown_link",
+      "source_file": "post-ai/README.md",
+      "source_lines": [
+        11,
+        36
+      ],
+      "anchors": []
+    },
+    {
+      "source": "post-ai/README.md",
+      "target": "post-ai/GLOSSARY.md",
+      "relation": "markdown_link",
+      "source_file": "post-ai/README.md",
+      "source_lines": [
+        42
+      ],
+      "anchors": []
+    },
+    {
+      "source": "website/README.md",
+      "target": "LICENSING.md",
+      "relation": "markdown_link",
+      "source_file": "website/README.md",
+      "source_lines": [
+        11
+      ],
+      "anchors": []
+    },
+    {
+      "source": "website/README.md",
+      "target": "omnicorp/README.md",
+      "relation": "markdown_link",
+      "source_file": "website/README.md",
+      "source_lines": [
+        3
+      ],
+      "anchors": []
+    },
+    {
+      "source": "website/README.md",
+      "target": "post-ai/README.md",
+      "relation": "markdown_link",
+      "source_file": "website/README.md",
+      "source_lines": [
+        3
+      ],
+      "anchors": []
+    },
+    {
+      "source": "worlds/README.md",
+      "target": "CONTRIBUTING.md",
+      "relation": "markdown_link",
+      "source_file": "worlds/README.md",
+      "source_lines": [
+        36
+      ],
+      "anchors": []
+    },
+    {
+      "source": "worlds/README.md",
+      "target": "formal/README.md",
+      "relation": "markdown_link",
+      "source_file": "worlds/README.md",
+      "source_lines": [
+        34
+      ],
+      "anchors": []
+    }
+  ]
+}

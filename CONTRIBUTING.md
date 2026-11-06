@@ -46,7 +46,7 @@ python3 tools/check.py
 python3 -m unittest discover -s tests -v
 ```
 
-When editing a reading-track document, explicitly update its byte/heading inventory with `python3 tools/update_inventory.py` and review the coverage diff alongside the prose. New or moved chapters also need a disposition in `worlds/mapping.json`. Re-enrolment records editorial coverage; it grants no proof status.
+When editing a reading-track document, explicitly update its byte/heading inventory with `python3 tools/update_inventory.py` and review the coverage diff alongside the prose. New or moved chapters also need a disposition in `worlds/mapping.json`. After a tracked Markdown change, regenerate and review `python3 tools/build_navigation.py --write`; CI rejects stale navigation source hashes or missing routes. Re-enrolment records editorial coverage; it grants no proof status.
 
 When changing registry premises, a model, configuration or evidence-producer code, follow [formal reproduction](formal/README.md) and retain a fresh qualified campaign. A documentation correction does not itself require rerunning unchanged native inputs while their ordinary retained-evidence check still passes.
 
