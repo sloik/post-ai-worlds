@@ -68,7 +68,7 @@
       "label": "Post-AI Era Vision & Omnicorp",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/README.md",
       "kind": "document",
-      "sha256": "be6ccfe2f22a38d9b915f201cd24583eac2b58dd3a4432db2bc846f2f22bcf4d"
+      "sha256": "cc7a2ececd8a9f47a0a9cf6184982f79182c8810683cb469b5f4a5db1bc3798d"
     },
     {
       "id": "docs/forecasting-guide.md",
@@ -96,7 +96,21 @@
       "label": "Evidence and forecasts",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/README.md",
       "kind": "document",
-      "sha256": "f6513b8fbca2bb11469c67a8f55206ce99cb12e0b17d0388740af69f807b5643"
+      "sha256": "a381efb9b5bc684dab82544a0a4b4ac67d3c86b042737f16eb18195c7e4331a3"
+    },
+    {
+      "id": "evidence/companions-and-civic-dependence.md",
+      "label": "Companions and civic dependence: scoped evidence table",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/companions-and-civic-dependence.md",
+      "kind": "document",
+      "sha256": "10322c8eea6956f590f487afc9bcf4c990cb2d4c97b0250e678c3ccc3448ba43"
+    },
+    {
+      "id": "evidence/social-measurement-protocol.md",
+      "label": "Proposed measurement protocol: companions and civic dependence",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/social-measurement-protocol.md",
+      "kind": "document",
+      "sha256": "70c39171ebd03a60ec8a8f1215eda36aeb4cd5a3bcb69e8e038dd65848604a19"
     },
     {
       "id": "formal/README.md",
@@ -215,14 +229,14 @@
       "label": "Culture, intimacy and power",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/15-CULTURE-INTIMACY-AND-POWER.md",
       "kind": "document",
-      "sha256": "24d36c79c465c94b38e6b1e60c639b5b2e78af1c895c0d698301bdea45849d1d"
+      "sha256": "7bf3c11f940a5541b98825f4696643a924b0831de7e897e1e0a5abfd1d26684b"
     },
     {
       "id": "omnicorp/16-SOCIAL-SIGNALS.md",
       "label": "Candidate social signals",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/16-SOCIAL-SIGNALS.md",
       "kind": "document",
-      "sha256": "7947c10d22cffc59d2a317da892e4d0a20137df56620aaaebc9ff01ab0e5eab5"
+      "sha256": "67e57ad5f2bc54946aba685411609d87a8234f2d9008b77e3055c96fbffefc2f"
     },
     {
       "id": "omnicorp/17-PARALLEL-SCENARIOS.md",
@@ -299,7 +313,7 @@
       "label": "Alignment: useful behaviour is not the whole political problem",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/06-THE-ALIGNMENT-QUESTION.md",
       "kind": "document",
-      "sha256": "d0bf829384dcd4b494f5fac22ba0fb1df9d685c83a04a119a93ef0bb38437a5e"
+      "sha256": "46ba08d5678753ee909db32053798a1725b23a1b3a480a802b402e15f6d96120"
     },
     {
       "id": "post-ai/07-VIEW-FROM-INSIDE.md",
@@ -383,7 +397,7 @@
       "label": "The deep horizon: physics, institutions and long-lived consequences",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/18-THE-DEEP-HORIZON.md",
       "kind": "document",
-      "sha256": "e6c48797ec5dc608f112e24f12c2e3bc2c653ff4177f65473508c08316ddb499"
+      "sha256": "9e4e5bb187c389c4dfadda1b908ab84273e458d41ba2bf2703a84f1cc6b06100"
     },
     {
       "id": "post-ai/19-THE-SMALL-COUNTRY.md",
@@ -432,7 +446,14 @@
       "label": "Shared numbered worlds",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/worlds/README.md",
       "kind": "document",
-      "sha256": "6190b5d545a177eec2ca2274b6977748b3429088be5236203f483e2bc9ecffa1"
+      "sha256": "725a516aa83f31e494cd2b14a64f88b416722a64b7f7606c51c98406ac62fe26"
+    },
+    {
+      "id": "worlds/proposed-branch-contracts.md",
+      "label": "Proposed branch contracts: alignment and the deep horizon",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/worlds/proposed-branch-contracts.md",
+      "kind": "document",
+      "sha256": "e9d75f65977ce4d8c2e5c8008f059cfb9ae7483cce99c3e865b7d9a5ac36f100"
     }
   ],
   "links": [
@@ -604,7 +625,7 @@
       "relation": "markdown_link",
       "source_file": "README.md",
       "source_lines": [
-        39
+        41
       ],
       "anchors": []
     },
@@ -614,7 +635,7 @@
       "relation": "markdown_link",
       "source_file": "README.md",
       "source_lines": [
-        41
+        43
       ],
       "anchors": []
     },
@@ -624,7 +645,7 @@
       "relation": "markdown_link",
       "source_file": "README.md",
       "source_lines": [
-        37
+        39
       ],
       "anchors": []
     },
@@ -634,7 +655,7 @@
       "relation": "markdown_link",
       "source_file": "README.md",
       "source_lines": [
-        37
+        39
       ],
       "anchors": []
     },
@@ -644,7 +665,7 @@
       "relation": "markdown_link",
       "source_file": "README.md",
       "source_lines": [
-        37
+        39
       ],
       "anchors": []
     },
@@ -654,7 +675,7 @@
       "relation": "markdown_link",
       "source_file": "README.md",
       "source_lines": [
-        39
+        41
       ],
       "anchors": []
     },
@@ -664,7 +685,7 @@
       "relation": "markdown_link",
       "source_file": "README.md",
       "source_lines": [
-        35
+        37
       ],
       "anchors": []
     },
@@ -675,6 +696,26 @@
       "source_file": "README.md",
       "source_lines": [
         18
+      ],
+      "anchors": []
+    },
+    {
+      "source": "README.md",
+      "target": "evidence/companions-and-civic-dependence.md",
+      "relation": "markdown_link",
+      "source_file": "README.md",
+      "source_lines": [
+        25
+      ],
+      "anchors": []
+    },
+    {
+      "source": "README.md",
+      "target": "evidence/social-measurement-protocol.md",
+      "relation": "markdown_link",
+      "source_file": "README.md",
+      "source_lines": [
+        25
       ],
       "anchors": []
     },
@@ -714,7 +755,7 @@
       "relation": "markdown_link",
       "source_file": "README.md",
       "source_lines": [
-        41
+        43
       ],
       "anchors": []
     },
@@ -729,6 +770,16 @@
       "anchors": []
     },
     {
+      "source": "README.md",
+      "target": "worlds/proposed-branch-contracts.md",
+      "relation": "markdown_link",
+      "source_file": "README.md",
+      "source_lines": [
+        25
+      ],
+      "anchors": []
+    },
+    {
       "source": "docs/forecasting-guide.md",
       "target": "CONTRIBUTING.md",
       "relation": "markdown_link",
@@ -774,7 +825,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        28
+        30
       ],
       "anchors": []
     },
@@ -784,7 +835,27 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        15
+        17
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/README.md",
+      "target": "evidence/companions-and-civic-dependence.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/README.md",
+      "source_lines": [
+        13
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/README.md",
+      "target": "evidence/social-measurement-protocol.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/README.md",
+      "source_lines": [
+        13
       ],
       "anchors": []
     },
@@ -794,7 +865,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        28
+        30
       ],
       "anchors": []
     },
@@ -804,7 +875,99 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        28
+        30
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/companions-and-civic-dependence.md",
+      "target": "evidence/README.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/companions-and-civic-dependence.md",
+      "source_lines": [
+        38
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/companions-and-civic-dependence.md",
+      "target": "evidence/social-measurement-protocol.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/companions-and-civic-dependence.md",
+      "source_lines": [
+        3,
+        36
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/companions-and-civic-dependence.md",
+      "target": "omnicorp/15-CULTURE-INTIMACY-AND-POWER.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/companions-and-civic-dependence.md",
+      "source_lines": [
+        38
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/companions-and-civic-dependence.md",
+      "target": "omnicorp/16-SOCIAL-SIGNALS.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/companions-and-civic-dependence.md",
+      "source_lines": [
+        38
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/companions-and-civic-dependence.md",
+      "target": "worlds/README.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/companions-and-civic-dependence.md",
+      "source_lines": [
+        36
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/social-measurement-protocol.md",
+      "target": "docs/forecasting-guide.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/social-measurement-protocol.md",
+      "source_lines": [
+        11
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/social-measurement-protocol.md",
+      "target": "evidence/companions-and-civic-dependence.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/social-measurement-protocol.md",
+      "source_lines": [
+        3,
+        32
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/social-measurement-protocol.md",
+      "target": "omnicorp/16-SOCIAL-SIGNALS.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/social-measurement-protocol.md",
+      "source_lines": [
+        32
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/social-measurement-protocol.md",
+      "target": "worlds/README.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/social-measurement-protocol.md",
+      "source_lines": [
+        32
       ],
       "anchors": []
     },
@@ -1040,11 +1203,51 @@
     },
     {
       "source": "omnicorp/15-CULTURE-INTIMACY-AND-POWER.md",
+      "target": "evidence/companions-and-civic-dependence.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/15-CULTURE-INTIMACY-AND-POWER.md",
+      "source_lines": [
+        45
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/15-CULTURE-INTIMACY-AND-POWER.md",
+      "target": "evidence/social-measurement-protocol.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/15-CULTURE-INTIMACY-AND-POWER.md",
+      "source_lines": [
+        45
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/15-CULTURE-INTIMACY-AND-POWER.md",
       "target": "worlds/README.md",
       "relation": "markdown_link",
       "source_file": "omnicorp/15-CULTURE-INTIMACY-AND-POWER.md",
       "source_lines": [
         43
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/16-SOCIAL-SIGNALS.md",
+      "target": "evidence/companions-and-civic-dependence.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/16-SOCIAL-SIGNALS.md",
+      "source_lines": [
+        5
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/16-SOCIAL-SIGNALS.md",
+      "target": "evidence/social-measurement-protocol.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/16-SOCIAL-SIGNALS.md",
+      "source_lines": [
+        5
       ],
       "anchors": []
     },
@@ -1064,7 +1267,7 @@
       "relation": "markdown_link",
       "source_file": "omnicorp/16-SOCIAL-SIGNALS.md",
       "source_lines": [
-        30
+        32
       ],
       "anchors": []
     },
@@ -1389,6 +1592,26 @@
       "anchors": []
     },
     {
+      "source": "post-ai/06-THE-ALIGNMENT-QUESTION.md",
+      "target": "worlds/proposed-branch-contracts.md",
+      "relation": "markdown_link",
+      "source_file": "post-ai/06-THE-ALIGNMENT-QUESTION.md",
+      "source_lines": [
+        25
+      ],
+      "anchors": []
+    },
+    {
+      "source": "post-ai/18-THE-DEEP-HORIZON.md",
+      "target": "worlds/proposed-branch-contracts.md",
+      "relation": "markdown_link",
+      "source_file": "post-ai/18-THE-DEEP-HORIZON.md",
+      "source_lines": [
+        23
+      ],
+      "anchors": []
+    },
+    {
       "source": "post-ai/README.md",
       "target": "README.md",
       "relation": "markdown_link",
@@ -1696,6 +1919,56 @@
       "source_file": "worlds/README.md",
       "source_lines": [
         34
+      ],
+      "anchors": []
+    },
+    {
+      "source": "worlds/README.md",
+      "target": "worlds/proposed-branch-contracts.md",
+      "relation": "markdown_link",
+      "source_file": "worlds/README.md",
+      "source_lines": [
+        30
+      ],
+      "anchors": []
+    },
+    {
+      "source": "worlds/proposed-branch-contracts.md",
+      "target": "formal/README.md",
+      "relation": "markdown_link",
+      "source_file": "worlds/proposed-branch-contracts.md",
+      "source_lines": [
+        20
+      ],
+      "anchors": []
+    },
+    {
+      "source": "worlds/proposed-branch-contracts.md",
+      "target": "post-ai/06-THE-ALIGNMENT-QUESTION.md",
+      "relation": "markdown_link",
+      "source_file": "worlds/proposed-branch-contracts.md",
+      "source_lines": [
+        98
+      ],
+      "anchors": []
+    },
+    {
+      "source": "worlds/proposed-branch-contracts.md",
+      "target": "post-ai/18-THE-DEEP-HORIZON.md",
+      "relation": "markdown_link",
+      "source_file": "worlds/proposed-branch-contracts.md",
+      "source_lines": [
+        98
+      ],
+      "anchors": []
+    },
+    {
+      "source": "worlds/proposed-branch-contracts.md",
+      "target": "worlds/README.md",
+      "relation": "markdown_link",
+      "source_file": "worlds/proposed-branch-contracts.md",
+      "source_lines": [
+        98
       ],
       "anchors": []
     }

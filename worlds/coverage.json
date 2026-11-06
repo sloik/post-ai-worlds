@@ -159,7 +159,7 @@
       "assurance": "editorial_inventory_only"
     },
     "post-ai/06-THE-ALIGNMENT-QUESTION.md": {
-      "sha256": "d0bf829384dcd4b494f5fac22ba0fb1df9d685c83a04a119a93ef0bb38437a5e",
+      "sha256": "46ba08d5678753ee909db32053798a1725b23a1b3a480a802b402e15f6d96120",
       "headings": [
         {
           "level": 1,
@@ -471,7 +471,7 @@
       "assurance": "editorial_inventory_only"
     },
     "post-ai/18-THE-DEEP-HORIZON.md": {
-      "sha256": "e6c48797ec5dc608f112e24f12c2e3bc2c653ff4177f65473508c08316ddb499",
+      "sha256": "9e4e5bb187c389c4dfadda1b908ab84273e458d41ba2bf2703a84f1cc6b06100",
       "headings": [
         {
           "level": 1,
@@ -1032,7 +1032,7 @@
       "assurance": "editorial_inventory_only"
     },
     "omnicorp/15-CULTURE-INTIMACY-AND-POWER.md": {
-      "sha256": "24d36c79c465c94b38e6b1e60c639b5b2e78af1c895c0d698301bdea45849d1d",
+      "sha256": "7bf3c11f940a5541b98825f4696643a924b0831de7e897e1e0a5abfd1d26684b",
       "headings": [
         {
           "level": 1,
@@ -1063,7 +1063,7 @@
       "assurance": "editorial_inventory_only"
     },
     "omnicorp/16-SOCIAL-SIGNALS.md": {
-      "sha256": "7947c10d22cffc59d2a317da892e4d0a20137df56620aaaebc9ff01ab0e5eab5",
+      "sha256": "67e57ad5f2bc54946aba685411609d87a8234f2d9008b77e3055c96fbffefc2f",
       "headings": [
         {
           "level": 1,
@@ -1073,17 +1073,17 @@
         {
           "level": 2,
           "text": "Eight questions worth instrumenting",
-          "line": 5
+          "line": 7
         },
         {
           "level": 2,
           "text": "Establish scope before resolution",
-          "line": 20
+          "line": 22
         },
         {
           "level": 2,
           "text": "Turn a candidate into a forecast carefully",
-          "line": 26
+          "line": 28
         }
       ],
       "assurance": "editorial_inventory_only"

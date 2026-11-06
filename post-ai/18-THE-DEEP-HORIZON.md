@@ -20,4 +20,4 @@ Distributed settlements or machines could widen practical exit while making enfo
 
 Study recoverability, reliable local autonomy, resource accounting and institutional revision now. Those questions remain relevant if extreme scenarios never occur. A far-future hypothesis earns its place when it exposes a current design choice or a neglected assumption, rather than only enlarging the imagined machinery.
 
-OMNI abundance and adaptive-collective universes are conceptual comparisons, not extrapolated probabilities. This chapter makes no century-scale forecast, investment thesis or executable-assurance claim.
+OMNI abundance and adaptive-collective universes are conceptual comparisons, not extrapolated probabilities. This chapter makes no century-scale forecast, investment thesis or executable-assurance claim. [PROP-601/602](../worlds/proposed-branch-contracts.md) specify separate resource-closure and delayed-authority contract families with observation and dependency requirements; no new registered OMNI world or formal assurance is asserted.

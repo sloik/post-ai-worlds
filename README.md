@@ -22,6 +22,8 @@ The [Omnicorp website](https://stocki-apps.pages.dev/omnicorp/) is a public intr
 
 [Explore the canonical navigation graph](graphs/README.md), including source-bound public document links.
 
+Current research: [companions and civic dependence evidence](evidence/companions-and-civic-dependence.md), [measurement designs](evidence/social-measurement-protocol.md), and [numbered alignment/deep-horizon proposal contracts](worlds/proposed-branch-contracts.md).
+
 ## One shared world register
 
 Both tracks refer to the same numbered OMNI scenarios. Numbers identify assumption bundles; they do not rank worlds or assign probabilities. Scenarios can overlap across countries, sectors and time horizons.
