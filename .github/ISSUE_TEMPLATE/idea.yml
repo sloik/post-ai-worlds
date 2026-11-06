@@ -1,0 +1,31 @@
+name: Idea or scenario
+description: Suggest a mechanism, question or alternative world.
+title: "[Idea] "
+body:
+  - type: markdown
+    attributes:
+      value: "Please write in English. An idea need not include odds or a proof. Submission does not authorise spending, outreach, deployment or autonomous execution."
+  - type: textarea
+    id: question
+    attributes:
+      label: Question and motivation
+      description: What decision or understanding would this improve?
+    validations:
+      required: true
+  - type: textarea
+    id: assumptions
+    attributes:
+      label: Assumptions and scope
+      description: State the domain and proposed premises. Separate observations, hypothetical assumptions and values. Unknowns are welcome.
+    validations:
+      required: true
+  - type: textarea
+    id: relation
+    attributes:
+      label: Connection to existing material
+      description: Link related chapters, issues or OMNI IDs if known. Explain whether this changes an assumption or explores a new consequence.
+  - type: textarea
+    id: distinguish
+    attributes:
+      label: What could distinguish this scenario?
+      description: Suggest evidence, a counterexample or a bounded check. It is acceptable to say this is not yet known.

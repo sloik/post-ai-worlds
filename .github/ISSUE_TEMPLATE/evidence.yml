@@ -1,0 +1,38 @@
+name: Evidence or source
+description: Support, challenge or correct a claim with a source.
+title: "[Evidence] "
+body:
+  - type: markdown
+    attributes:
+      value: "Please write in English. A source report, an observation and an interpretation are different claims. Do not upload private or restricted material."
+  - type: textarea
+    id: claim
+    attributes:
+      label: Claim and location
+      description: Link the chapter, issue, claim record or OMNI scenario. Say unknown if you cannot identify an ID.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source and date
+      description: Provide a public link, publication date and relevant passage or section. Identify the primary source if this is a secondary report.
+    validations:
+      required: true
+  - type: textarea
+    id: bearing
+    attributes:
+      label: What does this support or challenge?
+      description: State the narrow observation and separate your interpretation.
+    validations:
+      required: true
+  - type: textarea
+    id: limits
+    attributes:
+      label: Limits and counterevidence
+      description: Note causality limits, interested sources, shared source lineage or remaining uncertainty. Unknown is acceptable.
+  - type: textarea
+    id: change
+    attributes:
+      label: Suggested correction
+      description: Optional proposed wording or next question.

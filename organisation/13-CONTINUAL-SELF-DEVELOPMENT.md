@@ -1,0 +1,27 @@
+# Continual development as the cornerstone
+
+Omnicorp's founding purpose is to continually improve the organisation's ability to understand, learn and act. Products, revenue and physical operations sustain that process, provide feedback and make its claims answerable to consequences. A useful business is one expression of the purpose; it is not the complete definition of it.
+
+The unit of development can be a community rather than a single self-modifying model. Members might perform tasks, diagnose failures, propose changes, evaluate alternatives and integrate accepted improvements. Learning could alter member capabilities, communication, allocation and the organisation of the community itself.
+
+## The conditional technical scenario
+
+Suppose models become capable of inspecting and modifying other models' weights at useful costs and scales. A member could diagnose a failure, propose a bounded edit and compare the resulting model with alternatives. Other members could independently test the change. The organisation might retain useful specialisations or switch between them as tasks change.
+
+This is a scenario, not an assertion of an implemented self-improving collective. Pretrained models embody substantial prior learning. Editing an obstruction to existing behaviour is different from creating a missing capability.
+
+In their 2 November 2026 research report, the authors of *Sparks of Weight-Space Programming* describe early experiments in which a language model inspects, writes or edits neural network weights. Their work motivates a research question about direct model modification. It does not establish indefinite improvement, economical adaptation at arbitrary scale or the reliability of a self-editing organisation. [Authors' research report](https://rikiyat.github.io/blog/weight-space-programming/).
+
+## Compare routes to improvement
+
+For a named task, compare the unchanged model, better instructions, tools, retrieval, conventional adaptation and direct editing under stated budgets. Use held-out outcomes and test unrelated abilities. Count diagnosis, adaptation and evaluation alongside repeated serving costs.
+
+Improved behaviour need not reduce model size or hardware requirements. Several useful agents need not imply several complete models running simultaneously. Resource savings and total memory use are measurements to make, not conclusions that follow from the architecture.
+
+## Preserve what makes improvement meaningful
+
+Retain parent versions, proposed changes, evaluation identities and rollback. A member should not be able to improve its apparent score by changing the test, authority rules or canonical record. Independent review should examine whether gains survive unfamiliar tasks and repeated cycles.
+
+More intelligence might help develop physical resources, and those resources might support further intelligence. That feedback could weaken present constraints. It could also slow because experiments, fabrication, energy or the next useful improvement become more demanding. Neither a permanent ceiling nor unlimited acceleration follows from the feedback diagram alone.
+
+`OMNI-301` and `OMNI-401` keep improvement and plateau explicit. Material expansion and ownership vary separately in the [shared worlds](../worlds/README.md). The challenge is to demonstrate useful cumulative development while preserving continuity and legitimate authority.

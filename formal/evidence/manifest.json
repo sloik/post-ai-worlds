@@ -1,0 +1,263 @@
+{
+  "schema_version": 1,
+  "scope": "bounded_models_only",
+  "generated_utc": "2026-11-06T18:45:43.505816+00:00",
+  "registry_sha256": "d376c2aa0a7a7a91abbe424fe99799aab7483a55b42d156e59e65638a3d3e18b",
+  "tool_sha256": "936a262061c914694dfd669a543be24573c45d5aa0ff20a8b96b23d01e050e88",
+  "tool_url": "https://github.com/tlaplus/tlaplus/releases/download/v1.7.4/tla2tools.jar",
+  "java_version": "openjdk version \"27.0.1.0.3\" 2026-10-24\nOpenJDK Runtime Environment Homebrew (build 27.0.1.0.3)\nOpenJDK 64-Bit Server VM Homebrew (build 27.0.1.0.3, mixed mode, sharing)",
+  "producer_inputs": {
+    "tools/check.py": "600568467796a043291255c54bc82b713a35cf187fdf54b85e65351ac90302fe",
+    "tools/run_models.py": "e2955fefdbf61d493153b545a625f0badf11a755600ab47ce76bf9e8629d0921",
+    "tools/campaign.py": "d88121332d57daf82ef5afd24b9e827d3a817d8a027f501e5200e6c0f5e13e86"
+  },
+  "runs": [
+    {
+      "id": "contracts-safe",
+      "model": "ScenarioContracts",
+      "outcome": "pass",
+      "target": null,
+      "exit_code": 0,
+      "qualification_exit": 0,
+      "counts": {
+        "generated": 674,
+        "distinct": 450
+      },
+      "inputs": {
+        "formal/Vocabulary.tla": "12f476dc3de140961c40819018faa4d6b7abfe75f8f4fe4369bb1b99327909b7",
+        "formal/RegistrySnapshot.tla": "42ddd83eea806d2aa9926b2c9861ecaa2f64be5eaaf3134d7575e67ed73a4f37",
+        "formal/ScenarioContracts.tla": "474affd8f49e2ea4344be81ac53de368abb35b93c91959a9657c4221fa3ccc16",
+        "formal/contracts-safe.cfg": "8283e08fdc7566bf6a9095fac17a574412cf425a7f52ef3ce1e6a102ead07d46"
+      },
+      "log_path": "formal/evidence/contracts-safe.log",
+      "log_sha256": "77ad9ffad3a76f1b225edb042cc0ced6d178eea6f22551ebfbecd2ebfd85f961"
+    },
+    {
+      "id": "contracts-scope-control",
+      "model": "ScenarioContracts",
+      "outcome": "counterexample",
+      "target": "ScopeSound",
+      "exit_code": 12,
+      "qualification_exit": 0,
+      "counts": {
+        "generated": 22,
+        "distinct": 12
+      },
+      "inputs": {
+        "formal/Vocabulary.tla": "12f476dc3de140961c40819018faa4d6b7abfe75f8f4fe4369bb1b99327909b7",
+        "formal/RegistrySnapshot.tla": "42ddd83eea806d2aa9926b2c9861ecaa2f64be5eaaf3134d7575e67ed73a4f37",
+        "formal/ScenarioContracts.tla": "474affd8f49e2ea4344be81ac53de368abb35b93c91959a9657c4221fa3ccc16",
+        "formal/contracts-scope-control.cfg": "2ee5927a88bc0e23622fab8e69765bd03ff5141778fe2b4d82931467318949e0"
+      },
+      "log_path": "formal/evidence/contracts-scope-control.log",
+      "log_sha256": "b399a3b6c082fc6b19778f6c191a57d543fb8a99a36b5f62a6182fc47cb8b893"
+    },
+    {
+      "id": "contracts-stale-control",
+      "model": "ScenarioContracts",
+      "outcome": "counterexample",
+      "target": "AssuranceVersionBound",
+      "exit_code": 12,
+      "qualification_exit": 0,
+      "counts": {
+        "generated": 451,
+        "distinct": 339
+      },
+      "inputs": {
+        "formal/Vocabulary.tla": "12f476dc3de140961c40819018faa4d6b7abfe75f8f4fe4369bb1b99327909b7",
+        "formal/RegistrySnapshot.tla": "42ddd83eea806d2aa9926b2c9861ecaa2f64be5eaaf3134d7575e67ed73a4f37",
+        "formal/ScenarioContracts.tla": "474affd8f49e2ea4344be81ac53de368abb35b93c91959a9657c4221fa3ccc16",
+        "formal/contracts-stale-control.cfg": "2002f154e342129a51e23b9ec9ed6894aef7d84a09f6c5885f24c5a5f34c0a84"
+      },
+      "log_path": "formal/evidence/contracts-stale-control.log",
+      "log_sha256": "f2bfbf79a44e5073ce738680ec58ceed779890d9e42f0078a88ed61e2e8f2cc2"
+    },
+    {
+      "id": "contracts-import-witness",
+      "model": "ScenarioContracts",
+      "outcome": "witness",
+      "target": "NoAcceptedWitness",
+      "exit_code": 12,
+      "qualification_exit": 0,
+      "counts": {
+        "generated": 2,
+        "distinct": 2
+      },
+      "inputs": {
+        "formal/Vocabulary.tla": "12f476dc3de140961c40819018faa4d6b7abfe75f8f4fe4369bb1b99327909b7",
+        "formal/RegistrySnapshot.tla": "42ddd83eea806d2aa9926b2c9861ecaa2f64be5eaaf3134d7575e67ed73a4f37",
+        "formal/ScenarioContracts.tla": "474affd8f49e2ea4344be81ac53de368abb35b93c91959a9657c4221fa3ccc16",
+        "formal/contracts-import-witness.cfg": "0f8cced73b79aebcb66ace3c4eae10191674ce82bd57b12c9201ee24514bf051"
+      },
+      "log_path": "formal/evidence/contracts-import-witness.log",
+      "log_sha256": "50e23c9a078d9ccbdfbe6d228affcbb50b2c29c090fc4f9136d579e8036078dc"
+    },
+    {
+      "id": "contracts-refresh-witness",
+      "model": "ScenarioContracts",
+      "outcome": "witness",
+      "target": "NoRefreshedWitness",
+      "exit_code": 12,
+      "qualification_exit": 0,
+      "counts": {
+        "generated": 452,
+        "distinct": 339
+      },
+      "inputs": {
+        "formal/Vocabulary.tla": "12f476dc3de140961c40819018faa4d6b7abfe75f8f4fe4369bb1b99327909b7",
+        "formal/RegistrySnapshot.tla": "42ddd83eea806d2aa9926b2c9861ecaa2f64be5eaaf3134d7575e67ed73a4f37",
+        "formal/ScenarioContracts.tla": "474affd8f49e2ea4344be81ac53de368abb35b93c91959a9657c4221fa3ccc16",
+        "formal/contracts-refresh-witness.cfg": "1187fb36d251722b72633419c9575285b028d3c1e47110bd603a7bfff056062c"
+      },
+      "log_path": "formal/evidence/contracts-refresh-witness.log",
+      "log_sha256": "2f3561651620a86112645f37a8a741c53a79292f6d054c434e4579a07b6b27b3"
+    },
+    {
+      "id": "operations-safe",
+      "model": "OperationalGates",
+      "outcome": "pass",
+      "target": null,
+      "exit_code": 0,
+      "qualification_exit": 0,
+      "counts": {
+        "generated": 5709,
+        "distinct": 1224
+      },
+      "inputs": {
+        "formal/Vocabulary.tla": "12f476dc3de140961c40819018faa4d6b7abfe75f8f4fe4369bb1b99327909b7",
+        "formal/ExpansionContract.tla": "bca680c8c314f9f375f7d258b3a2d681351e3f95985abd2abe82c78e91898af4",
+        "formal/AuthorityContract.tla": "3088e210ea05ecd6f2505c6d941f0ac894fbd6f73645a5a87a8a987b6916a93d",
+        "formal/OperationalGates.tla": "81f37f2a6403526260059cf086cb830955fd830eb39375ecd2400ac7a455d545",
+        "formal/operations-safe.cfg": "50b52e53a4528195a5ffb5a3743cbfe91775e9940b24dc9ab23e6f621a33efda"
+      },
+      "log_path": "formal/evidence/operations-safe.log",
+      "log_sha256": "a8f507d613f01f27b345304c531686d616d03d2e3ee6c5796c64ca816be803d3"
+    },
+    {
+      "id": "operations-phase-control",
+      "model": "OperationalGates",
+      "outcome": "counterexample",
+      "target": "PhaseGuard",
+      "exit_code": 12,
+      "qualification_exit": 0,
+      "counts": {
+        "generated": 6,
+        "distinct": 6
+      },
+      "inputs": {
+        "formal/Vocabulary.tla": "12f476dc3de140961c40819018faa4d6b7abfe75f8f4fe4369bb1b99327909b7",
+        "formal/ExpansionContract.tla": "bca680c8c314f9f375f7d258b3a2d681351e3f95985abd2abe82c78e91898af4",
+        "formal/AuthorityContract.tla": "3088e210ea05ecd6f2505c6d941f0ac894fbd6f73645a5a87a8a987b6916a93d",
+        "formal/OperationalGates.tla": "81f37f2a6403526260059cf086cb830955fd830eb39375ecd2400ac7a455d545",
+        "formal/operations-phase-control.cfg": "1f60f305e518d3d93736f5c1a6982b76972c14654eea938e038198059caabaad"
+      },
+      "log_path": "formal/evidence/operations-phase-control.log",
+      "log_sha256": "5a42032ef275452261e018288f427666e254e2848c9fa740e4506b4c0581bc2b"
+    },
+    {
+      "id": "operations-mandate-control",
+      "model": "OperationalGates",
+      "outcome": "counterexample",
+      "target": "MandateSeparated",
+      "exit_code": 12,
+      "qualification_exit": 0,
+      "counts": {
+        "generated": 6,
+        "distinct": 6
+      },
+      "inputs": {
+        "formal/Vocabulary.tla": "12f476dc3de140961c40819018faa4d6b7abfe75f8f4fe4369bb1b99327909b7",
+        "formal/ExpansionContract.tla": "bca680c8c314f9f375f7d258b3a2d681351e3f95985abd2abe82c78e91898af4",
+        "formal/AuthorityContract.tla": "3088e210ea05ecd6f2505c6d941f0ac894fbd6f73645a5a87a8a987b6916a93d",
+        "formal/OperationalGates.tla": "81f37f2a6403526260059cf086cb830955fd830eb39375ecd2400ac7a455d545",
+        "formal/operations-mandate-control.cfg": "778efda11b60b8e5246fa04cd562bf78e7ba28f7f31bf90730b9f2c27d8b6afb"
+      },
+      "log_path": "formal/evidence/operations-mandate-control.log",
+      "log_sha256": "273bd18a556f9e91c33612a36ee3155e6f2f65765738688774a2004ead04ef89"
+    },
+    {
+      "id": "operations-exit-control",
+      "model": "OperationalGates",
+      "outcome": "counterexample",
+      "target": "IndependentExit",
+      "exit_code": 12,
+      "qualification_exit": 0,
+      "counts": {
+        "generated": 101,
+        "distinct": 57
+      },
+      "inputs": {
+        "formal/Vocabulary.tla": "12f476dc3de140961c40819018faa4d6b7abfe75f8f4fe4369bb1b99327909b7",
+        "formal/ExpansionContract.tla": "bca680c8c314f9f375f7d258b3a2d681351e3f95985abd2abe82c78e91898af4",
+        "formal/AuthorityContract.tla": "3088e210ea05ecd6f2505c6d941f0ac894fbd6f73645a5a87a8a987b6916a93d",
+        "formal/OperationalGates.tla": "81f37f2a6403526260059cf086cb830955fd830eb39375ecd2400ac7a455d545",
+        "formal/operations-exit-control.cfg": "3a6710c2411903a9cf2783fda47a2774c7a52e66eb2453fdb7672e1b034ebcce"
+      },
+      "log_path": "formal/evidence/operations-exit-control.log",
+      "log_sha256": "deda732b2617cb766933794b28d2dc4acff3f2ba3a42e0d901dcc7ba56278a11"
+    },
+    {
+      "id": "operations-delivery-witness",
+      "model": "OperationalGates",
+      "outcome": "witness",
+      "target": "NoDeliveredExitWitness",
+      "exit_code": 12,
+      "qualification_exit": 0,
+      "counts": {
+        "generated": 5688,
+        "distinct": 1222
+      },
+      "inputs": {
+        "formal/Vocabulary.tla": "12f476dc3de140961c40819018faa4d6b7abfe75f8f4fe4369bb1b99327909b7",
+        "formal/ExpansionContract.tla": "bca680c8c314f9f375f7d258b3a2d681351e3f95985abd2abe82c78e91898af4",
+        "formal/AuthorityContract.tla": "3088e210ea05ecd6f2505c6d941f0ac894fbd6f73645a5a87a8a987b6916a93d",
+        "formal/OperationalGates.tla": "81f37f2a6403526260059cf086cb830955fd830eb39375ecd2400ac7a455d545",
+        "formal/operations-delivery-witness.cfg": "c8ff44c54b2267231427239b4d9f98e34ce1b5207ad22ec4cdf8336aaf1d750c"
+      },
+      "log_path": "formal/evidence/operations-delivery-witness.log",
+      "log_sha256": "f8206ffa350afb608ea0a0a7a7fce29567e2739493f222658076fa0454a18bdf"
+    },
+    {
+      "id": "operations-progress",
+      "model": "OperationalGates",
+      "outcome": "pass",
+      "target": null,
+      "exit_code": 0,
+      "qualification_exit": 0,
+      "counts": {
+        "generated": 5709,
+        "distinct": 1224
+      },
+      "inputs": {
+        "formal/Vocabulary.tla": "12f476dc3de140961c40819018faa4d6b7abfe75f8f4fe4369bb1b99327909b7",
+        "formal/ExpansionContract.tla": "bca680c8c314f9f375f7d258b3a2d681351e3f95985abd2abe82c78e91898af4",
+        "formal/AuthorityContract.tla": "3088e210ea05ecd6f2505c6d941f0ac894fbd6f73645a5a87a8a987b6916a93d",
+        "formal/OperationalGates.tla": "81f37f2a6403526260059cf086cb830955fd830eb39375ecd2400ac7a455d545",
+        "formal/operations-progress.cfg": "6210e33ff49083510e17a3201a986262438e2345fe46ed5beae7553880d11f0b"
+      },
+      "log_path": "formal/evidence/operations-progress.log",
+      "log_sha256": "a4e928e6eeec4ddd1b89d97987e548ad92ece4fe16bfb11cee74c2dec3568c96"
+    },
+    {
+      "id": "operations-lost-witness-control",
+      "model": "OperationalGates",
+      "outcome": "lost_witness_control",
+      "target": "NoDeliveredExitWitness",
+      "exit_code": 0,
+      "qualification_exit": 1,
+      "counts": {
+        "generated": 5557,
+        "distinct": 1188
+      },
+      "inputs": {
+        "formal/Vocabulary.tla": "12f476dc3de140961c40819018faa4d6b7abfe75f8f4fe4369bb1b99327909b7",
+        "formal/ExpansionContract.tla": "bca680c8c314f9f375f7d258b3a2d681351e3f95985abd2abe82c78e91898af4",
+        "formal/AuthorityContract.tla": "3088e210ea05ecd6f2505c6d941f0ac894fbd6f73645a5a87a8a987b6916a93d",
+        "formal/OperationalGates.tla": "81f37f2a6403526260059cf086cb830955fd830eb39375ecd2400ac7a455d545",
+        "formal/operations-lost-witness-control.cfg": "c9d6c0f6355667ddaf8ad1053f1143aaf68b8f70d3070186088dc679b7c4bdd9"
+      },
+      "log_path": "formal/evidence/operations-lost-witness-control.log",
+      "log_sha256": "8f7de2e728cc797b176d753cc435819d3cdbf8902bfb211dea0881350124972b"
+    }
+  ]
+}

@@ -1,0 +1,1176 @@
+{
+  "schema_version": 1,
+  "scope": "public_editorial_inventory_only",
+  "documents": {
+    "vision/00-CHARTER.md": {
+      "sha256": "01fa3667cebb18ee676f2cff073fd80c3bebd03150503642b14a6629ba536c06",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Charter: studying an AI-transformed world",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "The premise we can vary",
+          "line": 5
+        },
+        {
+          "level": 2,
+          "text": "Method",
+          "line": 11
+        },
+        {
+          "level": 2,
+          "text": "What contributors can improve",
+          "line": 17
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "vision/01-VISION.md": {
+      "sha256": "2ec372cbe31ccfcc0a798977c7721ea962721bba1533449672bb8f5fef31cdf3",
+      "headings": [
+        {
+          "level": 1,
+          "text": "The vision: abundance changes the scarce things",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "Three horizons, without a clock",
+          "line": 5
+        },
+        {
+          "level": 2,
+          "text": "Constraints can be targets",
+          "line": 11
+        },
+        {
+          "level": 2,
+          "text": "The human and political remainder",
+          "line": 17
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "vision/02-DEMAND-SIDE.md": {
+      "sha256": "f43c9d2551802c304a49d9f697569aadd365634d7d4bff34124e0d31312335fd",
+      "headings": [
+        {
+          "level": 1,
+          "text": "The demand side: output needs someone able to choose it",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "Four questions that output does not answer",
+          "line": 5
+        },
+        {
+          "level": 2,
+          "text": "Three conditional paths",
+          "line": 11
+        },
+        {
+          "level": 2,
+          "text": "Demand is also an interface to power",
+          "line": 17
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "vision/03-SIGNALS.md": {
+      "sha256": "6a98359ce34a23b242d78002bea361fdf7fd9f82dc04c7da10808460a418c0a5",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Signals: deciding what would change our minds",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "Candidate instruments",
+          "line": 5
+        },
+        {
+          "level": 2,
+          "text": "Preserve three dates",
+          "line": 19
+        },
+        {
+          "level": 2,
+          "text": "Separate monitoring from forecasting",
+          "line": 23
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "vision/04-PUBLIC-SCENARIOS-AND-RESOURCE-ECONOMICS.md": {
+      "sha256": "62256f3bbf86b0f165f1a2e75072638a9fd494f8b11030fb877ca3ec1284dd89",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Public scenarios and resource economics",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "A public argument to examine",
+          "line": 5
+        },
+        {
+          "level": 2,
+          "text": "Avoid two opposite mistakes",
+          "line": 11
+        },
+        {
+          "level": 2,
+          "text": "Compare explicit cases",
+          "line": 17
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "vision/05-FUTURE-OF-WORK.md": {
+      "sha256": "369dbb22bfb54ddbad8e2c8250837c775e6d0754021a1b3198747e500e12ec15",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Work, purpose and the distribution of agency",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "Tasks are not whole lives",
+          "line": 5
+        },
+        {
+          "level": 2,
+          "text": "Four work-and-purpose branches",
+          "line": 11
+        },
+        {
+          "level": 2,
+          "text": "Institutions matter before a post-work society",
+          "line": 17
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "vision/06-THE-ALIGNMENT-QUESTION.md": {
+      "sha256": "d0bf829384dcd4b494f5fac22ba0fb1df9d685c83a04a119a93ef0bb38437a5e",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Alignment: useful behaviour is not the whole political problem",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "Separate failure modes",
+          "line": 5
+        },
+        {
+          "level": 2,
+          "text": "Alignment labels",
+          "line": 11
+        },
+        {
+          "level": 2,
+          "text": "What would improve assurance?",
+          "line": 17
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "vision/07-VIEW-FROM-INSIDE.md": {
+      "sha256": "172dfca313de871b3714ea51c50f4879990306c522b9d679d8021d099e922d93",
+      "headings": [
+        {
+          "level": 1,
+          "text": "The inside view: continuity, context and accountable assistants",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "Maintenance is part of the cost",
+          "line": 7
+        },
+        {
+          "level": 2,
+          "text": "Portability is more than an export button",
+          "line": 13
+        },
+        {
+          "level": 2,
+          "text": "The assistant's authority remains a separate record",
+          "line": 17
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "vision/08-AI-2040-CROSSLINK.md": {
+      "sha256": "4e25df1df548a76b6fac1deab836595d06f0f270a972526e876710c46b72a792",
+      "headings": [
+        {
+          "level": 1,
+          "text": "AI 2040: studying a recommendation without mistaking it for a forecast",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "What the source says",
+          "line": 5
+        },
+        {
+          "level": 2,
+          "text": "Questions to carry across",
+          "line": 11
+        },
+        {
+          "level": 2,
+          "text": "What not to import",
+          "line": 17
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "vision/09-PUBLIC-SOURCES.md": {
+      "sha256": "63ead7501c59be94c69e406a047c75dfca902f03a3c643aa60654da632383983",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Public sources and how to read them",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "Capability, deployment and economics",
+          "line": 5
+        },
+        {
+          "level": 2,
+          "text": "Measurement, institutions and people",
+          "line": 14
+        },
+        {
+          "level": 2,
+          "text": "Contributing a source",
+          "line": 24
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "vision/10-THE-CULTURE-AS-ENDPOINT.md": {
+      "sha256": "5384b919c53aadb020c91060cb462fde86f18c633f53177c7310e96e1ddd817c",
+      "headings": [
+        {
+          "level": 1,
+          "text": "The Culture as an endpoint to question",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "Abundance should have an institutional description",
+          "line": 5
+        },
+        {
+          "level": 2,
+          "text": "A scorecard of questions",
+          "line": 11
+        },
+        {
+          "level": 2,
+          "text": "The risk of a comforting image",
+          "line": 17
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "vision/11-THE-MONOLATRY-FRAME.md": {
+      "sha256": "146ed8355f2be7ac600c5a5b48436fdbba17640c26b6f8d0a6db0a8dbe21c836",
+      "headings": [
+        {
+          "level": 1,
+          "text": "The monolatry frame: a metaphor for asymmetric dependence",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "Four mechanisms to investigate",
+          "line": 5
+        },
+        {
+          "level": 2,
+          "text": "Where the metaphor fails",
+          "line": 15
+        },
+        {
+          "level": 2,
+          "text": "A useful limit",
+          "line": 21
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "vision/12-THE-EXCEPTION-THAT-WONT-HOLD.md": {
+      "sha256": "18c7b020dbd20e0cab61774c56e04c0616a91e70cfa216cb1368a133caa7cc2b",
+      "headings": [
+        {
+          "level": 1,
+          "text": "The exception that will not hold: capability and standing",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "Different questions need different tests",
+          "line": 5
+        },
+        {
+          "level": 2,
+          "text": "Avoid a new permanent exception",
+          "line": 11
+        },
+        {
+          "level": 2,
+          "text": "Dignity is not a productivity prize",
+          "line": 17
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "vision/13-MANUFACTURED-MEANING.md": {
+      "sha256": "9654858bff073740227af4b842eefdf4b4159d6d63f18e443f30ba85981e97d3",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Manufactured meaning: chosen challenges and imposed substitutes",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "Artificial obstacles can support real purposes",
+          "line": 5
+        },
+        {
+          "level": 2,
+          "text": "Three distinctions",
+          "line": 11
+        },
+        {
+          "level": 2,
+          "text": "AI can support either branch",
+          "line": 17
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "vision/14-THE-EVAL-VALIDITY-PROBLEM.md": {
+      "sha256": "5d71a0bea54f043d80684cf24ddc2b03964d047261775a57d61ab52ae992a62b",
+      "headings": [
+        {
+          "level": 1,
+          "text": "The evaluation validity problem",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "Three different gaps",
+          "line": 5
+        },
+        {
+          "level": 2,
+          "text": "Evaluation is also infrastructure",
+          "line": 13
+        },
+        {
+          "level": 2,
+          "text": "What a trustworthy report carries",
+          "line": 19
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "vision/15-THE-LAWYERS-FORK.md": {
+      "sha256": "fbc01b712241543d4515e50c6f96b7ae8c1ad91288bd22347658a84e8640fb6d",
+      "headings": [
+        {
+          "level": 1,
+          "text": "The lawyer's fork: provision that can be withheld",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "What practical control would require",
+          "line": 7
+        },
+        {
+          "level": 2,
+          "text": "How the fork could develop",
+          "line": 13
+        },
+        {
+          "level": 2,
+          "text": "An institutional rather than individual answer",
+          "line": 19
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "vision/16-CAN-AI-BE-ACCOUNTABLE.md": {
+      "sha256": "7b91c1e1290da6db0f62a144dc2093e8ea06774873fd4332fd19e98d4488aa8f",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Can AI be held accountable?",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "Protection and responsibility",
+          "line": 5
+        },
+        {
+          "level": 2,
+          "text": "What an accountable arrangement needs",
+          "line": 11
+        },
+        {
+          "level": 2,
+          "text": "A possible future without a premature claim",
+          "line": 17
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "vision/17-PHYSICAL-AI.md": {
+      "sha256": "9237a16162fb91d9f6d1d270ce9206f3acaf511b104c7bcd66f089ae27fcb09c",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Physical AI: when an answer must survive contact with the world",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "Different environments, different claims",
+          "line": 5
+        },
+        {
+          "level": 2,
+          "text": "Safety cannot be only a conversational instruction",
+          "line": 11
+        },
+        {
+          "level": 2,
+          "text": "Physical capability could change its own constraints",
+          "line": 17
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "vision/18-THE-DEEP-HORIZON.md": {
+      "sha256": "e6c48797ec5dc608f112e24f12c2e3bc2c653ff4177f65473508c08316ddb499",
+      "headings": [
+        {
+          "level": 1,
+          "text": "The deep horizon: physics, institutions and long-lived consequences",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "Constraints with different meanings",
+          "line": 5
+        },
+        {
+          "level": 2,
+          "text": "Expansion does not settle government",
+          "line": 13
+        },
+        {
+          "level": 2,
+          "text": "What present research can usefully do",
+          "line": 19
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "vision/19-THE-SMALL-COUNTRY.md": {
+      "sha256": "6c2cf5526c94a34bd14baa25a2f5de11e18d6f1db4a344e300877df31959cdc1",
+      "headings": [
+        {
+          "level": 1,
+          "text": "The small country: influence without owning the frontier",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "Four forms of capacity",
+          "line": 7
+        },
+        {
+          "level": 2,
+          "text": "Scale can be shared",
+          "line": 13
+        },
+        {
+          "level": 2,
+          "text": "A plural strategy",
+          "line": 19
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "vision/20-THE-MOVING-BASELINE.md": {
+      "sha256": "4e40bacc1027113cbac4ae1101f20ac081f3d4a7d5aa99ded2b53e14a607e25a",
+      "headings": [
+        {
+          "level": 1,
+          "text": "The moving baseline: measuring both sides of the comparison",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "Scores and the capacities they represent",
+          "line": 5
+        },
+        {
+          "level": 2,
+          "text": "Assistance changes the unit of analysis",
+          "line": 11
+        },
+        {
+          "level": 2,
+          "text": "Standing should not follow the scoreboard",
+          "line": 17
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "vision/21-THE-SWARM-INCIDENT.md": {
+      "sha256": "b1f1e612999f25d3b7eb4977c30787a082c7701ba7c2ca047906037e19fb2a29",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Swarm incidents: what evidence would establish a collective failure?",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "Define the collective",
+          "line": 5
+        },
+        {
+          "level": 2,
+          "text": "Separate observation from interpretation",
+          "line": 11
+        },
+        {
+          "level": 2,
+          "text": "What would make a report useful?",
+          "line": 17
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "vision/GLOSSARY.md": {
+      "sha256": "a67132e2f1e4c4af9f67b409363377fe7b31799cfe75b66538cee0d544f60b67",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Glossary",
+          "line": 1
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "vision/README.md": {
+      "sha256": "8282c8d2787c917dd045fb1d6eac12649fcb07089ede077cb0895f074aba1354",
+      "headings": [
+        {
+          "level": 1,
+          "text": "The societal vision",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "Reading routes",
+          "line": 7
+        },
+        {
+          "level": 2,
+          "text": "Namespaces and assurance",
+          "line": 36
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "organisation/00-CHARTER.md": {
+      "sha256": "360c92c1d4a3a00c29319f86ccd0f2ffc1f0b3e94bd457d1385098878d91cfac",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Omnicorp: purpose and method",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "The working hypothesis",
+          "line": 7
+        },
+        {
+          "level": 2,
+          "text": "Commitments and uncertainties",
+          "line": 13
+        },
+        {
+          "level": 2,
+          "text": "How to read and challenge the proposal",
+          "line": 21
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "organisation/01-BLUEPRINT.md": {
+      "sha256": "c546eaa9c033f7fc226a5a2436a9f5d0d947dc3ba83b69ec611751da3f81b870",
+      "headings": [
+        {
+          "level": 1,
+          "text": "A candidate architecture for an AI-native organisation",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "Authority and answerability",
+          "line": 5
+        },
+        {
+          "level": 2,
+          "text": "Capabilities and operating procedures",
+          "line": 11
+        },
+        {
+          "level": 2,
+          "text": "Products and resources",
+          "line": 19
+        },
+        {
+          "level": 2,
+          "text": "Boundaries that should survive expansion",
+          "line": 25
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "organisation/02-SOLO-TO-SCALE.md": {
+      "sha256": "db49e0ca0d06c37b67941e6ee635f0996fbd7ff5394638380008b1c355f17998",
+      "headings": [
+        {
+          "level": 1,
+          "text": "From a small operation to multiple capabilities",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "Establish one useful capability",
+          "line": 7
+        },
+        {
+          "level": 2,
+          "text": "Make the process repeatable",
+          "line": 13
+        },
+        {
+          "level": 2,
+          "text": "Add an adjacent capability",
+          "line": 19
+        },
+        {
+          "level": 2,
+          "text": "Become an organisation that can expand",
+          "line": 25
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "organisation/03-AGENT-TEAMS.md": {
+      "sha256": "020285df305f4d60f0542a7a6846cdf7306454ea27532f1e30d84908c6081dbc",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Agent roles, teams and delegated authority",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "A minimal set of responsibilities",
+          "line": 7
+        },
+        {
+          "level": 2,
+          "text": "Parallel work and shared state",
+          "line": 20
+        },
+        {
+          "level": 2,
+          "text": "Authority is part of the brief",
+          "line": 26
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "organisation/04-SOFTWARE-FACTORY.md": {
+      "sha256": "da0b5e7fa95d611c6af5ad91a9d385f77bbbeaa63fead3ddcc080b53a7ee7cff",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Building software as a learning process",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "Define the outcome before generating code",
+          "line": 5
+        },
+        {
+          "level": 2,
+          "text": "Implement and assess in separate roles",
+          "line": 11
+        },
+        {
+          "level": 2,
+          "text": "Learn without corrupting the evaluator",
+          "line": 19
+        },
+        {
+          "level": 2,
+          "text": "Prefer the representation that works",
+          "line": 25
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "organisation/05-REAL-WORLD-PRODUCTION.md": {
+      "sha256": "3f18d088b096ee90c4bef1108b76445ae721bf7af4ee526f4b51efb96e41a277",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Moving from digital artifacts to physical operations",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "Begin with a bounded intervention",
+          "line": 5
+        },
+        {
+          "level": 2,
+          "text": "Domain questions before a deployment claim",
+          "line": 11
+        },
+        {
+          "level": 2,
+          "text": "Treat constraints separately",
+          "line": 24
+        },
+        {
+          "level": 2,
+          "text": "Build the evidence chain",
+          "line": 30
+        },
+        {
+          "level": 2,
+          "text": "Expansion remains conditional",
+          "line": 36
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "organisation/06-CAPITAL.md": {
+      "sha256": "c4238ccf195e15797a53340cb09afe51a333ad25b1313de21541ad01d66106d8",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Resources that sustain development",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "Separate operating continuity from experiments",
+          "line": 7
+        },
+        {
+          "level": 2,
+          "text": "Revenue as feedback",
+          "line": 13
+        },
+        {
+          "level": 2,
+          "text": "Funding changes governance",
+          "line": 19
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "organisation/07-ROADMAP-AND-KPIS.md": {
+      "sha256": "d7b177cc88992308e935c9d47838beff85db69a7c6476fb70d6230461ef6fef3",
+      "headings": [
+        {
+          "level": 1,
+          "text": "A roadmap governed by evidence",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "Four questions before expansion",
+          "line": 5
+        },
+        {
+          "level": 2,
+          "text": "Measure outcomes and resources together",
+          "line": 13
+        },
+        {
+          "level": 2,
+          "text": "Track learning rather than ceremony",
+          "line": 21
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "organisation/08-RISKS-AND-MOATS.md": {
+      "sha256": "7b4384c1f9dc308700dc8e09d2a3d2302405d118e6021b1cfccfc901dc9e6dca",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Risks, dependence and defensibility",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "How an AI-native operation could fail",
+          "line": 5
+        },
+        {
+          "level": 2,
+          "text": "What might remain valuable",
+          "line": 13
+        },
+        {
+          "level": 2,
+          "text": "Power is not the same as value",
+          "line": 21
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "organisation/09-CASE-EVERY.md": {
+      "sha256": "19a65c9bd7442d5b5571b738891e8b8027afa636ce1c003c867d1e9c03f12abe",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Every as a public case study",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "The organisational mechanism worth examining",
+          "line": 7
+        },
+        {
+          "level": 2,
+          "text": "Retained lessons as an asset",
+          "line": 15
+        },
+        {
+          "level": 2,
+          "text": "Transfer requires matching conditions",
+          "line": 21
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "organisation/10-EFFICIENCY-AND-LEGITIMACY.md": {
+      "sha256": "e778fd828bba3d14faf47474613a3ea02afef0ab3c08984628c9e678fadb100e",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Efficiency and legitimacy are separate assessments",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "Count the whole process",
+          "line": 5
+        },
+        {
+          "level": 2,
+          "text": "Keep acceptance distinct from approval",
+          "line": 13
+        },
+        {
+          "level": 2,
+          "text": "Cooperation has conditions",
+          "line": 19
+        },
+        {
+          "level": 2,
+          "text": "A proposed steering loop",
+          "line": 25
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "organisation/11-THE-INCOMPRESSIBLE-HUMAN.md": {
+      "sha256": "247cf96e7c48a91442dc05ec8e3ae86600bbe88024cc0c866b2c91ae04cbe4ca",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Answerability beyond a capability contest",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "Separate kinds of accountability",
+          "line": 7
+        },
+        {
+          "level": 2,
+          "text": "Recognition, provenance and responsibility",
+          "line": 15
+        },
+        {
+          "level": 2,
+          "text": "Membership and meaningful participation",
+          "line": 21
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "organisation/12-THE-OPERATOR-COUNTER-READING.md": {
+      "sha256": "a723a3e96689951727fb3cfcdbba84b27b3d674d727254dadcd6aec8ff9d27f0",
+      "headings": [
+        {
+          "level": 1,
+          "text": "The operator's counter-reading",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "What if the bottleneck is supply?",
+          "line": 5
+        },
+        {
+          "level": 2,
+          "text": "What if the apparent efficiency is subtraction?",
+          "line": 11
+        },
+        {
+          "level": 2,
+          "text": "What if the verifier is wrong?",
+          "line": 17
+        },
+        {
+          "level": 2,
+          "text": "What if the institution can route around opposition?",
+          "line": 23
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "organisation/13-CONTINUAL-SELF-DEVELOPMENT.md": {
+      "sha256": "95635185567ab72313ec0c614ffbe22f45719c9b56c60f2c3b6fb64716515dd4",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Continual development as the cornerstone",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "The conditional technical scenario",
+          "line": 7
+        },
+        {
+          "level": 2,
+          "text": "Compare routes to improvement",
+          "line": 15
+        },
+        {
+          "level": 2,
+          "text": "Preserve what makes improvement meaningful",
+          "line": 21
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "organisation/14-EVIDENCE-AND-FORECASTS.md": {
+      "sha256": "00fa81410c7ebfe5344bde94ec9829d9bcee9ac9df39374c565aebf995f9cb36",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Evidence and forecasts",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "Record the narrow observation",
+          "line": 7
+        },
+        {
+          "level": 2,
+          "text": "Define a forecast before assigning odds",
+          "line": 15
+        },
+        {
+          "level": 2,
+          "text": "Update visibly",
+          "line": 21
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "organisation/15-CULTURE-INTIMACY-AND-POWER.md": {
+      "sha256": "24d36c79c465c94b38e6b1e60c639b5b2e78af1c895c0d698301bdea45849d1d",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Culture, intimacy and power",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "Culture and collective identity",
+          "line": 5
+        },
+        {
+          "level": 2,
+          "text": "Different forms of intimacy",
+          "line": 11
+        },
+        {
+          "level": 2,
+          "text": "Development and family life",
+          "line": 23
+        },
+        {
+          "level": 2,
+          "text": "From essential services to public authority",
+          "line": 31
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "organisation/16-SOCIAL-SIGNALS.md": {
+      "sha256": "7947c10d22cffc59d2a317da892e4d0a20137df56620aaaebc9ff01ab0e5eab5",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Candidate social signals",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "Eight questions worth instrumenting",
+          "line": 5
+        },
+        {
+          "level": 2,
+          "text": "Establish scope before resolution",
+          "line": 20
+        },
+        {
+          "level": 2,
+          "text": "Turn a candidate into a forecast carefully",
+          "line": 26
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "organisation/17-PARALLEL-SCENARIOS.md": {
+      "sha256": "392a3c48da21bc20697775de8029336c58f1d1ac711634d92fb41d72c1f2b2ec",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Coherent parallel scenarios",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "A branch as a contract",
+          "line": 7
+        },
+        {
+          "level": 2,
+          "text": "Use formal tools for bounded questions",
+          "line": 15
+        },
+        {
+          "level": 2,
+          "text": "Preserve the proof boundary",
+          "line": 23
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "organisation/18-MULTIVERSE-REGISTER.md": {
+      "sha256": "5125a0f186a5d01128e0cf52f02d300646410232dc670666189f7015d4d900f4",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Reading Omnicorp through the shared worlds",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "The numbered settings",
+          "line": 5
+        },
+        {
+          "level": 2,
+          "text": "What document coverage means",
+          "line": 22
+        },
+        {
+          "level": 2,
+          "text": "What formal assurance means",
+          "line": 28
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "organisation/GLOSSARY.md": {
+      "sha256": "6b0f308a324bef48cfd3ac09a4bc547851b3a4cc1b6343dd9554af40493b6900",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Organisational glossary",
+          "line": 1
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    },
+    "organisation/README.md": {
+      "sha256": "d2cac3b3905de7f8979de0f9f185947ea85c9ddca08be7f694d3c60874c0d5e8",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Omnicorp: an organisation that keeps learning",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "text": "Reading routes",
+          "line": 9
+        },
+        {
+          "level": 2,
+          "text": "How to contribute",
+          "line": 36
+        }
+      ],
+      "assurance": "editorial_inventory_only"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+name: Contradiction or counterexample
+description: Identify a logical conflict, empirical counterexample or model mismatch.
+title: "[Challenge] "
+body:
+  - type: markdown
+    attributes:
+      value: "Please write in English. You do not need a formal model to challenge an argument. Different scopes or value judgments are not automatically logical contradictions."
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind of challenge
+      options:
+        - Logical inference or incompatible assumptions
+        - Empirical counterevidence
+        - Formal model or statement mismatch
+        - Value or project decision disagreement
+        - Uncertain
+    validations:
+      required: true
+  - type: textarea
+    id: targets
+    attributes:
+      label: Claims and scope
+      description: Identify the passages, claim records or OMNI IDs and relevant domain, task, population and time interval.
+    validations:
+      required: true
+  - type: textarea
+    id: conflict
+    attributes:
+      label: Expected consequence and challenge
+      description: State which assumptions lead to which consequence, and explain the conflict or counterexample.
+    validations:
+      required: true
+  - type: textarea
+    id: witness
+    attributes:
+      label: Evidence or reproducible witness
+      description: Provide source links or bounded reproduction details if available. Distinguish a tool error from a counterexample to the intended property.
+  - type: textarea
+    id: repair
+    attributes:
+      label: Possible repair or remaining question
+      description: Optional; a clear challenge is useful even without a solution.

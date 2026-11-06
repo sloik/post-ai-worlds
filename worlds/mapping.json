@@ -1,0 +1,477 @@
+{
+  "schema_version": 1,
+  "scope": "public_conceptual_relevance_only",
+  "documents": {
+    "vision/00-CHARTER.md": {
+      "universe_ids": [
+        "OMNI-001",
+        "OMNI-201",
+        "OMNI-202",
+        "OMNI-401"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": false,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "vision/01-VISION.md": {
+      "universe_ids": [
+        "OMNI-001",
+        "OMNI-201",
+        "OMNI-202",
+        "OMNI-401"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": false,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "vision/02-DEMAND-SIDE.md": {
+      "universe_ids": [
+        "OMNI-102",
+        "OMNI-201",
+        "OMNI-202",
+        "OMNI-401"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": false,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "vision/03-SIGNALS.md": {
+      "universe_ids": [
+        "OMNI-000"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": false,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "vision/04-PUBLIC-SCENARIOS-AND-RESOURCE-ECONOMICS.md": {
+      "universe_ids": [
+        "OMNI-001",
+        "OMNI-201",
+        "OMNI-202",
+        "OMNI-401"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": false,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "vision/05-FUTURE-OF-WORK.md": {
+      "universe_ids": [
+        "OMNI-101",
+        "OMNI-102",
+        "OMNI-103",
+        "OMNI-104",
+        "OMNI-201",
+        "OMNI-202"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": false,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "vision/06-THE-ALIGNMENT-QUESTION.md": {
+      "universe_ids": [],
+      "assurance": "not_modelled",
+      "unmapped_dimension": true,
+      "limits": "Alignment failure mechanisms have no adequate current universe contract."
+    },
+    "vision/07-VIEW-FROM-INSIDE.md": {
+      "universe_ids": [
+        "OMNI-000",
+        "OMNI-001"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": false,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "vision/08-AI-2040-CROSSLINK.md": {
+      "universe_ids": [
+        "OMNI-000",
+        "OMNI-102",
+        "OMNI-103",
+        "OMNI-104",
+        "OMNI-201",
+        "OMNI-202"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": false,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "vision/09-PUBLIC-SOURCES.md": {
+      "universe_ids": [
+        "OMNI-000"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": false,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "vision/10-THE-CULTURE-AS-ENDPOINT.md": {
+      "universe_ids": [
+        "OMNI-101",
+        "OMNI-102",
+        "OMNI-103",
+        "OMNI-104",
+        "OMNI-201",
+        "OMNI-202"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": false,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "vision/11-THE-MONOLATRY-FRAME.md": {
+      "universe_ids": [
+        "OMNI-102",
+        "OMNI-104"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": false,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "vision/12-THE-EXCEPTION-THAT-WONT-HOLD.md": {
+      "universe_ids": [
+        "OMNI-000",
+        "OMNI-001"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": false,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "vision/13-MANUFACTURED-MEANING.md": {
+      "universe_ids": [
+        "OMNI-101",
+        "OMNI-102",
+        "OMNI-103",
+        "OMNI-104",
+        "OMNI-201",
+        "OMNI-202"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": false,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "vision/14-THE-EVAL-VALIDITY-PROBLEM.md": {
+      "universe_ids": [
+        "OMNI-001",
+        "OMNI-301",
+        "OMNI-401"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": false,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "vision/15-THE-LAWYERS-FORK.md": {
+      "universe_ids": [
+        "OMNI-101",
+        "OMNI-102",
+        "OMNI-103",
+        "OMNI-104",
+        "OMNI-201",
+        "OMNI-202"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": false,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "vision/16-CAN-AI-BE-ACCOUNTABLE.md": {
+      "universe_ids": [
+        "OMNI-000",
+        "OMNI-001",
+        "OMNI-103",
+        "OMNI-301"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": false,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "vision/17-PHYSICAL-AI.md": {
+      "universe_ids": [
+        "OMNI-001",
+        "OMNI-201",
+        "OMNI-202",
+        "OMNI-301",
+        "OMNI-401"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": false,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "vision/18-THE-DEEP-HORIZON.md": {
+      "universe_ids": [
+        "OMNI-201",
+        "OMNI-202"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": true,
+      "limits": "Far-horizon physical claims exceed the current finite contracts."
+    },
+    "vision/19-THE-SMALL-COUNTRY.md": {
+      "universe_ids": [
+        "OMNI-103",
+        "OMNI-104",
+        "OMNI-201",
+        "OMNI-202"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": false,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "vision/20-THE-MOVING-BASELINE.md": {
+      "universe_ids": [
+        "OMNI-000"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": true,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "vision/21-THE-SWARM-INCIDENT.md": {
+      "universe_ids": [
+        "OMNI-000",
+        "OMNI-001",
+        "OMNI-301"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": true,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "vision/GLOSSARY.md": {
+      "universe_ids": [
+        "OMNI-000",
+        "OMNI-001"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": false,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "vision/README.md": {
+      "universe_ids": [
+        "OMNI-000",
+        "OMNI-001"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": false,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "organisation/00-CHARTER.md": {
+      "universe_ids": [
+        "OMNI-001"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": false,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "organisation/01-BLUEPRINT.md": {
+      "universe_ids": [
+        "OMNI-001",
+        "OMNI-201",
+        "OMNI-202",
+        "OMNI-301",
+        "OMNI-401"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": false,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "organisation/02-SOLO-TO-SCALE.md": {
+      "universe_ids": [
+        "OMNI-001",
+        "OMNI-301",
+        "OMNI-401"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": false,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "organisation/03-AGENT-TEAMS.md": {
+      "universe_ids": [
+        "OMNI-001",
+        "OMNI-301",
+        "OMNI-401"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": false,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "organisation/04-SOFTWARE-FACTORY.md": {
+      "universe_ids": [
+        "OMNI-001",
+        "OMNI-301",
+        "OMNI-401"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": false,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "organisation/05-REAL-WORLD-PRODUCTION.md": {
+      "universe_ids": [
+        "OMNI-001",
+        "OMNI-201",
+        "OMNI-202",
+        "OMNI-301",
+        "OMNI-401"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": false,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "organisation/06-CAPITAL.md": {
+      "universe_ids": [
+        "OMNI-001",
+        "OMNI-201",
+        "OMNI-202",
+        "OMNI-401"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": false,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "organisation/07-ROADMAP-AND-KPIS.md": {
+      "universe_ids": [
+        "OMNI-001",
+        "OMNI-301",
+        "OMNI-401"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": false,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "organisation/08-RISKS-AND-MOATS.md": {
+      "universe_ids": [
+        "OMNI-101",
+        "OMNI-102",
+        "OMNI-103",
+        "OMNI-104",
+        "OMNI-401"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": false,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "organisation/09-CASE-EVERY.md": {
+      "universe_ids": [
+        "OMNI-000",
+        "OMNI-001"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": false,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "organisation/10-EFFICIENCY-AND-LEGITIMACY.md": {
+      "universe_ids": [
+        "OMNI-101",
+        "OMNI-102",
+        "OMNI-103",
+        "OMNI-104"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": false,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "organisation/11-THE-INCOMPRESSIBLE-HUMAN.md": {
+      "universe_ids": [
+        "OMNI-001",
+        "OMNI-103",
+        "OMNI-301"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": false,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "organisation/12-THE-OPERATOR-COUNTER-READING.md": {
+      "universe_ids": [
+        "OMNI-001",
+        "OMNI-301",
+        "OMNI-401"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": false,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "organisation/13-CONTINUAL-SELF-DEVELOPMENT.md": {
+      "universe_ids": [
+        "OMNI-001",
+        "OMNI-301",
+        "OMNI-401"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": false,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "organisation/14-EVIDENCE-AND-FORECASTS.md": {
+      "universe_ids": [
+        "OMNI-000"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": false,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "organisation/15-CULTURE-INTIMACY-AND-POWER.md": {
+      "universe_ids": [
+        "OMNI-101",
+        "OMNI-102",
+        "OMNI-103",
+        "OMNI-104",
+        "OMNI-201",
+        "OMNI-202"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": false,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "organisation/16-SOCIAL-SIGNALS.md": {
+      "universe_ids": [
+        "OMNI-000"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": false,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "organisation/17-PARALLEL-SCENARIOS.md": {
+      "universe_ids": [
+        "OMNI-101",
+        "OMNI-102",
+        "OMNI-103",
+        "OMNI-104",
+        "OMNI-201",
+        "OMNI-202",
+        "OMNI-301",
+        "OMNI-401"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": false,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "organisation/18-MULTIVERSE-REGISTER.md": {
+      "universe_ids": [
+        "OMNI-000",
+        "OMNI-001",
+        "OMNI-101",
+        "OMNI-102",
+        "OMNI-103",
+        "OMNI-104",
+        "OMNI-201",
+        "OMNI-202",
+        "OMNI-301",
+        "OMNI-401"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": false,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "organisation/GLOSSARY.md": {
+      "universe_ids": [
+        "OMNI-000",
+        "OMNI-001"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": false,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    },
+    "organisation/README.md": {
+      "universe_ids": [
+        "OMNI-000",
+        "OMNI-001"
+      ],
+      "assurance": "not_modelled",
+      "unmapped_dimension": false,
+      "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
+    }
+  }
+}

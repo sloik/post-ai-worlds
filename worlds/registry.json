@@ -1,0 +1,920 @@
+{
+  "schema_version": 1,
+  "register_id": "POST-AI-WORLDS-1",
+  "scope": {
+    "edition": "public",
+    "classification_unit": "document and ATX heading inventory; selected critical claims only",
+    "complete_coverage_means": "Inventory and conceptual relevance, not every sentence atomised or proved.",
+    "claim_universe_semantics": "Relevance is distinct from admission; prerequisites must hold in the same domain/population/horizon.",
+    "conflict_semantics": "Opposite premises conflict only for the same scope. Supplier plurality can coexist with concentration.",
+    "source_dates": "Public edition 2026-11-06; no retrospective public forecast registration."
+  },
+  "shared_normative_ids": [
+    "ASM-001",
+    "ASM-002"
+  ],
+  "universes": [
+    {
+      "id": "OMNI-000",
+      "label": "Documented reference",
+      "legacy_aliases": [],
+      "assumption_ids": [],
+      "scope": "Dated evidence and project decisions, not a declaration that all old prose is true.",
+      "epistemic_status": "dated_reference",
+      "assurance_status": "unchecked",
+      "unknowns": [
+        "probability",
+        "arrival_date",
+        "growth_rate",
+        "empirical_parameter_values"
+      ],
+      "version": 1,
+      "parent_id": null,
+      "lineage_note": "Initial numbered registration; aliases preserve only exact prior assumptions.",
+      "admitted_claim_ids": []
+    },
+    {
+      "id": "OMNI-001",
+      "label": "Current founder bootstrap",
+      "legacy_aliases": [],
+      "assumption_ids": [
+        "ASM-001",
+        "ASM-002",
+        "ASM-003",
+        "ASM-004",
+        "ASM-016",
+        "ASM-017"
+      ],
+      "scope": "Present Omnicorp planning conditions; authority and demand gates remain.",
+      "epistemic_status": "documented_planning_reference",
+      "assurance_status": "unchecked",
+      "unknowns": [
+        "probability",
+        "arrival_date",
+        "growth_rate",
+        "empirical_parameter_values"
+      ],
+      "version": 1,
+      "parent_id": null,
+      "lineage_note": "Initial numbered registration; aliases preserve only exact prior assumptions.",
+      "admitted_claim_ids": []
+    },
+    {
+      "id": "OMNI-101",
+      "label": "Dispersed capability and ownership",
+      "legacy_aliases": [
+        "U1"
+      ],
+      "assumption_ids": [
+        "ASM-006",
+        "ASM-007",
+        "ASM-008"
+      ],
+      "scope": "Institutional assumptions only; material abundance is unspecified.",
+      "epistemic_status": "conditional_scenario",
+      "assurance_status": "unchecked",
+      "unknowns": [
+        "probability",
+        "arrival_date",
+        "growth_rate",
+        "empirical_parameter_values"
+      ],
+      "version": 1,
+      "parent_id": null,
+      "lineage_note": "Initial numbered registration; aliases preserve only exact prior assumptions.",
+      "admitted_claim_ids": []
+    },
+    {
+      "id": "OMNI-102",
+      "label": "Capable but dependent users",
+      "legacy_aliases": [
+        "U2"
+      ],
+      "assumption_ids": [
+        "ASM-010",
+        "ASM-009",
+        "ASM-011"
+      ],
+      "scope": "Widespread capability with concentrated essentials and costly exit; abundance unspecified.",
+      "epistemic_status": "conditional_scenario",
+      "assurance_status": "unchecked",
+      "unknowns": [
+        "probability",
+        "arrival_date",
+        "growth_rate",
+        "empirical_parameter_values"
+      ],
+      "version": 1,
+      "parent_id": null,
+      "lineage_note": "Initial numbered registration; aliases preserve only exact prior assumptions.",
+      "admitted_claim_ids": []
+    },
+    {
+      "id": "OMNI-103",
+      "label": "Accountable public capacity",
+      "legacy_aliases": [
+        "U3"
+      ],
+      "assumption_ids": [
+        "ASM-012"
+      ],
+      "scope": "Institutions retain capacity and remedies; material abundance and general ownership unspecified.",
+      "epistemic_status": "conditional_scenario",
+      "assurance_status": "unchecked",
+      "unknowns": [
+        "probability",
+        "arrival_date",
+        "growth_rate",
+        "empirical_parameter_values"
+      ],
+      "version": 1,
+      "parent_id": null,
+      "lineage_note": "Initial numbered registration; aliases preserve only exact prior assumptions.",
+      "admitted_claim_ids": []
+    },
+    {
+      "id": "OMNI-104",
+      "label": "Concentrated control",
+      "legacy_aliases": [
+        "U4"
+      ],
+      "assumption_ids": [
+        "ASM-009",
+        "ASM-013"
+      ],
+      "scope": "Infrastructure control and restricted association or exit; abundance unspecified.",
+      "epistemic_status": "conditional_scenario",
+      "assurance_status": "unchecked",
+      "unknowns": [
+        "probability",
+        "arrival_date",
+        "growth_rate",
+        "empirical_parameter_values"
+      ],
+      "version": 1,
+      "parent_id": null,
+      "lineage_note": "Initial numbered registration; aliases preserve only exact prior assumptions.",
+      "admitted_claim_ids": []
+    },
+    {
+      "id": "OMNI-201",
+      "label": "Abundant plural provision",
+      "legacy_aliases": [],
+      "assumption_ids": [
+        "ASM-005",
+        "ASM-006",
+        "ASM-007",
+        "ASM-008",
+        "ASM-003"
+      ],
+      "scope": "Useful physical automation plus plural ownership; legitimacy and intimate wellbeing not assumed.",
+      "epistemic_status": "conditional_scenario",
+      "assurance_status": "unchecked",
+      "unknowns": [
+        "probability",
+        "arrival_date",
+        "growth_rate",
+        "empirical_parameter_values"
+      ],
+      "version": 1,
+      "parent_id": null,
+      "lineage_note": "Initial numbered registration; aliases preserve only exact prior assumptions.",
+      "admitted_claim_ids": []
+    },
+    {
+      "id": "OMNI-202",
+      "label": "Abundant concentrated provision",
+      "legacy_aliases": [],
+      "assumption_ids": [
+        "ASM-005",
+        "ASM-009",
+        "ASM-010",
+        "ASM-003"
+      ],
+      "scope": "Material provision becomes abundant while essential control remains concentrated.",
+      "epistemic_status": "conditional_scenario",
+      "assurance_status": "unchecked",
+      "unknowns": [
+        "probability",
+        "arrival_date",
+        "growth_rate",
+        "empirical_parameter_values"
+      ],
+      "version": 1,
+      "parent_id": null,
+      "lineage_note": "Initial numbered registration; aliases preserve only exact prior assumptions.",
+      "admitted_claim_ids": []
+    },
+    {
+      "id": "OMNI-301",
+      "label": "Bounded adaptive local collective",
+      "legacy_aliases": [],
+      "assumption_ids": [
+        "ASM-003",
+        "ASM-004",
+        "ASM-014",
+        "ASM-015",
+        "ASM-016"
+      ],
+      "scope": "Bounded verified adaptation with resource constraints, isolated evaluation and no indefinite growth premise.",
+      "epistemic_status": "conditional_scenario",
+      "assurance_status": "unchecked",
+      "unknowns": [
+        "probability",
+        "arrival_date",
+        "growth_rate",
+        "empirical_parameter_values"
+      ],
+      "version": 1,
+      "parent_id": null,
+      "lineage_note": "Initial numbered registration; aliases preserve only exact prior assumptions.",
+      "admitted_claim_ids": []
+    },
+    {
+      "id": "OMNI-401",
+      "label": "Plateau or disappointing returns",
+      "legacy_aliases": [],
+      "assumption_ids": [
+        "ASM-004",
+        "ASM-016",
+        "ASM-018"
+      ],
+      "scope": "Capability or net returns plateau in declared scope; no claim that all domains stop improving.",
+      "epistemic_status": "conditional_scenario",
+      "assurance_status": "unchecked",
+      "unknowns": [
+        "probability",
+        "arrival_date",
+        "growth_rate",
+        "empirical_parameter_values"
+      ],
+      "version": 1,
+      "parent_id": null,
+      "lineage_note": "Initial numbered registration; aliases preserve only exact prior assumptions.",
+      "admitted_claim_ids": []
+    }
+  ],
+  "assumptions": [
+    {
+      "id": "ASM-001",
+      "kind": "normative",
+      "statement": "Omnicorp continually develops its ability to understand, learn and act; products and resources sustain that purpose.",
+      "status": "owner_committed",
+      "incompatible_with": [],
+      "comparison_scope": "Compare premises only within the same declared domain, population, task and time interval; different scopes require separate branch records."
+    },
+    {
+      "id": "ASM-002",
+      "kind": "operational",
+      "statement": "The owner currently authorises objectives, money and high-stakes steps; technical capability does not grant new authority.",
+      "status": "current_rule",
+      "incompatible_with": [],
+      "comparison_scope": "Compare premises only within the same declared domain, population, task and time interval; different scopes require separate branch records."
+    },
+    {
+      "id": "ASM-003",
+      "kind": "empirical_assumption",
+      "statement": "AI supplies useful bounded cognitive assistance; this does not assume zero costs or universal reliability.",
+      "status": "hypothetical",
+      "incompatible_with": [],
+      "comparison_scope": "Compare premises only within the same declared domain, population, task and time interval; different scopes require separate branch records."
+    },
+    {
+      "id": "ASM-004",
+      "kind": "empirical_assumption",
+      "statement": "Material scarcity remains a binding constraint on physical expansion in the declared domain and horizon; throughput, experiments and infrastructure limit growth.",
+      "status": "hypothetical",
+      "incompatible_with": [
+        "ASM-005"
+      ],
+      "comparison_scope": "Compare premises only within the same declared domain, population, task and time interval; different scopes require separate branch records."
+    },
+    {
+      "id": "ASM-005",
+      "kind": "hypothetical",
+      "statement": "Useful physical automation and infrastructure expansion make a declared broad material-provision basket abundant within scope; that basket no longer faces the binding scarcity assumed by ASM-004. This does not mean infinite resources.",
+      "status": "hypothetical",
+      "incompatible_with": [
+        "ASM-004"
+      ],
+      "comparison_scope": "Compare premises only within the same declared domain, population, task and time interval; different scopes require separate branch records."
+    },
+    {
+      "id": "ASM-006",
+      "kind": "hypothetical",
+      "statement": "Good-enough independently operated AI is affordable for relevant citizen tasks.",
+      "status": "hypothetical",
+      "incompatible_with": [],
+      "comparison_scope": "Compare premises only within the same declared domain, population, task and time interval; different scopes require separate branch records."
+    },
+    {
+      "id": "ASM-007",
+      "kind": "hypothetical",
+      "statement": "People can form and sustain independent associations in the declared setting.",
+      "status": "hypothetical",
+      "incompatible_with": [],
+      "comparison_scope": "Compare premises only within the same declared domain, population, task and time interval; different scopes require separate branch records."
+    },
+    {
+      "id": "ASM-008",
+      "kind": "hypothetical",
+      "statement": "Ownership of relevant assets and suppliers is plural within the declared scope.",
+      "status": "hypothetical",
+      "incompatible_with": [],
+      "comparison_scope": "Compare premises only within the same declared domain, population, task and time interval; different scopes require separate branch records."
+    },
+    {
+      "id": "ASM-009",
+      "kind": "hypothetical",
+      "statement": "Control of relevant essential infrastructure or suppliers is concentrated within the declared scope.",
+      "status": "hypothetical",
+      "incompatible_with": [],
+      "comparison_scope": "Compare premises only within the same declared domain, population, task and time interval; different scopes require separate branch records."
+    },
+    {
+      "id": "ASM-010",
+      "kind": "hypothetical",
+      "statement": "AI access is widespread, including among dependent users.",
+      "status": "hypothetical",
+      "incompatible_with": [],
+      "comparison_scope": "Compare premises only within the same declared domain, population, task and time interval; different scopes require separate branch records."
+    },
+    {
+      "id": "ASM-011",
+      "kind": "hypothetical",
+      "statement": "Practical switching or exit from relevant providers is costly.",
+      "status": "hypothetical",
+      "incompatible_with": [],
+      "comparison_scope": "Compare premises only within the same declared domain, population, task and time interval; different scopes require separate branch records."
+    },
+    {
+      "id": "ASM-012",
+      "kind": "hypothetical",
+      "statement": "Public institutions retain independent expertise, audit access, remedies and practicable supplier substitution.",
+      "status": "hypothetical",
+      "incompatible_with": [],
+      "comparison_scope": "Compare premises only within the same declared domain, population, task and time interval; different scopes require separate branch records."
+    },
+    {
+      "id": "ASM-013",
+      "kind": "hypothetical",
+      "statement": "Authorities or providers restrict association or practical exit in the relevant setting.",
+      "status": "hypothetical",
+      "incompatible_with": [],
+      "comparison_scope": "Compare premises only within the same declared domain, population, task and time interval; different scopes require separate branch records."
+    },
+    {
+      "id": "ASM-014",
+      "kind": "hypothetical",
+      "statement": "Local collective adaptation yields independently verified positive net improvement on the specified task during the specified interval under fixed declared budgets, with gains sufficient for that bounded next step.",
+      "status": "hypothetical",
+      "incompatible_with": [
+        "ASM-018"
+      ],
+      "comparison_scope": "Compare premises only within the same declared domain, population, task and time interval; different scopes require separate branch records."
+    },
+    {
+      "id": "ASM-015",
+      "kind": "operational",
+      "statement": "Adaptive candidates retain isolated evaluation, immutable lineage and rollback.",
+      "status": "proposed_requirement",
+      "incompatible_with": [],
+      "comparison_scope": "Compare premises only within the same declared domain, population, task and time interval; different scopes require separate branch records."
+    },
+    {
+      "id": "ASM-016",
+      "kind": "empirical_assumption",
+      "statement": "No sustained indefinite acceleration is assumed; growth and saturation remain open empirical questions.",
+      "status": "hypothetical",
+      "incompatible_with": [],
+      "comparison_scope": "Compare premises only within the same declared domain, population, task and time interval; different scopes require separate branch records."
+    },
+    {
+      "id": "ASM-017",
+      "kind": "empirical_assumption",
+      "statement": "The founder bootstrap has not established demand-side readiness; current phase gates require evidence.",
+      "status": "documented_reference",
+      "incompatible_with": [],
+      "comparison_scope": "Compare premises only within the same declared domain, population, task and time interval; different scopes require separate branch records."
+    },
+    {
+      "id": "ASM-018",
+      "kind": "hypothetical",
+      "statement": "For the same specified task, interval and resource accounting as ASM-014, verified net gains do not suffice for that bounded next step; the relevant capability or economic returns plateau or disappoint.",
+      "status": "hypothetical",
+      "incompatible_with": [
+        "ASM-014"
+      ],
+      "comparison_scope": "Compare premises only within the same declared domain, population, task and time interval; different scopes require separate branch records."
+    },
+    {
+      "id": "ASM-019",
+      "kind": "hypothetical",
+      "statement": "Human-facing software tasks may be generated on demand while precise execution and records remain implemented.",
+      "status": "hypothetical",
+      "incompatible_with": [],
+      "comparison_scope": "Compare premises only within the same declared domain, population, task and time interval; different scopes require separate branch records."
+    },
+    {
+      "id": "ASM-020",
+      "kind": "hypothetical",
+      "statement": "A public remedy can enforce continuity and portability in a bounded essential-service case.",
+      "status": "hypothetical",
+      "incompatible_with": [],
+      "comparison_scope": "Compare premises only within the same declared domain, population, task and time interval; different scopes require separate branch records."
+    },
+    {
+      "id": "ASM-021",
+      "kind": "hypothetical",
+      "statement": "Users have practical alternatives, resources and means of enforcement needed for effective challenge.",
+      "status": "hypothetical",
+      "incompatible_with": [],
+      "comparison_scope": "Compare premises only within the same declared domain, population, task and time interval; different scopes require separate branch records."
+    },
+    {
+      "id": "ASM-022",
+      "kind": "hypothetical",
+      "statement": "Possible moral-patient welfare protection is accepted as a normative premise in the relevant branch; consciousness remains unresolved.",
+      "status": "hypothetical",
+      "incompatible_with": [],
+      "comparison_scope": "Compare premises only within the same declared domain, population, task and time interval; different scopes require separate branch records."
+    },
+    {
+      "id": "ASM-023",
+      "kind": "empirical_assumption",
+      "statement": "For the specified output basket, total creation cost falls materially after review, errors, serving and maintenance are counted.",
+      "status": "unresolved",
+      "incompatible_with": [],
+      "comparison_scope": "Specified product/domain, workload and horizon; do not infer global parameter values."
+    },
+    {
+      "id": "ASM-024",
+      "kind": "empirical_assumption",
+      "statement": "Paying demand, distribution and willingness to pay remain scarce for the specified product despite cheaper creation.",
+      "status": "unresolved",
+      "incompatible_with": [],
+      "comparison_scope": "Specified product/domain, workload and horizon; do not infer global parameter values."
+    },
+    {
+      "id": "ASM-025",
+      "kind": "hypothetical",
+      "statement": "The selected bootstrap offer can reach useful revenue within available capital; this does not cover physical production capex.",
+      "status": "unresolved",
+      "incompatible_with": [],
+      "comparison_scope": "Specified product/domain, workload and horizon; do not infer global parameter values."
+    },
+    {
+      "id": "ASM-026",
+      "kind": "hypothetical",
+      "statement": "Outcome quality can be independently specified, observed and verified at affordable total cost in the selected domain.",
+      "status": "unresolved",
+      "incompatible_with": [],
+      "comparison_scope": "Specified product/domain, workload and horizon; do not infer global parameter values."
+    },
+    {
+      "id": "ASM-027",
+      "kind": "hypothetical",
+      "statement": "Required liability allocation, insurance where applicable, licences and buyer acceptance are available in the selected deployment.",
+      "status": "unresolved",
+      "incompatible_with": [],
+      "comparison_scope": "Specified product/domain, workload and horizon; do not infer global parameter values."
+    },
+    {
+      "id": "ASM-028",
+      "kind": "empirical_assumption",
+      "statement": "Greenfield complementarity benefits exceed organisational learning, coordination and implementation costs for the chosen firm.",
+      "status": "unresolved",
+      "incompatible_with": [],
+      "comparison_scope": "Specified product/domain, workload and horizon; do not infer global parameter values."
+    },
+    {
+      "id": "ASM-029",
+      "kind": "empirical_assumption",
+      "statement": "A reported team-size or planning-review allocation heuristic transfers to the selected workload; this needs measurement rather than universal adoption.",
+      "status": "unresolved",
+      "incompatible_with": [],
+      "comparison_scope": "Specified product/domain, workload and horizon; do not infer global parameter values."
+    }
+  ],
+  "conflicts": [
+    [
+      "ASM-004",
+      "ASM-005"
+    ],
+    [
+      "ASM-014",
+      "ASM-018"
+    ]
+  ],
+  "rules": [
+    {
+      "id": "RULE-001",
+      "if_all": [
+        "ASM-005"
+      ],
+      "then_all": [
+        "ASM-003"
+      ],
+      "forbid_all": [
+        "ASM-004"
+      ]
+    },
+    {
+      "id": "RULE-002",
+      "if_all": [
+        "ASM-014"
+      ],
+      "then_all": [
+        "ASM-015",
+        "ASM-016"
+      ],
+      "forbid_all": [
+        "ASM-018"
+      ]
+    },
+    {
+      "id": "RULE-004",
+      "if_all": [
+        "ASM-017"
+      ],
+      "then_all": [
+        "ASM-002"
+      ],
+      "forbid_all": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "CLM-001",
+      "kind": "normative",
+      "statement": "Continual organisational development is the owner purpose, not a law of social evolution.",
+      "universe_ids": [
+        "OMNI-001"
+      ],
+      "assumption_ids": [
+        "ASM-001"
+      ],
+      "consequence": "Purpose constrains intended Omnicorp design, not empirical outcomes.",
+      "assurance_status": "normative",
+      "public_provenance": "Editorial qualification; no private source excerpts imported."
+    },
+    {
+      "id": "CLM-002",
+      "kind": "empirical_assumption",
+      "statement": "Cheap cognition is a baseline premise, not a proven universal zero-cost capability.",
+      "universe_ids": [
+        "OMNI-001",
+        "OMNI-201",
+        "OMNI-202"
+      ],
+      "assumption_ids": [
+        "ASM-003"
+      ],
+      "consequence": "Evaluate useful outcomes and total cost before carrying this premise into a new domain.",
+      "assurance_status": "open",
+      "public_provenance": "Editorial qualification; no private source excerpts imported."
+    },
+    {
+      "id": "CLM-003",
+      "kind": "conditional_mechanism",
+      "statement": "An asset-light wedge can inherit an incumbent throughput bottleneck.",
+      "universe_ids": [
+        "OMNI-001",
+        "OMNI-301",
+        "OMNI-401"
+      ],
+      "assumption_ids": [
+        "ASM-004"
+      ],
+      "consequence": "Do not infer physical output growth merely from better intelligence.",
+      "assurance_status": "open",
+      "public_provenance": "Editorial qualification; no private source excerpts imported."
+    },
+    {
+      "id": "CLM-004",
+      "kind": "operational",
+      "statement": "Current high-stakes work retains human authority gates.",
+      "universe_ids": [
+        "OMNI-001"
+      ],
+      "assumption_ids": [
+        "ASM-002"
+      ],
+      "consequence": "Capability cannot silently remove the current authority rule.",
+      "assurance_status": "normative",
+      "public_provenance": "Editorial qualification; no private source excerpts imported."
+    },
+    {
+      "id": "CLM-005",
+      "kind": "conditional_mechanism",
+      "statement": "Cooperation depends on incentives, alternatives and enforcement rather than repetition alone.",
+      "universe_ids": [
+        "OMNI-101",
+        "OMNI-102",
+        "OMNI-103",
+        "OMNI-104",
+        "OMNI-201",
+        "OMNI-202"
+      ],
+      "assumption_ids": [
+        "ASM-021"
+      ],
+      "consequence": "A general proof that extraction must lose is not licensed.",
+      "assurance_status": "open",
+      "public_provenance": "Editorial qualification; no private source excerpts imported."
+    },
+    {
+      "id": "CLM-006",
+      "kind": "conditional_mechanism",
+      "statement": "Good-enough independent AI can reduce civic work costs without establishing equal power.",
+      "universe_ids": [
+        "OMNI-101",
+        "OMNI-102",
+        "OMNI-201",
+        "OMNI-202"
+      ],
+      "assumption_ids": [
+        "ASM-006"
+      ],
+      "consequence": "Task competence and bargaining power require separate evidence.",
+      "assurance_status": "open",
+      "public_provenance": "Editorial qualification; no private source excerpts imported."
+    },
+    {
+      "id": "CLM-007",
+      "kind": "conditional_mechanism",
+      "statement": "A bounded adaptation experiment, if reproduced, does not establish unlimited recursive gain.",
+      "universe_ids": [
+        "OMNI-000"
+      ],
+      "assumption_ids": [],
+      "consequence": "The source is contextual evidence for adaptation hypotheses only.",
+      "assurance_status": "open",
+      "public_provenance": "Editorial qualification; no private source excerpts imported."
+    },
+    {
+      "id": "CLM-008",
+      "kind": "conditional_mechanism",
+      "statement": "Intelligence-infrastructure feedback does not establish indefinite acceleration.",
+      "universe_ids": [
+        "OMNI-301",
+        "OMNI-401"
+      ],
+      "assumption_ids": [
+        "ASM-016"
+      ],
+      "consequence": "Bounded improvement cannot be transferred as an unlimited growth theorem.",
+      "assurance_status": "open",
+      "public_provenance": "Editorial qualification; no private source excerpts imported."
+    },
+    {
+      "id": "CLM-009",
+      "kind": "normative",
+      "statement": "Technical capacity and commercial role do not confer a public mandate.",
+      "universe_ids": [
+        "OMNI-001",
+        "OMNI-103"
+      ],
+      "assumption_ids": [],
+      "consequence": "Authority, capacity and legitimacy remain distinct.",
+      "assurance_status": "normative",
+      "public_provenance": "Editorial qualification; no private source excerpts imported."
+    },
+    {
+      "id": "CLM-010",
+      "kind": "candidate_instrument",
+      "statement": "Unknown social baselines are not negative findings.",
+      "universe_ids": [
+        "OMNI-000"
+      ],
+      "assumption_ids": [],
+      "consequence": "A future review must establish baseline before prospective registration.",
+      "assurance_status": "proposed",
+      "public_provenance": "Editorial qualification; no private source excerpts imported."
+    },
+    {
+      "id": "CLM-011",
+      "kind": "forecast_record",
+      "statement": "External forecasts retain their original criteria and dates; this register does not re-register them.",
+      "universe_ids": [
+        "OMNI-000"
+      ],
+      "assumption_ids": [],
+      "consequence": "Branch mapping does not rewrite frozen probabilistic records.",
+      "assurance_status": "evidence_only",
+      "public_provenance": "Editorial qualification; no private source excerpts imported."
+    },
+    {
+      "id": "CLM-012",
+      "kind": "conditional_mechanism",
+      "statement": "Substitution and care assistance can push fertility outcomes in opposing directions.",
+      "universe_ids": [
+        "OMNI-101",
+        "OMNI-102",
+        "OMNI-103",
+        "OMNI-104",
+        "OMNI-201",
+        "OMNI-202"
+      ],
+      "assumption_ids": [],
+      "consequence": "No demographic probability follows from logical coherence alone.",
+      "assurance_status": "open",
+      "public_provenance": "Editorial qualification; no private source excerpts imported."
+    },
+    {
+      "id": "CLM-013",
+      "kind": "definition",
+      "statement": "Reachable exit is weaker than eventual exit under fairness.",
+      "universe_ids": [
+        "OMNI-103"
+      ],
+      "assumption_ids": [
+        "ASM-020"
+      ],
+      "consequence": "Reachability witness cannot be reported as universal liveness.",
+      "assurance_status": "proposed",
+      "public_provenance": "Editorial qualification; no private source excerpts imported."
+    },
+    {
+      "id": "CLM-014",
+      "kind": "normative",
+      "statement": "Model-welfare protection does not establish consciousness, liability or democratic authority.",
+      "universe_ids": [
+        "OMNI-000"
+      ],
+      "assumption_ids": [],
+      "consequence": "Keep welfare, agency and public mandate as distinct records.",
+      "assurance_status": "normative",
+      "public_provenance": "Editorial qualification; no private source excerpts imported."
+    },
+    {
+      "id": "CLM-015",
+      "kind": "empirical_assumption",
+      "statement": "The original universal incumbent wedge needs a bottleneck-dependent scope.",
+      "universe_ids": [
+        "OMNI-001"
+      ],
+      "assumption_ids": [],
+      "consequence": "Read with CLM-003; do not import universal reachability from the historical definition.",
+      "assurance_status": "open",
+      "public_provenance": "Editorial qualification; no private source excerpts imported."
+    },
+    {
+      "id": "CLM-016",
+      "kind": "empirical_assumption",
+      "statement": "Verification as the sole binding constraint is a conditional claim requiring domain evidence.",
+      "universe_ids": [
+        "OMNI-001",
+        "OMNI-301",
+        "OMNI-401"
+      ],
+      "assumption_ids": [],
+      "consequence": "Physical throughput, demand or resources can bind instead; evaluate rather than assume universal dominance.",
+      "assurance_status": "open",
+      "public_provenance": "Editorial qualification; no private source excerpts imported."
+    },
+    {
+      "id": "CLM-017",
+      "kind": "conditional_mechanism",
+      "statement": "Cheaper creation can increase supply while demand/distribution remain costly; the proposed economic chain needs product-specific evidence.",
+      "universe_ids": [
+        "OMNI-001",
+        "OMNI-201",
+        "OMNI-202",
+        "OMNI-401"
+      ],
+      "assumption_ids": [
+        "ASM-023",
+        "ASM-024"
+      ],
+      "consequence": "Do not infer paying demand, margins or owned distribution from cheaper generation alone.",
+      "assurance_status": "open",
+      "public_provenance": "Editorial qualification; no private source excerpts imported."
+    },
+    {
+      "id": "CLM-018",
+      "kind": "conditional_mechanism",
+      "statement": "A low-capital digital bootstrap does not establish financing sufficiency for regulated physical expansion.",
+      "universe_ids": [
+        "OMNI-001",
+        "OMNI-201",
+        "OMNI-202",
+        "OMNI-401"
+      ],
+      "assumption_ids": [
+        "ASM-025",
+        "ASM-027"
+      ],
+      "consequence": "Treat founder cashflow and ownership of a physical productive asset as separate capital cases.",
+      "assurance_status": "open",
+      "public_provenance": "Editorial qualification; no private source excerpts imported."
+    },
+    {
+      "id": "CLM-019",
+      "kind": "conditional_mechanism",
+      "statement": "Specifying and evaluating outcomes is an operating design whose success depends on meaningful affordable verification.",
+      "universe_ids": [
+        "OMNI-001",
+        "OMNI-201",
+        "OMNI-202",
+        "OMNI-401",
+        "OMNI-301"
+      ],
+      "assumption_ids": [
+        "ASM-026"
+      ],
+      "consequence": "A specification or passing proxy cannot establish correctness of an unmeasured real-world outcome.",
+      "assurance_status": "open",
+      "public_provenance": "Editorial qualification; no private source excerpts imported."
+    },
+    {
+      "id": "CLM-020",
+      "kind": "conditional_mechanism",
+      "statement": "Deployment in regulated domains depends on liability and acceptance as well as technical performance.",
+      "universe_ids": [
+        "OMNI-001",
+        "OMNI-201",
+        "OMNI-202",
+        "OMNI-401"
+      ],
+      "assumption_ids": [
+        "ASM-026",
+        "ASM-027"
+      ],
+      "consequence": "Do not transfer a successful software benchmark into healthcare/financial authorisation or insurability.",
+      "assurance_status": "open",
+      "public_provenance": "Editorial qualification; no private source excerpts imported."
+    },
+    {
+      "id": "CLM-021",
+      "kind": "conditional_mechanism",
+      "statement": "Greenfield redesign avoids some retrofit costs but does not establish zero learning cost or a guaranteed head start.",
+      "universe_ids": [
+        "OMNI-001",
+        "OMNI-201",
+        "OMNI-202",
+        "OMNI-401"
+      ],
+      "assumption_ids": [
+        "ASM-028"
+      ],
+      "consequence": "The historical analogy motivates a hypothesis, not an elapsed-time multiplier or universal productivity theorem.",
+      "assurance_status": "open",
+      "public_provenance": "Editorial qualification; no private source excerpts imported."
+    },
+    {
+      "id": "CLM-022",
+      "kind": "conditional_mechanism",
+      "statement": "Team size and 80/20 allocations are workload-dependent heuristics; later evidence changes which human work remains.",
+      "universe_ids": [
+        "OMNI-001",
+        "OMNI-201",
+        "OMNI-202",
+        "OMNI-401",
+        "OMNI-301"
+      ],
+      "assumption_ids": [
+        "ASM-029"
+      ],
+      "consequence": "Use measured task performance and review cost; do not formalise a rhetorical ratio as a universal constant.",
+      "assurance_status": "open",
+      "public_provenance": "Editorial qualification; no private source excerpts imported."
+    },
+    {
+      "id": "CLM-023",
+      "kind": "conditional_mechanism",
+      "statement": "Planning and review allocations are workload-dependent and need revision when independently measured bottlenecks change.",
+      "universe_ids": [
+        "OMNI-000",
+        "OMNI-001",
+        "OMNI-301",
+        "OMNI-401"
+      ],
+      "assumption_ids": [
+        "ASM-029"
+      ],
+      "consequence": "Measure the chosen workload; do not silently impose a universal allocation or erase the later qualification.",
+      "assurance_status": "open",
+      "public_provenance": "Editorial qualification; no private source excerpts imported.",
+      "public_version": 2
+    },
+    {
+      "id": "CLM-024",
+      "kind": "conditional_mechanism",
+      "statement": "Planning and review allocations are workload-dependent and need revision when independently measured bottlenecks change.",
+      "universe_ids": [
+        "OMNI-000",
+        "OMNI-001",
+        "OMNI-301",
+        "OMNI-401"
+      ],
+      "assumption_ids": [
+        "ASM-029"
+      ],
+      "consequence": "Measure the chosen workload; do not silently impose a universal allocation or erase the later qualification.",
+      "assurance_status": "open",
+      "public_provenance": "Editorial qualification; no private source excerpts imported.",
+      "public_version": 2
+    }
+  ]
+}

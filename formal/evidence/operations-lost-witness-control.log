@@ -1,0 +1,32 @@
+POST_AI_CAPTURE {"id":"operations-lost-witness-control","inputs":{"formal/AuthorityContract.tla":"3088e210ea05ecd6f2505c6d941f0ac894fbd6f73645a5a87a8a987b6916a93d","formal/ExpansionContract.tla":"bca680c8c314f9f375f7d258b3a2d681351e3f95985abd2abe82c78e91898af4","formal/OperationalGates.tla":"81f37f2a6403526260059cf086cb830955fd830eb39375ecd2400ac7a455d545","formal/Vocabulary.tla":"12f476dc3de140961c40819018faa4d6b7abfe75f8f4fe4369bb1b99327909b7","formal/operations-lost-witness-control.cfg":"c9d6c0f6355667ddaf8ad1053f1143aaf68b8f70d3070186088dc679b7c4bdd9"},"model":"OperationalGates"}
+TLC2 Version 2.19 of 08 August 2024 (rev: 5a47802)
+Warning: Please run the Java VM which executes TLC with a throughput optimized garbage collector by passing the "-XX:+UseParallelGC" property.
+(Use the -nowarning option to disable this warning.)
+Running breadth-first search Model-Checking with fp 111 and seed 1 with 1 worker on 10 cores with 512MB heap and 64MB offheap memory [pid: 99254] (Mac OS X 27.2 aarch64, Homebrew 27.0.1.0.3 x86_64, MSBDiskFPSet, DiskStateQueue).
+Parsing file /private/tmp/post-ai-tlc-050rc9gy/OperationalGates.tla
+Parsing file /private/tmp/post-ai-tlc-050rc9gy/Vocabulary.tla
+Parsing file /private/tmp/post-ai-tlc-050rc9gy/jvm/TLC.tla
+Parsing file /private/tmp/post-ai-tlc-050rc9gy/jvm/Naturals.tla
+Parsing file /private/tmp/post-ai-tlc-050rc9gy/jvm/FiniteSets.tla
+Parsing file /private/tmp/post-ai-tlc-050rc9gy/ExpansionContract.tla
+Parsing file /private/tmp/post-ai-tlc-050rc9gy/AuthorityContract.tla
+Parsing file /private/tmp/post-ai-tlc-050rc9gy/jvm/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module Vocabulary
+Semantic processing of module TLC
+Semantic processing of module ExpansionContract
+Semantic processing of module AuthorityContract
+Semantic processing of module OperationalGates
+Starting... (2026-11-06 19:45:42)
+Computing initial states...
+Finished computing initial states: 1 distinct state generated at 2026-11-06 19:45:43.
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 2.8E-13
+5557 states generated, 1188 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 12.
+The average outdegree of the complete state graph is 1 (minimum is 0, the maximum 10 and the 95th percentile is 4).
+Finished in 00s at (2026-11-06 19:45:43)

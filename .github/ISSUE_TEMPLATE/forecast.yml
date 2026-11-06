@@ -1,0 +1,38 @@
+name: Forecast proposal
+description: Propose a prospective, resolvable question without registering it automatically.
+title: "[Forecast proposal] "
+body:
+  - type: markdown
+    attributes:
+      value: "Please write in English. This form proposes a question; it does not register odds or change an existing forecast. Clearly label any field that still needs design."
+  - type: textarea
+    id: event
+    attributes:
+      label: Future event and scope
+      description: Define what would count, including jurisdiction, population or domain where relevant. Link any assumptions or OMNI IDs.
+    validations:
+      required: true
+  - type: textarea
+    id: timing
+    attributes:
+      label: Observation window and deadline
+      description: Give proposed dates and explain how already-realised events will be excluded. Mark unresolved dates as needing design.
+    validations:
+      required: true
+  - type: textarea
+    id: resolution
+    attributes:
+      label: Resolution criteria
+      description: Name admissible evidence, exclusions and the outcome when evidence is missing or a conditional premise never occurs.
+    validations:
+      required: true
+  - type: textarea
+    id: arguments
+    attributes:
+      label: Supporting and opposing cases
+      description: Include public sources, a possible reference class and why the question might resolve either way. Separate measured base rates from subjective judgment.
+  - type: textarea
+    id: odds
+    attributes:
+      label: Optional probability and update triggers
+      description: Explain any proposed odds, uncertainty and evidence that would change them. No probability is required to propose a question.

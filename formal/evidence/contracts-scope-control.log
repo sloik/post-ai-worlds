@@ -1,0 +1,41 @@
+POST_AI_CAPTURE {"id":"contracts-scope-control","inputs":{"formal/RegistrySnapshot.tla":"42ddd83eea806d2aa9926b2c9861ecaa2f64be5eaaf3134d7575e67ed73a4f37","formal/ScenarioContracts.tla":"474affd8f49e2ea4344be81ac53de368abb35b93c91959a9657c4221fa3ccc16","formal/Vocabulary.tla":"12f476dc3de140961c40819018faa4d6b7abfe75f8f4fe4369bb1b99327909b7","formal/contracts-scope-control.cfg":"2ee5927a88bc0e23622fab8e69765bd03ff5141778fe2b4d82931467318949e0"},"model":"ScenarioContracts"}
+TLC2 Version 2.19 of 08 August 2024 (rev: 5a47802)
+Warning: Please run the Java VM which executes TLC with a throughput optimized garbage collector by passing the "-XX:+UseParallelGC" property.
+(Use the -nowarning option to disable this warning.)
+Running breadth-first search Model-Checking with fp 87 and seed 1 with 1 worker on 10 cores with 512MB heap and 64MB offheap memory [pid: 98622] (Mac OS X 27.2 aarch64, Homebrew 27.0.1.0.3 x86_64, MSBDiskFPSet, DiskStateQueue).
+Parsing file /private/tmp/post-ai-tlc-zul4hmtw/ScenarioContracts.tla
+Parsing file /private/tmp/post-ai-tlc-zul4hmtw/Vocabulary.tla
+Parsing file /private/tmp/post-ai-tlc-zul4hmtw/RegistrySnapshot.tla
+Parsing file /private/tmp/post-ai-tlc-zul4hmtw/jvm/TLC.tla
+Parsing file /private/tmp/post-ai-tlc-zul4hmtw/jvm/Naturals.tla
+Parsing file /private/tmp/post-ai-tlc-zul4hmtw/jvm/FiniteSets.tla
+Parsing file /private/tmp/post-ai-tlc-zul4hmtw/jvm/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module Vocabulary
+Semantic processing of module RegistrySnapshot
+Semantic processing of module TLC
+Semantic processing of module ScenarioContracts
+Starting... (2026-11-06 19:45:35)
+Computing initial states...
+Finished computing initial states: 1 distinct state generated at 2026-11-06 19:45:35.
+Error: Invariant ScopeSound is violated.
+Error: The behavior up to this point is:
+State 1: <Initial predicate>
+/\ checked = FALSE
+/\ selectedBranch = "none"
+/\ accepted = "none"
+/\ version = 0
+/\ proofVersion = 0
+
+State 2: <Import line 8, col 16 to line 11, col 60 of module ScenarioContracts>
+/\ checked = FALSE
+/\ selectedBranch = "OMNI-000"
+/\ accepted = "CLM-002"
+/\ version = 0
+/\ proofVersion = 0
+
+22 states generated, 12 distinct states found, 10 states left on queue.
+The depth of the complete state graph search is 2.
+Finished in 00s at (2026-11-06 19:45:35)
