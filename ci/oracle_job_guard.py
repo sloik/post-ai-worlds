@@ -36,9 +36,21 @@ def admit(env, event):
     )
 
 
+def unique_object(pairs):
+    result = {}
+    for key, value in pairs:
+        if key in result:
+            raise ValueError("duplicate event key")
+        result[key] = value
+    return result
+
+
 def main():
     try:
-        event = json.loads(Path(os.environ["GITHUB_EVENT_PATH"]).read_text())
+        event = json.loads(
+            Path(os.environ["GITHUB_EVENT_PATH"]).read_text(),
+            object_pairs_hook=unique_object,
+        )
         accepted = isinstance(event, dict) and admit(os.environ, event)
     except (OSError, KeyError, ValueError, TypeError, AttributeError):
         accepted = False

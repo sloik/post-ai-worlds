@@ -135,6 +135,26 @@ class OracleGuardTests(unittest.TestCase):
         self.assertEqual(result.returncode, 1)
         self.assertIn("rejected", result.stdout)
 
+    def test_cli_duplicate_deleted_key(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            p = Path(tmp) / "event.json"
+            p.write_text(
+                json.dumps(self.event).replace(
+                    '"deleted": false', '"deleted": true, "deleted": false'
+                )
+            )
+            result = self.cli(p)
+        self.assertEqual(result.returncode, 1)
+        self.assertIn("rejected", result.stdout)
+
+    def test_cli_duplicate_other_key(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            p = Path(tmp) / "event.json"
+            p.write_text(json.dumps(self.event)[:-1] + ', "extra":1,"extra":2}')
+            result = self.cli(p)
+        self.assertEqual(result.returncode, 1)
+        self.assertIn("rejected", result.stdout)
+
 
 if __name__ == "__main__":
     unittest.main()
