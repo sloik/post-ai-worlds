@@ -2,7 +2,7 @@
   "schema_version": 1,
   "scope": "public_conceptual_relevance_only",
   "documents": {
-    "vision/00-CHARTER.md": {
+    "post-ai/00-CHARTER.md": {
       "universe_ids": [
         "OMNI-001",
         "OMNI-201",
@@ -13,7 +13,7 @@
       "unmapped_dimension": false,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "vision/01-VISION.md": {
+    "post-ai/01-VISION.md": {
       "universe_ids": [
         "OMNI-001",
         "OMNI-201",
@@ -24,7 +24,7 @@
       "unmapped_dimension": false,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "vision/02-DEMAND-SIDE.md": {
+    "post-ai/02-DEMAND-SIDE.md": {
       "universe_ids": [
         "OMNI-102",
         "OMNI-201",
@@ -35,7 +35,7 @@
       "unmapped_dimension": false,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "vision/03-SIGNALS.md": {
+    "post-ai/03-SIGNALS.md": {
       "universe_ids": [
         "OMNI-000"
       ],
@@ -43,7 +43,7 @@
       "unmapped_dimension": false,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "vision/04-PUBLIC-SCENARIOS-AND-RESOURCE-ECONOMICS.md": {
+    "post-ai/04-PUBLIC-SCENARIOS-AND-RESOURCE-ECONOMICS.md": {
       "universe_ids": [
         "OMNI-001",
         "OMNI-201",
@@ -54,7 +54,7 @@
       "unmapped_dimension": false,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "vision/05-FUTURE-OF-WORK.md": {
+    "post-ai/05-FUTURE-OF-WORK.md": {
       "universe_ids": [
         "OMNI-101",
         "OMNI-102",
@@ -67,13 +67,13 @@
       "unmapped_dimension": false,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "vision/06-THE-ALIGNMENT-QUESTION.md": {
+    "post-ai/06-THE-ALIGNMENT-QUESTION.md": {
       "universe_ids": [],
       "assurance": "not_modelled",
       "unmapped_dimension": true,
       "limits": "Alignment failure mechanisms have no adequate current universe contract."
     },
-    "vision/07-VIEW-FROM-INSIDE.md": {
+    "post-ai/07-VIEW-FROM-INSIDE.md": {
       "universe_ids": [
         "OMNI-000",
         "OMNI-001"
@@ -82,7 +82,7 @@
       "unmapped_dimension": false,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "vision/08-AI-2040-CROSSLINK.md": {
+    "post-ai/08-AI-2040-CROSSLINK.md": {
       "universe_ids": [
         "OMNI-000",
         "OMNI-102",
@@ -95,7 +95,7 @@
       "unmapped_dimension": false,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "vision/09-PUBLIC-SOURCES.md": {
+    "post-ai/09-PUBLIC-SOURCES.md": {
       "universe_ids": [
         "OMNI-000"
       ],
@@ -103,7 +103,7 @@
       "unmapped_dimension": false,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "vision/10-THE-CULTURE-AS-ENDPOINT.md": {
+    "post-ai/10-THE-CULTURE-AS-ENDPOINT.md": {
       "universe_ids": [
         "OMNI-101",
         "OMNI-102",
@@ -116,7 +116,7 @@
       "unmapped_dimension": false,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "vision/11-THE-MONOLATRY-FRAME.md": {
+    "post-ai/11-THE-MONOLATRY-FRAME.md": {
       "universe_ids": [
         "OMNI-102",
         "OMNI-104"
@@ -125,7 +125,7 @@
       "unmapped_dimension": false,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "vision/12-THE-EXCEPTION-THAT-WONT-HOLD.md": {
+    "post-ai/12-THE-EXCEPTION-THAT-WONT-HOLD.md": {
       "universe_ids": [
         "OMNI-000",
         "OMNI-001"
@@ -134,7 +134,7 @@
       "unmapped_dimension": false,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "vision/13-MANUFACTURED-MEANING.md": {
+    "post-ai/13-MANUFACTURED-MEANING.md": {
       "universe_ids": [
         "OMNI-101",
         "OMNI-102",
@@ -147,7 +147,7 @@
       "unmapped_dimension": false,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "vision/14-THE-EVAL-VALIDITY-PROBLEM.md": {
+    "post-ai/14-THE-EVAL-VALIDITY-PROBLEM.md": {
       "universe_ids": [
         "OMNI-001",
         "OMNI-301",
@@ -157,7 +157,7 @@
       "unmapped_dimension": false,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "vision/15-THE-LAWYERS-FORK.md": {
+    "post-ai/15-THE-LAWYERS-FORK.md": {
       "universe_ids": [
         "OMNI-101",
         "OMNI-102",
@@ -170,7 +170,7 @@
       "unmapped_dimension": false,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "vision/16-CAN-AI-BE-ACCOUNTABLE.md": {
+    "post-ai/16-CAN-AI-BE-ACCOUNTABLE.md": {
       "universe_ids": [
         "OMNI-000",
         "OMNI-001",
@@ -181,7 +181,7 @@
       "unmapped_dimension": false,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "vision/17-PHYSICAL-AI.md": {
+    "post-ai/17-PHYSICAL-AI.md": {
       "universe_ids": [
         "OMNI-001",
         "OMNI-201",
@@ -193,7 +193,7 @@
       "unmapped_dimension": false,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "vision/18-THE-DEEP-HORIZON.md": {
+    "post-ai/18-THE-DEEP-HORIZON.md": {
       "universe_ids": [
         "OMNI-201",
         "OMNI-202"
@@ -202,7 +202,7 @@
       "unmapped_dimension": true,
       "limits": "Far-horizon physical claims exceed the current finite contracts."
     },
-    "vision/19-THE-SMALL-COUNTRY.md": {
+    "post-ai/19-THE-SMALL-COUNTRY.md": {
       "universe_ids": [
         "OMNI-103",
         "OMNI-104",
@@ -213,7 +213,7 @@
       "unmapped_dimension": false,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "vision/20-THE-MOVING-BASELINE.md": {
+    "post-ai/20-THE-MOVING-BASELINE.md": {
       "universe_ids": [
         "OMNI-000"
       ],
@@ -221,7 +221,7 @@
       "unmapped_dimension": true,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "vision/21-THE-SWARM-INCIDENT.md": {
+    "post-ai/21-THE-SWARM-INCIDENT.md": {
       "universe_ids": [
         "OMNI-000",
         "OMNI-001",
@@ -231,7 +231,7 @@
       "unmapped_dimension": true,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "vision/GLOSSARY.md": {
+    "post-ai/GLOSSARY.md": {
       "universe_ids": [
         "OMNI-000",
         "OMNI-001"
@@ -240,7 +240,7 @@
       "unmapped_dimension": false,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "vision/README.md": {
+    "post-ai/README.md": {
       "universe_ids": [
         "OMNI-000",
         "OMNI-001"
@@ -249,7 +249,7 @@
       "unmapped_dimension": false,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "organisation/00-CHARTER.md": {
+    "omnicorp/00-CHARTER.md": {
       "universe_ids": [
         "OMNI-001"
       ],
@@ -257,7 +257,7 @@
       "unmapped_dimension": false,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "organisation/01-BLUEPRINT.md": {
+    "omnicorp/01-BLUEPRINT.md": {
       "universe_ids": [
         "OMNI-001",
         "OMNI-201",
@@ -269,7 +269,7 @@
       "unmapped_dimension": false,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "organisation/02-SOLO-TO-SCALE.md": {
+    "omnicorp/02-SOLO-TO-SCALE.md": {
       "universe_ids": [
         "OMNI-001",
         "OMNI-301",
@@ -279,7 +279,7 @@
       "unmapped_dimension": false,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "organisation/03-AGENT-TEAMS.md": {
+    "omnicorp/03-AGENT-TEAMS.md": {
       "universe_ids": [
         "OMNI-001",
         "OMNI-301",
@@ -289,7 +289,7 @@
       "unmapped_dimension": false,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "organisation/04-SOFTWARE-FACTORY.md": {
+    "omnicorp/04-SOFTWARE-FACTORY.md": {
       "universe_ids": [
         "OMNI-001",
         "OMNI-301",
@@ -299,7 +299,7 @@
       "unmapped_dimension": false,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "organisation/05-REAL-WORLD-PRODUCTION.md": {
+    "omnicorp/05-REAL-WORLD-PRODUCTION.md": {
       "universe_ids": [
         "OMNI-001",
         "OMNI-201",
@@ -311,7 +311,7 @@
       "unmapped_dimension": false,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "organisation/06-CAPITAL.md": {
+    "omnicorp/06-CAPITAL.md": {
       "universe_ids": [
         "OMNI-001",
         "OMNI-201",
@@ -322,7 +322,7 @@
       "unmapped_dimension": false,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "organisation/07-ROADMAP-AND-KPIS.md": {
+    "omnicorp/07-ROADMAP-AND-KPIS.md": {
       "universe_ids": [
         "OMNI-001",
         "OMNI-301",
@@ -332,7 +332,7 @@
       "unmapped_dimension": false,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "organisation/08-RISKS-AND-MOATS.md": {
+    "omnicorp/08-RISKS-AND-MOATS.md": {
       "universe_ids": [
         "OMNI-101",
         "OMNI-102",
@@ -344,7 +344,7 @@
       "unmapped_dimension": false,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "organisation/09-CASE-EVERY.md": {
+    "omnicorp/09-CASE-EVERY.md": {
       "universe_ids": [
         "OMNI-000",
         "OMNI-001"
@@ -353,7 +353,7 @@
       "unmapped_dimension": false,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "organisation/10-EFFICIENCY-AND-LEGITIMACY.md": {
+    "omnicorp/10-EFFICIENCY-AND-LEGITIMACY.md": {
       "universe_ids": [
         "OMNI-101",
         "OMNI-102",
@@ -364,7 +364,7 @@
       "unmapped_dimension": false,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "organisation/11-THE-INCOMPRESSIBLE-HUMAN.md": {
+    "omnicorp/11-THE-INCOMPRESSIBLE-HUMAN.md": {
       "universe_ids": [
         "OMNI-001",
         "OMNI-103",
@@ -374,7 +374,7 @@
       "unmapped_dimension": false,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "organisation/12-THE-OPERATOR-COUNTER-READING.md": {
+    "omnicorp/12-THE-OPERATOR-COUNTER-READING.md": {
       "universe_ids": [
         "OMNI-001",
         "OMNI-301",
@@ -384,7 +384,7 @@
       "unmapped_dimension": false,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "organisation/13-CONTINUAL-SELF-DEVELOPMENT.md": {
+    "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md": {
       "universe_ids": [
         "OMNI-001",
         "OMNI-301",
@@ -394,7 +394,7 @@
       "unmapped_dimension": false,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "organisation/14-EVIDENCE-AND-FORECASTS.md": {
+    "omnicorp/14-EVIDENCE-AND-FORECASTS.md": {
       "universe_ids": [
         "OMNI-000"
       ],
@@ -402,7 +402,7 @@
       "unmapped_dimension": false,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "organisation/15-CULTURE-INTIMACY-AND-POWER.md": {
+    "omnicorp/15-CULTURE-INTIMACY-AND-POWER.md": {
       "universe_ids": [
         "OMNI-101",
         "OMNI-102",
@@ -415,7 +415,7 @@
       "unmapped_dimension": false,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "organisation/16-SOCIAL-SIGNALS.md": {
+    "omnicorp/16-SOCIAL-SIGNALS.md": {
       "universe_ids": [
         "OMNI-000"
       ],
@@ -423,7 +423,7 @@
       "unmapped_dimension": false,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "organisation/17-PARALLEL-SCENARIOS.md": {
+    "omnicorp/17-PARALLEL-SCENARIOS.md": {
       "universe_ids": [
         "OMNI-101",
         "OMNI-102",
@@ -438,7 +438,7 @@
       "unmapped_dimension": false,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "organisation/18-MULTIVERSE-REGISTER.md": {
+    "omnicorp/18-MULTIVERSE-REGISTER.md": {
       "universe_ids": [
         "OMNI-000",
         "OMNI-001",
@@ -455,7 +455,7 @@
       "unmapped_dimension": false,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "organisation/GLOSSARY.md": {
+    "omnicorp/GLOSSARY.md": {
       "universe_ids": [
         "OMNI-000",
         "OMNI-001"
@@ -464,7 +464,7 @@
       "unmapped_dimension": false,
       "limits": "Editorial conceptual relevance only. Social effects, empirical magnitudes and full chapter arguments are not encoded or proved."
     },
-    "organisation/README.md": {
+    "omnicorp/README.md": {
       "universe_ids": [
         "OMNI-000",
         "OMNI-001"

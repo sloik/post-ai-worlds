@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please credit Post-AI Era Vision and Omnicorp when reusing this work; see ATTRIBUTION.md for the licence scope and examples."
+title: "Post-AI Era Vision & Omnicorp (Post-AI Worlds)"
+authors:
+  - family-names: "Stocki"
+    given-names: "Łukasz"
+repository-code: "https://github.com/sloik/post-ai-worlds"
+url: "https://github.com/sloik/post-ai-worlds"
+license:
+  - CC-BY-4.0
+  - MIT

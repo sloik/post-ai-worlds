@@ -1,0 +1,13 @@
+# Manual forecast review queue
+
+Next review: **2027-02-05**, or earlier on material evidence. Owner: Łukasz with Argo. No automation is active.
+
+- Review all four registered questions against their frozen prospective criteria, source lineage and opposing cases.
+- Retain the initial estimate; append a dated probability update with rationale, or record why no change is warranted.
+- Material criterion changes require a superseding question, never editing an issued record.
+- Resolve research and physical-component questions after 2028-12-31; improvement-loop after 2029-12-31; production-loop after 2030-12-31 (23:59 UTC deadlines).
+- Retain outcome evidence and score resolved questions with Brier loss. Four unresolved forecasts cannot establish calibration.
+- **Criteria decision (2026-11-06, delegated to Argo by the owner):** at the 2027-02-05 review, register a superseding independent-research question (criteria v1.1). Formal verification counts only when an unaffiliated expert publicly confirms that the formal statement matches the claimed result, prompted by the Navier–Stokes Lean-translation dispute (arXiv:2610.08144). It waits for the scheduled review because nothing in the window, which opened 2026-11-06, can have qualified yet. A full superforecasting pass is needed to issue a probability. v1.0 stays in the ledger as issued.
+- **Evidence added 2026-11-06, no probability change:** METR AI R&D acceleration assessment (improvement-loop context; redacted, method-dependent 1.1–2.9x, self-reported 12x is loose evidence); Navier–Stokes claim and challenge (independent-research context; both predate the window).
+
+Canonical public records: [frozen issued export](forecasts/2026-11-05-records.json) and [website snapshot](../website/content/observatory.json). Earlier private calculation/source ledgers remain historical and are not required to read these public records. Rebuild the canonical website after accepted snapshot changes; retain the immutable initial export.

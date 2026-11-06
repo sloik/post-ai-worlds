@@ -1,0 +1,731 @@
+{
+  "reviewed_on": "2026-11-06",
+  "summary": "Public access, practical development and mathematical work have advanced. Adoption, reliability, research discovery and sustained model improvement remain distinct claims.",
+  "events": [
+    {
+      "id": "chatgpt",
+      "date": "2022-11-30",
+      "title": "The GPT moment: ChatGPT reaches the public",
+      "lane": "Public access",
+      "claim": "OpenAI released ChatGPT as a free research preview, with a conversational interface for questions, follow-ups and drafts.",
+      "interpretation": "Our public-access turning point: many people could directly encounter conversational AI.",
+      "limit": "Not the invention of GPT or the first use of AI. The announcement acknowledged plausible incorrect answers and sensitivity to phrasing.",
+      "source": "https://openai.com/index/chatgpt/",
+      "source_title": "OpenAI — Introducing ChatGPT",
+      "lineage": "OpenAI",
+      "evidence": "Public product release",
+      "affects": [
+        "production-loop"
+      ],
+      "assessed_on": "2026-11-05",
+      "motion": "support",
+      "direction": "Dated milestone / bounded evidence",
+      "comparison": "Evidence for the initial forecast assessment on 5 November 2026; not retrospectively credited as a successful prediction."
+    },
+    {
+      "id": "imo-silver",
+      "date": "2024-07-25",
+      "title": "AI proofs reach IMO silver standard",
+      "lane": "Scientific work",
+      "claim": "DeepMind reported AlphaProof and AlphaGeometry 2 solving four of six IMO problems at silver-medal standard, with expert scoring.",
+      "interpretation": "A concrete advance in difficult mathematical arguments, including formally checked solutions.",
+      "limit": "Experts translated problems into formal language; some solutions took up to three days. Contest reasoning is not general research autonomy.",
+      "source": "https://deepmind.google/blog/ai-solves-imo-problems-at-silver-medal-level/",
+      "source_title": "DeepMind — IMO silver-standard result",
+      "lineage": "Google DeepMind",
+      "evidence": "Contest proofs / expert assessment",
+      "affects": [
+        "independent-research"
+      ],
+      "assessed_on": "2026-11-05",
+      "motion": "support",
+      "direction": "Dated milestone / bounded evidence",
+      "comparison": "Evidence for the initial forecast assessment on 5 November 2026; not retrospectively credited as a successful prediction."
+    },
+    {
+      "id": "metr-horizons",
+      "date": "2025-03-19",
+      "assessed_on": "2026-11-05",
+      "title": "Measuring longer autonomous tasks",
+      "lane": "Autonomous work",
+      "direction": "Capability signal",
+      "evidence": "Research-group measurement",
+      "lineage": "METR",
+      "claim": "METR reports increasing task-completion horizons on its software and reasoning task suite.",
+      "interpretation": "This supports tracking sustained task completion rather than exam scores alone.",
+      "limit": "The result is tied to a particular task distribution and reliability threshold. It does not establish dependable real-world project autonomy.",
+      "comparison": "Context for a future autonomy forecast; no registered probability changed in this review.",
+      "source": "https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/",
+      "source_title": "METR — Measuring AI Ability to Complete Long Software Tasks",
+      "affects": [
+        "production-loop"
+      ],
+      "motion": "support"
+    },
+    {
+      "id": "alphaevolve",
+      "date": "2025-05-14",
+      "title": "Algorithms discovered through executable evaluation",
+      "lane": "Scientific work",
+      "claim": "DeepMind introduced AlphaEvolve, combining model-generated programs with automated evaluation and evolutionary search, and reported new algorithmic results.",
+      "interpretation": "A route from candidate ideas to outputs that a precise evaluator can check.",
+      "limit": "A suitable evaluator and bounded search space remain essential. Improvements to programs are not successive improvements to model weights.",
+      "source": "https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/",
+      "source_title": "DeepMind — AlphaEvolve",
+      "lineage": "Google DeepMind",
+      "evidence": "Research system / executable evaluation",
+      "affects": [
+        "independent-research",
+        "improvement-loop"
+      ],
+      "assessed_on": "2026-11-05",
+      "motion": "support",
+      "direction": "Dated milestone / bounded evidence",
+      "comparison": "Evidence for the initial forecast assessment on 5 November 2026; not retrospectively credited as a successful prediction."
+    },
+    {
+      "id": "metr-productivity",
+      "date": "2025-07-10",
+      "assessed_on": "2026-11-05",
+      "title": "A reality check on developer productivity",
+      "lane": "Real-world usefulness",
+      "direction": "Counterevidence to simple extrapolation",
+      "evidence": "Randomized experiment",
+      "lineage": "METR",
+      "claim": "In METR's early-2025 study, experienced developers working in familiar open-source repositories took longer with the available AI tools.",
+      "interpretation": "Benchmark progress and practical productivity are different claims; this setting challenged a simple assumption that AI assistance necessarily accelerates work.",
+      "limit": "This is a historical result for a particular group, tools and setting. It is not a claim that current AI slows developers generally; read the February 2026 follow-up alongside it.",
+      "comparison": "A limiting observation, not a resolved singularity forecast. No retrospective probability update is recorded.",
+      "source": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/",
+      "source_title": "METR — Early-2025 Developer Productivity Study",
+      "affects": [
+        "production-loop"
+      ],
+      "motion": "challenge"
+    },
+    {
+      "id": "imo-gold",
+      "date": "2025-07-21",
+      "title": "Natural-language proofs reach IMO gold standard",
+      "lane": "Scientific work",
+      "claim": "An advanced Gemini Deep Think system solved five of six IMO problems, scoring 35 of 42 under official grading.",
+      "interpretation": "Progress toward rigorous natural-language proofs under the contest time limit.",
+      "limit": "A research configuration on contest problems is not a generally available model or proof of novel research capability.",
+      "source": "https://deepmind.google/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/",
+      "source_title": "DeepMind — IMO gold-standard result",
+      "lineage": "Google DeepMind",
+      "evidence": "Contest proofs / official grading",
+      "affects": [
+        "independent-research"
+      ],
+      "assessed_on": "2026-11-05",
+      "motion": "support",
+      "direction": "Dated milestone / bounded evidence",
+      "comparison": "Evidence for the initial forecast assessment on 5 November 2026; not retrospectively credited as a successful prediction."
+    },
+    {
+      "id": "opus-45",
+      "date": "2025-11-24",
+      "title": "Opus 4.5: from conversation to working partner",
+      "lane": "Real-world usefulness",
+      "claim": "Anthropic released Claude Opus 4.5 with reported improvements in software engineering, agents and computer use.",
+      "interpretation": "Omnicorp’s reading: a developer-work turning point, when delegating substantial work to AI became more compelling to us.",
+      "limit": "An attributed interpretation, not a measured community-wide adoption threshold. GitHub Copilot was already available in technical preview in June 2021 and generally in June 2022. Vendor testimonials are not independent productivity studies.",
+      "source": "https://www.anthropic.com/news/claude-opus-4-5",
+      "source_title": "Anthropic — Introducing Claude Opus 4.5",
+      "lineage": "Anthropic",
+      "evidence": "Public release / Omnicorp interpretation",
+      "affects": [
+        "production-loop"
+      ],
+      "assessed_on": "2026-11-05",
+      "motion": "support",
+      "direction": "Dated milestone / bounded evidence",
+      "comparison": "Evidence for the initial forecast assessment on 5 November 2026; not retrospectively credited as a successful prediction."
+    },
+    {
+      "id": "first-proof-correction",
+      "date": "2026-02-20",
+      "title": "Research proofs meet public correction",
+      "lane": "Scientific work",
+      "claim": "OpenAI published its First Proof attempts and acknowledged that an attempt previously considered likely correct was incorrect after official commentary and community analysis.",
+      "interpretation": "Expert review can lower confidence. Corrections belong alongside successful proofs.",
+      "limit": "Evidence about particular attempts, not a claim that all AI mathematics fails. Confidence before review is not a proof.",
+      "source": "https://openai.com/index/first-proof-submissions/",
+      "source_title": "OpenAI — First Proof submissions",
+      "lineage": "OpenAI",
+      "evidence": "Public research attempt / correction",
+      "affects": [
+        "independent-research"
+      ],
+      "assessed_on": "2026-11-05",
+      "motion": "challenge",
+      "direction": "Public correction",
+      "comparison": "Evidence for the initial forecast assessment on 5 November 2026; not retrospectively credited as a successful prediction."
+    },
+    {
+      "id": "metr-followup",
+      "date": "2026-02-24",
+      "assessed_on": "2026-11-05",
+      "title": "The measurement needs to change, too",
+      "lane": "Real-world usefulness",
+      "direction": "Mixed / measurement uncertainty",
+      "evidence": "Research-group follow-up",
+      "lineage": "METR",
+      "claim": "METR says selection effects and time-measurement issues make its follow-up an unreliable signal of the current productivity effect. The authors consider increased speedup plausible, while describing the evidence for its size as weak.",
+      "interpretation": "This weakens using the earlier slowdown as a present-day conclusion, without replacing it with a well-measured acceleration estimate.",
+      "limit": "Participant selection and changing workflows complicate comparison. This is the same research lineage as the earlier study, not an independent replication.",
+      "comparison": "Revises how we interpret the July 2025 result. No numerical forecast revision is inferred.",
+      "source": "https://metr.org/blog/2026-02-24-uplift-update/",
+      "source_title": "METR — Changing the Developer Productivity Experiment Design",
+      "affects": [
+        "production-loop"
+      ],
+      "motion": "mixed"
+    },
+    {
+      "id": "zeta-result",
+      "date": "2026-08-10",
+      "title": "A new result about zeta-function zeros",
+      "lane": "Scientific work",
+      "claim": "Anthropic reported a new bound for zeros of the Riemann zeta function, produced with a research version of Claude and accompanied by mathematical review and formal verification.",
+      "interpretation": "A research-discovery milestone rather than another contest score; external follow-through is a separate evidence entry.",
+      "limit": "This did not prove the Riemann hypothesis. The system was a research model and the originating account came from its developer.",
+      "source": "https://www.anthropic.com/research/riemann-zeta",
+      "source_title": "Anthropic — Riemann zeta research",
+      "lineage": "Zeta result family",
+      "evidence": "Author report / mathematical verification",
+      "affects": [
+        "independent-research"
+      ],
+      "assessed_on": "2026-11-05",
+      "motion": "support",
+      "direction": "Dated milestone / bounded evidence",
+      "comparison": "Evidence for the initial forecast assessment on 5 November 2026; not retrospectively credited as a successful prediction."
+    },
+    {
+      "id": "zeta-followthrough",
+      "date": "2026-09-02",
+      "title": "Independent mathematical follow-through",
+      "lane": "Scientific work",
+      "claim": "Youness Lamzouri submitted a simpler unconditional proof of the zeta-zero bound, acknowledging Claude’s earlier result and adding further estimates.",
+      "interpretation": "External mathematical engagement is stronger evidence than the originating lab announcement alone.",
+      "limit": "Related follow-through on one result family, not a second independent AI discovery or another domain. This is a preprint; the Riemann hypothesis is not solved.",
+      "source": "https://arxiv.org/abs/2609.02882",
+      "source_title": "Lamzouri — A new proof for zeta zeros",
+      "lineage": "Zeta result family / independent follow-through",
+      "evidence": "External mathematician / primary preprint",
+      "affects": [
+        "independent-research"
+      ],
+      "assessed_on": "2026-11-05",
+      "motion": "support",
+      "direction": "Dated milestone / bounded evidence",
+      "comparison": "Evidence for the initial forecast assessment on 5 November 2026; not retrospectively credited as a successful prediction."
+    },
+    {
+      "id": "fermat-formalization",
+      "date": "2026-09-04",
+      "title": "Fermat’s Last Theorem becomes computer-checkable",
+      "lane": "Scientific work",
+      "claim": "Anthropic announced a complete Lean formalization of Fermat’s Last Theorem, produced largely autonomously over eleven days, and shared Kevin Buzzard’s assessment.",
+      "interpretation": "A substantial verification milestone: established mathematics becomes an artifact a proof checker can check.",
+      "limit": "Formalization of a known theorem, not discovery of Fermat’s Last Theorem or general autonomous mathematical research.",
+      "source": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+      "source_title": "Anthropic — Formalizing Fermat’s Last Theorem",
+      "lineage": "Anthropic / Lean formalization",
+      "evidence": "Known theorem / machine-checked formalization",
+      "affects": [
+        "independent-research"
+      ],
+      "assessed_on": "2026-11-05",
+      "motion": "support",
+      "direction": "Dated milestone / bounded evidence",
+      "comparison": "Evidence for the initial forecast assessment on 5 November 2026; not retrospectively credited as a successful prediction."
+    },
+    {
+      "id": "navier-stokes-claim",
+      "date": "2026-09-08",
+      "assessed_on": "2026-11-06",
+      "title": "A claimed Navier–Stokes blow-up proof",
+      "lane": "Scientific work",
+      "direction": "Claimed research milestone / unverified",
+      "evidence": "Developer announcement / formalization",
+      "lineage": "OpenAI",
+      "claim": "OpenAI announced that an internal model produced a proof of finite-time blow-up for the Navier–Stokes Millennium Prize problem, published with a long write-up and a Lean formalization.",
+      "interpretation": "If it holds up, it would be a far larger research claim than a contest score or a known theorem formalized. That is why it calls for independent review.",
+      "limit": "The problem remains officially open. The Clay Institute's rules require a waiting period after publication, and independent assessment was still pending as of this review. The claim predates the 6 November 2026 observation window, so it can inform forecasts but cannot resolve one.",
+      "comparison": "Recorded with its challenge (next event). No forecast revision; flagged for the manual review on 5 February 2027.",
+      "source": "https://openai.com/index/navier-stokes-solution/",
+      "source_title": "OpenAI — On the Navier–Stokes Millennium Prize Problem",
+      "affects": [
+        "independent-research"
+      ],
+      "motion": "mixed"
+    },
+    {
+      "id": "navier-stokes-translation",
+      "date": "2026-10-06",
+      "assessed_on": "2026-11-06",
+      "title": "A machine-checked proof can check the wrong statement",
+      "lane": "Scientific work",
+      "direction": "Counterevidence / verification gap",
+      "evidence": "Independent mathematicians / primary preprint",
+      "lineage": "Bastounis, Circelli and Hansen",
+      "claim": "Independent authors argue that the Lean proof accompanying OpenAI's Navier–Stokes announcement does not correspond to its natural-language proof. They give examples of AI translations into Lean that prove weaker statements.",
+      "interpretation": "Formal verification is only as strong as the match between the formal statement and the claimed theorem. A proof checker that passes is not, by itself, independent acceptance.",
+      "limit": "A preprint challenging part of the argument, not a refutation of the underlying mathematics. The dispute was unresolved as of this review.",
+      "comparison": "Bears on our independent-research criteria, which accept formal verification as one validation route. Raised as an open criteria question for the February 2027 review. Issued criteria are unchanged.",
+      "source": "https://arxiv.org/abs/2610.08144",
+      "source_title": "arXiv:2610.08144 — Navier–Stokes lost in translation",
+      "affects": [
+        "independent-research"
+      ],
+      "motion": "challenge"
+    },
+    {
+      "id": "weight-space",
+      "date": "2026-11-02",
+      "assessed_on": "2026-11-05",
+      "title": "Models editing model weights",
+      "lane": "Cumulative improvement",
+      "direction": "Early research signal",
+      "evidence": "Author-reported experiments",
+      "lineage": "Weight-Space Programming authors",
+      "claim": "The authors of Sparks of Weight-Space Programming report direct model-weight analysis and editing, including a repair to a small language model.",
+      "interpretation": "This is relevant to the possibility that models could help adapt other models. It makes a bounded research direction more concrete.",
+      "limit": "A reported repair is not independent replication, general capability creation or sustained recursive self-improvement. The selected evidence does not meet our proposed multi-generation criterion.",
+      "comparison": "Adds evidence relevant to the improvement-loop question; it does not resolve that question or move a singularity date.",
+      "source": "https://rikiyat.github.io/blog/weight-space-programming/",
+      "source_title": "Sparks of Weight-Space Programming — author report",
+      "affects": [
+        "improvement-loop"
+      ],
+      "motion": "support"
+    },
+    {
+      "id": "metr-rd-acceleration",
+      "date": "2026-11-05",
+      "assessed_on": "2026-11-06",
+      "title": "An outside estimate of AI speeding up AI research",
+      "lane": "Cumulative improvement",
+      "direction": "Capability signal / heavily redacted",
+      "evidence": "High-access external assessment",
+      "lineage": "METR",
+      "claim": "After eleven weeks of access to internal data, METR's subjective best guess is that Anthropic is improving its models on well-specified tasks at about twice its March 2024–October 2025 rate, with high uncertainty (1.3x–3x would not surprise METR). It attributes perhaps 80% of the current acceleration to Anthropic's own use of AI and found no clear bottleneck for the next 12 months, while saying it may be missing some.",
+      "interpretation": "The first outside, quantified estimate we have seen that AI is materially accelerating frontier AI development. It makes the mechanism behind our improvement-loop question more concrete.",
+      "limit": "Same research lineage as our other METR entries. The developer redacted the evidence METR found most informative, so readers cannot check it and must rely on the assessor's judgment. The benchmark-trend estimate is 1.9x (95% interval 1.5–2.8x), ranges from 1.1x to 2.9x depending on the link function, and is 1.4x when other labs' models are included. The roughly 12x self-reported staff uplift comes from Slack emoji polls, which METR calls very loose evidence; it is not a measured speed-up. AI did most of the analysis, and our pipeline uses the same model family. The assessed company improves its own frontier models rather than running a preregistered, independently reproduced checkpoint series, so this is not a qualifying record.",
+      "comparison": "Supports the mechanism behind improvement-loop without meeting its criteria. No forecast revision is inferred, and the curve stays schematic.",
+      "source": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+      "source_title": "METR — Independent Assessment of AI R&D Acceleration at Anthropic (October 2026)",
+      "affects": [
+        "improvement-loop"
+      ],
+      "motion": "support"
+    }
+  ],
+  "questions": [
+    {
+      "id": "independent-research",
+      "title": "Can AI originate independently accepted research?",
+      "deadline": "2028-12-31",
+      "lane": "Scientific work",
+      "status": "Open forecast",
+      "criteria": "A qualifying public record must first be published from 6 November 2026 through 2028-12-31. Previously published cases inform this forecast but do not count as outcomes. At least two results from unaffiliated teams in two distinct domains. Each publishes provenance showing the decisive mechanism was absent from the human brief, passes blind independent reproduction or formal verification, and receives public correctness-and-novelty endorsement from two unaffiliated experts or substantive independent reuse. All evidence must be publicly available by the deadline.",
+      "up": "A first qualifying result with independent reuse, followed by a genuinely separate lineage.",
+      "down": "Failed reproduction, human seeding, withdrawn novelty or missing provenance.",
+      "reference_class": "Claimed autonomous research results with released provenance plus external validation. Nearby anchors include Sakana's workshop review experiment, algorithmic constructions and wet-lab hypothesis work; they have incompatible denominators and weaker or different endpoints. Their rates cannot be pooled.",
+      "resolver": "Public papers, released provenance and independent validation records. Ambiguous provenance leaves the case unqualified; no public qualifying record by the deadline resolves NO. Only records first published within the stated prospective observation window count.",
+      "window_start": "2026-11-06",
+      "criteria_version": "1.0",
+      "prob": 0.65,
+      "issued_on": "2026-11-05",
+      "forecaster": "Argo / research-team synthesis",
+      "prior": 0.5,
+      "prior_basis": "Explicit subjective prior of 50%, not a measured base rate: the class is publicly attributable AI-originated scientific results with external validation. Requiring two domains, unaffiliated producers and independent validation makes this materially harder than paper generation or peer-review acceptance. The prior expresses uncertainty about crossing all gates within just over two years, rather than assuming that any existing headline already qualifies.",
+      "why_right": [
+        "The Station paper reports exact constructions or Lean-verified proofs and release of source, agent dialogues and verification code. That is relevant to provenance and correctness gates, though author reports alone do not establish independent endorsement.",
+        "The AI Scientist-v2 and Co-Scientist represent distinct organisational research lineages. Their public papers show routes to autonomous idea development and experimental follow-through rather than just answering examinations.",
+        "The deadline leaves just over two years for new work, reproduction and substantive reuse to become public; formal domains can complete correctness checks faster than long physical experiments."
+      ],
+      "why_wrong": [
+        "The research may remain concentrated in mathematics/computer science; calling neighbouring subfields two distinct domains would weaken the original question and must not be used to force YES.",
+        "AI-generated novelty can turn out to reproduce training material or a human-provided mechanism. Better provenance may disqualify apparently strong cases, moving the probability down.",
+        "Wet-lab verification may be done only by collaborators, while independent reuse and unaffiliated expert endorsements arrive after2028.",
+        "Conversely, open proof artefacts and independently run verifiers could make the strict validation gates easier than assumed, moving the probability up."
+      ],
+      "up_trigger": {
+        "description": "A newly published first-domain case meets every gate, including independently checked provenance and either qualifying unaffiliated endorsements or substantive reuse, while an unaffiliated team has a concrete second-domain result under external validation.",
+        "lr": 2.0
+      },
+      "down_trigger": {
+        "description": "By end2027, the strongest new cases repeatedly fail provenance/novelty review or lack independent reproduction, leaving no fully qualifying first-domain case.",
+        "lr": 0.5
+      },
+      "sources": [
+        {
+          "title": "The AI Scientist-v2 — primary research paper",
+          "url": "https://arxiv.org/abs/2504.08066"
+        },
+        {
+          "title": "Towards end-to-end automation of AI research — author manuscript",
+          "url": "https://ora.ox.ac.uk/objects/uuid%3A92d16200-fbe1-4564-b4d4-694e96223b39/files/rsb397b75p"
+        },
+        {
+          "title": "Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment — paper",
+          "url": "https://arxiv.org/abs/2608.23691"
+        },
+        {
+          "title": "Accelerating Scientific Research with Gemini in the Real-World — paper",
+          "url": "https://arxiv.org/abs/2608.26701"
+        },
+        {
+          "title": "Towards Autonomous Mathematics Research — authors' paper",
+          "url": "https://arxiv.org/abs/2602.10177"
+        },
+        {
+          "title": "Claude's progress on the Riemann zeta function — Anthropic",
+          "url": "https://www.anthropic.com/research/riemann-zeta"
+        },
+        {
+          "title": "A new proof that more than two-thirds of zeta zeros are simple and on the critical line — Youness Lamzouri",
+          "url": "https://arxiv.org/abs/2609.02882"
+        }
+      ],
+      "views": [
+        0.55,
+        0.74
+      ],
+      "method": "Equal-weight geometric mean of odds from two separately elicited research perspectives, with no extremizing. They share model-family and source dependencies; this is not an independent human ensemble or evidence of calibration.",
+      "confidence_note": "Subjective probability, not an empirical base rate. No matched reference-class frequency was found. Whole-percentage presentation does not imply one-point precision. Analyst spread is disagreement, not a confidence interval.",
+      "probability_history": [
+        {
+          "date": "2026-11-05",
+          "prob": 0.65,
+          "reason": "Initial estimate, after prospective criteria were fixed; no earlier public probability."
+        }
+      ],
+      "forecast_id": 1,
+      "prior_role": "The prior and prior_basis describe one contributing analyst only. The published probability pools the two separately elicited views in odds space; it is not the direct posterior of this single prior."
+    },
+    {
+      "id": "physical-component",
+      "title": "Will a newly reported AI-originated physical component clear qualification?",
+      "deadline": "2028-12-31",
+      "lane": "Physical work",
+      "status": "Open forecast",
+      "criteria": "A qualifying public record must first be published from 6 November 2026 through 2028-12-31. Previously published cases inform this forecast but do not count as outcomes. At least one bounded molecule, material, circuit block or mechanical component has public provenance showing AI selected the decisive candidate, plus a named regulator's or production-qualification authority's acceptance for its intended use. Both records must be public by the deadline. A patent, simulation or research demonstration alone does not qualify.",
+      "up": "Documented AI candidate selection, independent physical testing, then a named qualification decision.",
+      "down": "Qualification failure, human candidate selection or results confined to simulation.",
+      "reference_class": "Newly public bounded components whose AI design/selection provenance and intended-use qualification are both documented. Domains remain separate: spacecraft components, circuit blocks, materials and molecules have different clocks. No cross-domain average success rate is asserted.",
+      "resolver": "Public provenance and the named qualification record. No publicly documented case satisfying both gates by the deadline resolves NO. This does not establish that no private case exists. Only records first published within the stated prospective observation window count.",
+      "window_start": "2026-11-06",
+      "criteria_version": "1.0",
+      "prob": 0.72,
+      "issued_on": "2026-11-05",
+      "forecaster": "Argo / research-team synthesis",
+      "prior": 0.75,
+      "prior_basis": "Explicit subjective prior of75%, not an observed candidate-to-qualification rate. Outside-view evidence establishes that algorithm-originated flight hardware and AI-designed production circuit layouts are not unprecedented. Over a little more than two years, one additional publicly documented bounded case across several engineering domains is more plausible than a first-ever breakthrough. A complete public acceptance/provenance package is still uncertain.",
+      "why_right": [
+        "NASA's technical record explicitly reports computer-evolved ST5 antenna designs approved for deployment and flight-qualified; the JPL design page and completed mission record corroborate the historical engineering pathway. The old case informs the prior and cannot resolve the corrected new-publication window.",
+        "NASA's Evolved Structures paper provides detailed AI-generated mechanical component provenance and physical tests. This establishes an active engineering route, while tests alone do not satisfy the named acceptance gate.",
+        "Google's primary AlphaChip account describes circuit-block layouts used in production TPU generations, extending the plausible opportunity set beyond mechanical components. Its production-use claim is not itself treated as a qualifying public formal acceptance record.",
+        "Only one bounded new component is required, and the criterion permits engineering fields with shorter qualification paths than therapeutic approval."
+      ],
+      "why_wrong": [
+        "The decisive candidate may actually be selected by engineers after AI proposes alternatives. Mere AI assistance must not be relabelled as AI selection.",
+        "Qualification evidence may remain confidential; production deployment or a press release without the named acceptance authority and intended use should not silently substitute for the required record.",
+        "Spaceflight research tests can remain demonstrations, and drug clinical progress is not approval for routine therapeutic use. Mixing these endpoints would overstate progress.",
+        "The historical antenna sits ambiguously between circuit and mechanical categories; the forecast does not rely on counting it as a qualifying new case, but an overly broad reading of categories would inflate the estimate."
+      ],
+      "up_trigger": {
+        "description": "A post-cutoff candidate has public AI-selection provenance, independently documented physical testing and a named qualification programme scheduled to decide before end2028.",
+        "lr": 2.0
+      },
+      "down_trigger": {
+        "description": "By end2027, candidate reports consistently disclose human decisive selection or decline to release acceptance records; no public candidate with a named pending qualification can be identified.",
+        "lr": 0.5
+      },
+      "sources": [
+        {
+          "title": "NASA NTRS — Computer-Automated Evolution of Spacecraft X-Band Antennas",
+          "url": "https://ntrs.nasa.gov/citations/20100023362"
+        },
+        {
+          "title": "NASA/JPL — ST5 Evolved Antenna",
+          "url": "https://www.jpl.nasa.gov/nmp/st5/TECHNOLOGY/antenna.html"
+        },
+        {
+          "title": "NASA — Space Technology5 mission and completed flight qualification programme",
+          "url": "https://science.nasa.gov/mission/space-technology-5/"
+        },
+        {
+          "title": "NASA — Generative Design and Digital Manufacturing primary paper",
+          "url": "https://ntrs.nasa.gov/api/citations/20220012523/downloads/McClelland-Generative%20Design%20SPIE%202022.pdf"
+        },
+        {
+          "title": "How AlphaChip transformed computer chip design — Google DeepMind",
+          "url": "https://deepmind.google/blog/how-alphachip-transformed-computer-chip-design/"
+        },
+        {
+          "title": "AlphaEvolve: A Gemini-powered coding agent for designing advanced algorithms — Google DeepMind",
+          "url": "https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/"
+        }
+      ],
+      "views": [
+        0.78,
+        0.64
+      ],
+      "method": "Equal-weight geometric mean of odds from two separately elicited research perspectives, with no extremizing. They share model-family and source dependencies; this is not an independent human ensemble or evidence of calibration.",
+      "confidence_note": "Subjective probability, not an empirical base rate. No matched reference-class frequency was found. Whole-percentage presentation does not imply one-point precision. Analyst spread is disagreement, not a confidence interval.",
+      "probability_history": [
+        {
+          "date": "2026-11-05",
+          "prob": 0.72,
+          "reason": "Initial estimate, after prospective criteria were fixed; no earlier public probability."
+        }
+      ],
+      "forecast_id": 2,
+      "prior_role": "The prior and prior_basis describe one contributing analyst only. The published probability pools the two separately elicited views in odds space; it is not the direct posterior of this single prior."
+    },
+    {
+      "id": "improvement-loop",
+      "title": "Can improvement persist across three generations?",
+      "deadline": "2029-12-31",
+      "lane": "Cumulative improvement",
+      "status": "Open forecast",
+      "criteria": "A qualifying public record must first be published from 6 November 2026 through 2029-12-31. Previously published cases inform this forecast but do not count as outcomes. An unaffiliated evaluator reproduces three successive model-improvement generations. Before generation one, the team registers an isolated held-out task distribution, fixed per-generation compute budget and regression limits. Every generation gains at least five percentage points in held-out task success within that budget and breaches no registered regression limit. Public code, lineage, settings and evaluator results are required by the deadline. Model improvement means new model weights or checkpoints, including training methods yielding new checkpoints. Harness-only changes do not qualify.",
+      "up": "A reproduced first-generation improvement that survives fresh tasks and subsequent generations.",
+      "down": "Evaluator access, changed budgets or tests, hidden regressions, or gains disappearing outside development tasks.",
+      "reference_class": "Candidate classes considered: iterative self-training/model adaptation; self-modifying agent-harness research; and independent replication of preregistered machine-learning claims. They differ in object improved, budget accounting and disclosure incentives. None supplies a countable matched class for this exact conjunction. The narrow model-checkpoint requirement excludes harness-only successes.",
+      "resolver": "Public preregistration, lineage and independent evaluation. Any missing gate disqualifies a result. No fully qualifying public three-generation result by the deadline resolves NO. Only records first published within the stated prospective observation window count.",
+      "window_start": "2026-11-06",
+      "criteria_version": "1.0",
+      "prob": 0.36,
+      "issued_on": "2026-11-05",
+      "forecaster": "Argo / research-team synthesis",
+      "prior": 0.25,
+      "prior_basis": "Subjective outside-view prior fixed before inspecting current case evidence: 25% for a new, publicly documented, preregistered and independently reproduced three-generation model-improvement milestone within roughly three years. There is no defensible matched cohort or numerator/denominator, so this is not an empirical base rate.",
+      "why_right": [
+        "MASS describes training updated weights and repeating the shared-model loop; it is relevant to the specified object of improvement, unlike code-only scaffold modification. Its public report is evidence of a programme, not independent validation.",
+        "AIDE² supplies a separate example of repeated optimisation and held-out transfer under a cost budget. It makes multi-step research credible while leaving the checkpoint criterion unresolved.",
+        "By the deadline, more than three years remain for at least one team and one unaffiliated evaluator to pursue a bounded task distribution. The question does not require frontier-scale models or broad general intelligence, which prevents treating it as a forecast of singularity."
+      ],
+      "why_wrong": [
+        "The estimate could be too low: a deliberately weak initial checkpoint on a bounded distribution could permit three five-point gains without any general recursive intelligence breakthrough; no minimum initial competence or task breadth is specified.",
+        "The estimate could be too high: every successive gain must clear the same absolute threshold, so plateauing after one or two generations fails even when the overall result is useful.",
+        "The estimate could be too high: research incentives may favour new benchmark records over preregistration and unaffiliated reproduction; a technically real but privately validated result still resolves NO.",
+        "MASS self-evaluation and harness transfer are not the required external replication. Their author claims could overstate robust transfer, and neither is treated as an already qualifying case."
+      ],
+      "up_trigger": {
+        "description": "A prospective public preregistration is followed by an unaffiliated reproduction of the first two checkpoint generations, each gaining at least five points under unchanged per-generation compute and passing registered regressions; third-generation candidate and code are available. Apply only to genuinely new evidence, not reannouncement.",
+        "lr": 2.5
+      },
+      "down_trigger": {
+        "description": "By 2028-12-31 no public effort has reproduced even two qualifying checkpoint generations, or a leading candidate loses its gains under the registered held-out test or violates budget/regression gates.",
+        "lr": 0.45
+      },
+      "sources": [
+        {
+          "title": "Sakana AI / UC Berkeley: MASS—Multi-Agent Self-Supervision, October 2026",
+          "url": "https://pub.sakana.ai/mass/"
+        },
+        {
+          "title": "Srikanth et al.: Recursive self-improvement of AI research agents, September 2026",
+          "url": "https://arxiv.org/abs/2609.26457"
+        },
+        {
+          "title": "Weco: AIDE² author report, July 2026",
+          "url": "https://www.weco.ai/blog/first-evidence-of-recursive-self-improvement"
+        },
+        {
+          "title": "Roesner and Kohno: Benchmark poisoning of self-modifying agents, September 2026",
+          "url": "https://arxiv.org/abs/2609.17817"
+        },
+        {
+          "title": "Automated Researchers Can Mitigate Well-Characterized Alignment Failures — authors' research report",
+          "url": "https://alignment.anthropic.com/2026/automated-alignment-researchers/"
+        },
+        {
+          "title": "Sparks of Weight-Space Programming — authors' report",
+          "url": "https://rikiyat.github.io/blog/weight-space-programming/"
+        }
+      ],
+      "views": [
+        0.34,
+        0.38
+      ],
+      "method": "Equal-weight geometric mean of odds from two separately elicited research perspectives, with no extremizing. They share model-family and source dependencies; this is not an independent human ensemble or evidence of calibration.",
+      "confidence_note": "Subjective probability, not an empirical base rate. No matched reference-class frequency was found. Whole-percentage presentation does not imply one-point precision. Analyst spread is disagreement, not a confidence interval.",
+      "probability_history": [
+        {
+          "date": "2026-11-05",
+          "prob": 0.36,
+          "reason": "Initial estimate, after prospective criteria were fixed; no earlier public probability."
+        }
+      ],
+      "forecast_id": 3,
+      "prior_role": "The prior and prior_basis describe one contributing analyst only. The published probability pools the two separately elicited views in odds space; it is not the direct posterior of this single prior."
+    },
+    {
+      "id": "production-loop",
+      "title": "Can an organisation close a consequential production loop?",
+      "deadline": "2030-12-31",
+      "lane": "Autonomous work",
+      "status": "Open forecast",
+      "criteria": "A qualifying public record must first be published from 6 November 2026 through 2030-12-31. Previously published cases inform this forecast but do not count as outcomes. A named organisation publicly documents vulnerability discovery, substantive code patching and production deployment without human approval between discovery and deployment, plus verified automated rollback capability. An independent audit must confirm the production setting and decision path. Configuration or dependency bumps alone do not qualify. This public question adds an audit requirement and is not identical to any earlier internal forecast.",
+      "up": "Independently audited bounded deployments and working rollback before a qualifying full loop.",
+      "down": "Unsafe patches, failed recovery or human approval remaining necessary to make the system usable.",
+      "reference_class": "Candidate analogues are autonomous vulnerability-discovery/patching systems, conventional automated delivery-and-rollback systems, and audited enterprise deployment adoption. Contest success rates are not production-adoption rates. Agent-created PRs, human-approved patches, dependency updates and sandbox demonstrations do not count as the target event.",
+      "resolver": "Public organisation records and an unaffiliated audit. All criteria and records must exist by the deadline; no qualifying record resolves NO. Only records first published within the stated prospective observation window count.",
+      "window_start": "2026-11-06",
+      "criteria_version": "1.0",
+      "prob": 0.6,
+      "issued_on": "2026-11-05",
+      "forecaster": "Argo / research-team synthesis",
+      "prior": 0.55,
+      "prior_basis": "Subjective outside-view prior fixed before case-specific research: 55% that at least one named organisation publishes a qualifying audited autonomous security-to-production loop in roughly four years. No matched empirical adoption cohort combines discovery, substantive patching, no intervening approval, verified rollback and public independent audit; no historical success frequency is asserted.",
+      "why_right": [
+        "DARPA’s published results establish autonomous discovery and generated patches on substantial real-world software, including non-synthetic vulnerabilities. They support feasibility of the first two links; the competition does not itself meet the production criterion.",
+        "Google’s deployment documentation separately supports automated promotion and rollback mechanisms. Those are existing engineering ingredients rather than a speculative capability that must first be invented.",
+        "The target requires one bounded organisation and one qualifying substantive security patch, not general unattended operation across an enterprise. Prior human policy authorisation is compatible with no approval between discovery and deployment, provided the audited path confirms that distinction.",
+        "The roughly four-year horizon leaves time for capability, constrained deployment policy and independent assurance to converge. This is a forecast of a documented milestone, not a claim that removing approval is appropriate everywhere."
+      ],
+      "why_wrong": [
+        "The estimate could be too high: major vendor workflows retain human review, and a working prototype may never obtain permission for unattended production changes.",
+        "The estimate could be too high: organisations may operate such loops privately but withhold vulnerability details, audit records or failed-recovery evidence; absent a qualifying public record the answer remains NO.",
+        "The estimate could be too low: a small service with narrow blast radius, mature automated tests and pre-authorised rollback could meet the conjunction well before broad enterprise adoption.",
+        "Published discovery and patching benchmarks do not measure production safety. Technical evidence is being combined with conventional deployment tools as a forecast inference, not as an already demonstrated integrated system."
+      ],
+      "up_trigger": {
+        "description": "An unaffiliated audit publicly confirms a prospective bounded production service that automatically ships substantive non-dependency patches and demonstrates rollback, with vulnerability discovery already integrated but some qualifying evidence still incomplete.",
+        "lr": 2.2
+      },
+      "down_trigger": {
+        "description": "By 2029-12-31 leading candidates still require an intervening human approval, or a well-audited serious autonomous-patching incident causes sustained withdrawal of unattended production permissions.",
+        "lr": 0.4
+      },
+      "sources": [
+        {
+          "title": "DARPA: AI Cyber Challenge final results, August 2025",
+          "url": "https://www.darpa.mil/news/2025/aixcc-results"
+        },
+        {
+          "title": "Introducing Aardvark: OpenAI's agentic security researcher",
+          "url": "https://openai.com/index/introducing-aardvark/"
+        },
+        {
+          "title": "Anthropic: Claude Code Security, February 2026",
+          "url": "https://www.anthropic.com/news/claude-code-security"
+        },
+        {
+          "title": "Anthropic: Claude Security public beta, April 2026",
+          "url": "https://claude.com/resources/articles/claude-security-public-beta"
+        },
+        {
+          "title": "Google Cloud: Automate your deployment",
+          "url": "https://docs.cloud.google.com/deploy/docs/automation"
+        }
+      ],
+      "views": [
+        0.63,
+        0.57
+      ],
+      "method": "Equal-weight geometric mean of odds from two separately elicited research perspectives, with no extremizing. They share model-family and source dependencies; this is not an independent human ensemble or evidence of calibration.",
+      "confidence_note": "Subjective probability, not an empirical base rate. No matched reference-class frequency was found. Whole-percentage presentation does not imply one-point precision. Analyst spread is disagreement, not a confidence interval.",
+      "probability_history": [
+        {
+          "date": "2026-11-05",
+          "prob": 0.6,
+          "reason": "Initial estimate, after prospective criteria were fixed; no earlier public probability."
+        }
+      ],
+      "forecast_id": 4,
+      "prior_role": "The prior and prior_basis describe one contributing analyst only. The published probability pools the two separately elicited views in odds space; it is not the direct posterior of this single prior."
+    }
+  ],
+  "reviews": [
+    {
+      "date": "2026-11-05",
+      "title": "Initial public evidence review",
+      "reason": "Four selected source events were reviewed, including the follow-up that limits a present-day reading of the earlier productivity study. Four milestone questions were drafted. No numerical forecasts were issued, no historical probabilities were recalibrated, and no singularity-distance score was created.",
+      "forecast_changes": 0
+    },
+    {
+      "date": "2026-11-05",
+      "title": "Access, work and mathematical evidence added; first forecasts registered",
+      "reason": "Added ChatGPT, Opus 4.5 and distinct proof/discovery/verification milestones, including a public proof correction. Before issuing probabilities, draft questions were clarified to count only new public records from 6 November 2026. Historical physical-design examples therefore inform priors without resolving new forecasts. Four initial probabilities are now recorded with opposing cases, deadlines and update triggers. No percentage distance to singularity is inferred.",
+      "forecast_changes": 0,
+      "initial_forecasts": 4
+    },
+    {
+      "date": "2026-11-06",
+      "title": "AI-accelerated research and a disputed proof added",
+      "reason": "Added METR's assessment of AI R&D acceleration at Anthropic, OpenAI's claimed Navier–Stokes proof and the independent challenge to its Lean formalization. All three predate the 6 November 2026 observation window and none meets a registered criterion, so all four probabilities are unchanged. The Navier–Stokes dispute shows that a passing formal proof can check a statement weaker than the claimed theorem. Whether the independent-research criteria should also require the formal statement to be independently matched to the claim is an open question for the 5 February 2027 review. Any change would be a superseding question, never an edit to an issued record.",
+      "forecast_changes": 0
+    }
+  ],
+  "curve_milestones": [
+    {
+      "event_id": "chatgpt",
+      "position": 0.28,
+      "label": "ChatGPT",
+      "subtitle": "Public encounter / 2022"
+    },
+    {
+      "event_id": "imo-silver",
+      "position": 0.39,
+      "label": "IMO silver",
+      "subtitle": "Formal reasoning / 2024"
+    },
+    {
+      "event_id": "imo-gold",
+      "position": 0.47,
+      "label": "IMO gold",
+      "subtitle": "Proofs in natural language / 2025"
+    },
+    {
+      "event_id": "opus-45",
+      "position": 0.55,
+      "label": "Opus 4.5",
+      "subtitle": "Working partner / Nov 2025"
+    },
+    {
+      "event_id": "fermat-formalization",
+      "position": 0.62,
+      "label": "Fermat formalized",
+      "subtitle": "Verification / Sep 2026"
+    }
+  ],
+  "forecast_method": "Subjective priors; documented likelihood-ratio reasoning; two separately elicited research views pooled by geometric mean of odds without extremizing. Shared model-family/source dependence is disclosed. No empirical calibration claim.",
+  "curve_accelerators": [
+    {
+      "question_id": "independent-research",
+      "label": "01 / Discovery compounds",
+      "position": 0.74,
+      "mechanism": "Independently accepted AI-originated research could expand the pool of useful ideas and shorten parts of the discovery cycle. More reliable discoveries could then feed better tools and models.",
+      "brake": "Correctness, novelty and independent validation can become the bottleneck. Two accepted results would establish a milestone, not an accelerating economy-wide research rate."
+    },
+    {
+      "question_id": "physical-component",
+      "label": "02 / Ideas become hardware",
+      "position": 0.81,
+      "mechanism": "AI-selected components that pass real qualification could connect digital discovery to better instruments and infrastructure. Improvements in those tools could support the next research cycle.",
+      "brake": "Manufacturing capacity, energy, materials and qualification delays can dominate. One qualified component does not demonstrate faster infrastructure growth."
+    },
+    {
+      "question_id": "improvement-loop",
+      "label": "03 / Better models build better models",
+      "position": 0.88,
+      "mechanism": "Replicated gains across successive model generations would be evidence for a feedback loop: better models helping create more capable successors. This is the most direct candidate for a self-reinforcing capability cycle.",
+      "brake": "Diminishing returns, compute budgets and evaluation gaming could stop the loop. Three bounded gains would not establish unlimited recursive improvement."
+    },
+    {
+      "question_id": "production-loop",
+      "label": "04 / Work closes the loop",
+      "position": 0.95,
+      "mechanism": "An audited discovery-to-production cycle could reduce handoff delays between finding a problem and applying a working fix. Reliable operation could free more effort for further development.",
+      "brake": "Reliability, rollback and organisational permission may limit autonomy. One security-patch workflow does not establish general autonomous operation."
+    }
+  ]
+}

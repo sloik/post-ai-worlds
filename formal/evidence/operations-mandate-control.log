@@ -2,15 +2,15 @@ POST_AI_CAPTURE {"id":"operations-mandate-control","inputs":{"formal/AuthorityCo
 TLC2 Version 2.19 of 08 August 2024 (rev: 5a47802)
 Warning: Please run the Java VM which executes TLC with a throughput optimized garbage collector by passing the "-XX:+UseParallelGC" property.
 (Use the -nowarning option to disable this warning.)
-Running breadth-first search Model-Checking with fp 52 and seed 1 with 1 worker on 10 cores with 512MB heap and 64MB offheap memory [pid: 98940] (Mac OS X 27.2 aarch64, Homebrew 27.0.1.0.3 x86_64, MSBDiskFPSet, DiskStateQueue).
-Parsing file /private/tmp/post-ai-tlc-uya2uoie/OperationalGates.tla
-Parsing file /private/tmp/post-ai-tlc-uya2uoie/Vocabulary.tla
-Parsing file /private/tmp/post-ai-tlc-uya2uoie/jvm/TLC.tla
-Parsing file /private/tmp/post-ai-tlc-uya2uoie/jvm/Naturals.tla
-Parsing file /private/tmp/post-ai-tlc-uya2uoie/jvm/FiniteSets.tla
-Parsing file /private/tmp/post-ai-tlc-uya2uoie/ExpansionContract.tla
-Parsing file /private/tmp/post-ai-tlc-uya2uoie/AuthorityContract.tla
-Parsing file /private/tmp/post-ai-tlc-uya2uoie/jvm/Sequences.tla
+Running breadth-first search Model-Checking with fp 92 and seed 1 with 1 worker on 10 cores with 512MB heap and 64MB offheap memory [pid: 1476] (Mac OS X 27.2 aarch64, Homebrew 27.0.1.0.3 x86_64, MSBDiskFPSet, DiskStateQueue).
+Parsing file /private/tmp/post-ai-tlc-vyyyaja8/OperationalGates.tla
+Parsing file /private/tmp/post-ai-tlc-vyyyaja8/Vocabulary.tla
+Parsing file /private/tmp/post-ai-tlc-vyyyaja8/jvm/TLC.tla
+Parsing file /private/tmp/post-ai-tlc-vyyyaja8/jvm/Naturals.tla
+Parsing file /private/tmp/post-ai-tlc-vyyyaja8/jvm/FiniteSets.tla
+Parsing file /private/tmp/post-ai-tlc-vyyyaja8/ExpansionContract.tla
+Parsing file /private/tmp/post-ai-tlc-vyyyaja8/AuthorityContract.tla
+Parsing file /private/tmp/post-ai-tlc-vyyyaja8/jvm/Sequences.tla
 Semantic processing of module Naturals
 Semantic processing of module Sequences
 Semantic processing of module FiniteSets
@@ -19,9 +19,9 @@ Semantic processing of module TLC
 Semantic processing of module ExpansionContract
 Semantic processing of module AuthorityContract
 Semantic processing of module OperationalGates
-Starting... (2026-11-06 19:45:39)
+Starting... (2026-11-06 20:46:33)
 Computing initial states...
-Finished computing initial states: 1 distinct state generated at 2026-11-06 19:45:39.
+Finished computing initial states: 1 distinct state generated at 2026-11-06 20:46:33.
 Error: Invariant MandateSeparated is violated.
 Error: The behavior up to this point is:
 State 1: <Initial predicate>
@@ -48,4 +48,4 @@ State 2: <Next line 46, col 9 to line 46, col 51 of module OperationalGates>
 
 6 states generated, 6 distinct states found, 4 states left on queue.
 The depth of the complete state graph search is 2.
-Finished in 00s at (2026-11-06 19:45:39)
+Finished in 00s at (2026-11-06 20:46:33)

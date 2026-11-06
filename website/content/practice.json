@@ -1,0 +1,233 @@
+[
+  {
+    "slug": "software-factory",
+    "title": "The software factory",
+    "kicker": "From generation to verified outcomes",
+    "summary": "A proposed production system in which clear tasks, independent review and retained learning turn AI assistance into dependable software.",
+    "source_file": "04-SOFTWARE-FACTORY.md",
+    "sources": [],
+    "sections": [
+      {
+        "heading": "Software as a learning environment",
+        "paragraphs": [
+          "Software offers a practical place to develop Omnicorp's central ambition: an organisation that continually improves its ability to understand and act. A program can be changed, exercised and compared with its predecessor. Users expose assumptions that a convincing demonstration can hide. Products provide resources and contact with consequences; they are part of the learning system rather than its entire purpose.",
+          "The factory described here is an organisational design, not a claim that every part is deployed. Its useful output is dependable behaviour in a real setting. Generating more code is valuable only when the organisation can establish what that code does, maintain it and accept responsibility for its effects."
+        ]
+      },
+      {
+        "heading": "A bounded loop",
+        "paragraphs": [
+          "The proposed loop begins with investigation. Define the problem, the intended outcome and the conditions under which a result should be rejected. Break execution into small changes with explicit ownership. A builder works within that boundary while a separate reviewer attempts to find defects, unsupported assumptions and unintended consequences.",
+          "Tests, type checks and other executable checks provide feedback where appropriate. They do not settle every question. Product usefulness, interaction quality and operational consequences may require other evidence. The acceptance method should follow the claim being made. A clean test run should never be expanded into a promise it cannot support."
+        ]
+      },
+      {
+        "heading": "Verification sets the pace",
+        "paragraphs": [
+          "An organisation can increase generation faster than it increases understanding. That creates a dangerous appearance of progress: more changes accumulate while nobody can explain their combined behaviour. The design treats verification capacity as a limit on work in progress. Adding builders without credible review can make the whole system less reliable.",
+          "Separation matters because a maker can accidentally build an assessment that rewards its own implementation. Evaluation criteria, reviewer authority and critical evidence need protection from that feedback loop. Reviewed material must remain evidence rather than a source of instructions that can redirect the reviewer."
+        ]
+      },
+      {
+        "heading": "Retain the lesson",
+        "paragraphs": [
+          "A completed change should leave more than a deliverable. Useful failures, architectural decisions and operational lessons can improve the next attempt when they are curated, attributable and easy to retrieve. This organisational memory is a candidate source of cumulative capability, although accumulating documents alone does not demonstrate learning.",
+          "A longer-term factory might produce specialised models as well as conventional programs. That possibility remains conditional. Execution, records, permissions and precise control still require reliable implementations. Any future model adaptation would need preserved parent versions, regression evaluation and rollback. The objective is a stronger capacity to deliver verified outcomes, rather than replacing every program with a model."
+        ]
+      }
+    ],
+    "questions": [
+      "What evidence would show that the delivered outcome works?",
+      "Can review capacity keep pace with generation?",
+      "Which lesson changes the next attempt?"
+    ]
+  },
+  {
+    "slug": "physical-world",
+    "title": "Intelligence meets the physical world",
+    "kicker": "From useful insight to accountable action",
+    "summary": "Physical expansion depends on the gate between a model's proposal and a real outcome: equipment, safety, authority, infrastructure and elapsed time.",
+    "source_file": "05-REAL-WORLD-PRODUCTION.md",
+    "sources": [
+      {
+        "title": "U.S. Department of Energy — Subsurface enhancement and sustainability",
+        "url": "https://www.energy.gov/hgeo/geothermal/subsurface-enhancement-and-sustainability"
+      },
+      {
+        "title": "NASA — Small spacecraft thermal control",
+        "url": "https://www.nasa.gov/smallsat-institute/sst-soa/thermal-control/"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Different domains, different clocks",
+        "paragraphs": [
+          "Omnicorp's ambition extends beyond producing digital artefacts. Physical activity could eventually help it develop machines, energy systems and computing infrastructure, expanding the resources available for further understanding and action. This is a long-term possibility, not an announcement of facilities, autonomous operations or selected infrastructure projects.",
+          "The path is uneven because intelligence is only one input. A useful design still needs materials, equipment, construction, maintenance and permission to operate. An analysis may arrive quickly while the experiment, installation or biological process it describes takes much longer. Better reasoning can change a bottleneck without eliminating all the others."
+        ]
+      },
+      {
+        "heading": "Start with a bounded contribution",
+        "paragraphs": [
+          "One proposed entry route is to improve a process operated by an experienced partner. Inspection support, maintenance analysis, documentation and experiment provenance can make existing work more effective without pretending that a software supplier has inherited the operator's expertise or authority. Responsibilities must remain explicit across that boundary.",
+          "The question is whether the partner can turn the contribution into a useful outcome. If the organisation has capable equipment but lacks information, an intelligence layer may help. If its limiting factor is unavailable production capacity, better analysis can simply place the project in the same queue. Partnering and owning infrastructure solve different problems."
+        ]
+      },
+      {
+        "heading": "Keep physical safeguards independent",
+        "paragraphs": [
+          "A model may interpret a sensor report, propose a plan or identify an exception. That does not make it a dependable physical safety mechanism. Timing constraints, permitted operating ranges, timeout behaviour and fail-safe states require appropriately engineered controls. The reasoning layer should remain inside a clearly defined envelope rather than silently becoming that envelope.",
+          "Evidence matters as much as action. A useful record explains what was attempted, the conditions that applied, who authorised the operation and where an observed result differed from a prediction. Such records support learning and accountability. They do not by themselves certify a machine or establish that an experiment is safe."
+        ]
+      },
+      {
+        "heading": "Expansion without imaginary exemptions",
+        "paragraphs": [
+          "Machine-centred environments might eventually differ from places designed for continuous human occupancy. That opens possibilities but grants no exemption from heat rejection, equipment tolerances, environmental effects or consent. Geothermal systems and space-based energy illustrate the breadth of the horizon; they also bring substantial engineering constraints.",
+          "The proposed feedback loop is intelligence helping develop infrastructure, with infrastructure supporting further intelligence. Positive feedback does not establish indefinite acceleration. Fabrication, measurement and expansion consume time, and each stage can encounter a different limiting factor. Progress would need to be demonstrated through bounded projects and measured outcomes, while preserving accountability for the people and environments affected."
+        ]
+      }
+    ],
+    "questions": [
+      "What is the actual gate between the proposal and useful output?",
+      "Which controls remain independent of probabilistic reasoning?",
+      "What evidence would justify the next increase in scope?"
+    ]
+  },
+  {
+    "slug": "capital-and-resources",
+    "title": "Capital and resources",
+    "kicker": "Sustain the capacity to develop",
+    "summary": "A general financing philosophy: fund useful work, preserve continuity and allocate resources to demonstrated constraints rather than impressive activity.",
+    "source_file": "06-CAPITAL.md",
+    "sources": [],
+    "sections": [
+      {
+        "heading": "Capital serves the purpose",
+        "paragraphs": [
+          "Omnicorp's purpose is continual development of its ability to understand, learn and act. Capital helps sustain that process: it pays for work, absorbs setbacks and makes future options possible. Financial success is an important condition of continuity, while remaining an incomplete account of what the organisation is trying to become.",
+          "This outline presents a resource-allocation philosophy, not investment advice, a fundraising offer or a report of financial results. It does not assume that access to AI creates effortless profitability. Every additional activity still needs an explanation of whom it helps, what it costs and how its outcome can be assessed."
+        ]
+      },
+      {
+        "heading": "Earn evidence before expanding commitments",
+        "paragraphs": [
+          "The starting preference is a narrow useful offer that can be delivered and improved with limited commitments. Revenue from a real outcome provides a different signal from enthusiasm for an idea. It tests whether another party values the result enough to support its continued production, while revealing the cost of meeting that expectation reliably.",
+          "A product, a managed service or another repeatable activity can become a source of reinvestment. The design question is whether it produces dependable value after accounting for delivery, verification, support and failure. A successful demonstration alone does not establish a repeatable engine, and a growing workload can consume resources faster than it produces them."
+        ]
+      },
+      {
+        "heading": "Invest in the limiting factor",
+        "paragraphs": [
+          "Reinvestment should address an observed constraint. Sometimes that is computing capacity; sometimes it is evaluation, product quality, distribution or access to a needed capability. More agents are not automatically the best use of resources. If work is waiting for review, increasing generation can enlarge the backlog rather than increase useful output.",
+          "The comparison should include continuing obligations as well as the purchase or setup cost. An asset may create maintenance, integration and replacement work. A service may offer flexibility while introducing dependence. Both can be reasonable when total costs and effects on continuity are understood. Ownership is valuable where it preserves meaningful control rather than merely changing the accounting label."
+        ]
+      },
+      {
+        "heading": "Finance a defined transition",
+        "paragraphs": [
+          "External financing is one possible instrument when a demonstrated opportunity requires resources that current activity cannot supply at an appropriate pace. The relevant question is what transition it enables and what obligations accompany it. Financing should not substitute for evidence that an outcome is useful, or for repairing an unreliable delivery process.",
+          "A durable allocation system preserves room to reconsider. It distinguishes resources needed to keep existing commitments from resources available for uncertain experiments, and reviews whether each experiment earned further support. The aspiration is a reinforcing cycle: useful work sustains development, improved capability makes better work possible, and measured results guide the next allocation. That cycle is a design to test, not a guaranteed compounding law."
+        ]
+      }
+    ],
+    "questions": [
+      "Which demonstrated constraint would this allocation remove?",
+      "What continuing obligations accompany the resource?",
+      "Does the decision preserve continuity and the ability to change course?"
+    ]
+  },
+  {
+    "slug": "roadmap",
+    "title": "A roadmap governed by evidence",
+    "kicker": "Readiness over prediction",
+    "summary": "A proposed progression from bounded useful work to broader capability, with advancement tied to evidence rather than dates or a singularity forecast.",
+    "source_file": "07-ROADMAP-AND-KPIS.md",
+    "sources": [],
+    "sections": [
+      {
+        "heading": "Direction without a promised arrival date",
+        "paragraphs": [
+          "The roadmap begins with a purpose rather than a calendar: continually improve the organisation's ability to understand and act. Commercial products and physical operations sustain that development and connect it to consequences. These stages describe a possible progression. They are neither a statement that each stage has been reached nor a commitment to a particular date.",
+          "Readiness is more useful than confidence in a technological forecast. An organisation can prepare to recognise and act on an opportunity without knowing when a broader transition will arrive. The practical measure is how quickly it can move from a worthwhile possibility to a verified useful outcome, while keeping commitments and decision boundaries intact."
+        ]
+      },
+      {
+        "heading": "Establish one dependable loop",
+        "paragraphs": [
+          "The first stage is bounded capability: investigate a problem, produce an outcome, assess it credibly and retain what was learned. This requires more than a capable model. The surrounding process must establish who owns the work, what evidence counts and what happens when the result is rejected. A repeatable loop provides a foundation for learning.",
+          "The next stage connects that loop to real demand. A clear user and a recurring need are distinct evidence from internal delivery skill. Progress on one does not cancel uncertainty on the other. A useful roadmap tracks both, so a sophisticated production system cannot be mistaken for proof that its output is wanted."
+        ]
+      },
+      {
+        "heading": "Broaden when the system can carry it",
+        "paragraphs": [
+          "A repeatable activity may justify an adjacent one. Shared knowledge, evaluation methods and delivery practices could reduce the cost of beginning again, creating an organisational capability rather than unrelated projects. This is the proposed route toward multiple product engines, not a requirement to multiply them before the first is dependable.",
+          "Expansion into physical or regulated settings adds gates. Expertise, accountability, infrastructure and the cost of error can change the pace of progress. A partner may provide the setting for a bounded contribution, while some opportunities require capabilities the organisation does not yet possess. Later stages therefore carry greater uncertainty and need their own evidence."
+        ]
+      },
+      {
+        "heading": "Measure purpose and operating health together",
+        "paragraphs": [
+          "Business measures can show whether useful work sustains the organisation. Delivery measures can show the time, resources, rework and escalation involved. Neither completely measures learning. A broader assessment would ask whether useful capabilities persist, transfer to unfamiliar tasks and improve without unacceptable regressions elsewhere.",
+          "For any future adaptive-model experiment, candidate measures include accepted capability gained per cycle, rollback frequency, total adaptation and serving cost, and performance on unseen tasks. These are proposed measurement directions, not reported baselines or targets. The governing discipline is to make the next claim proportional to the evidence: more activity, more code and more agents do not by themselves demonstrate a stronger organisation."
+        ]
+      },
+      {
+        "heading": "A forecast is a commitment we can later check",
+        "paragraphs": [
+          "Our public Observatory now registers four subjective forecasts, issued on 5 November 2026: 65% for independently accepted research in two domains by the end of 2028; 72% for a newly reported qualified AI-originated physical component by the end of 2028; 36% for three qualifying generations of model-checkpoint improvement by the end of 2029; and 60% for an independently audited closed production security loop by the end of 2030.",
+          "Only qualifying public records first published from 6 November 2026 count. Each question fixes its own resolution criteria, timeframe, evidence for and against, and update triggers. These are judgments that remain uncalibrated until outcomes resolve; they are neither promises nor probabilities of singularity. We retain changes and misses so the forecasting process can learn."
+        ]
+      }
+    ],
+    "questions": [
+      "What observable evidence earns the next stage?",
+      "Are delivery capability and real demand assessed separately?",
+      "What useful ability persists beyond the task that produced it?"
+    ]
+  },
+  {
+    "slug": "risks-and-moats",
+    "title": "Risks and durable advantage",
+    "kicker": "An adversarial view of the ambition",
+    "summary": "The forces that make AI-native organisations possible can also commoditise their output, overwhelm review and deepen dependency. Durability must be earned elsewhere.",
+    "source_file": "08-RISKS-AND-MOATS.md",
+    "sources": [],
+    "sections": [
+      {
+        "heading": "Access to AI is not an enduring advantage",
+        "paragraphs": [
+          "Omnicorp's ambition depends on improving capabilities, yet the tools enabling that improvement may also become available to everyone else. A clever prompt, an agent workflow or early model access can be copied or overtaken. Treating the presence of AI as the durable asset would confuse the enabling technology with the organisation built around it.",
+          "The proposed sources of resilience are harder to reduce to a tool choice: informed judgment, trusted relationships, useful operating knowledge and feedback that improves real outcomes. These are candidate advantages to cultivate, not claims of an existing moat. Their value must be earned through repeated work and can be lost through neglect."
+        ]
+      },
+      {
+        "heading": "Scale can amplify the wrong things",
+        "paragraphs": [
+          "A principal operational risk is generation outrunning verification. More output can conceal shallow assessments, accumulated defects and declining comprehension. Multi-agent coordination introduces another route for errors to spread: unclear ownership, contradictory assumptions and excessive work in progress. A large team is not automatically a more capable collective.",
+          "The proposed response combines bounded responsibilities, explicit handoffs, independent assessment and limits on simultaneous work. Reviewers need authority to reject results, including results that look impressive. They must treat instructions embedded inside material under review as untrusted content. Separation of roles helps, but no arrangement removes the need to examine whether the assessment itself remains credible."
+        ]
+      },
+      {
+        "heading": "Demand and dependency remain constraints",
+        "paragraphs": [
+          "An organisation can produce more than people want. Distribution, willingness to adopt and willingness to pay remain separate problems from generation. Access to an intermediary's audience can be useful, but it should not be confused with an owned relationship. The intermediary can change ranking, pricing or access while the producer still carries obligations to the customer.",
+          "Similar dependence appears in model and infrastructure choices. Continuity is fragile if essential knowledge, access or delivery capability can disappear with one provider. The design favours portability and deliberate ownership where those preserve meaningful control. Independence is a matter of recoverable capability and clear rights, not simply a preference for operating everything directly."
+        ]
+      },
+      {
+        "heading": "Answerability and the right to disagree",
+        "paragraphs": [
+          "Trust depends on somebody being able to explain a decision, remain present when it fails and carry consequences. Technical performance alone cannot provide that relationship. The organisation needs legible responsibility, credible correction and limits that apply to leadership as well as to agents. A compelling vision becomes dangerous when agreement replaces evidence.",
+          "Physical expansion adds constraints that software cannot wish away: construction, equipment, elapsed experiments, environmental effects and consent. Some apparent advantages endure only until another actor finds it worthwhile to remove them. Continual development includes revisiting the organisation's own assumptions. The strongest version keeps the capacity to say no, change course and learn from a result that contradicts the story."
+        ]
+      }
+    ],
+    "questions": [
+      "Which apparent advantage could a competitor reproduce?",
+      "Who can reject a result or challenge the direction?",
+      "What would disprove the assumption behind the next expansion?"
+    ]
+  }
+]

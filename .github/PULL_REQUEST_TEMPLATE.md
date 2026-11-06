@@ -18,7 +18,7 @@ Report checks actually run and their results, or explain why none apply. Where f
 
 - [ ] Stable IDs, branch history and frozen forecast criteria are preserved, or the intended version/fork is explicit.
 - [ ] The contribution is in English and contains no private, confidential or unauthorised third-party material.
-- [ ] I have read NOTICE.md and understand that project licensing is not yet selected; substantive contributions may require licensing clarification before merge.
+- [ ] I have read LICENSING.md and NOTICE.md, can submit this work under the applicable CC BY 4.0 or MIT terms, and have preserved third-party rights and notices.
 
 ## Open questions
 

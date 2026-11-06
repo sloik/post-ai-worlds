@@ -1,0 +1,231 @@
+[
+  {
+    "slug": "case-study-every",
+    "title": "A useful case, not a universal formula",
+    "kicker": "CASE STUDY / EVERY",
+    "summary": "What Every’s account of AI-native work contributes to the Omnicorp idea—and what a successful example cannot establish.",
+    "source_file": "09-CASE-EVERY.md",
+    "sections": [
+      {
+        "heading": "Read the mechanism before the headline",
+        "paragraphs": [
+          "Every’s published account of compound engineering offers Omnicorp a concrete organisational idea: completing a task should leave behind more than its immediate output. A useful fix can also leave a clearer explanation, a reusable check or a better starting point for the next person or agent. The interesting unit of progress is the organisation’s accumulated ability to work.",
+          "This is an interpretation of a company’s account of its own practice. It is not an independent audit, a claim about Every’s current performance or evidence that the same arrangement will work everywhere. Public examples are most useful when they expose a mechanism that another team can examine, rather than a headline that another team can repeat."
+        ]
+      },
+      {
+        "heading": "The product and the learning belong together",
+        "paragraphs": [
+          "The method separates planning, execution, review and the retention of useful lessons. That distinction matters because fast generation can conceal slow repair. If a team saves an hour producing something and spends two recovering from it, the organisation has not become more capable. Learning has to survive the handoff into subsequent work.",
+          "For Omnicorp, this connects directly to the founding purpose: continually develop the ability to understand and act. Products provide something concrete against which that purpose can be tested. The question is whether the next task benefits from the previous one, without inheriting its mistakes or treating every local solution as a universal rule."
+        ]
+      },
+      {
+        "heading": "Distribution is part of the system",
+        "paragraphs": [
+          "The original case study also examines the relationship between publishing, audience, software and services. Its useful strategic question is how learning about people’s needs connects to making something they will use. A relationship with an audience may shorten that distance, but it is work in its own right. It cannot be assumed into existence by producing more software.",
+          "That makes the case a prompt to examine starting conditions. Existing trust, editorial judgement and access to potential users can shape results as much as the tools used to build a product. A new organisation should identify which of those conditions it possesses and which it still needs to earn."
+        ]
+      },
+      {
+        "heading": "Keep the lesson smaller than the claim",
+        "paragraphs": [
+          "We do not need a precise productivity multiplier to take the method seriously. A proportion of machine-written code says little by itself about maintenance, reliability or customer benefit. Nor does a persuasive example settle how the same approach behaves in regulated services or physical production.",
+          "The proposal worth carrying forward is narrower: make useful work, review it honestly, preserve lessons that deserve to persist, and observe whether they improve later outcomes. Every provides a public reference point for that investigation. It does not close it."
+        ]
+      }
+    ],
+    "questions": [
+      "What useful knowledge survives after each completed task?",
+      "Which starting advantages belong to the case rather than to the method?",
+      "Would the claimed improvement remain visible after repair and review costs?"
+    ],
+    "sources": [
+      {
+        "title": "Every: Compound Engineering—How Every Codes With Agents",
+        "url": "https://every.to/chain-of-thought/compound-engineering-how-every-codes-with-agents"
+      },
+      {
+        "title": "Every’s compound engineering plugin source",
+        "url": "https://github.com/EveryInc/compound-engineering-plugin"
+      }
+    ]
+  },
+  {
+    "slug": "efficiency-and-legitimacy",
+    "title": "Efficient at what, and for whom?",
+    "kicker": "MEASUREMENT / LEGITIMACY",
+    "summary": "Why an AI-native organisation needs to count useful outcomes, the resources behind them and the relationships that let it operate.",
+    "source_file": "10-EFFICIENCY-AND-LEGITIMACY.md",
+    "sections": [
+      {
+        "heading": "Activity is an incomplete account",
+        "paragraphs": [
+          "An organisation can produce more messages, code and decisions while becoming less useful. It can also reduce the cost of one operation while increasing the cost of the whole task. Omnicorp’s measurement proposal begins with the outcome: what changed for someone, how was that change checked, and what did it consume?",
+          "Resources include computation, energy, elapsed time and human attention. Repair, review and incidents belong in the same account as generation. This is a design principle for future measurement, not a published result showing that Omnicorp has already achieved a particular level of efficiency."
+        ]
+      },
+      {
+        "heading": "Give each attractive number an adversary",
+        "paragraphs": [
+          "Revenue per person can make a small organisation appear remarkably productive. Read alone, it can also reward removing people, outsourcing burdens or spending heavily on computation. Cost per task can improve while the task becomes less valuable. Completion rates can rise when difficult cases disappear from the denominator.",
+          "A more useful scoreboard pairs competing views. Throughput sits beside rework. Lower spending sits beside outcome quality. Autonomy sits beside escalation and recovery. Commercial performance sits beside the ability to explain decisions and address failures. The purpose of the pairing is to expose a tradeoff before a single favourable number conceals it."
+        ]
+      },
+      {
+        "heading": "A test result has a boundary",
+        "paragraphs": [
+          "Checks help make claims inspectable, but a passed evaluation is evidence about its stated conditions. It does not establish competence across every neighbouring task or guarantee behaviour after deployment. Omnicorp’s later analysis explicitly challenges the temptation to turn a score into a general capability claim.",
+          "The practical response is to report coverage, preserve failures and examine outcomes beyond the test setting. The evaluator must be open to correction too. More tests are not automatically better if they repeat the same assumptions, and an increasingly elaborate dashboard can still be measuring the wrong thing."
+        ]
+      },
+      {
+        "heading": "Legitimacy is part of the operating environment",
+        "paragraphs": [
+          "Usefulness does not cancel consent or responsibility. An organisation depends on people being willing to deal with it, understand its promises and obtain a response when those promises fail. Legal permission and public confidence are distinct questions; neither can be replaced by an internal claim of efficiency.",
+          "Our working position is that trust, quality and accountability can support durable performance together. That is an organisational argument, not a theorem that good conduct always wins. Competition can reward shortcuts, and feedback can arrive late. The response is to make those pressures visible and retain the ability to stop or redesign a harmful activity.",
+          "For a project whose purpose is continual development, measurement should help distinguish increased capability from increased motion. A simple relevance question remains valuable: if a particular activity stopped, who would lose something useful, and could we explain why?"
+        ]
+      }
+    ],
+    "questions": [
+      "Does the outcome remain useful after repair and review are counted?",
+      "What does each evaluation actually cover?",
+      "Who can challenge the organisation’s account of the value it creates?"
+    ],
+    "sources": []
+  },
+  {
+    "slug": "human-accountability",
+    "title": "Capability does not answer for itself",
+    "kicker": "ACCOUNTABILITY / CONTINUITY",
+    "summary": "A named owner, a checkable decision and a route to remedy matter even when more of the work can be automated.",
+    "source_file": "11-THE-INCOMPRESSIBLE-HUMAN.md",
+    "sections": [
+      {
+        "heading": "Separate competence from answerability",
+        "paragraphs": [
+          "A system may produce an excellent answer without being the party responsible for its consequences. Competence concerns what it can do. Answerability concerns who must explain a decision, remain available when it matters and participate in putting things right. Omnicorp’s accountability essay argues that these questions should be designed separately.",
+          "This is a position about organisational design, not a claim that human judgement is infallible or that adding a person to a workflow makes it safe. A signature can be ceremonial. Responsibility becomes meaningful when the named owner understands the decision, has authority to change the process and can respond to those affected."
+        ]
+      },
+      {
+        "heading": "A floor beneath the productivity target",
+        "paragraphs": [
+          "An attractive productivity ratio can reward removing the very capacity that makes a service trustworthy. If nobody remains able to explain why a decision was made, a leaner operation may have become more difficult to challenge or repair. The proposal is to examine responsibility coverage alongside measures of commercial output.",
+          "The test is practical: for each consequential activity, identify an accountable owner and the path from a complaint to a response. Logs can support that owner; they cannot substitute for authority, attention or a remedy. This is a proposed standard, not a claim that a particular service has already demonstrated complete coverage."
+        ]
+      },
+      {
+        "heading": "Continuity leaves an open question",
+        "paragraphs": [
+          "The original essay initially treated answerability as permanently human, then corrected that assumption. Its deeper question concerns the properties an operator would need: the ability to explain its decisions, persistence when consequences arrive and meaningful stakes. Whether future AI systems could meet such conditions remains open.",
+          "Persistence alone would not establish legal responsibility, moral standing or genuine experience. Nor does the ability to reconstruct an explanation prove that the explanation is faithful. We should investigate these questions without embedding a permanent capability ceiling in the design, and without announcing that the problem has already been solved."
+        ]
+      },
+      {
+        "heading": "A person is not a decorative provenance stamp",
+        "paragraphs": [
+          "A familiar name, an identifiable creator and an answerable owner are different things. Public recognition can help people discover work. A story about who made it can shape how they receive it. Neither guarantees that someone will bear responsibility when it fails. Presenting a person as a reassuring face while withholding actual agency would miss the point.",
+          "The inward version matters too. Work should have an intelligible relationship to outcomes, and people should be able to challenge the arrangements that govern them. Asking what would break if a role disappeared can expose decorative process; it must not be turned into a claim that a person’s worth equals their measurable output.",
+          "Omnicorp’s ambition is to develop greater understanding and agency over time. Keeping that development answerable requires continuity of purpose as well as continuity of records. The right question is who can be asked to respond when increased capability produces an unwelcome consequence."
+        ]
+      }
+    ],
+    "questions": [
+      "Who can explain and change a consequential decision?",
+      "What route to remedy exists when an outcome is wrong?",
+      "What would future nonhuman answerability require beyond persistent memory?"
+    ],
+    "sources": []
+  },
+  {
+    "slug": "operator-counter-reading",
+    "title": "Let the difficult case challenge the blueprint",
+    "kicker": "COUNTER-READING / PHYSICAL CONSTRAINTS",
+    "summary": "An adversarial reading of an operator interview tests assumptions about bottlenecks, ownership and the distance between software and production.",
+    "source_file": "12-THE-OPERATOR-COUNTER-READING.md",
+    "sections": [
+      {
+        "heading": "Choose a source that does not fit",
+        "paragraphs": [
+          "A blueprint becomes more useful when it encounters evidence that resists its categories. Omnicorp’s counter-reading uses Elon Musk’s February 2026 interview with Dwarkesh Patel and John Collison as a source of such resistance. The goal is to challenge assumptions about how an AI-native organisation might grow, rather than adopt an operator’s whole worldview.",
+          "An interview is testimony, shaped by incentives, framing and the speaker’s interests. Operational anecdotes are not independent measurements, and forecasts do not become facts because the speaker builds ambitious things. This essay draws questions from the source without endorsing its timelines, commercial claims or comparisons with competitors."
+        ]
+      },
+      {
+        "heading": "The bottleneck can change category",
+        "paragraphs": [
+          "An asset-light strategy is appealing: provide intelligence to someone who already owns the equipment, infrastructure or relevant expertise. That can make sense when better decisions would unlock capacity. It can fail when the equipment itself is unavailable or its owner cannot expand quickly enough.",
+          "The distinction changes the question. Instead of asking whether software can improve a process, ask whether the recipient can turn that improvement into additional useful output. A more intelligent plan does not automatically provide electrical connections, components, trained labour or a functioning supply chain. Physical expansion may require experiments and elapsed time that better reasoning cannot remove."
+        ]
+      },
+      {
+        "heading": "Do not confuse a large operator with a starting point",
+        "paragraphs": [
+          "The counter-reading also challenges productivity measured mainly through a small human denominator. An organisation can increase output while employing more people. A ratio does not by itself distinguish productive expansion from burden shifting, nor does it explain where an additional person would unlock the greatest benefit.",
+          "The practical lesson is to identify the limiting factor and allocate attention accordingly. It is not a recommendation to copy a large operator’s capital commitments, management intensity or appetite for risk. Differences in resources, authority and starting conditions are part of the analysis, not details to discard."
+        ]
+      },
+      {
+        "heading": "Reality helps, but someone still reads the instrument",
+        "paragraphs": [
+          "Physical outcomes can discipline a plan in ways that a self-reported completion flag cannot. A component either behaves as required under a stated test or it does not. Yet the test conditions, instruments and interpretation remain choices. A successful demonstration is not automatically evidence of dependable operation across every setting.",
+          "The same distinction protects accountability. Discovering that a design fails does not settle who must respond, who accepted the risk or what remedy follows. Correctness and answerability remain separate questions even when the evidence comes from the physical world.",
+          "For Omnicorp, the useful counter-reading preserves friction: some bottlenecks are organisational, some economic, some physical. A proposal should name which kind it faces and what observation would change that diagnosis. Continual development means improving the blueprint when reality contradicts it, rather than enlarging the story until every outcome appears to confirm it."
+        ]
+      }
+    ],
+    "questions": [
+      "Is the constraint a poor decision, scarce capacity or elapsed physical time?",
+      "Which lessons depend on resources a new organisation does not possess?",
+      "What observation would show that the blueprint needs to change?"
+    ],
+    "sources": [
+      {
+        "title": "Dwarkesh Podcast: Elon Musk interview and canonical transcript, February 2026",
+        "url": "https://www.dwarkesh.com/p/elon-musk"
+      }
+    ]
+  },
+  {
+    "slug": "glossary",
+    "title": "A vocabulary for the project",
+    "kicker": "REFERENCE / WORKING DEFINITIONS",
+    "summary": "The terms used across Omnicorp’s public essays, with the limits of each idea kept in view.",
+    "source_file": "GLOSSARY.md",
+    "sections": [
+      {
+        "heading": "Purpose and organisation",
+        "paragraphs": [
+          "Omnicorp: a developing vision for an organisation whose central purpose is continually improving its ability to understand and act. Products, revenue and physical operations would sustain and ground that process. The name describes the project; it is not evidence that a self-improving autonomous company already exists.",
+          "AI-native: organising selected work around the capabilities and limitations of AI from the start, rather than attaching a chatbot to an unchanged process. It does not mean that every task should use AI or that human judgement can be removed.",
+          "Prime mover: the capability around which an operating design is organised. Here, AI and agent systems are the motivating design possibility. The term does not require one model, one vendor or one permanently fixed technical architecture."
+        ]
+      },
+      {
+        "heading": "Work and learning",
+        "paragraphs": [
+          "Agent persona: a defined role with a purpose, scope, tools and review expectations. It helps divide work and context. A persona is not proof of personhood, consciousness or independent authority.",
+          "Compound engineering: retaining useful lessons from planned, executed and reviewed work so later work can benefit. Whether an improvement actually compounds must be checked; documenting a lesson is not the same as making the next outcome better.",
+          "Verification bottleneck: the possibility that checking, repairing and accepting work constrains progress more than generating it. The relevant constraint depends on the task; verification includes more than automated tests.",
+          "Read/write rule: gather independent perspectives where that helps, then keep responsibility for each coherent decision clear. Parallel participation does not remove the need to reconcile conflicting changes or conclusions."
+        ]
+      },
+      {
+        "heading": "Value and responsibility",
+        "paragraphs": [
+          "Verified value: a useful outcome supported by evidence appropriate to a stated claim. Verification always has a boundary; the term does not mean certainty across every possible setting.",
+          "Answerability: the expectation that an identifiable owner can explain a decision and respond to its consequences. It differs from fame, a reassuring signature or a detailed activity log.",
+          "Legitimacy: the ongoing willingness of affected people and institutions to accept an organisation’s activities. It includes consent, trust and the ability to challenge decisions; legal permission alone does not answer every part of it.",
+          "Continual development: repeated improvement in understanding and agency, assessed against outcomes and retained across cycles. It is the purpose being explored, not a claim of unlimited acceleration or a predicted date for a singularity."
+        ]
+      }
+    ],
+    "questions": [
+      "Which terms describe an ambition, and which describe an observed capability?",
+      "Where does the evidence behind a claim stop?"
+    ],
+    "sources": []
+  }
+]

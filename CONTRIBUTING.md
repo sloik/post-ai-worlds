@@ -1,6 +1,6 @@
 # Contributing
 
-Help make the arguments clearer, the sources stronger and the assumptions easier to challenge. Contributions and project discussion are in English.
+This repository is the canonical source for both Post-AI Era Vision and Omnicorp. Make new work here. Help make the arguments clearer, the sources stronger and the assumptions easier to challenge. Contributions and project discussion are in English.
 
 ## Choose a starting point
 
@@ -60,4 +60,4 @@ Agent accounts and generated messages have no automatic authority or additional 
 
 Link to sources rather than uploading copied articles, books, transcripts or restricted datasets. Submit only material you have permission to share. Do not include private conversations, personal identifiers, credentials, local machine paths or confidential operational records.
 
-The project has not yet selected a licence. See [NOTICE.md](NOTICE.md). Suggestions and correction proposals are welcome, but substantive contributions may need to wait for clear licensing terms before merge. There is no project contributor agreement or additional rights grant established by this guide.
+Submit original work you can license under the applicable terms in [LICENSING.md](LICENSING.md): CC BY 4.0 for writing/data/illustrations and MIT for software/formal specifications. You retain ownership; intentional submissions for inclusion use those terms unless explicitly stated otherwise and agreed before inclusion. No copyright assignment or separate contributor agreement is required. Preserve third-party notices and give appropriate credit. Discussion and experiments are welcome; a source or licence is not endorsement.

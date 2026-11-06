@@ -2,7 +2,7 @@
   "schema_version": 1,
   "scope": "public_editorial_inventory_only",
   "documents": {
-    "vision/00-CHARTER.md": {
+    "post-ai/00-CHARTER.md": {
       "sha256": "01fa3667cebb18ee676f2cff073fd80c3bebd03150503642b14a6629ba536c06",
       "headings": [
         {
@@ -28,7 +28,7 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "vision/01-VISION.md": {
+    "post-ai/01-VISION.md": {
       "sha256": "2ec372cbe31ccfcc0a798977c7721ea962721bba1533449672bb8f5fef31cdf3",
       "headings": [
         {
@@ -54,7 +54,7 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "vision/02-DEMAND-SIDE.md": {
+    "post-ai/02-DEMAND-SIDE.md": {
       "sha256": "f43c9d2551802c304a49d9f697569aadd365634d7d4bff34124e0d31312335fd",
       "headings": [
         {
@@ -80,7 +80,7 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "vision/03-SIGNALS.md": {
+    "post-ai/03-SIGNALS.md": {
       "sha256": "6a98359ce34a23b242d78002bea361fdf7fd9f82dc04c7da10808460a418c0a5",
       "headings": [
         {
@@ -106,7 +106,7 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "vision/04-PUBLIC-SCENARIOS-AND-RESOURCE-ECONOMICS.md": {
+    "post-ai/04-PUBLIC-SCENARIOS-AND-RESOURCE-ECONOMICS.md": {
       "sha256": "62256f3bbf86b0f165f1a2e75072638a9fd494f8b11030fb877ca3ec1284dd89",
       "headings": [
         {
@@ -132,7 +132,7 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "vision/05-FUTURE-OF-WORK.md": {
+    "post-ai/05-FUTURE-OF-WORK.md": {
       "sha256": "369dbb22bfb54ddbad8e2c8250837c775e6d0754021a1b3198747e500e12ec15",
       "headings": [
         {
@@ -158,7 +158,7 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "vision/06-THE-ALIGNMENT-QUESTION.md": {
+    "post-ai/06-THE-ALIGNMENT-QUESTION.md": {
       "sha256": "d0bf829384dcd4b494f5fac22ba0fb1df9d685c83a04a119a93ef0bb38437a5e",
       "headings": [
         {
@@ -184,7 +184,7 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "vision/07-VIEW-FROM-INSIDE.md": {
+    "post-ai/07-VIEW-FROM-INSIDE.md": {
       "sha256": "172dfca313de871b3714ea51c50f4879990306c522b9d679d8021d099e922d93",
       "headings": [
         {
@@ -210,7 +210,7 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "vision/08-AI-2040-CROSSLINK.md": {
+    "post-ai/08-AI-2040-CROSSLINK.md": {
       "sha256": "4e25df1df548a76b6fac1deab836595d06f0f270a972526e876710c46b72a792",
       "headings": [
         {
@@ -236,7 +236,7 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "vision/09-PUBLIC-SOURCES.md": {
+    "post-ai/09-PUBLIC-SOURCES.md": {
       "sha256": "63ead7501c59be94c69e406a047c75dfca902f03a3c643aa60654da632383983",
       "headings": [
         {
@@ -262,7 +262,7 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "vision/10-THE-CULTURE-AS-ENDPOINT.md": {
+    "post-ai/10-THE-CULTURE-AS-ENDPOINT.md": {
       "sha256": "5384b919c53aadb020c91060cb462fde86f18c633f53177c7310e96e1ddd817c",
       "headings": [
         {
@@ -288,7 +288,7 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "vision/11-THE-MONOLATRY-FRAME.md": {
+    "post-ai/11-THE-MONOLATRY-FRAME.md": {
       "sha256": "146ed8355f2be7ac600c5a5b48436fdbba17640c26b6f8d0a6db0a8dbe21c836",
       "headings": [
         {
@@ -314,7 +314,7 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "vision/12-THE-EXCEPTION-THAT-WONT-HOLD.md": {
+    "post-ai/12-THE-EXCEPTION-THAT-WONT-HOLD.md": {
       "sha256": "18c7b020dbd20e0cab61774c56e04c0616a91e70cfa216cb1368a133caa7cc2b",
       "headings": [
         {
@@ -340,7 +340,7 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "vision/13-MANUFACTURED-MEANING.md": {
+    "post-ai/13-MANUFACTURED-MEANING.md": {
       "sha256": "9654858bff073740227af4b842eefdf4b4159d6d63f18e443f30ba85981e97d3",
       "headings": [
         {
@@ -366,7 +366,7 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "vision/14-THE-EVAL-VALIDITY-PROBLEM.md": {
+    "post-ai/14-THE-EVAL-VALIDITY-PROBLEM.md": {
       "sha256": "5d71a0bea54f043d80684cf24ddc2b03964d047261775a57d61ab52ae992a62b",
       "headings": [
         {
@@ -392,7 +392,7 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "vision/15-THE-LAWYERS-FORK.md": {
+    "post-ai/15-THE-LAWYERS-FORK.md": {
       "sha256": "fbc01b712241543d4515e50c6f96b7ae8c1ad91288bd22347658a84e8640fb6d",
       "headings": [
         {
@@ -418,7 +418,7 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "vision/16-CAN-AI-BE-ACCOUNTABLE.md": {
+    "post-ai/16-CAN-AI-BE-ACCOUNTABLE.md": {
       "sha256": "7b91c1e1290da6db0f62a144dc2093e8ea06774873fd4332fd19e98d4488aa8f",
       "headings": [
         {
@@ -444,7 +444,7 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "vision/17-PHYSICAL-AI.md": {
+    "post-ai/17-PHYSICAL-AI.md": {
       "sha256": "9237a16162fb91d9f6d1d270ce9206f3acaf511b104c7bcd66f089ae27fcb09c",
       "headings": [
         {
@@ -470,7 +470,7 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "vision/18-THE-DEEP-HORIZON.md": {
+    "post-ai/18-THE-DEEP-HORIZON.md": {
       "sha256": "e6c48797ec5dc608f112e24f12c2e3bc2c653ff4177f65473508c08316ddb499",
       "headings": [
         {
@@ -496,7 +496,7 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "vision/19-THE-SMALL-COUNTRY.md": {
+    "post-ai/19-THE-SMALL-COUNTRY.md": {
       "sha256": "6c2cf5526c94a34bd14baa25a2f5de11e18d6f1db4a344e300877df31959cdc1",
       "headings": [
         {
@@ -522,7 +522,7 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "vision/20-THE-MOVING-BASELINE.md": {
+    "post-ai/20-THE-MOVING-BASELINE.md": {
       "sha256": "4e40bacc1027113cbac4ae1101f20ac081f3d4a7d5aa99ded2b53e14a607e25a",
       "headings": [
         {
@@ -548,7 +548,7 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "vision/21-THE-SWARM-INCIDENT.md": {
+    "post-ai/21-THE-SWARM-INCIDENT.md": {
       "sha256": "b1f1e612999f25d3b7eb4977c30787a082c7701ba7c2ca047906037e19fb2a29",
       "headings": [
         {
@@ -574,7 +574,7 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "vision/GLOSSARY.md": {
+    "post-ai/GLOSSARY.md": {
       "sha256": "a67132e2f1e4c4af9f67b409363377fe7b31799cfe75b66538cee0d544f60b67",
       "headings": [
         {
@@ -585,8 +585,8 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "vision/README.md": {
-      "sha256": "8282c8d2787c917dd045fb1d6eac12649fcb07089ede077cb0895f074aba1354",
+    "post-ai/README.md": {
+      "sha256": "c462cc158298c192218b3dc969c6079dfd6762c1c5689ab276baecb69f6fa8cc",
       "headings": [
         {
           "level": 1,
@@ -596,17 +596,17 @@
         {
           "level": 2,
           "text": "Reading routes",
-          "line": 7
+          "line": 9
         },
         {
           "level": 2,
           "text": "Namespaces and assurance",
-          "line": 36
+          "line": 38
         }
       ],
       "assurance": "editorial_inventory_only"
     },
-    "organisation/00-CHARTER.md": {
+    "omnicorp/00-CHARTER.md": {
       "sha256": "360c92c1d4a3a00c29319f86ccd0f2ffc1f0b3e94bd457d1385098878d91cfac",
       "headings": [
         {
@@ -632,7 +632,7 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "organisation/01-BLUEPRINT.md": {
+    "omnicorp/01-BLUEPRINT.md": {
       "sha256": "c546eaa9c033f7fc226a5a2436a9f5d0d947dc3ba83b69ec611751da3f81b870",
       "headings": [
         {
@@ -663,7 +663,7 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "organisation/02-SOLO-TO-SCALE.md": {
+    "omnicorp/02-SOLO-TO-SCALE.md": {
       "sha256": "db49e0ca0d06c37b67941e6ee635f0996fbd7ff5394638380008b1c355f17998",
       "headings": [
         {
@@ -694,7 +694,7 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "organisation/03-AGENT-TEAMS.md": {
+    "omnicorp/03-AGENT-TEAMS.md": {
       "sha256": "020285df305f4d60f0542a7a6846cdf7306454ea27532f1e30d84908c6081dbc",
       "headings": [
         {
@@ -720,7 +720,7 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "organisation/04-SOFTWARE-FACTORY.md": {
+    "omnicorp/04-SOFTWARE-FACTORY.md": {
       "sha256": "da0b5e7fa95d611c6af5ad91a9d385f77bbbeaa63fead3ddcc080b53a7ee7cff",
       "headings": [
         {
@@ -751,7 +751,7 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "organisation/05-REAL-WORLD-PRODUCTION.md": {
+    "omnicorp/05-REAL-WORLD-PRODUCTION.md": {
       "sha256": "3f18d088b096ee90c4bef1108b76445ae721bf7af4ee526f4b51efb96e41a277",
       "headings": [
         {
@@ -787,7 +787,7 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "organisation/06-CAPITAL.md": {
+    "omnicorp/06-CAPITAL.md": {
       "sha256": "c4238ccf195e15797a53340cb09afe51a333ad25b1313de21541ad01d66106d8",
       "headings": [
         {
@@ -813,7 +813,7 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "organisation/07-ROADMAP-AND-KPIS.md": {
+    "omnicorp/07-ROADMAP-AND-KPIS.md": {
       "sha256": "d7b177cc88992308e935c9d47838beff85db69a7c6476fb70d6230461ef6fef3",
       "headings": [
         {
@@ -839,7 +839,7 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "organisation/08-RISKS-AND-MOATS.md": {
+    "omnicorp/08-RISKS-AND-MOATS.md": {
       "sha256": "7b4384c1f9dc308700dc8e09d2a3d2302405d118e6021b1cfccfc901dc9e6dca",
       "headings": [
         {
@@ -865,7 +865,7 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "organisation/09-CASE-EVERY.md": {
+    "omnicorp/09-CASE-EVERY.md": {
       "sha256": "19a65c9bd7442d5b5571b738891e8b8027afa636ce1c003c867d1e9c03f12abe",
       "headings": [
         {
@@ -891,7 +891,7 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "organisation/10-EFFICIENCY-AND-LEGITIMACY.md": {
+    "omnicorp/10-EFFICIENCY-AND-LEGITIMACY.md": {
       "sha256": "e778fd828bba3d14faf47474613a3ea02afef0ab3c08984628c9e678fadb100e",
       "headings": [
         {
@@ -922,7 +922,7 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "organisation/11-THE-INCOMPRESSIBLE-HUMAN.md": {
+    "omnicorp/11-THE-INCOMPRESSIBLE-HUMAN.md": {
       "sha256": "247cf96e7c48a91442dc05ec8e3ae86600bbe88024cc0c866b2c91ae04cbe4ca",
       "headings": [
         {
@@ -948,7 +948,7 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "organisation/12-THE-OPERATOR-COUNTER-READING.md": {
+    "omnicorp/12-THE-OPERATOR-COUNTER-READING.md": {
       "sha256": "a723a3e96689951727fb3cfcdbba84b27b3d674d727254dadcd6aec8ff9d27f0",
       "headings": [
         {
@@ -979,7 +979,7 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "organisation/13-CONTINUAL-SELF-DEVELOPMENT.md": {
+    "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md": {
       "sha256": "95635185567ab72313ec0c614ffbe22f45719c9b56c60f2c3b6fb64716515dd4",
       "headings": [
         {
@@ -1005,8 +1005,8 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "organisation/14-EVIDENCE-AND-FORECASTS.md": {
-      "sha256": "00fa81410c7ebfe5344bde94ec9829d9bcee9ac9df39374c565aebf995f9cb36",
+    "omnicorp/14-EVIDENCE-AND-FORECASTS.md": {
+      "sha256": "eb6f94aa50b25588f42904758196a10fd23a6b9d90d77889783030f14beebe51",
       "headings": [
         {
           "level": 1,
@@ -1031,7 +1031,7 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "organisation/15-CULTURE-INTIMACY-AND-POWER.md": {
+    "omnicorp/15-CULTURE-INTIMACY-AND-POWER.md": {
       "sha256": "24d36c79c465c94b38e6b1e60c639b5b2e78af1c895c0d698301bdea45849d1d",
       "headings": [
         {
@@ -1062,7 +1062,7 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "organisation/16-SOCIAL-SIGNALS.md": {
+    "omnicorp/16-SOCIAL-SIGNALS.md": {
       "sha256": "7947c10d22cffc59d2a317da892e4d0a20137df56620aaaebc9ff01ab0e5eab5",
       "headings": [
         {
@@ -1088,7 +1088,7 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "organisation/17-PARALLEL-SCENARIOS.md": {
+    "omnicorp/17-PARALLEL-SCENARIOS.md": {
       "sha256": "392a3c48da21bc20697775de8029336c58f1d1ac711634d92fb41d72c1f2b2ec",
       "headings": [
         {
@@ -1114,7 +1114,7 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "organisation/18-MULTIVERSE-REGISTER.md": {
+    "omnicorp/18-MULTIVERSE-REGISTER.md": {
       "sha256": "5125a0f186a5d01128e0cf52f02d300646410232dc670666189f7015d4d900f4",
       "headings": [
         {
@@ -1140,7 +1140,7 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "organisation/GLOSSARY.md": {
+    "omnicorp/GLOSSARY.md": {
       "sha256": "6b0f308a324bef48cfd3ac09a4bc547851b3a4cc1b6343dd9554af40493b6900",
       "headings": [
         {
@@ -1151,8 +1151,8 @@
       ],
       "assurance": "editorial_inventory_only"
     },
-    "organisation/README.md": {
-      "sha256": "d2cac3b3905de7f8979de0f9f185947ea85c9ddca08be7f694d3c60874c0d5e8",
+    "omnicorp/README.md": {
+      "sha256": "2d680bd6aa5a9f93a7fb60404d97d3ea6c3c2273799b5de5cf426bbfd7033d73",
       "headings": [
         {
           "level": 1,
@@ -1162,12 +1162,12 @@
         {
           "level": 2,
           "text": "Reading routes",
-          "line": 9
+          "line": 11
         },
         {
           "level": 2,
           "text": "How to contribute",
-          "line": 36
+          "line": 38
         }
       ],
       "assurance": "editorial_inventory_only"

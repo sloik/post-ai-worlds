@@ -2,15 +2,15 @@ POST_AI_CAPTURE {"id":"operations-safe","inputs":{"formal/AuthorityContract.tla"
 TLC2 Version 2.19 of 08 August 2024 (rev: 5a47802)
 Warning: Please run the Java VM which executes TLC with a throughput optimized garbage collector by passing the "-XX:+UseParallelGC" property.
 (Use the -nowarning option to disable this warning.)
-Running breadth-first search Model-Checking with fp 103 and seed 1 with 1 worker on 10 cores with 512MB heap and 64MB offheap memory [pid: 98820] (Mac OS X 27.2 aarch64, Homebrew 27.0.1.0.3 x86_64, MSBDiskFPSet, DiskStateQueue).
-Parsing file /private/tmp/post-ai-tlc-7wy6pjrn/OperationalGates.tla
-Parsing file /private/tmp/post-ai-tlc-7wy6pjrn/Vocabulary.tla
-Parsing file /private/tmp/post-ai-tlc-7wy6pjrn/jvm/TLC.tla
-Parsing file /private/tmp/post-ai-tlc-7wy6pjrn/jvm/Naturals.tla
-Parsing file /private/tmp/post-ai-tlc-7wy6pjrn/jvm/FiniteSets.tla
-Parsing file /private/tmp/post-ai-tlc-7wy6pjrn/ExpansionContract.tla
-Parsing file /private/tmp/post-ai-tlc-7wy6pjrn/AuthorityContract.tla
-Parsing file /private/tmp/post-ai-tlc-7wy6pjrn/jvm/Sequences.tla
+Running breadth-first search Model-Checking with fp 76 and seed 1 with 1 worker on 10 cores with 512MB heap and 64MB offheap memory [pid: 1459] (Mac OS X 27.2 aarch64, Homebrew 27.0.1.0.3 x86_64, MSBDiskFPSet, DiskStateQueue).
+Parsing file /private/tmp/post-ai-tlc-y_qzsu49/OperationalGates.tla
+Parsing file /private/tmp/post-ai-tlc-y_qzsu49/Vocabulary.tla
+Parsing file /private/tmp/post-ai-tlc-y_qzsu49/jvm/TLC.tla
+Parsing file /private/tmp/post-ai-tlc-y_qzsu49/jvm/Naturals.tla
+Parsing file /private/tmp/post-ai-tlc-y_qzsu49/jvm/FiniteSets.tla
+Parsing file /private/tmp/post-ai-tlc-y_qzsu49/ExpansionContract.tla
+Parsing file /private/tmp/post-ai-tlc-y_qzsu49/AuthorityContract.tla
+Parsing file /private/tmp/post-ai-tlc-y_qzsu49/jvm/Sequences.tla
 Semantic processing of module Naturals
 Semantic processing of module Sequences
 Semantic processing of module FiniteSets
@@ -19,9 +19,9 @@ Semantic processing of module TLC
 Semantic processing of module ExpansionContract
 Semantic processing of module AuthorityContract
 Semantic processing of module OperationalGates
-Starting... (2026-11-06 19:45:38)
+Starting... (2026-11-06 20:46:31)
 Computing initial states...
-Finished computing initial states: 1 distinct state generated at 2026-11-06 19:45:38.
+Finished computing initial states: 1 distinct state generated at 2026-11-06 20:46:32.
 Model checking completed. No error has been found.
   Estimates of the probability that TLC did not check all reachable states
   because two distinct states had the same fingerprint:
@@ -29,4 +29,4 @@ Model checking completed. No error has been found.
 5709 states generated, 1224 distinct states found, 0 states left on queue.
 The depth of the complete state graph search is 13.
 The average outdegree of the complete state graph is 1 (minimum is 0, the maximum 10 and the 95th percentile is 4).
-Finished in 00s at (2026-11-06 19:45:38)
+Finished in 00s at (2026-11-06 20:46:32)

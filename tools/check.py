@@ -371,7 +371,7 @@ def inventory(root):
             "headings": headings(p.read_text(encoding="utf-8")),
             "assurance": "editorial_inventory_only",
         }
-        for folder in ("vision", "organisation")
+        for folder in ("post-ai", "omnicorp")
         for p in sorted((root / folder).rglob("*.md"))
     }
 

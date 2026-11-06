@@ -1,8 +1,10 @@
 # The societal vision
 
+**Canonical maintained source for Post-AI Era Vision.** Part of [Post-AI Era Vision & Omnicorp](../README.md); propose changes here through issues and PRs.
+
 This track asks what AI could change about resources, work, relationships and public authority. It treats outcomes as conditional: stronger capabilities do not determine who owns them, how people participate or whether useful services remain contestable.
 
-The companion [organisational track](../organisation/README.md) asks how an organisation could improve its ability to understand and act while remaining grounded in useful outcomes. Neither track is a finished blueprint for society. Both welcome evidence, counterexamples and alternative arrangements.
+The companion [organisational track](../omnicorp/README.md) asks how an organisation could improve its ability to understand and act while remaining grounded in useful outcomes. Neither track is a finished blueprint for society. Both welcome evidence, counterexamples and alternative arrangements.
 
 ## Reading routes
 

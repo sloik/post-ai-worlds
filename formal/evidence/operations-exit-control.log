@@ -2,15 +2,15 @@ POST_AI_CAPTURE {"id":"operations-exit-control","inputs":{"formal/AuthorityContr
 TLC2 Version 2.19 of 08 August 2024 (rev: 5a47802)
 Warning: Please run the Java VM which executes TLC with a throughput optimized garbage collector by passing the "-XX:+UseParallelGC" property.
 (Use the -nowarning option to disable this warning.)
-Running breadth-first search Model-Checking with fp 95 and seed 1 with 1 worker on 10 cores with 512MB heap and 64MB offheap memory [pid: 98974] (Mac OS X 27.2 aarch64, Homebrew 27.0.1.0.3 x86_64, MSBDiskFPSet, DiskStateQueue).
-Parsing file /private/tmp/post-ai-tlc-5zoi9u_k/OperationalGates.tla
-Parsing file /private/tmp/post-ai-tlc-5zoi9u_k/Vocabulary.tla
-Parsing file /private/tmp/post-ai-tlc-5zoi9u_k/jvm/TLC.tla
-Parsing file /private/tmp/post-ai-tlc-5zoi9u_k/jvm/Naturals.tla
-Parsing file /private/tmp/post-ai-tlc-5zoi9u_k/jvm/FiniteSets.tla
-Parsing file /private/tmp/post-ai-tlc-5zoi9u_k/ExpansionContract.tla
-Parsing file /private/tmp/post-ai-tlc-5zoi9u_k/AuthorityContract.tla
-Parsing file /private/tmp/post-ai-tlc-5zoi9u_k/jvm/Sequences.tla
+Running breadth-first search Model-Checking with fp 112 and seed 1 with 1 worker on 10 cores with 512MB heap and 64MB offheap memory [pid: 1478] (Mac OS X 27.2 aarch64, Homebrew 27.0.1.0.3 x86_64, MSBDiskFPSet, DiskStateQueue).
+Parsing file /private/tmp/post-ai-tlc-0c7_8iy7/OperationalGates.tla
+Parsing file /private/tmp/post-ai-tlc-0c7_8iy7/Vocabulary.tla
+Parsing file /private/tmp/post-ai-tlc-0c7_8iy7/jvm/TLC.tla
+Parsing file /private/tmp/post-ai-tlc-0c7_8iy7/jvm/Naturals.tla
+Parsing file /private/tmp/post-ai-tlc-0c7_8iy7/jvm/FiniteSets.tla
+Parsing file /private/tmp/post-ai-tlc-0c7_8iy7/ExpansionContract.tla
+Parsing file /private/tmp/post-ai-tlc-0c7_8iy7/AuthorityContract.tla
+Parsing file /private/tmp/post-ai-tlc-0c7_8iy7/jvm/Sequences.tla
 Semantic processing of module Naturals
 Semantic processing of module Sequences
 Semantic processing of module FiniteSets
@@ -19,9 +19,9 @@ Semantic processing of module TLC
 Semantic processing of module ExpansionContract
 Semantic processing of module AuthorityContract
 Semantic processing of module OperationalGates
-Starting... (2026-11-06 19:45:40)
+Starting... (2026-11-06 20:46:34)
 Computing initial states...
-Finished computing initial states: 1 distinct state generated at 2026-11-06 19:45:40.
+Finished computing initial states: 1 distinct state generated at 2026-11-06 20:46:34.
 Error: Invariant IndependentExit is violated.
 Error: The behavior up to this point is:
 State 1: <Initial predicate>
@@ -60,4 +60,4 @@ State 3: <Next line 46, col 9 to line 46, col 51 of module OperationalGates>
 101 states generated, 57 distinct states found, 45 states left on queue.
 The depth of the complete state graph search is 3.
 The average outdegree of the complete state graph is 6 (minimum is 2, the maximum 10 and the 95th percentile is 10).
-Finished in 00s at (2026-11-06 19:45:40)
+Finished in 00s at (2026-11-06 20:46:34)

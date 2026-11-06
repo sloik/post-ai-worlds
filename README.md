@@ -1,6 +1,8 @@
-# Post-AI Worlds
+# Post-AI Era Vision & Omnicorp
 
-An English research project about possible AI futures and the organisations that could act within them.
+**The canonical English home for both projects — Post-AI Worlds.**
+
+Two connected projects, maintained together: **Post-AI Era Vision** studies possible societies; **Omnicorp** develops an organisation whose purpose is continual improvement of its ability to understand and act.
 
 Two questions belong together: **what might society become, and how should an AI-native organisation develop responsibly inside it?** The societal track explores work, resources, relationships, institutions and power. The organisational track develops Omnicorp: a company whose purpose is to continually improve its ability to understand and act, sustained and tested by useful activity in the world.
 
@@ -10,13 +12,13 @@ This is a collection of arguments to inspect and improve. Evidence, assumptions,
 
 | Track | Start here |
 |---|---|
-| Society: resources, work, meaning, culture and public power | [Vision](vision/README.md) |
-| Organisation: capabilities, production, resources and accountability | [Omnicorp](organisation/README.md) |
+| Society: resources, work, meaning, culture and public power | [Post-AI Era Vision → `post-ai/`](post-ai/README.md) |
+| Organisation: capabilities, production, resources and accountability | [Omnicorp → `omnicorp/`](omnicorp/README.md) |
 | Shared numbered scenarios and their assumptions | [Worlds](worlds/README.md) |
 | Sources, measurements and uncertainty | [Evidence](evidence/README.md) |
 | Exact boundaries of executable checks | [Formal assurance](formal/README.md) |
 
-The [Omnicorp website](https://stocki-apps.pages.dev/omnicorp/) is a public introduction. This repository is the shared home for reading, challenges, ideas and proposed changes. A website statement or historical result does not substitute for the exact evidence attached to a repository claim.
+The [Omnicorp website](https://stocki-apps.pages.dev/omnicorp/) is a public introduction. This repository is the single canonical source for both projects: documents, shared worlds, reviewed website source, evidence, issues and proposed changes. The website is a short introduction; older private notes are historical archives, not a second maintained canon. New work belongs here. A website statement or historical result does not substitute for the exact evidence attached to a repository claim.
 
 ## One shared world register
 
@@ -30,4 +32,6 @@ Use **Issues** for evidence, contradictions, ideas and forecast proposals. Use *
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md), [GOVERNANCE.md](GOVERNANCE.md) and the [Code of Conduct](CODE_OF_CONDUCT.md). Project discussion and maintained documents are English only.
 
-Licensing has not yet been selected. [NOTICE.md](NOTICE.md) explains the current rights boundary; public visibility is not an additional project licence.
+**Open with attribution:** original writing, data and illustrations use **CC BY 4.0**; code and formal specifications use **MIT**. Discussion, adaptation, experimentation and commercial reuse are welcome. See [LICENSING.md](LICENSING.md) for exact scope and [ATTRIBUTION.md](ATTRIBUTION.md) for ready-to-use credit.
+
+The [website source](website/README.md) and [canonical-home policy](CANONICAL.md) explain how introductions and historical material relate to these documents.

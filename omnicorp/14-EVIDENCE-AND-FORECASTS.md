@@ -2,7 +2,7 @@
 
 An organisation that wants to improve should be able to distinguish what happened from what it expected. A convincing demonstration, a laboratory report, an independent replication and a deployment outcome answer different questions. None becomes a prediction merely because it later appears in a timeline.
 
-This public edition does not reconstruct or re-register earlier forecast records. The [public Observatory](https://stocki-apps.pages.dev/omnicorp/) is the external route to previously published material. Each original registration owns its wording, criteria, probability, observation window and resolution rules. A new explanation here must not silently alter those terms or imply that a past event was forecast prospectively.
+This public edition does not reconstruct or re-register earlier forecast records. The [frozen public forecast export](../evidence/forecasts/2026-11-05-records.json) is retained in this canonical repository and presented by the [public Observatory](https://stocki-apps.pages.dev/omnicorp/observatory/). Its original issued bytes are preserved. Each original registration owns its wording, criteria, probability, observation window and resolution rules. A new explanation here must not silently alter those terms or imply that a past event was forecast prospectively.
 
 ## Record the narrow observation
 

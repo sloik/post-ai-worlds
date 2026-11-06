@@ -95,7 +95,7 @@ class NativeTests(unittest.TestCase):
         self.tmp = tempfile.TemporaryDirectory()
         self.addCleanup(self.tmp.cleanup)
         self.root = Path(self.tmp.name)
-        for folder in ("tools", "formal", "worlds", "vision", "organisation"):
+        for folder in ("tools", "formal", "worlds", "post-ai", "omnicorp"):
             shutil.copytree(
                 ROOT / folder,
                 self.root / folder,
@@ -201,7 +201,7 @@ class NativeTests(unittest.TestCase):
         self.reject()
 
     def test_nested_document_escapes_nothing(self):
-        folder = self.root / "vision/nested"
+        folder = self.root / "post-ai/nested"
         folder.mkdir()
         (folder / "chapter.md").write_text("# New chapter")
         with self.assertRaises(check.Rejected):
@@ -213,13 +213,13 @@ class NativeTests(unittest.TestCase):
             check.check_links(self.root)
 
     def test_omitted_document(self):
-        p = next((self.root / "vision").glob("*.md"))
+        p = next((self.root / "post-ai").glob("*.md"))
         p.unlink()
         with self.assertRaises(check.Rejected):
             check.check_inventory(self.root)
 
     def test_stale_document(self):
-        p = next((self.root / "organisation").glob("*.md"))
+        p = next((self.root / "omnicorp").glob("*.md"))
         p.write_text(p.read_text() + "\n")
         with self.assertRaises(check.Rejected):
             check.check_inventory(self.root)

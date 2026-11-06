@@ -1,10 +1,12 @@
 # Omnicorp: an organisation that keeps learning
 
+**Canonical maintained source for Omnicorp.** Part of [Post-AI Era Vision & Omnicorp](../README.md); propose changes here through issues and PRs.
+
 Omnicorp asks how an organisation could be built around AI as an active participant in understanding and doing work. Its cornerstone is continual development of the organisation's ability to understand, learn and act. Products, revenue and physical operations sustain that development and ground it in consequences.
 
 This public edition presents a research proposal. It combines a candidate organisational architecture with questions about culture, responsibility, material resources and public power. It does not announce a general-purpose autonomous company, a product launch or an inevitable economic future.
 
-The companion [societal track](../vision/README.md) examines wider changes. The [shared worlds](../worlds/README.md) keep assumptions visible across both tracks. Conceptual relevance to a world is not an assertion of empirical truth or a formal proof.
+The companion [societal track](../post-ai/README.md) examines wider changes. The [shared worlds](../worlds/README.md) keep assumptions visible across both tracks. Conceptual relevance to a world is not an assertion of empirical truth or a formal proof.
 
 ## Reading routes
 
