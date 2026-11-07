@@ -33,6 +33,12 @@ For a bounded physical pilot, retain the operating envelope, calibration informa
 
 Testing against the physical world can expose errors that a software fixture misses. Measurement can still be incomplete, misinterpreted or manipulated. Independent observation, suitable instruments and incident response remain important. Physics constrains what happens; it does not automatically tell an organisation what happened or who should answer for it.
 
+## Computing hardware as a productive capability
+
+The long-term direction includes learning to design computing systems for the organisation's own workloads and potentially for others. Start with an operating harness and an experimental computer built from existing components; consider custom boards, reconfigurable implementations or specialised silicon when measured constraints justify them. [Hardware development gates](07-ROADMAP-AND-KPIS.md#hardware-development-path) connect this capability to the roadmap.
+
+System architecture, chip design, fabrication, packaging and operation are distinct capabilities with different dependencies. Designing a chip does not require owning a fabrication plant, and a design does not establish access to manufacturing capacity. Record supplier dependence, fabrication and packaging access, verification, test, software support, power and cooling alongside performance. A useful board or integrated standard-component system can be an endpoint in its own right.
+
 ## Expansion remains conditional
 
 Future AI could help design machines, improve fabrication or coordinate resource development. Those resources could support further capability. The strength and speed of that feedback are empirical questions. Research, construction and validation may impose delays; a useful next improvement may require more resources than the last one.

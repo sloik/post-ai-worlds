@@ -752,7 +752,7 @@
       "assurance": "editorial_inventory_only"
     },
     "omnicorp/05-REAL-WORLD-PRODUCTION.md": {
-      "sha256": "3f18d088b096ee90c4bef1108b76445ae721bf7af4ee526f4b51efb96e41a277",
+      "sha256": "e1285ee7a52a94f1eac3bc3150bf7ab783f9d22863ed54dd07c310624f40f7bd",
       "headings": [
         {
           "level": 1,
@@ -781,8 +781,13 @@
         },
         {
           "level": 2,
-          "text": "Expansion remains conditional",
+          "text": "Computing hardware as a productive capability",
           "line": 36
+        },
+        {
+          "level": 2,
+          "text": "Expansion remains conditional",
+          "line": 42
         }
       ],
       "assurance": "editorial_inventory_only"
@@ -814,7 +819,7 @@
       "assurance": "editorial_inventory_only"
     },
     "omnicorp/07-ROADMAP-AND-KPIS.md": {
-      "sha256": "d7b177cc88992308e935c9d47838beff85db69a7c6476fb70d6230461ef6fef3",
+      "sha256": "cbdb50db4c88ec44ab56336abacc45c27293609d882db69f7a4ecb96d5015a0a",
       "headings": [
         {
           "level": 1,
@@ -833,8 +838,13 @@
         },
         {
           "level": 2,
-          "text": "Track learning rather than ceremony",
+          "text": "Hardware development path",
           "line": 21
+        },
+        {
+          "level": 2,
+          "text": "Track learning rather than ceremony",
+          "line": 34
         }
       ],
       "assurance": "editorial_inventory_only"
@@ -980,7 +990,7 @@
       "assurance": "editorial_inventory_only"
     },
     "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md": {
-      "sha256": "95635185567ab72313ec0c614ffbe22f45719c9b56c60f2c3b6fb64716515dd4",
+      "sha256": "c53319402ff03195f9f80d3e6ef469e9213784f530a2054b92d3f8256048f2bb",
       "headings": [
         {
           "level": 1,
@@ -1001,6 +1011,11 @@
           "level": 2,
           "text": "Preserve what makes improvement meaningful",
           "line": 21
+        },
+        {
+          "level": 2,
+          "text": "Develop the physical substrate as well \u2014 direction clarified 7 November 2026",
+          "line": 29
         }
       ],
       "assurance": "editorial_inventory_only"
@@ -1152,7 +1167,7 @@
       "assurance": "editorial_inventory_only"
     },
     "omnicorp/README.md": {
-      "sha256": "2d680bd6aa5a9f93a7fb60404d97d3ea6c3c2273799b5de5cf426bbfd7033d73",
+      "sha256": "8938201085a94a27d3490c56cd9f2a2f23bbca90c7237ee768adb248673172fd",
       "headings": [
         {
           "level": 1,
@@ -1167,7 +1182,7 @@
         {
           "level": 2,
           "text": "How to contribute",
-          "line": 38
+          "line": 40
         }
       ],
       "assurance": "editorial_inventory_only"

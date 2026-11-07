@@ -18,6 +18,19 @@ For each engine, record demand, renewal, cost to serve and the conditions under 
 
 For development itself, proposed measures include useful capability retained across tasks, regressions, reversion, adaptation cost and performance on previously unseen problems. These are measurement candidates. Until a workload and baseline exist, they are not established key performance indicators.
 
+## Hardware development path
+
+Software, model capabilities and physical computing resources belong in the same long-term development programme. The [continual-development chapter](13-CONTINUAL-SELF-DEVELOPMENT.md#develop-the-physical-substrate-as-well--direction-clarified-7-november-2026) states this intended direction. The stages below are conditional decisions, with no dates or assertion that the preceding work has been completed.
+
+| Stage | Evidence before a larger commitment |
+|---|---|
+| Programmable harness on existing hardware | Repeatable useful tasks, observable resource use, independently checked outcomes and recovery of persistent state. |
+| Experimental computer architecture assembled from standard components | A workload profile identifies a real constraint; the assembled system improves accepted-task cost, completion time, reliability or capability against the existing baseline. |
+| Custom board or reconfigurable implementation, where useful | Measurements show why standard systems are insufficient; prototypes validate interfaces, power, thermal behaviour and maintainability. This stage is optional. |
+| Custom silicon for a stable useful operation | Simulation and prototype evidence justify design, verification, fabrication access, packaging, test and lifecycle costs. Preserve an updateable software path and a credible standard-hardware alternative. |
+
+Track accepted outcomes, total energy and cost per task, memory traffic, utilisation, recovery time and the cost of changing models or harness behaviour. Simulated results, bench measurements and operational results remain distinct. Software and weight adaptation continue throughout; hardware development is a future capability lane rather than a prerequisite for useful work today. Demand and commercial delivery gates apply when offering hardware products or services; internal substrate work must justify its own benefit and resource budget.
+
 ## Track learning rather than ceremony
 
 A growing archive, test suite or agent count can indicate useful investment or accumulated overhead. Ask what a new artifact changes: did it prevent a recurrence, improve a decision or make a dependency visible? Removing an obsolete procedure can be an improvement too.

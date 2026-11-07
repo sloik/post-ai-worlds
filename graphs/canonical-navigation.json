@@ -159,7 +159,7 @@
       "label": "Moving from digital artifacts to physical operations",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/05-REAL-WORLD-PRODUCTION.md",
       "kind": "document",
-      "sha256": "3f18d088b096ee90c4bef1108b76445ae721bf7af4ee526f4b51efb96e41a277"
+      "sha256": "e1285ee7a52a94f1eac3bc3150bf7ab783f9d22863ed54dd07c310624f40f7bd"
     },
     {
       "id": "omnicorp/06-CAPITAL.md",
@@ -173,7 +173,7 @@
       "label": "A roadmap governed by evidence",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/07-ROADMAP-AND-KPIS.md",
       "kind": "document",
-      "sha256": "d7b177cc88992308e935c9d47838beff85db69a7c6476fb70d6230461ef6fef3"
+      "sha256": "cbdb50db4c88ec44ab56336abacc45c27293609d882db69f7a4ecb96d5015a0a"
     },
     {
       "id": "omnicorp/08-RISKS-AND-MOATS.md",
@@ -215,7 +215,7 @@
       "label": "Continual development as the cornerstone",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
       "kind": "document",
-      "sha256": "95635185567ab72313ec0c614ffbe22f45719c9b56c60f2c3b6fb64716515dd4"
+      "sha256": "c53319402ff03195f9f80d3e6ef469e9213784f530a2054b92d3f8256048f2bb"
     },
     {
       "id": "omnicorp/14-EVIDENCE-AND-FORECASTS.md",
@@ -264,7 +264,7 @@
       "label": "Omnicorp: an organisation that keeps learning",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/README.md",
       "kind": "document",
-      "sha256": "2d680bd6aa5a9f93a7fb60404d97d3ea6c3c2273799b5de5cf426bbfd7033d73"
+      "sha256": "8938201085a94a27d3490c56cd9f2a2f23bbca90c7237ee768adb248673172fd"
     },
     {
       "id": "post-ai/00-CHARTER.md",
@@ -1103,11 +1103,23 @@
     },
     {
       "source": "omnicorp/05-REAL-WORLD-PRODUCTION.md",
+      "target": "omnicorp/07-ROADMAP-AND-KPIS.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/05-REAL-WORLD-PRODUCTION.md",
+      "source_lines": [
+        38
+      ],
+      "anchors": [
+        "hardware-development-path"
+      ]
+    },
+    {
+      "source": "omnicorp/05-REAL-WORLD-PRODUCTION.md",
       "target": "worlds/README.md",
       "relation": "markdown_link",
       "source_file": "omnicorp/05-REAL-WORLD-PRODUCTION.md",
       "source_lines": [
-        40
+        46
       ],
       "anchors": []
     },
@@ -1123,11 +1135,23 @@
     },
     {
       "source": "omnicorp/07-ROADMAP-AND-KPIS.md",
+      "target": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/07-ROADMAP-AND-KPIS.md",
+      "source_lines": [
+        23
+      ],
+      "anchors": [
+        "develop-the-physical-substrate-as-well--direction-clarified-7-november-2026"
+      ]
+    },
+    {
+      "source": "omnicorp/07-ROADMAP-AND-KPIS.md",
       "target": "worlds/README.md",
       "relation": "markdown_link",
       "source_file": "omnicorp/07-ROADMAP-AND-KPIS.md",
       "source_lines": [
-        27
+        40
       ],
       "anchors": []
     },
@@ -1180,6 +1204,30 @@
         29
       ],
       "anchors": []
+    },
+    {
+      "source": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
+      "target": "omnicorp/05-REAL-WORLD-PRODUCTION.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
+      "source_lines": [
+        39
+      ],
+      "anchors": [
+        "computing-hardware-as-a-productive-capability"
+      ]
+    },
+    {
+      "source": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
+      "target": "omnicorp/07-ROADMAP-AND-KPIS.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
+      "source_lines": [
+        39
+      ],
+      "anchors": [
+        "hardware-development-path"
+      ]
     },
     {
       "source": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
@@ -1327,7 +1375,7 @@
       "relation": "markdown_link",
       "source_file": "omnicorp/README.md",
       "source_lines": [
-        17
+        19
       ],
       "anchors": []
     },
@@ -1337,7 +1385,7 @@
       "relation": "markdown_link",
       "source_file": "omnicorp/README.md",
       "source_lines": [
-        18
+        20
       ],
       "anchors": []
     },
@@ -1347,7 +1395,7 @@
       "relation": "markdown_link",
       "source_file": "omnicorp/README.md",
       "source_lines": [
-        19
+        21
       ],
       "anchors": []
     },
@@ -1357,7 +1405,7 @@
       "relation": "markdown_link",
       "source_file": "omnicorp/README.md",
       "source_lines": [
-        20
+        22
       ],
       "anchors": []
     },
@@ -1367,7 +1415,7 @@
       "relation": "markdown_link",
       "source_file": "omnicorp/README.md",
       "source_lines": [
-        21
+        23
       ],
       "anchors": []
     },
@@ -1377,7 +1425,7 @@
       "relation": "markdown_link",
       "source_file": "omnicorp/README.md",
       "source_lines": [
-        22
+        24
       ],
       "anchors": []
     },
@@ -1387,7 +1435,7 @@
       "relation": "markdown_link",
       "source_file": "omnicorp/README.md",
       "source_lines": [
-        23
+        25
       ],
       "anchors": []
     },
@@ -1397,33 +1445,16 @@
       "relation": "markdown_link",
       "source_file": "omnicorp/README.md",
       "source_lines": [
-        24
+        15,
+        26
       ],
-      "anchors": []
+      "anchors": [
+        "hardware-development-path"
+      ]
     },
     {
       "source": "omnicorp/README.md",
       "target": "omnicorp/08-RISKS-AND-MOATS.md",
-      "relation": "markdown_link",
-      "source_file": "omnicorp/README.md",
-      "source_lines": [
-        25
-      ],
-      "anchors": []
-    },
-    {
-      "source": "omnicorp/README.md",
-      "target": "omnicorp/09-CASE-EVERY.md",
-      "relation": "markdown_link",
-      "source_file": "omnicorp/README.md",
-      "source_lines": [
-        26
-      ],
-      "anchors": []
-    },
-    {
-      "source": "omnicorp/README.md",
-      "target": "omnicorp/10-EFFICIENCY-AND-LEGITIMACY.md",
       "relation": "markdown_link",
       "source_file": "omnicorp/README.md",
       "source_lines": [
@@ -1433,7 +1464,7 @@
     },
     {
       "source": "omnicorp/README.md",
-      "target": "omnicorp/11-THE-INCOMPRESSIBLE-HUMAN.md",
+      "target": "omnicorp/09-CASE-EVERY.md",
       "relation": "markdown_link",
       "source_file": "omnicorp/README.md",
       "source_lines": [
@@ -1443,7 +1474,7 @@
     },
     {
       "source": "omnicorp/README.md",
-      "target": "omnicorp/12-THE-OPERATOR-COUNTER-READING.md",
+      "target": "omnicorp/10-EFFICIENCY-AND-LEGITIMACY.md",
       "relation": "markdown_link",
       "source_file": "omnicorp/README.md",
       "source_lines": [
@@ -1453,7 +1484,7 @@
     },
     {
       "source": "omnicorp/README.md",
-      "target": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
+      "target": "omnicorp/11-THE-INCOMPRESSIBLE-HUMAN.md",
       "relation": "markdown_link",
       "source_file": "omnicorp/README.md",
       "source_lines": [
@@ -1463,7 +1494,7 @@
     },
     {
       "source": "omnicorp/README.md",
-      "target": "omnicorp/14-EVIDENCE-AND-FORECASTS.md",
+      "target": "omnicorp/12-THE-OPERATOR-COUNTER-READING.md",
       "relation": "markdown_link",
       "source_file": "omnicorp/README.md",
       "source_lines": [
@@ -1473,17 +1504,20 @@
     },
     {
       "source": "omnicorp/README.md",
-      "target": "omnicorp/15-CULTURE-INTIMACY-AND-POWER.md",
+      "target": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
       "relation": "markdown_link",
       "source_file": "omnicorp/README.md",
       "source_lines": [
+        15,
         32
       ],
-      "anchors": []
+      "anchors": [
+        "develop-the-physical-substrate-as-well--direction-clarified-7-november-2026"
+      ]
     },
     {
       "source": "omnicorp/README.md",
-      "target": "omnicorp/16-SOCIAL-SIGNALS.md",
+      "target": "omnicorp/14-EVIDENCE-AND-FORECASTS.md",
       "relation": "markdown_link",
       "source_file": "omnicorp/README.md",
       "source_lines": [
@@ -1493,7 +1527,7 @@
     },
     {
       "source": "omnicorp/README.md",
-      "target": "omnicorp/17-PARALLEL-SCENARIOS.md",
+      "target": "omnicorp/15-CULTURE-INTIMACY-AND-POWER.md",
       "relation": "markdown_link",
       "source_file": "omnicorp/README.md",
       "source_lines": [
@@ -1503,7 +1537,7 @@
     },
     {
       "source": "omnicorp/README.md",
-      "target": "omnicorp/18-MULTIVERSE-REGISTER.md",
+      "target": "omnicorp/16-SOCIAL-SIGNALS.md",
       "relation": "markdown_link",
       "source_file": "omnicorp/README.md",
       "source_lines": [
@@ -1513,11 +1547,31 @@
     },
     {
       "source": "omnicorp/README.md",
-      "target": "omnicorp/GLOSSARY.md",
+      "target": "omnicorp/17-PARALLEL-SCENARIOS.md",
       "relation": "markdown_link",
       "source_file": "omnicorp/README.md",
       "source_lines": [
         36
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/README.md",
+      "target": "omnicorp/18-MULTIVERSE-REGISTER.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/README.md",
+      "source_lines": [
+        37
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/README.md",
+      "target": "omnicorp/GLOSSARY.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/README.md",
+      "source_lines": [
+        38
       ],
       "anchors": []
     },

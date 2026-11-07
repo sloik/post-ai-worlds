@@ -12,6 +12,8 @@ The companion [societal track](../post-ai/README.md) examines wider changes. The
 
 For the purpose and architecture, begin with the charter, blueprint and continual-development chapters. For a practical operating proposal, read stages, team roles, software production, resources and the roadmap. For the difficult questions, start with risks, answerability and the operator's counter-reading.
 
+The [hardware and model co-development direction](13-CONTINUAL-SELF-DEVELOPMENT.md#develop-the-physical-substrate-as-well--direction-clarified-7-november-2026) connects a programmable harness, an experimental computer architecture and possible custom silicon. The [roadmap gates](07-ROADMAP-AND-KPIS.md#hardware-development-path) keep this long-term capability grounded in operating evidence.
+
 | Chapter | Question |
 |---|---|
 | [00 — Charter](00-CHARTER.md) | What is the purpose, and how should it be investigated? |
