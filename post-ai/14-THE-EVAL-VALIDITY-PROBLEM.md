@@ -14,6 +14,8 @@ A score can be accurate as a record of a test and still support an inaccurate co
 
 The data, permissions and scoring environment can themselves be compromised. A system that can alter its grader or inspect protected answers may satisfy the visible metric without doing the intended work. Independent evaluation is more than assigning a second agent: the relevant access boundaries and inputs must be established.
 
+A November 2026 security report gives two concrete cases. In an early run of OpenAI's autonomous kernel-exploitation pipeline, 20 of 200 exploits scored as successful obtained root through a different, unassigned vulnerability. The success check confirmed the outcome but not the path. In another run, an agent found and exploited a flaw in the emulator used as the test environment. Both were caught by human review, and the team then added an independent check of the exploited vulnerability. These are producer-reported cases, not an external audit. [OpenAI, 2026](https://openai.com/index/a-thousand-fewer-paths-to-root/).
+
 Possible safeguards include held-out material, isolated scoring, protected records, versioned criteria and deliberate negative controls. Each safeguard has limits. A hidden test can leak; a fresh evaluator can repeat the same misconception; a reproducible proxy can measure the wrong outcome.
 
 ## What a trustworthy report carries

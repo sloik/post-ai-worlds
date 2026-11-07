@@ -89,7 +89,7 @@
       "label": "Manual forecast review queue",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/FORECAST-REVIEWS.md",
       "kind": "document",
-      "sha256": "405529c31dbcbf8c0c9966d7f1ec13eaa9dd05da0c94406b26878939f098e6bb"
+      "sha256": "63257b83c3077a0e887b84b35f406495b14628a9d8deec618136dcf44c6b044c"
     },
     {
       "id": "evidence/README.md",
@@ -152,7 +152,7 @@
       "label": "Building software as a learning process",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/04-SOFTWARE-FACTORY.md",
       "kind": "document",
-      "sha256": "da0b5e7fa95d611c6af5ad91a9d385f77bbbeaa63fead3ddcc080b53a7ee7cff"
+      "sha256": "1d4c283cba3ff90cfba4ca8d219bb3f27e7808f0c1c6285497ab69c1fde3ab81"
     },
     {
       "id": "omnicorp/05-REAL-WORLD-PRODUCTION.md",
@@ -180,7 +180,7 @@
       "label": "Risks, dependence and defensibility",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/08-RISKS-AND-MOATS.md",
       "kind": "document",
-      "sha256": "7b4384c1f9dc308700dc8e09d2a3d2302405d118e6021b1cfccfc901dc9e6dca"
+      "sha256": "30a627a013b709219a59d400cd51caddaaa7d0a22c5ab7b742e65ba5c7dfb793"
     },
     {
       "id": "omnicorp/09-CASE-EVERY.md",
@@ -292,7 +292,7 @@
       "label": "Signals: deciding what would change our minds",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/03-SIGNALS.md",
       "kind": "document",
-      "sha256": "6a98359ce34a23b242d78002bea361fdf7fd9f82dc04c7da10808460a418c0a5"
+      "sha256": "9923b99c853e0f6284bb9f6bd9ccbfa52066e372640610eb986ce530d5a35f14"
     },
     {
       "id": "post-ai/04-PUBLIC-SCENARIOS-AND-RESOURCE-ECONOMICS.md",
@@ -369,7 +369,7 @@
       "label": "The evaluation validity problem",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/14-THE-EVAL-VALIDITY-PROBLEM.md",
       "kind": "document",
-      "sha256": "5d71a0bea54f043d80684cf24ddc2b03964d047261775a57d61ab52ae992a62b"
+      "sha256": "3b2c769aacf0e460a207b6e45bd6c7f270757aa19f3fb60d7cb369dc419c5912"
     },
     {
       "id": "post-ai/15-THE-LAWYERS-FORK.md",
@@ -1087,7 +1087,7 @@
       "relation": "markdown_link",
       "source_file": "omnicorp/04-SOFTWARE-FACTORY.md",
       "source_lines": [
-        29
+        42
       ],
       "anchors": []
     },
@@ -1097,7 +1097,7 @@
       "relation": "markdown_link",
       "source_file": "omnicorp/04-SOFTWARE-FACTORY.md",
       "source_lines": [
-        29
+        42
       ],
       "anchors": []
     },
@@ -1161,7 +1161,7 @@
       "relation": "markdown_link",
       "source_file": "omnicorp/08-RISKS-AND-MOATS.md",
       "source_lines": [
-        27
+        29
       ],
       "anchors": []
     },

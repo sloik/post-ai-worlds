@@ -12,7 +12,10 @@ A signal is useful when it distinguishes explanations. Another impressive demons
 | Can users leave? | Actual successful migration with continuity and usable records | Effective exit for everyone |
 | Can public institutions exercise control? | An audit, appeal or supplier replacement that changes an outcome | General democratic legitimacy |
 | Can citizens build alternatives? | Sustained useful output with accountable governance and disclosed dependencies | Frontier parity or complete self-sufficiency |
+| Is software exposure shrinking? | Dated time from AI-assisted disclosure to deployed fix in widely used software, with discovery volume and patch quality | Attacker uptake, net defender advantage or that unpatched systems are rare |
 | Are relationships changing? | Longitudinal evidence distinguishing supplementation from displacement | A causal effect inferred from adoption alone |
+
+The exposure row follows OpenAI's November 2026 Linux kernel report. It says that during its ten-day scan and analysis, maintainers had already patched 61 of the reported privilege-escalation flaws upstream and staged patches for 43 more, while 299 were in public discussion. These producer-reported counts show maintainers moving quickly, but they are not a measure of deployed exposure. [OpenAI, 2026](https://openai.com/index/a-thousand-fewer-paths-to-root/).
 
 These are candidates. No baseline search, numerical threshold or resolved outcome is asserted by listing them. A future investigator must define the population, interval, comparison and qualifying evidence before scoring a result.
 

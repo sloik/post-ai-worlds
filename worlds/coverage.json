@@ -81,7 +81,7 @@
       "assurance": "editorial_inventory_only"
     },
     "post-ai/03-SIGNALS.md": {
-      "sha256": "6a98359ce34a23b242d78002bea361fdf7fd9f82dc04c7da10808460a418c0a5",
+      "sha256": "9923b99c853e0f6284bb9f6bd9ccbfa52066e372640610eb986ce530d5a35f14",
       "headings": [
         {
           "level": 1,
@@ -96,12 +96,12 @@
         {
           "level": 2,
           "text": "Preserve three dates",
-          "line": 19
+          "line": 22
         },
         {
           "level": 2,
           "text": "Separate monitoring from forecasting",
-          "line": 23
+          "line": 26
         }
       ],
       "assurance": "editorial_inventory_only"
@@ -367,7 +367,7 @@
       "assurance": "editorial_inventory_only"
     },
     "post-ai/14-THE-EVAL-VALIDITY-PROBLEM.md": {
-      "sha256": "5d71a0bea54f043d80684cf24ddc2b03964d047261775a57d61ab52ae992a62b",
+      "sha256": "3b2c769aacf0e460a207b6e45bd6c7f270757aa19f3fb60d7cb369dc419c5912",
       "headings": [
         {
           "level": 1,
@@ -387,7 +387,7 @@
         {
           "level": 2,
           "text": "What a trustworthy report carries",
-          "line": 19
+          "line": 21
         }
       ],
       "assurance": "editorial_inventory_only"
@@ -721,7 +721,7 @@
       "assurance": "editorial_inventory_only"
     },
     "omnicorp/04-SOFTWARE-FACTORY.md": {
-      "sha256": "da0b5e7fa95d611c6af5ad91a9d385f77bbbeaa63fead3ddcc080b53a7ee7cff",
+      "sha256": "1d4c283cba3ff90cfba4ca8d219bb3f27e7808f0c1c6285497ab69c1fde3ab81",
       "headings": [
         {
           "level": 1,
@@ -745,8 +745,13 @@
         },
         {
           "level": 2,
-          "text": "Prefer the representation that works",
+          "text": "Treat security review as a recurring scan",
           "line": 25
+        },
+        {
+          "level": 2,
+          "text": "Prefer the representation that works",
+          "line": 38
         }
       ],
       "assurance": "editorial_inventory_only"
@@ -850,7 +855,7 @@
       "assurance": "editorial_inventory_only"
     },
     "omnicorp/08-RISKS-AND-MOATS.md": {
-      "sha256": "7b4384c1f9dc308700dc8e09d2a3d2302405d118e6021b1cfccfc901dc9e6dca",
+      "sha256": "30a627a013b709219a59d400cd51caddaaa7d0a22c5ab7b742e65ba5c7dfb793",
       "headings": [
         {
           "level": 1,
@@ -865,12 +870,12 @@
         {
           "level": 2,
           "text": "What might remain valuable",
-          "line": 13
+          "line": 15
         },
         {
           "level": 2,
           "text": "Power is not the same as value",
-          "line": 21
+          "line": 23
         }
       ],
       "assurance": "editorial_inventory_only"

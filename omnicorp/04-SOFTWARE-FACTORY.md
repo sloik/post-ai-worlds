@@ -22,6 +22,19 @@ A completed task should leave more than code. It may produce a corrected assumpt
 
 The organisation must distinguish learning from making its measures easier to satisfy. A builder should not change the evaluator, authority rules or recorded history merely to make a result appear successful. Legitimate evaluator improvements need their own rationale and review.
 
+## Treat security review as a recurring scan
+
+Observation (producer self-report, 4 November 2026): OpenAI describes an internal pipeline that scanned about 7% of the Linux kernel with an unreleased cyber model in mid-October 2026. It reproduced 1,724 of 2,308 candidate findings and produced 1,169 working local privilege-escalation exploits, which variant analysis reduced to 948 unique vulnerabilities by distinct patch. The total API cost was $1,213,430. Human researchers reviewed every exploit, patch and severity before reporting, and maintainers reviewed the patches. The run has not been externally reproduced, and the model is not public. [OpenAI, 2026](https://openai.com/index/a-thousand-fewer-paths-to-root/).
+
+Four of the source's operating lessons apply directly to this factory and are adopted here as proposals:
+
+- **Rescan when the model changes.** The same harness found 166 unique exploitable flaws with a July model and 948 with the October model, after three months of upstream hardening between the runs. A clean review therefore belongs to a model generation as well as to a source revision.
+- **Verify the path, not only the result.** In an early run, 20 of 200 reported exploit successes reached root through a different, unassigned vulnerability. An independent check that the intended mechanism produced the outcome is part of acceptance.
+- **Review patches adversarially.** Early generated patches mitigated the proof of concept but sometimes added unnecessary code, missed variants or broke conventions. Iteration improved them. Human and generated patches both benefit from a reviewer that tries to bypass the fix.
+- **Contain the builder.** The agents also found and exploited a flaw in the test emulator. Build, test and evaluation infrastructure are attack surface and need isolation that has been tested, not assumed.
+
+These lessons are not evidence that unattended security patching is safe in production. The source keeps a human approval step before every report.
+
 ## Prefer the representation that works
 
 Models, generated programs and conventional software can cooperate. Exact arithmetic, state storage, permission checks and physical control need reliable implementations, regardless of where reasoning occurs. Do not require every function to reside inside a model's weights, or assume a conventional component is obsolete because a model can describe it.

@@ -1,5 +1,5 @@
 {
-  "reviewed_on": "2026-11-06",
+  "reviewed_on": "2026-11-07",
   "summary": "Public access, practical development and mathematical work have advanced. Adoption, reliability, research discovery and sustained model improvement remain distinct claims.",
   "events": [
     {
@@ -302,6 +302,26 @@
         "improvement-loop"
       ],
       "motion": "support"
+    },
+    {
+      "id": "openai-linux-lpe",
+      "date": "2026-11-04",
+      "assessed_on": "2026-11-07",
+      "title": "An autonomous pipeline finds 948 Linux root exploits",
+      "lane": "Autonomous work",
+      "direction": "Capability signal / human approval retained",
+      "evidence": "Producer self-report, unreleased model",
+      "lineage": "OpenAI",
+      "claim": "OpenAI reported a pipeline, run in mid-October 2026 with an unreleased cyber model, that scanned about 7% of the Linux kernel. It reproduced 1,724 of 2,308 candidate findings and built 1,169 working local privilege-escalation exploits against a stock desktop distribution. Variant analysis reduced these to 948 unique vulnerabilities by distinct patch, at a total API cost of $1,213,430 ($1,279 per unique exploit). The pipeline also generated candidate patches, and human researchers reviewed every exploit, patch and severity before reporting to maintainers.",
+      "interpretation": "Discovery, validation, exploitation and patch drafting now run as one automated process on a very large real codebase. The same harness found 166 unique exploitable flaws with a July model and 948 with the October model, so capability gains carry straight into defensive and offensive reach. The producer argues that automated patching is now necessary to keep pace.",
+      "limit": "Producer-reported and not externally reproduced, and the model is not public. Same lineage as Aardvark, already a production-loop source. Human review sits between discovery and reporting, maintainers review the patches, and early patches needed iteration. In an early run, 20 of 200 scored exploits reached root through an unassigned bug. The 16-55x bounty multiple is OpenAI's hypothetical valuation, not a market price. Published 4 November 2026, before the 6 November observation window, and it involves no production deployment, rollback or audit, so it cannot count as an outcome.",
+      "comparison": "Strengthens the discovery and patching links that the production-loop estimate already credited, while showing the approval and verification steps the question requires to be closed. Production-loop probability unchanged at 60%.",
+      "source": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+      "source_title": "OpenAI — A thousand fewer paths to root (November 2026)",
+      "affects": [
+        "production-loop"
+      ],
+      "motion": "mixed"
     },
     {
       "id": "metr-rd-acceleration",
@@ -662,6 +682,12 @@
       "date": "2026-11-06",
       "title": "AI-accelerated research and a disputed proof added",
       "reason": "Added METR's assessment of AI R&D acceleration at Anthropic, OpenAI's claimed Navier–Stokes proof and the independent challenge to its Lean formalization. All three predate the 6 November 2026 observation window and none meets a registered criterion, so all four probabilities are unchanged. The Navier–Stokes dispute shows that a passing formal proof can check a statement weaker than the claimed theorem. Whether the independent-research criteria should also require the formal statement to be independently matched to the claim is an open question for the 5 February 2027 review. Any change would be a superseding question, never an edit to an issued record.",
+      "forecast_changes": 0
+    },
+    {
+      "date": "2026-11-07",
+      "title": "Autonomous Linux exploit and patch pipeline added",
+      "reason": "Added OpenAI's report of 948 unique Linux privilege-escalation exploits found, validated and patched by an automated pipeline. It predates the 6 November 2026 observation window and includes no production deployment, rollback or audit, so no question resolves. Production-loop is unchanged at 60%. The report strengthens the discovery and patching links the estimate already credited from DARPA's challenge and Aardvark, and its argument that automated patching is now necessary adds pressure in favour of the loop. Against it, human review still sits before every report, generated patches needed iteration, and an early run scored exploits that reached root through the wrong vulnerability. Neither registered update trigger has occurred. The other three questions are unaffected: a stronger model on an unchanged harness is not a registered improvement generation, and the withheld exploitation techniques cannot be independently checked.",
       "forecast_changes": 0
     }
   ],
