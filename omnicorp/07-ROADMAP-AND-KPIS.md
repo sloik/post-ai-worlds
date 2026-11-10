@@ -29,6 +29,8 @@ Software, model capabilities and physical computing resources belong in the same
 | Custom board or reconfigurable implementation, where useful | Measurements show why standard systems are insufficient; prototypes validate interfaces, power, thermal behaviour and maintainability. This stage is optional. |
 | Custom silicon for a stable useful operation | Simulation and prototype evidence justify design, verification, fabrication access, packaging, test and lifecycle costs. Preserve an updateable software path and a credible standard-hardware alternative. |
 
+Evidence note (10 November 2026): Anthropic's report of model-designed boards that were built without circuitry fixes suggests that the design cost of the optional custom-board stage is falling. [Anthropic, 2026](https://www.anthropic.com/research/claude-electronics-design). The gate is unchanged: measurements must still show why standard systems are insufficient, and prototypes must still validate interfaces, power, thermal behaviour and maintainability. A cheaper design does not supply the evidence that justifies building one.
+
 Track accepted outcomes, total energy and cost per task, memory traffic, utilisation, recovery time and the cost of changing models or harness behaviour. Simulated results, bench measurements and operational results remain distinct. Software and weight adaptation continue throughout; hardware development is a future capability lane rather than a prerequisite for useful work today. Demand and commercial delivery gates apply when offering hardware products or services; internal substrate work must justify its own benefit and resource budget.
 
 ## Track learning rather than ceremony

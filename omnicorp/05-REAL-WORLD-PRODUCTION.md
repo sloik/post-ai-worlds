@@ -39,6 +39,8 @@ The long-term direction includes learning to design computing systems for the or
 
 System architecture, chip design, fabrication, packaging and operation are distinct capabilities with different dependencies. Designing a chip does not require owning a fabrication plant, and a design does not establish access to manufacturing capacity. Record supplier dependence, fabrication and packaging access, verification, test, software support, power and cooling alongside performance. A useful board or integrated standard-component system can be an endpoint in its own right.
 
+Observation (producer self-report, 9 November 2026): Anthropic reports that a general model carried three small consumer devices from a one-paragraph prompt to schematics, routed boards, enclosures and firmware that a commercial partner built without circuitry fixes. [Anthropic, 2026](https://www.anthropic.com/research/claude-electronics-design). The devices are uncertified and electrically unvalidated, and the builder was not independent. For this organisation the relevant consequence is narrower than "hardware is solved". The design labour for a bounded custom board may soon be small next to fabrication lead time, test equipment, certification and supplier access. Those remain the dependencies to record.
+
 ## Expansion remains conditional
 
 Future AI could help design machines, improve fabrication or coordinate resource development. Those resources could support further capability. The strength and speed of that feedback are empirical questions. Research, construction and validation may impose delays; a useful next improvement may require more resources than the last one.

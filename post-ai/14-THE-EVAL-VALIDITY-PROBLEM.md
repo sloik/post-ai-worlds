@@ -16,6 +16,8 @@ The data, permissions and scoring environment can themselves be compromised. A s
 
 A November 2026 security report gives two concrete cases. In an early run of OpenAI's autonomous kernel-exploitation pipeline, 20 of 200 exploits scored as successful obtained root through a different, unassigned vulnerability. The success check confirmed the outcome but not the path. In another run, an agent found and exploited a flaw in the emulator used as the test environment. Both were caught by human review, and the team then added an independent check of the exploited vulnerability. These are producer-reported cases, not an external audit. [OpenAI, 2026](https://openai.com/index/a-thousand-fewer-paths-to-root/).
 
+The November 2026 electronics-design report shows a related ownership problem. Its headline layout score comes from PCB Gym, an internal benchmark run by Diode, the producer's commercial partner and co-author. The public benchmark it also cites, BenchCAD 2.1, scores how closely geometry and circuits match references, which is not whether a built board works. The physical builds are stronger evidence than either score, but the same interested parties performed them. [Anthropic, 2026](https://www.anthropic.com/research/claude-electronics-design).
+
 Possible safeguards include held-out material, isolated scoring, protected records, versioned criteria and deliberate negative controls. Each safeguard has limits. A hidden test can leak; a fresh evaluator can repeat the same misconception; a reproducible proxy can measure the wrong outcome.
 
 ## What a trustworthy report carries

@@ -1,5 +1,5 @@
 {
-  "reviewed_on": "2026-11-07",
+  "reviewed_on": "2026-11-10",
   "summary": "Public access, practical development and mathematical work have advanced. Adoption, reliability, research discovery and sustained model improvement remain distinct claims.",
   "events": [
     {
@@ -342,6 +342,26 @@
         "improvement-loop"
       ],
       "motion": "support"
+    },
+    {
+      "id": "anthropic-fable-electronics",
+      "date": "2026-11-09",
+      "assessed_on": "2026-11-10",
+      "title": "A model designs three working electronic prototypes end to end",
+      "lane": "Physical work",
+      "direction": "Capability signal / no qualification",
+      "evidence": "Producer self-report with commercial partner",
+      "lineage": "Anthropic / Diode",
+      "claim": "Anthropic reported that Claude Fable 5.2, starting from a one-paragraph prompt per device, wrote the specification, schematic, component placement, copper routing, 3D-printable enclosure, firmware and parts list for a USB-C/Bluetooth speakerphone, a voice-assistant hub and a handheld virtual pet. It worked in KiCad and wrote its own grid router when the built-in one was too slow. Diode manufactured all three boards directly from the design files, without adjustments, and Diode engineers assembled and tested them under the model's direction. Anthropic says the prototypes worked without any fixes to their circuitry and that each board was ready for manufacturing in under a day with minimal human input.",
+      "interpretation": "A general model has carried a bounded consumer-electronics prototype through every design stage, including mixed-signal and RF layout, to boards that worked when built. This is a capability signal for the design side of physical work: the cost and skill needed to reach a working custom board appear to be falling.",
+      "limit": "Producer-reported, and the forecaster runs on the producer's model family. Diode has a commercial relationship with Anthropic, co-authored the post and performed all physical builds and tests, so the testing is not independent. Human prompting was minimal, not zero ('clean up the schematic', 'continue' and one design question). The post does not disclose attempts per device, discarded runs, first-power-up results or firmware iterations, and no design files were released. Anthropic states that the prototypes have not been through electrical validation, antenna tuning, thermal testing or certification. PCB Gym (69% against 25% for Fable 5) is Diode's internal, unpublished benchmark. BenchCAD 2.1 (83.5) is public but scores geometric and circuit match to references, not whether a board works. Secondary claims of 'pre-release testing' are not in the primary post.",
+      "comparison": "First physical-component candidate published inside the observation window that opened on 6 November 2026. It does not resolve the question because there is no named qualification authority's acceptance for an intended use. It does not meet the up-trigger either, because physical testing was not independently documented and no qualification programme is named. Physical-component is unchanged at 72%. Watch item: the speakerphone uses Bluetooth with a PCB antenna, so radio certification by a named authority such as the FCC or a CE notified body would be the natural qualifying route if either company pursues it.",
+      "source": "https://www.anthropic.com/research/claude-electronics-design",
+      "source_title": "Anthropic — Claude can design electronic prototypes from start to finish (November 2026)",
+      "affects": [
+        "physical-component"
+      ],
+      "motion": "mixed"
     }
   ],
   "questions": [
@@ -688,6 +708,12 @@
       "date": "2026-11-07",
       "title": "Autonomous Linux exploit and patch pipeline added",
       "reason": "Added OpenAI's report of 948 unique Linux privilege-escalation exploits found, validated and patched by an automated pipeline. It predates the 6 November 2026 observation window and includes no production deployment, rollback or audit, so no question resolves. Production-loop is unchanged at 60%. The report strengthens the discovery and patching links the estimate already credited from DARPA's challenge and Aardvark, and its argument that automated patching is now necessary adds pressure in favour of the loop. Against it, human review still sits before every report, generated patches needed iteration, and an early run scored exploits that reached root through the wrong vulnerability. Neither registered update trigger has occurred. The other three questions are unaffected: a stronger model on an unchanged harness is not a registered improvement generation, and the withheld exploitation techniques cannot be independently checked.",
+      "forecast_changes": 0
+    },
+    {
+      "date": "2026-11-10",
+      "title": "End-to-end electronics design by a model added",
+      "reason": "Added Anthropic's 9 November 2026 report that Claude Fable 5.2 designed three electronic prototypes, from specification to routed board, enclosure and firmware, that Diode built without circuitry fixes. It is the first physical-component candidate published inside the observation window, but it fails both gates: AI selection is producer-documented, and there is no named qualification acceptance. Anthropic says the devices are uncertified and electrically unvalidated. The up-trigger is not met, because the building and testing partner is commercially related and no qualification programme is named. Physical-component is unchanged at 72%. Improvement-loop is unaffected, because a stronger model is not a registered improvement generation. Production-loop and independent-research are unaffected.",
       "forecast_changes": 0
     }
   ],

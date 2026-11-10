@@ -89,7 +89,7 @@
       "label": "Manual forecast review queue",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/FORECAST-REVIEWS.md",
       "kind": "document",
-      "sha256": "63257b83c3077a0e887b84b35f406495b14628a9d8deec618136dcf44c6b044c"
+      "sha256": "145ac65cd5828e214ad982543179e2d989b00dee3d3b25ccb5428a0b46ee79d9"
     },
     {
       "id": "evidence/README.md",
@@ -159,7 +159,7 @@
       "label": "Moving from digital artifacts to physical operations",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/05-REAL-WORLD-PRODUCTION.md",
       "kind": "document",
-      "sha256": "e1285ee7a52a94f1eac3bc3150bf7ab783f9d22863ed54dd07c310624f40f7bd"
+      "sha256": "6e37bf7e8453d62904b43cdff3749acb2ee2588f414f2baca06aff483117ee5e"
     },
     {
       "id": "omnicorp/06-CAPITAL.md",
@@ -173,7 +173,7 @@
       "label": "A roadmap governed by evidence",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/07-ROADMAP-AND-KPIS.md",
       "kind": "document",
-      "sha256": "cbdb50db4c88ec44ab56336abacc45c27293609d882db69f7a4ecb96d5015a0a"
+      "sha256": "17d19a625cd167895313252c7a9038a69a464db5f40f772272a40bd5385eb177"
     },
     {
       "id": "omnicorp/08-RISKS-AND-MOATS.md",
@@ -369,7 +369,7 @@
       "label": "The evaluation validity problem",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/14-THE-EVAL-VALIDITY-PROBLEM.md",
       "kind": "document",
-      "sha256": "3b2c769aacf0e460a207b6e45bd6c7f270757aa19f3fb60d7cb369dc419c5912"
+      "sha256": "f498c5cd16659cbb135d92c168582c52b7031f3545713d502c6679f4f6d1dcb1"
     },
     {
       "id": "post-ai/15-THE-LAWYERS-FORK.md",
@@ -390,7 +390,7 @@
       "label": "Physical AI: when an answer must survive contact with the world",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/17-PHYSICAL-AI.md",
       "kind": "document",
-      "sha256": "9237a16162fb91d9f6d1d270ce9206f3acaf511b104c7bcd66f089ae27fcb09c"
+      "sha256": "c242a1c66147b2ef7910c0829019132a540a11f4a6571e24dc90d2ff3e675323"
     },
     {
       "id": "post-ai/18-THE-DEEP-HORIZON.md",
@@ -1119,7 +1119,7 @@
       "relation": "markdown_link",
       "source_file": "omnicorp/05-REAL-WORLD-PRODUCTION.md",
       "source_lines": [
-        46
+        48
       ],
       "anchors": []
     },
@@ -1151,7 +1151,7 @@
       "relation": "markdown_link",
       "source_file": "omnicorp/07-ROADMAP-AND-KPIS.md",
       "source_lines": [
-        40
+        42
       ],
       "anchors": []
     },

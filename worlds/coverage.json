@@ -367,7 +367,7 @@
       "assurance": "editorial_inventory_only"
     },
     "post-ai/14-THE-EVAL-VALIDITY-PROBLEM.md": {
-      "sha256": "3b2c769aacf0e460a207b6e45bd6c7f270757aa19f3fb60d7cb369dc419c5912",
+      "sha256": "f498c5cd16659cbb135d92c168582c52b7031f3545713d502c6679f4f6d1dcb1",
       "headings": [
         {
           "level": 1,
@@ -387,7 +387,7 @@
         {
           "level": 2,
           "text": "What a trustworthy report carries",
-          "line": 21
+          "line": 23
         }
       ],
       "assurance": "editorial_inventory_only"
@@ -445,7 +445,7 @@
       "assurance": "editorial_inventory_only"
     },
     "post-ai/17-PHYSICAL-AI.md": {
-      "sha256": "9237a16162fb91d9f6d1d270ce9206f3acaf511b104c7bcd66f089ae27fcb09c",
+      "sha256": "c242a1c66147b2ef7910c0829019132a540a11f4a6571e24dc90d2ff3e675323",
       "headings": [
         {
           "level": 1,
@@ -459,13 +459,18 @@
         },
         {
           "level": 2,
-          "text": "Safety cannot be only a conversational instruction",
+          "text": "Design is moving faster than qualification",
           "line": 11
         },
         {
           "level": 2,
-          "text": "Physical capability could change its own constraints",
+          "text": "Safety cannot be only a conversational instruction",
           "line": 17
+        },
+        {
+          "level": 2,
+          "text": "Physical capability could change its own constraints",
+          "line": 23
         }
       ],
       "assurance": "editorial_inventory_only"
@@ -757,7 +762,7 @@
       "assurance": "editorial_inventory_only"
     },
     "omnicorp/05-REAL-WORLD-PRODUCTION.md": {
-      "sha256": "e1285ee7a52a94f1eac3bc3150bf7ab783f9d22863ed54dd07c310624f40f7bd",
+      "sha256": "6e37bf7e8453d62904b43cdff3749acb2ee2588f414f2baca06aff483117ee5e",
       "headings": [
         {
           "level": 1,
@@ -792,7 +797,7 @@
         {
           "level": 2,
           "text": "Expansion remains conditional",
-          "line": 42
+          "line": 44
         }
       ],
       "assurance": "editorial_inventory_only"
@@ -824,7 +829,7 @@
       "assurance": "editorial_inventory_only"
     },
     "omnicorp/07-ROADMAP-AND-KPIS.md": {
-      "sha256": "cbdb50db4c88ec44ab56336abacc45c27293609d882db69f7a4ecb96d5015a0a",
+      "sha256": "17d19a625cd167895313252c7a9038a69a464db5f40f772272a40bd5385eb177",
       "headings": [
         {
           "level": 1,
@@ -849,7 +854,7 @@
         {
           "level": 2,
           "text": "Track learning rather than ceremony",
-          "line": 34
+          "line": 36
         }
       ],
       "assurance": "editorial_inventory_only"
