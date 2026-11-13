@@ -81,7 +81,7 @@
       "assurance": "editorial_inventory_only"
     },
     "post-ai/03-SIGNALS.md": {
-      "sha256": "9923b99c853e0f6284bb9f6bd9ccbfa52066e372640610eb986ce530d5a35f14",
+      "sha256": "108cbe86ed82b99d3dc4c53dae0860e0993c7df3f474f238232a277c8b2e4c90",
       "headings": [
         {
           "level": 1,
@@ -96,12 +96,12 @@
         {
           "level": 2,
           "text": "Preserve three dates",
-          "line": 22
+          "line": 25
         },
         {
           "level": 2,
           "text": "Separate monitoring from forecasting",
-          "line": 26
+          "line": 29
         }
       ],
       "assurance": "editorial_inventory_only"
@@ -367,7 +367,7 @@
       "assurance": "editorial_inventory_only"
     },
     "post-ai/14-THE-EVAL-VALIDITY-PROBLEM.md": {
-      "sha256": "f498c5cd16659cbb135d92c168582c52b7031f3545713d502c6679f4f6d1dcb1",
+      "sha256": "73314a81150f53c60fa9e6dd28768683c5b355e009c936c9724e3b43ff2e1906",
       "headings": [
         {
           "level": 1,
@@ -387,7 +387,7 @@
         {
           "level": 2,
           "text": "What a trustworthy report carries",
-          "line": 23
+          "line": 25
         }
       ],
       "assurance": "editorial_inventory_only"
@@ -860,7 +860,7 @@
       "assurance": "editorial_inventory_only"
     },
     "omnicorp/08-RISKS-AND-MOATS.md": {
-      "sha256": "30a627a013b709219a59d400cd51caddaaa7d0a22c5ab7b742e65ba5c7dfb793",
+      "sha256": "64e08031ccd6c88ef44730420e7c1600d78b7bb5258ef0c0a3b347fa357e6bd6",
       "headings": [
         {
           "level": 1,
@@ -875,12 +875,12 @@
         {
           "level": 2,
           "text": "What might remain valuable",
-          "line": 15
+          "line": 17
         },
         {
           "level": 2,
           "text": "Power is not the same as value",
-          "line": 23
+          "line": 25
         }
       ],
       "assurance": "editorial_inventory_only"
@@ -1000,7 +1000,7 @@
       "assurance": "editorial_inventory_only"
     },
     "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md": {
-      "sha256": "c53319402ff03195f9f80d3e6ef469e9213784f530a2054b92d3f8256048f2bb",
+      "sha256": "77032be15c5a6c7b9224e8097f6b432255d6f4cada9ab318a0b227e5ee7a2c6a",
       "headings": [
         {
           "level": 1,
@@ -1025,7 +1025,7 @@
         {
           "level": 2,
           "text": "Develop the physical substrate as well \u2014 direction clarified 7 November 2026",
-          "line": 29
+          "line": 31
         }
       ],
       "assurance": "editorial_inventory_only"

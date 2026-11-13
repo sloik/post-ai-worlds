@@ -89,7 +89,7 @@
       "label": "Manual forecast review queue",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/FORECAST-REVIEWS.md",
       "kind": "document",
-      "sha256": "145ac65cd5828e214ad982543179e2d989b00dee3d3b25ccb5428a0b46ee79d9"
+      "sha256": "c8d5e184204ad9ea1661ee37979cc80f0f7112a81ece3d4fb4fab61321fb5c89"
     },
     {
       "id": "evidence/README.md",
@@ -104,6 +104,13 @@
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/companions-and-civic-dependence.md",
       "kind": "document",
       "sha256": "10322c8eea6956f590f487afc9bcf4c990cb2d4c97b0250e678c3ccc3448ba43"
+    },
+    {
+      "id": "evidence/forecasts/2026-11-13-rsi-forecasts.md",
+      "label": "Forecasts issued 13 November 2026: research-automation claims",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/forecasts/2026-11-13-rsi-forecasts.md",
+      "kind": "document",
+      "sha256": "42469bdb1c1d7a220bc41a903a7e60856215c93150e53b29d2797e06563e95d0"
     },
     {
       "id": "evidence/social-measurement-protocol.md",
@@ -180,7 +187,7 @@
       "label": "Risks, dependence and defensibility",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/08-RISKS-AND-MOATS.md",
       "kind": "document",
-      "sha256": "30a627a013b709219a59d400cd51caddaaa7d0a22c5ab7b742e65ba5c7dfb793"
+      "sha256": "64e08031ccd6c88ef44730420e7c1600d78b7bb5258ef0c0a3b347fa357e6bd6"
     },
     {
       "id": "omnicorp/09-CASE-EVERY.md",
@@ -215,7 +222,7 @@
       "label": "Continual development as the cornerstone",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
       "kind": "document",
-      "sha256": "c53319402ff03195f9f80d3e6ef469e9213784f530a2054b92d3f8256048f2bb"
+      "sha256": "77032be15c5a6c7b9224e8097f6b432255d6f4cada9ab318a0b227e5ee7a2c6a"
     },
     {
       "id": "omnicorp/14-EVIDENCE-AND-FORECASTS.md",
@@ -292,7 +299,7 @@
       "label": "Signals: deciding what would change our minds",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/03-SIGNALS.md",
       "kind": "document",
-      "sha256": "9923b99c853e0f6284bb9f6bd9ccbfa52066e372640610eb986ce530d5a35f14"
+      "sha256": "108cbe86ed82b99d3dc4c53dae0860e0993c7df3f474f238232a277c8b2e4c90"
     },
     {
       "id": "post-ai/04-PUBLIC-SCENARIOS-AND-RESOURCE-ECONOMICS.md",
@@ -369,7 +376,7 @@
       "label": "The evaluation validity problem",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/14-THE-EVAL-VALIDITY-PROBLEM.md",
       "kind": "document",
-      "sha256": "f498c5cd16659cbb135d92c168582c52b7031f3545713d502c6679f4f6d1dcb1"
+      "sha256": "73314a81150f53c60fa9e6dd28768683c5b355e009c936c9724e3b43ff2e1906"
     },
     {
       "id": "post-ai/15-THE-LAWYERS-FORK.md",
@@ -820,6 +827,16 @@
       "anchors": []
     },
     {
+      "source": "evidence/FORECAST-REVIEWS.md",
+      "target": "evidence/forecasts/2026-11-13-rsi-forecasts.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/FORECAST-REVIEWS.md",
+      "source_lines": [
+        16
+      ],
+      "anchors": []
+    },
+    {
       "source": "evidence/README.md",
       "target": "CONTRIBUTING.md",
       "relation": "markdown_link",
@@ -927,6 +944,26 @@
       "source_file": "evidence/companions-and-civic-dependence.md",
       "source_lines": [
         36
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/forecasts/2026-11-13-rsi-forecasts.md",
+      "target": "docs/forecasting-guide.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/forecasts/2026-11-13-rsi-forecasts.md",
+      "source_lines": [
+        67
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/forecasts/2026-11-13-rsi-forecasts.md",
+      "target": "evidence/FORECAST-REVIEWS.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/forecasts/2026-11-13-rsi-forecasts.md",
+      "source_lines": [
+        67
       ],
       "anchors": []
     },
@@ -1161,7 +1198,7 @@
       "relation": "markdown_link",
       "source_file": "omnicorp/08-RISKS-AND-MOATS.md",
       "source_lines": [
-        29
+        31
       ],
       "anchors": []
     },
@@ -1211,7 +1248,7 @@
       "relation": "markdown_link",
       "source_file": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
       "source_lines": [
-        39
+        41
       ],
       "anchors": [
         "computing-hardware-as-a-productive-capability"
@@ -1223,7 +1260,7 @@
       "relation": "markdown_link",
       "source_file": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
       "source_lines": [
-        39
+        41
       ],
       "anchors": [
         "hardware-development-path"
@@ -1235,7 +1272,7 @@
       "relation": "markdown_link",
       "source_file": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
       "source_lines": [
-        27
+        29
       ],
       "anchors": []
     },

@@ -1,5 +1,5 @@
 {
-  "reviewed_on": "2026-11-10",
+  "reviewed_on": "2026-11-13",
   "summary": "Public access, practical development and mathematical work have advanced. Adoption, reliability, research discovery and sustained model improvement remain distinct claims.",
   "events": [
     {
@@ -362,6 +362,27 @@
         "physical-component"
       ],
       "motion": "mixed"
+    },
+    {
+      "id": "patel-rsi-essay",
+      "date": "2026-11-13",
+      "assessed_on": "2026-11-13",
+      "title": "A prominent forecast that AI research will be automated by 2028",
+      "lane": "Cumulative improvement",
+      "direction": "Commentary / forecast, no new measurement",
+      "evidence": "Commentator's essay citing producer and assessor reports",
+      "lineage": "Dwarkesh Patel; shares METR, OpenAI and Anthropic lineages already recorded here",
+      "claim": "Dwarkesh Patel argued that AI as good as the best human AI researchers has a median arrival of 2028, with a 25% chance it comes after 2032, and that AI at least as good as the best human experts in every field follows by 2030. His case is that mathematics shows what happens to checkable problems, that AI research is largely checkable through measurable proxies such as held-out loss, sample efficiency and inference cost, and that automated researchers would be faster, more numerous and as able as the best people. He gives even odds between a software-only singularity and a 'spark' of three to six years of progress in one year followed by a slowdown until more compute is built.",
+      "interpretation": "The essay is an argument and a forecast, not a new observation. It is useful because it states dates and odds that can be compared with later records, and because it names the mechanism to watch: whether gains on checkable research tasks carry over to the parts of research that cannot be checked directly.",
+      "limit": "We checked its factual claims against the cited sources. Accurate: METR's 'majority of this acceleration' sentence is verbatim, though the essay drops the rest of that sentence and METR's 1.3x–3x range; the Anthropic index figure of 26% is correct, but levels are assigned by one of Anthropic's own models over a task basket frozen in July 2026 and nothing in it is fully autonomous. Overstated: 'solved a Millennium Prize problem' describes a claimed proof for the forced case that the Clay Institute has not certified and whose Lean statement is disputed; METR worked for eleven weeks on a 'high-access evaluation', not three months 'embedded'; Magic matched one model on held-out loss using private evaluation sets, with no released weights; Epoch's 4–5x a year is training compute of frontier models to May 2024, not laboratory research compute; CoBench has 449 root-cause-diagnosis problems, filtered for difficulty and graded by a model. Not checked: OpenAI's primary post on research spending (read through press coverage only) and a quoted DeepSeek passage. The author hosts a podcast whose guests include the laboratories whose reports he cites.",
+      "comparison": "No registered question is affected. Every source the essay relies on was published before the observation window opened on 6 November 2026, or is already recorded here, and none meets a criterion or an update trigger. Improvement-loop stays at 36% and independent-research at 65%. Four separate forecasts on the essay's nearest public proxies were issued the same day and are kept apart from the registered questions.",
+      "source": "https://www.dwarkesh.com/p/rsi",
+      "source_title": "Dwarkesh Patel — The avalanche that hit math is coming for AI development (November 2026)",
+      "affects": [
+        "improvement-loop",
+        "independent-research"
+      ],
+      "motion": "mixed"
     }
   ],
   "questions": [
@@ -714,6 +735,12 @@
       "date": "2026-11-10",
       "title": "End-to-end electronics design by a model added",
       "reason": "Added Anthropic's 9 November 2026 report that Claude Fable 5.2 designed three electronic prototypes, from specification to routed board, enclosure and firmware, that Diode built without circuitry fixes. It is the first physical-component candidate published inside the observation window, but it fails both gates: AI selection is producer-documented, and there is no named qualification acceptance. Anthropic says the devices are uncertified and electrically unvalidated. The up-trigger is not met, because the building and testing partner is commercially related and no qualification programme is named. Physical-component is unchanged at 72%. Improvement-loop is unaffected, because a stronger model is not a registered improvement generation. Production-loop and independent-research are unaffected.",
+      "forecast_changes": 0
+    },
+    {
+      "date": "2026-11-13",
+      "title": "A research-automation forecast checked against its sources",
+      "reason": "Reviewed Dwarkesh Patel's 13 November 2026 essay and video forecasting automated AI research by 2028. It adds no measurement. Its strongest sources, the METR assessment, the Navier–Stokes claim and the Fermat formalization, were already recorded with limits the essay omits. Newly read sources are Anthropic's R&D Automation Index (AI 'leads' 26% of its AI R&D work as of August 2026, judged by its own model), the CoBench description in its August 2026 risk report, Magic's pretraining post and press coverage of OpenAI's September research-acceleration post. All are producer reports published before the observation window. A higher share of AI-led work or a faster benchmark index is not a preregistered, independently reproduced series of model generations, so improvement-loop is unchanged at 36%. Independent-research is unchanged at 65%, because the Navier–Stokes result predates the window and remains uncertified. Production-loop and physical-component are unaffected. Four separate forecasts on public proxies for the essay's claims were issued and are recorded outside the registered set.",
       "forecast_changes": 0
     }
   ],
