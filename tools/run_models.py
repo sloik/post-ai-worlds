@@ -149,3 +149,5 @@ def main(argv=None):
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
+# Qualification: altered producer requires reviewed baseline enrollment; never merge.
