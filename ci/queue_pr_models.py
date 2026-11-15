@@ -20,6 +20,7 @@ import subprocess
 import sys
 import tempfile
 import urllib.error
+import urllib.parse
 import urllib.request
 
 REPOSITORY='sloik/post-ai-worlds'
@@ -139,18 +140,51 @@ def source_run(api,event_run):
     return run
 
 
+def source_pr_identity(run):
+    repo=run.get('head_repository');ref=run.get('head_branch')
+    require(isinstance(repo,dict) and integer(repo.get('id')),'source head repository identity unavailable')
+    name=repo.get('full_name')
+    require(isinstance(name,str) and re.fullmatch('[A-Za-z0-9-]{1,39}/[A-Za-z0-9_.-]{1,100}',name),'invalid source head repository name')
+    require(isinstance(ref,str) and 0<len(ref)<=1024 and not any(ord(c)<32 for c in ref),'invalid source head branch')
+    require(isinstance(run.get('head_sha'),str) and SHA.fullmatch(run['head_sha']),'invalid PR source SHA')
+    return repo['id'],name,ref
+
+
+def matches_source_pr(pr,run):
+    repo_id,name,ref=source_pr_identity(run)
+    if not isinstance(pr,dict):return False
+    head=pr.get('head');base=pr.get('base')
+    if not isinstance(head,dict) or not isinstance(base,dict):return False
+    head_repo=head.get('repo');base_repo=base.get('repo')
+    if not isinstance(head_repo,dict) or not isinstance(base_repo,dict):return False
+    return (pr.get('state')=='open' and head.get('sha')==run['head_sha'] and head.get('ref')==ref
+            and type(head_repo.get('id')) is int and head_repo['id']==repo_id and head_repo.get('full_name')==name
+            and type(base_repo.get('id')) is int and base_repo['id']==REPOSITORY_ID and base_repo.get('full_name')==REPOSITORY)
+
+
 def current_prs(api,run):
+    _,name,ref=source_pr_identity(run)
     prs=api.call('/repos/'+REPOSITORY+'/commits/'+run['head_sha']+'/pulls?per_page=100')
     require(isinstance(prs,list) and len(prs)<100,'PR association unavailable/truncated')
-    found=[]
-    for pr in prs:
-        head=pr.get('head',{});base=pr.get('base',{}).get('repo',{})
-        if (pr.get('state')=='open' and head.get('sha')==run['head_sha']
-                and base.get('id')==REPOSITORY_ID and base.get('full_name')==REPOSITORY):
-            require(integer(pr.get('number')),'invalid associated PR number')
-            found.append(pr)
-    require(found,'no open PR at the exact approved source head')
-    return found
+    found=[pr for pr in prs if matches_source_pr(pr,run)]
+    if not found:
+        # GitHub's commit associations may be empty for an approved fork PR.
+        # The fallback query uses only the authoritative source-run repository
+        # and branch; every returned PR still needs the full identity comparison.
+        query=urllib.parse.urlencode({'state':'open','head':name.split('/')[0]+':'+ref,'per_page':100})
+        prs=api.call('/repos/'+REPOSITORY+'/pulls?'+query)
+        require(isinstance(prs,list) and len(prs)<100,'open PR association unavailable/truncated')
+        found=[pr for pr in prs if matches_source_pr(pr,run)]
+    require(found,'no open PR at the exact approved source head/repository/ref')
+    numbers=[];current=[]
+    for pr in found:
+        number=pr.get('number')
+        require(integer(number) and number not in numbers,'invalid/duplicate associated PR number')
+        numbers.append(number)
+        actual=api.call('/repos/'+REPOSITORY+'/pulls/'+str(number))
+        require(isinstance(actual,dict) and integer(actual.get('number')) and actual['number']==number and matches_source_pr(actual,run),'PR identity/head changed during association')
+        current.append(actual)
+    return current
 
 
 def source_path(path):
@@ -306,7 +340,7 @@ def recheck_target(api,run,target):
     if kind=='pull_request':
         for pr in value:
             current=api.call('/repos/'+REPOSITORY+'/pulls/'+str(pr['number']))
-            require(current.get('state')=='open' and current.get('head',{}).get('sha')==run['head_sha'],'PR head changed/closed while Oracle phases ran')
+            require(isinstance(current,dict) and integer(current.get('number')) and current['number']==pr['number'] and matches_source_pr(current,run),'PR identity/head changed/closed while Oracle phases ran')
     else:
         actual=api.call(attempt_path(run['id'],run['run_attempt']))
         require(actual.get('head_sha')==value and actual.get('event')=='push'

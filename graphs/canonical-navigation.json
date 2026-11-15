@@ -82,7 +82,7 @@
       "label": "Oracle-backed TLA verification",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/docs/oracle-runner.md",
       "kind": "document",
-      "sha256": "65ed73f3a307e3cf8caabd8302b63ffeda40a5d620d360753f8ae7e5f520da8f"
+      "sha256": "3dbb536a418be1540c66b05511be52f8c1a83358740d6cab17d07d5e310763f0"
     },
     {
       "id": "evidence/FORECAST-REVIEWS.md",
@@ -812,7 +812,7 @@
       "relation": "markdown_link",
       "source_file": "docs/oracle-runner.md",
       "source_lines": [
-        105
+        113
       ],
       "anchors": []
     },
@@ -822,7 +822,7 @@
       "relation": "markdown_link",
       "source_file": "docs/oracle-runner.md",
       "source_lines": [
-        105
+        113
       ],
       "anchors": []
     },

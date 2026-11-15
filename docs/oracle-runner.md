@@ -66,6 +66,14 @@ Each native job retains an attempt receipt that the host compares before accepti
 its captures; candidate-test reports also carry the context for diagnosis and
 remain separate from native authority. Missing or mismatched attempts fail visibly.
 
+Fork runs can have empty commit-to-PR associations. In that case the dispatcher
+queries open PRs using the authoritative source-run head owner and branch, with
+URL-encoded query data. It still requires an exact open PR with matching base
+repository, head repository ID/name, branch and SHA. Direct PR reads repeat those
+checks before queue submission and after Oracle completion; unverified webhook PR
+metadata never selects the target. Missing, ambiguous or truncated results fail
+visibly rather than relaxing the identity checks.
+
 Both control-plane workflows have read-only contents/actions permissions and
 checks-write only for result publication (PR dispatch also reads PR metadata).
 Checkout credentials are not persisted. Payloads have private bounded storage,

@@ -26,14 +26,15 @@ def context():
          'GITHUB_WORKFLOW_REF':d.DISPATCH_WORKFLOW,'GITHUB_WORKFLOW_SHA':'c'*40,
          'GITHUB_RUN_ID':'12345','GITHUB_RUN_ATTEMPT':'1'}
     run={'id':99,'run_attempt':1,'name':d.SOURCE_NAME,'event':'pull_request','status':'completed',
-         'conclusion':'success','workflow_id':100,'head_sha':HEAD,
+         'conclusion':'success','workflow_id':100,'head_sha':HEAD,'head_branch':'feature/source',
+         'head_repository':{'id':1459282618,'full_name':'fork/post-ai-worlds'},
          'repository':{'id':d.REPOSITORY_ID,'full_name':d.REPOSITORY}}
     event={'action':'completed','repository':{'id':d.REPOSITORY_ID,'full_name':d.REPOSITORY,'fork':False},'workflow_run':run}
     return event,env
 
 
 def pr():
-    return {'number':1,'state':'open','head':{'sha':HEAD},'base':{'repo':{'id':d.REPOSITORY_ID,'full_name':d.REPOSITORY}}}
+    return {'number':1,'state':'open','head':{'sha':HEAD,'ref':'feature/source','repo':{'id':1459282618,'full_name':'fork/post-ai-worlds'}},'base':{'repo':{'id':d.REPOSITORY_ID,'full_name':d.REPOSITORY}}}
 
 
 class FakeAPI:
@@ -44,6 +45,7 @@ class FakeAPI:
             self.writes.append((path,method,copy.deepcopy(body)));return {'id':101}
         routes={PREFIX+'/actions/runs/99/attempts/'+str(self.run['run_attempt']):self.run,PREFIX+'/actions/workflows/100':{'path':d.SOURCE_WORKFLOW},
                 PREFIX+'/commits/'+HEAD+'/pulls?per_page=100':[pr()],PREFIX+'/pulls/1':self.pull}
+        if path.startswith(PREFIX+'/pulls?'):return []
         return copy.deepcopy(routes[path])
 
 
@@ -162,6 +164,108 @@ class AttemptTests(unittest.TestCase):
         self.assertNotEqual(published[0],published[1])
         for phase in ('native','tests'):
             self.assertNotEqual(d.execution_key(phase,executions[0]),d.execution_key(phase,executions[1]))
+
+
+class ForkAssociationTests(unittest.TestCase):
+    def fixture(self,commit_matches=False):
+        # Real-shaped PR12 control: both source-run and commit associations empty,
+        # fork repository name differs from the base, same source branch/head.
+        run=copy.deepcopy(context()[0]['workflow_run'])
+        run.update(id=43767225989,head_sha='e3a214a'+'0'*33,
+                   head_branch='verify/oracle-queue-190-fork',pull_requests=[],
+                   head_repository={'id':1459282618,'full_name':'LekkoTechnologiczny/post-ai-worlds-oracle-queue-probe'})
+        pull=pr();pull.update(number=12)
+        pull['head'].update(sha=run['head_sha'],ref=run['head_branch'],repo=copy.deepcopy(run['head_repository']))
+        state={'run':run,'pull':pull,'commits':[copy.deepcopy(pull)] if commit_matches else [],'open':[copy.deepcopy(pull)],'calls':[]}
+        def call(path):
+            state['calls'].append(path)
+            if '/commits/' in path:return copy.deepcopy(state['commits'])
+            if path.startswith(PREFIX+'/pulls?'):return copy.deepcopy(state['open'])
+            if path==PREFIX+'/pulls/12':return copy.deepcopy(state['pull'])
+            self.fail('unexpected API route '+path)
+        state['api']=type('API',(),{'call':staticmethod(call)})()
+        return state
+
+    def test_empty_fork_associations_use_encoded_authoritative_head_query_and_direct_get(self):
+        state=self.fixture();found=d.current_prs(state['api'],state['run'])
+        self.assertEqual([12],[x['number'] for x in found])
+        self.assertEqual([],state['run']['pull_requests'])
+        query=d.urllib.parse.parse_qs(d.urllib.parse.urlsplit(state['calls'][1]).query)
+        self.assertEqual({'state':['open'],'head':['LekkoTechnologiczny:verify/oracle-queue-190-fork'],'per_page':['100']},query)
+        self.assertIn('%3Averify%2Foracle-queue-190-fork',state['calls'][1])
+        self.assertEqual(PREFIX+'/pulls/12',state['calls'][2])
+        d.recheck_target(state['api'],state['run'],('pull_request',found))
+        self.assertEqual(PREFIX+'/pulls/12',state['calls'][-1])
+
+    def test_valid_commit_association_keeps_full_identity_and_direct_get_without_fallback(self):
+        state=self.fixture(commit_matches=True)
+        self.assertEqual(12,d.current_prs(state['api'],state['run'])[0]['number'])
+        self.assertFalse(any(path.startswith(PREFIX+'/pulls?') for path in state['calls']))
+        self.assertEqual(PREFIX+'/pulls/12',state['calls'][-1])
+
+    def test_source_branch_query_metacharacters_remain_encoded_data(self):
+        state=self.fixture();branch='verify/fork&state=closed'
+        state['run']['head_branch']=branch;state['pull']['head']['ref']=branch
+        state['open']=[copy.deepcopy(state['pull'])]
+        self.assertEqual(12,d.current_prs(state['api'],state['run'])[0]['number'])
+        query=d.urllib.parse.parse_qs(d.urllib.parse.urlsplit(state['calls'][1]).query)
+        self.assertEqual(['open'],query['state'])
+        self.assertEqual(['100'],query['per_page'])
+        self.assertEqual(['LekkoTechnologiczny:'+branch],query['head'])
+
+    def mutations(self,pull):
+        changes=[]
+        for path,value in ((('state',),'closed'),(('number',),True),
+                           (('head','repo','id'),1),(('head','repo','id'),True),
+                           (('head','repo','full_name'),'wrong-owner/post-ai-worlds-oracle-queue-probe'),
+                           (('head','repo','full_name'),'LekkoTechnologiczny/wrong-repository'),
+                           (('head','ref'),'verify/other'),(('head','sha'),'c'*40),
+                           (('base','repo','id'),1),(('base','repo','id'),True),
+                           (('base','repo','full_name'),'fork/post-ai-worlds')):
+            changed=copy.deepcopy(pull);target=changed
+            for name in path[:-1]:target=target[name]
+            target[path[-1]]=value;changes.append((path,value,changed))
+        return changes
+
+    def test_fallback_does_not_accept_wrong_owner_repo_ref_sha_base_or_closed_pr(self):
+        baseline=self.fixture()
+        for path,value,changed in self.mutations(baseline['pull']):
+            with self.subTest(path=path,value=value):
+                state=self.fixture();state['open']=[changed]
+                with self.assertRaises(d.Refused):d.current_prs(state['api'],state['run'])
+
+    def test_direct_get_before_and_after_native_must_keep_all_identity_fields(self):
+        baseline=self.fixture()
+        for path,value,changed in self.mutations(baseline['pull']):
+            with self.subTest(phase='before',path=path,value=value):
+                state=self.fixture();state['pull']=changed
+                with self.assertRaises(d.Refused):d.current_prs(state['api'],state['run'])
+            with self.subTest(phase='after',path=path,value=value):
+                state=self.fixture();found=d.current_prs(state['api'],state['run']);state['pull']=changed
+                with self.assertRaises(d.Refused):d.recheck_target(state['api'],state['run'],('pull_request',found))
+
+    def test_ambiguous_or_truncated_responses_and_missing_source_identity_refused(self):
+        for route in ('commits','open'):
+            for values in (None,{},[self.fixture()['pull']]*100):
+                with self.subTest(route=route,size=len(values) if values is not None else None):
+                    state=self.fixture();state[route]=values
+                    with self.assertRaises(d.Refused):d.current_prs(state['api'],state['run'])
+        state=self.fixture();state['open']*=2
+        with self.assertRaises(d.Refused):d.current_prs(state['api'],state['run'])
+        for field,value in (('head_repository',None),('head_repository',{'id':True,'full_name':'owner/repo'}),
+                            ('head_repository',{'id':123,'full_name':'owner/repo?other=1'}),
+                            ('head_branch',None),('head_branch',''),('head_branch','x\nquery')):
+            state=self.fixture();state['run'][field]=value
+            with self.subTest(field=field,value=value),self.assertRaises(d.Refused):d.current_prs(state['api'],state['run'])
+
+    def test_unverified_event_pr_metadata_does_not_select_fallback_target(self):
+        state=self.fixture();state['run']['pull_requests']=[{'number':999,'head':{'sha':'f'*40}}]
+        self.assertEqual(12,d.current_prs(state['api'],state['run'])[0]['number'])
+        self.assertFalse(any('/pulls/999' in path for path in state['calls']))
+        event,_=context();event['workflow_run']['head_repository']={'id':1,'full_name':'forged-owner/forged-repository'}
+        api=FakeAPI();authoritative=d.source_run(api,event['workflow_run'])
+        self.assertEqual(api.run['head_repository'],authoritative['head_repository'])
+        self.assertNotEqual(event['workflow_run']['head_repository'],authoritative['head_repository'])
 
 
 class PushAndManualTests(unittest.TestCase):
@@ -358,12 +462,13 @@ class TrustedVerifierTests(unittest.TestCase):
 
 
 class VerdictTests(unittest.TestCase):
-    def exercise(self,api,native_exit=0,verify=12):
+    def exercise(self,api,native_exit=0,verify=12,after_native=None):
         event,env=context()
         def snapshot(fake_api,head,root):root.mkdir();return {'tracked_files':['README.md']}
         def execute(*args):
             if native_exit:raise d.Refused('Oracle command failed')
             if verify!=12:raise d.Refused('trusted native captures did not qualify')
+            if after_native:after_native()
             return {'native_job':'a'*32,'tests_job':'b'*32,'native_cases':12}
         with mock.patch.object(d,'snapshot',side_effect=snapshot),mock.patch.object(d.shutil,'which',return_value='/installed/tla-queue'),mock.patch.object(d,'execute_phases',side_effect=execute) as phases:
             result=d.dispatch(api,event,env)
@@ -412,9 +517,10 @@ class VerdictTests(unittest.TestCase):
         self.assertEqual('failure',api.writes[-1][2]['conclusion'])
 
     def test_stale_head_after_native_success_is_not_credited(self):
-        api=FakeAPI();api.pull['head']['sha']='c'*40
-        result,launch,verifier=self.exercise(api)
+        api=FakeAPI()
+        result,launch,verifier=self.exercise(api,after_native=lambda:api.pull['head'].update(sha='c'*40))
         self.assertEqual(1,result);self.assertEqual('failure',api.writes[-1][2]['conclusion'])
+        self.assertEqual(1,launch.call_count)
         self.assertEqual(HEAD,api.writes[0][2]['head_sha'])
 
 
