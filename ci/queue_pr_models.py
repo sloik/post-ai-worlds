@@ -37,7 +37,7 @@ REQUIRED={'tools/check.py','tools/run_models.py','tools/remote_models.py','tools
 SOURCE_RECEIPT='.oracle-source.json'
 RESULT_RECEIPT='.oracle-result.json'
 PHASES=['git_index','ordinary','unittest','navigation','website_build','website_diff']
-BOOTSTRAP="import json,os,pathlib,shutil,subprocess,sys,tempfile,time\nroot=pathlib.Path.cwd()\nsource=json.loads((root/'.oracle-source.json').read_text())\nassert source['schema_version']==1 and isinstance(source['tracked_files'],list)\ntracked=list(source['tracked_files'])\nassert tracked and len(set(tracked))==len(tracked)\nassert all(isinstance(x,str) and not x.startswith('/') and all(p not in ('','.','..') for p in x.split('/')) for x in tracked)\nreport={'native_authority':'separate immutable queue job; diagnostic report only','schema_version':1,'source_head':source['source_head'],'source_run_id':source['source_run_id'],'source_kind':source['source_kind'],'complete':False,'phases':[]}\nenv=dict(os.environ)\nenv.update(PYTHONDONTWRITEBYTECODE='1',GIT_CONFIG_NOSYSTEM='1',GIT_CONFIG_SYSTEM='/dev/null',GIT_CONFIG_GLOBAL='/dev/null',GIT_CONFIG_COUNT='0',GIT_TERMINAL_PROMPT='0')\nfor k in ('GIT_DIR','GIT_WORK_TREE','GIT_INDEX_FILE','GIT_OBJECT_DIRECTORY','GIT_ALTERNATE_OBJECT_DIRECTORIES'):\n    env.pop(k,None)\ndef phase(name,argv):\n    start=time.time()\n    print('ORACLE_PHASE_START '+name,flush=True)\n    child=subprocess.run(argv,cwd=root,env=env)\n    report['phases'].append({'name':name,'argv':argv,'exit_code':child.returncode,'started':start,'finished':time.time()})\n    print('ORACLE_PHASE_END '+name+' '+str(child.returncode),flush=True)\n    if child.returncode:raise SystemExit(child.returncode)\ntry:\n    # No commit or fabricated HEAD: only an index for tracked-document discovery.\n    # Git metadata lives in a fresh private directory after candidate execution;\n    # no hooks/templates/global/system config or Git network can be inherited.\n    git=root/'.git'\n    if git.is_symlink() or git.is_file():git.unlink()\n    elif git.exists():shutil.rmtree(git)\n    gitdir=pathlib.Path(tempfile.mkdtemp(prefix='.oracle-git-',dir=root))\n    template=pathlib.Path(tempfile.mkdtemp(prefix='.oracle-template-',dir=root))\n    env['GIT_TEMPLATE_DIR']=str(template)\n    prefix=['git','--literal-pathspecs','-c','core.hooksPath=/dev/null','-c','core.fsmonitor=false','-c','protocol.allow=never','--git-dir='+str(gitdir),'--work-tree='+str(root)]\n    subprocess.run(prefix+['init','--template=','--quiet'],check=True,env=env)\n    git.write_text('gitdir: '+str(gitdir)+'\\n')\n    subprocess.run(prefix+['add','--force','--pathspec-from-file=-','--pathspec-file-nul'],input=b'\\0'.join(x.encode() for x in tracked)+b'\\0',check=True,env=env)\n    report['phases'].append({'name':'git_index','argv':['trusted-bootstrap:validated-tracked-index'],'exit_code':0})\n    phase('ordinary',[sys.executable,'-B','tools/check.py'])\n    phase('unittest',[sys.executable,'-B','-m','unittest','discover','-s','tests','-v'])\n    phase('navigation',[sys.executable,'-B','tools/build_navigation.py'])\n    phase('website_build',[sys.executable,'-B','website/build.py'])\n    phase('website_diff',['git','-c','core.hooksPath=/dev/null','-c','protocol.allow=never','diff','--exit-code','--','website'])\n    report['complete']=True\nfinally:\n    output=root/'.oracle-result.json'\n    with output.open('w') as f:\n        json.dump(report,f,sort_keys=True);f.flush();os.fsync(f.fileno())\n"
+BOOTSTRAP="import json,os,pathlib,shutil,subprocess,sys,tempfile,time\nroot=pathlib.Path.cwd()\nsource=json.loads((root/'.oracle-source.json').read_text())\nassert source['schema_version']==1 and isinstance(source['tracked_files'],list)\ntracked=list(source['tracked_files'])\nassert tracked and len(set(tracked))==len(tracked)\nassert all(isinstance(x,str) and not x.startswith('/') and all(p not in ('','.','..') for p in x.split('/')) for x in tracked)\nreport={'native_authority':'separate immutable queue job; diagnostic report only','schema_version':1,'source_head':source['source_head'],'source_run_id':source['source_run_id'],'source_kind':source['source_kind'],'execution':source['execution'],'complete':False,'phases':[]}\nenv=dict(os.environ)\nenv.update(PYTHONDONTWRITEBYTECODE='1',GIT_CONFIG_NOSYSTEM='1',GIT_CONFIG_SYSTEM='/dev/null',GIT_CONFIG_GLOBAL='/dev/null',GIT_CONFIG_COUNT='0',GIT_TERMINAL_PROMPT='0')\nfor k in ('GIT_DIR','GIT_WORK_TREE','GIT_INDEX_FILE','GIT_OBJECT_DIRECTORY','GIT_ALTERNATE_OBJECT_DIRECTORIES'):\n    env.pop(k,None)\ndef phase(name,argv):\n    start=time.time()\n    print('ORACLE_PHASE_START '+name,flush=True)\n    child=subprocess.run(argv,cwd=root,env=env)\n    report['phases'].append({'name':name,'argv':argv,'exit_code':child.returncode,'started':start,'finished':time.time()})\n    print('ORACLE_PHASE_END '+name+' '+str(child.returncode),flush=True)\n    if child.returncode:raise SystemExit(child.returncode)\ntry:\n    # No commit or fabricated HEAD: only an index for tracked-document discovery.\n    # Git metadata lives in a fresh private directory after candidate execution;\n    # no hooks/templates/global/system config or Git network can be inherited.\n    git=root/'.git'\n    if git.is_symlink() or git.is_file():git.unlink()\n    elif git.exists():shutil.rmtree(git)\n    gitdir=pathlib.Path(tempfile.mkdtemp(prefix='.oracle-git-',dir=root))\n    template=pathlib.Path(tempfile.mkdtemp(prefix='.oracle-template-',dir=root))\n    env['GIT_TEMPLATE_DIR']=str(template)\n    prefix=['git','--literal-pathspecs','-c','core.hooksPath=/dev/null','-c','core.fsmonitor=false','-c','protocol.allow=never','--git-dir='+str(gitdir),'--work-tree='+str(root)]\n    subprocess.run(prefix+['init','--template=','--quiet'],check=True,env=env)\n    git.write_text('gitdir: '+str(gitdir)+'\\n')\n    subprocess.run(prefix+['add','--force','--pathspec-from-file=-','--pathspec-file-nul'],input=b'\\0'.join(x.encode() for x in tracked)+b'\\0',check=True,env=env)\n    report['phases'].append({'name':'git_index','argv':['trusted-bootstrap:validated-tracked-index'],'exit_code':0})\n    phase('ordinary',[sys.executable,'-B','tools/check.py'])\n    phase('unittest',[sys.executable,'-B','-m','unittest','discover','-s','tests','-v'])\n    phase('navigation',[sys.executable,'-B','tools/build_navigation.py'])\n    phase('website_build',[sys.executable,'-B','website/build.py'])\n    phase('website_diff',['git','-c','core.hooksPath=/dev/null','-c','protocol.allow=never','diff','--exit-code','--','website'])\n    report['complete']=True\nfinally:\n    output=root/'.oracle-result.json'\n    with output.open('w') as f:\n        json.dump(report,f,sort_keys=True);f.flush();os.fsync(f.fileno())\n"
 
 
 class Refused(ValueError):pass
@@ -49,6 +49,39 @@ def require(value,message):
 
 def integer(value):
     return type(value) is int and value>0
+
+
+def environment_integer(env,name):
+    value=env.get(name)
+    require(isinstance(value,str) and re.fullmatch('[1-9][0-9]{0,19}',value),'invalid '+name)
+    return int(value)
+
+
+def execution_context(env,run,kind):
+    require(integer(run.get('id')) and integer(run.get('run_attempt')),'invalid source execution attempt')
+    require(isinstance(run.get('head_sha'),str) and SHA.fullmatch(run['head_sha']),'invalid execution head')
+    require(kind in ('manual','workflow_run:push','workflow_run:pull_request'),'invalid execution kind')
+    workflow_sha=env.get('GITHUB_WORKFLOW_SHA')
+    require(isinstance(workflow_sha,str) and SHA.fullmatch(workflow_sha) and workflow_sha!='0'*40,'invalid dispatcher workflow SHA')
+    workflow_ref=env.get('GITHUB_WORKFLOW_REF')
+    expected=REPOSITORY+'/.github/workflows/oracle-tla.yml@refs/heads/main' if kind=='manual' else DISPATCH_WORKFLOW
+    require(workflow_ref==expected,'execution dispatcher workflow mismatch')
+    return {'schema_version':1,'repository':REPOSITORY,'source_head':run['head_sha'],
+            'source_run_id':run['id'],'source_run_attempt':run['run_attempt'],'source_kind':kind,
+            'dispatcher_run_id':environment_integer(env,'GITHUB_RUN_ID'),
+            'dispatcher_run_attempt':environment_integer(env,'GITHUB_RUN_ATTEMPT'),
+            'dispatcher_workflow_ref':workflow_ref,'dispatcher_workflow_sha':workflow_sha}
+
+
+def execution_key(phase,execution):
+    require(phase in ('native','tests','check'),'invalid execution phase')
+    encoded=json.dumps(execution,sort_keys=True,separators=(',',':')).encode()
+    return 'post-ai-'+phase+'-'+hashlib.sha256(encoded).hexdigest()
+
+
+def attempt_path(run_id,attempt):
+    require(integer(run_id) and integer(attempt),'invalid workflow attempt identity')
+    return '/repos/'+REPOSITORY+'/actions/runs/'+str(run_id)+'/attempts/'+str(attempt)
 
 
 class NoRedirect(urllib.request.HTTPRedirectHandler):
@@ -85,6 +118,7 @@ def validate_event(event,env):
     require(type(repo.get('id')) is int and repo['id']==REPOSITORY_ID and repo.get('full_name')==REPOSITORY and repo.get('fork') is False,'wrong repository identity')
     run=event.get('workflow_run',{})
     require(integer(run.get('id')),'invalid source run ID')
+    require(integer(run.get('run_attempt')),'invalid source run attempt')
     require(run.get('name')==SOURCE_NAME and run.get('event') in ('pull_request','push'),'not an approved source workflow')
     require(run.get('status')=='completed','upstream run incomplete')
     require(isinstance(run.get('head_sha'),str) and SHA.fullmatch(run['head_sha']),'invalid exact source SHA')
@@ -92,8 +126,9 @@ def validate_event(event,env):
 
 
 def source_run(api,event_run):
-    run=api.call('/repos/'+REPOSITORY+'/actions/runs/'+str(event_run['id']))
-    for name in ('id','head_sha','head_branch','event','status','conclusion','workflow_id'):
+    run=api.call(attempt_path(event_run['id'],event_run['run_attempt']))
+    require(integer(run.get('id')) and integer(run.get('run_attempt')),'invalid API source attempt')
+    for name in ('id','run_attempt','head_sha','head_branch','event','status','conclusion','workflow_id'):
         require(run.get(name)==event_run.get(name),'event/API source-run mismatch: '+name)
     require(run.get('name')==SOURCE_NAME and run.get('event') in ('pull_request','push') and run.get('status')=='completed','wrong source run')
     repo=run.get('repository',{})
@@ -191,12 +226,18 @@ def verify_returned(snapshot_root,fetched):
     return checker.verify_evidence(snapshot_root)
 
 
-def write_source_receipt(source,head,run_id,kind,tracked_files):
+def write_source_receipt(source,head,run_id,kind,tracked_files,execution,role='candidate-tests'):
     require(isinstance(head,str) and SHA.fullmatch(head),'invalid source receipt head')
     require(integer(run_id),'invalid source receipt run')
+    require(execution.get('source_head')==head and execution.get('source_run_id')==run_id
+            and execution.get('source_kind')==kind and integer(execution.get('source_run_attempt'))
+            and integer(execution.get('dispatcher_run_id')) and integer(execution.get('dispatcher_run_attempt')),
+            'source receipt execution binding mismatch')
+    require(role in ('candidate-tests','trusted-native'),'invalid bundle role')
     names=sorted(source_path(x) for x in tracked_files)
     require(len(names)==len(set(names)),'duplicate tracked source')
-    (source/SOURCE_RECEIPT).write_text(json.dumps({'schema_version':1,'source_head':head,'source_run_id':run_id,'source_kind':kind,'tracked_files':names},sort_keys=True))
+    (source/SOURCE_RECEIPT).write_text(json.dumps({'schema_version':1,'source_head':head,'source_run_id':run_id,
+        'source_kind':kind,'tracked_files':names,'execution':execution,'bundle_role':role},sort_keys=True))
 
 
 def prepare_native(candidate,destination):
@@ -234,18 +275,21 @@ def queue_job(client,source,command,outputs,key,fetch,timeout=1800):
     return row
 
 
-def execute_phases(client,source,head,run_id,kind,tracked_files,temporary):
+def execute_phases(client,source,head,run_id,kind,tracked_files,temporary,execution):
     # A alone produces native authority: trusted code + candidate subject DATA.
     native=temporary/'native';subject=prepare_native(source,native);native_fetch=temporary/'native-fetch'
-    a=queue_job(client,native,['/usr/bin/python3','-B','producer/tools/run_models.py','--root','subject','--java','/usr/bin/java','--jar','/opt/tla/tla2tools-1.7.4.jar'],['subject/formal/evidence','subject/formal/RegistrySnapshot.tla'],'post-ai-native-'+str(run_id)+'-'+head,native_fetch)
+    write_source_receipt(native,head,run_id,kind,tracked_files,execution,role='trusted-native')
+    expected=(native/SOURCE_RECEIPT).read_bytes()
+    a=queue_job(client,native,['/usr/bin/python3','-B','producer/tools/run_models.py','--root','subject','--java','/usr/bin/java','--jar','/opt/tla/tla2tools-1.7.4.jar'],['subject/formal/evidence','subject/formal/RegistrySnapshot.tla',SOURCE_RECEIPT],execution_key('native',execution),native_fetch)
+    require((native_fetch/SOURCE_RECEIPT).read_bytes()==expected,'native source/attempt receipt mismatch')
     count=verify_returned(subject,native_fetch/'subject');require(count==12,'trusted current campaign must qualify all twelve cases')
     _,campaign,adapter=trusted_modules()
     adapter.merge_evidence(native_fetch/'subject',source,campaign.RUNS)
-    write_source_receipt(source,head,run_id,kind,tracked_files)
+    write_source_receipt(source,head,run_id,kind,tracked_files,execution)
     # B cannot replace root-owned A artifacts. Its mutable JSON is diagnostic;
     # actual exit of fixed isolated trusted driver composes candidate tests.
-    b=queue_job(client,source,['/usr/bin/python3','-I','-B','-c',BOOTSTRAP],[RESULT_RECEIPT],'post-ai-tests-'+str(run_id)+'-'+head,temporary/'tests-fetch',timeout=3600)
-    return {'native_job':a['id'],'tests_job':b['id'],'native_cases':count}
+    b=queue_job(client,source,['/usr/bin/python3','-I','-B','-c',BOOTSTRAP],[RESULT_RECEIPT],execution_key('tests',execution),temporary/'tests-fetch',timeout=3600)
+    return {'native_job':a['id'],'tests_job':b['id'],'native_cases':count,'execution':execution}
 
 
 def current_target(api,run):
@@ -264,13 +308,14 @@ def recheck_target(api,run,target):
             current=api.call('/repos/'+REPOSITORY+'/pulls/'+str(pr['number']))
             require(current.get('state')=='open' and current.get('head',{}).get('sha')==run['head_sha'],'PR head changed/closed while Oracle phases ran')
     else:
-        actual=api.call('/repos/'+REPOSITORY+'/actions/runs/'+str(run['id']))
-        require(actual.get('head_sha')==value and actual.get('event')=='push','push run identity changed')
+        actual=api.call(attempt_path(run['id'],run['run_attempt']))
+        require(actual.get('head_sha')==value and actual.get('event')=='push'
+                and actual.get('run_attempt')==run['run_attempt'],'push run attempt identity changed')
 
 
-def publish(api,head,run_id,status,conclusion=None,summary=''):
+def publish(api,head,execution,status,conclusion=None,summary=''):
     body={'name':CHECK_NAME,'head_sha':head,'status':status,
-          'external_id':'oracle-pr-source-run-'+str(run_id),
+          'external_id':execution_key('check',execution),
           'output':{'title':'Static checks and Oracle finite models','summary':summary[:60000]}}
     if conclusion:
         body.update(conclusion=conclusion,completed_at=datetime.now(timezone.utc).isoformat())
@@ -286,18 +331,19 @@ def update(api,check_id,conclusion,summary):
 
 def dispatch(api,event,env):
     run=source_run(api,validate_event(event,env));head=run['head_sha']
+    execution=execution_context(env,run,'workflow_run:'+run['event'])
     if run.get('conclusion')!='success':
-        publish(api,head,run['id'],'completed','failure','Upstream public source/static checks did not succeed; no native job submitted.');return 1
+        publish(api,head,execution,'completed','failure','Upstream public source/static checks did not succeed; no native job submitted.');return 1
     try:target=current_target(api,run)
     except (Refused,urllib.error.HTTPError):
-        publish(api,head,run['id'],'completed','failure','The exact approved source head is no longer current; no native job submitted.');return 1
-    check_run=publish(api,head,run['id'],'in_progress',summary='Hosted structural checks succeeded. Trusted native captures and complete candidate test phases queued for exact head '+head+'.')
+        publish(api,head,execution,'completed','failure','The exact approved source head is no longer current; no native job submitted.');return 1
+    check_run=publish(api,head,execution,'in_progress',summary='Hosted structural checks succeeded. Trusted native captures and complete candidate test phases queued for exact head '+head+'. Execution '+json.dumps(execution,sort_keys=True))
     require(integer(check_run.get('id')),'missing created check-run ID')
     try:
         client=shutil.which('tla-queue');require(client is not None,'Oracle queue client unavailable; no local fallback')
         with tempfile.TemporaryDirectory(prefix='post-ai-source-') as temp:
             temporary=Path(temp);source=temporary/'source';inputs=snapshot(api,head,source)
-            receipt=execute_phases(client,source,head,run['id'],'workflow_run:'+run['event'],inputs['tracked_files'],temporary)
+            receipt=execute_phases(client,source,head,run['id'],'workflow_run:'+run['event'],inputs['tracked_files'],temporary,execution)
             recheck_target(api,run,target)
         update(api,check_run['id'],'success','Hosted structural checks, trusted verification of twelve fresh native captures, and complete candidate test/static/site phases passed for exact head '+head+'. Native job '+receipt['native_job']+'; tests job '+receipt['tests_job']+'. No candidate Python ran on the persistent runner; candidate outputs are not native authority.');return 0
     except Exception as exc:
@@ -312,19 +358,20 @@ def dispatch_manual(api,env):
     run_text=env.get('GITHUB_RUN_ID','');head=env.get('GITHUB_SHA','')
     require(isinstance(run_text,str) and run_text.isdigit() and int(run_text)>0,'invalid manual run ID')
     require(isinstance(head,str) and SHA.fullmatch(head),'invalid manual head')
-    run_id=int(run_text);run=api.call('/repos/'+REPOSITORY+'/actions/runs/'+str(run_id))
-    require(run.get('id')==run_id and run.get('event')=='workflow_dispatch' and run.get('head_sha')==head and run.get('head_branch')=='main','manual API identity mismatch')
+    run_id=int(run_text);attempt=environment_integer(env,'GITHUB_RUN_ATTEMPT');run=api.call(attempt_path(run_id,attempt))
+    require(integer(run.get('id')) and integer(run.get('run_attempt')) and run.get('id')==run_id and run.get('run_attempt')==attempt and run.get('event')=='workflow_dispatch' and run.get('head_sha')==head and run.get('head_branch')=='main','manual API identity mismatch')
     require(run.get('repository',{}).get('id')==REPOSITORY_ID,'manual repository ID mismatch')
     require(integer(run.get('workflow_id')),'invalid manual workflow ID')
     workflow=api.call('/repos/'+REPOSITORY+'/actions/workflows/'+str(run['workflow_id']))
     require(workflow.get('path')=='.github/workflows/oracle-tla.yml','manual workflow path mismatch')
-    check_run=publish(api,head,run_id,'in_progress',summary='Explicit manual main verification; structural, native and full candidate phases will run on Oracle. No upstream success is assumed.')
+    execution=execution_context(env,run,'manual')
+    check_run=publish(api,head,execution,'in_progress',summary='Explicit manual main verification; structural, native and full candidate phases will run on Oracle. No upstream success is assumed. Execution '+json.dumps(execution,sort_keys=True))
     require(integer(check_run.get('id')),'missing manual check ID')
     try:
         client=shutil.which('tla-queue');require(client is not None,'Oracle queue client unavailable; no local fallback')
         with tempfile.TemporaryDirectory(prefix='post-ai-manual-') as temp:
             temporary=Path(temp);source=temporary/'source';inputs=snapshot(api,head,source)
-            receipt=execute_phases(client,source,head,run_id,'manual',inputs['tracked_files'],temporary)
+            receipt=execute_phases(client,source,head,run_id,'manual',inputs['tracked_files'],temporary,execution)
         update(api,check_run['id'],'success','Explicit manual main verification passed structural/native/full tests for exact head '+head+'. Native job '+receipt['native_job']+'; tests job '+receipt['tests_job']+'.');return 0
     except Exception as exc:
         update(api,check_run['id'],'failure','Manual Oracle verification failed: '+type(exc).__name__+': '+str(exc)[:4000]);return 1

@@ -56,6 +56,16 @@ manual dispatch of maintained main, with all structural/native/full-test phases
 on Oracle and no fabricated upstream success. Its former direct push trigger is
 removed because the workflow-run path already verifies main pushes once.
 
+Queue requests and combined-check identities bind the exact source run attempt,
+subject commit, and trusted dispatcher run ID/attempt/workflow revision. The
+dispatcher reads the source's exact API attempt rather than a moving latest run.
+Repeating submission within one attempt is idempotent; rerunning either the
+upstream check or the Oracle dispatcher creates new native and test jobs. It cannot
+reuse a previous failed job or describe an earlier successful capture as fresh.
+Each native job retains an attempt receipt that the host compares before accepting
+its captures; candidate-test reports also carry the context for diagnosis and
+remain separate from native authority. Missing or mismatched attempts fail visibly.
+
 Both control-plane workflows have read-only contents/actions permissions and
 checks-write only for result publication (PR dispatch also reads PR metadata).
 Checkout credentials are not persisted. Payloads have private bounded storage,

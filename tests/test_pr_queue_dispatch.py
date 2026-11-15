@@ -23,8 +23,9 @@ PREFIX='/repos/'+d.REPOSITORY
 def context():
     env={'GITHUB_SERVER_URL':'https://github.com','GITHUB_REPOSITORY':d.REPOSITORY,
          'GITHUB_EVENT_NAME':'workflow_run','GITHUB_REF':'refs/heads/main',
-         'GITHUB_WORKFLOW_REF':d.DISPATCH_WORKFLOW}
-    run={'id':99,'name':d.SOURCE_NAME,'event':'pull_request','status':'completed',
+         'GITHUB_WORKFLOW_REF':d.DISPATCH_WORKFLOW,'GITHUB_WORKFLOW_SHA':'c'*40,
+         'GITHUB_RUN_ID':'12345','GITHUB_RUN_ATTEMPT':'1'}
+    run={'id':99,'run_attempt':1,'name':d.SOURCE_NAME,'event':'pull_request','status':'completed',
          'conclusion':'success','workflow_id':100,'head_sha':HEAD,
          'repository':{'id':d.REPOSITORY_ID,'full_name':d.REPOSITORY}}
     event={'action':'completed','repository':{'id':d.REPOSITORY_ID,'full_name':d.REPOSITORY,'fork':False},'workflow_run':run}
@@ -41,7 +42,7 @@ class FakeAPI:
     def call(self,path,method='GET',body=None):
         if method!='GET':
             self.writes.append((path,method,copy.deepcopy(body)));return {'id':101}
-        routes={PREFIX+'/actions/runs/99':self.run,PREFIX+'/actions/workflows/100':{'path':d.SOURCE_WORKFLOW},
+        routes={PREFIX+'/actions/runs/99/attempts/'+str(self.run['run_attempt']):self.run,PREFIX+'/actions/workflows/100':{'path':d.SOURCE_WORKFLOW},
                 PREFIX+'/commits/'+HEAD+'/pulls?per_page=100':[pr()],PREFIX+'/pulls/1':self.pull}
         return copy.deepcopy(routes[path])
 
@@ -69,6 +70,98 @@ class EventTests(unittest.TestCase):
         api=FakeAPI();self.assertEqual(1,d.current_prs(api,api.run)[0]['number'])
         with mock.patch.object(api,'call',return_value=[dict(pr(),head={'sha':'c'*40})]):
             with self.assertRaises(d.Refused):d.current_prs(api,api.run)
+
+
+class AttemptTests(unittest.TestCase):
+    def execution(self,source_attempt=1,dispatcher_attempt=1):
+        event,env=context();event['workflow_run']['run_attempt']=source_attempt
+        env['GITHUB_RUN_ATTEMPT']=str(dispatcher_attempt)
+        return d.execution_context(env,event['workflow_run'],'workflow_run:pull_request')
+
+    def test_same_attempt_is_stable_but_each_source_or_dispatcher_rerun_is_fresh(self):
+        first=self.execution();same=dict(reversed(list(first.items())))
+        for phase in ('native','tests','check'):
+            key=d.execution_key(phase,first)
+            self.assertEqual(key,d.execution_key(phase,same))
+            self.assertLessEqual(len(key),96)
+            self.assertNotEqual(key,d.execution_key(phase,self.execution(source_attempt=2)))
+            self.assertNotEqual(key,d.execution_key(phase,self.execution(dispatcher_attempt=2)))
+        self.assertNotEqual(d.execution_key('native',first),d.execution_key('tests',first))
+
+    def test_exact_source_attempt_endpoint_and_api_binding(self):
+        event,_=context();event['workflow_run']['run_attempt']=2;api=FakeAPI()
+        api.run=copy.deepcopy(event['workflow_run'])
+        with mock.patch.object(api,'call',wraps=api.call) as call:
+            self.assertEqual(2,d.source_run(api,event['workflow_run'])['run_attempt'])
+        self.assertEqual(PREFIX+'/actions/runs/99/attempts/2',call.call_args_list[0].args[0])
+        for actual in (1,True,"2",None):
+            api=FakeAPI();api.run=copy.deepcopy(event['workflow_run']);api.run['run_attempt']=actual
+            original=api.call
+            with self.subTest(actual=actual),mock.patch.object(api,'call',side_effect=lambda path:copy.deepcopy(api.run) if '/actions/runs/' in path else original(path)),self.assertRaises(d.Refused):
+                d.source_run(api,event['workflow_run'])
+
+    def test_missing_or_invalid_attempt_context_never_submits_or_publishes(self):
+        for name in ('GITHUB_RUN_ID','GITHUB_RUN_ATTEMPT','GITHUB_WORKFLOW_SHA'):
+            for value in (None,'','0','-1','true','1.5'):
+                event,env=context()
+                if value is None:del env[name]
+                else:env[name]=value
+                api=FakeAPI()
+                with self.subTest(name=name,value=value),mock.patch.object(d,'queue_job') as queue,self.assertRaises(d.Refused):
+                    d.dispatch(api,event,env)
+                queue.assert_not_called();self.assertEqual([],api.writes)
+        for value in (None,0,True,'1'):
+            event,env=context();event['workflow_run']['run_attempt']=value
+            with self.subTest(value=value),self.assertRaises(d.Refused):d.validate_event(event,env)
+
+    def test_published_check_and_source_receipt_bind_identical_execution(self):
+        execution=self.execution(source_attempt=2,dispatcher_attempt=3);api=FakeAPI()
+        d.publish(api,HEAD,execution,'in_progress')
+        self.assertEqual(d.execution_key('check',execution),api.writes[0][2]['external_id'])
+        self.assertEqual(HEAD,api.writes[0][2]['head_sha'])
+        with tempfile.TemporaryDirectory() as temporary:
+            root=Path(temporary)
+            d.write_source_receipt(root,HEAD,99,'workflow_run:pull_request',['README.md'],execution)
+            receipt=json.loads((root/d.SOURCE_RECEIPT).read_text())
+            self.assertEqual(execution,receipt['execution'])
+            wrong=dict(execution,source_run_id=100)
+            with self.assertRaises(d.Refused):
+                d.write_source_receipt(root,HEAD,99,'workflow_run:pull_request',['README.md'],wrong)
+
+    def test_native_attempt_receipt_mismatch_stops_before_verification_or_test_job(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root=Path(temporary);source=root/'source';source.mkdir();execution=self.execution()
+            def prepare(candidate,destination):
+                (destination/'subject').mkdir(parents=True);return destination/'subject'
+            def queue(client,payload,command,outputs,key,fetch):
+                self.assertIn(d.SOURCE_RECEIPT,outputs)
+                fetch.mkdir();value=json.loads((payload/d.SOURCE_RECEIPT).read_text())
+                value['execution']['source_run_attempt']=999
+                (fetch/d.SOURCE_RECEIPT).write_text(json.dumps(value))
+                return {'id':'a'*32}
+            with mock.patch.object(d,'prepare_native',side_effect=prepare),mock.patch.object(d,'queue_job',side_effect=queue) as launch,mock.patch.object(d,'verify_returned') as verify,self.assertRaisesRegex(d.Refused,'attempt receipt mismatch'):
+                d.execute_phases('/client',source,HEAD,99,'workflow_run:pull_request',['README.md'],root,execution)
+            self.assertEqual(1,launch.call_count);verify.assert_not_called()
+
+    def test_manual_rerun_gets_new_execution_without_inventing_upstream_success(self):
+        published=[];executions=[]
+        for attempt in (1,2):
+            _,env=context();env.update(GITHUB_EVENT_NAME='workflow_dispatch',GITHUB_WORKFLOW_REF=d.REPOSITORY+'/.github/workflows/oracle-tla.yml@refs/heads/main',GITHUB_RUN_ID='99',GITHUB_RUN_ATTEMPT=str(attempt),GITHUB_SHA=HEAD)
+            api=FakeAPI();api.run.update(event='workflow_dispatch',head_branch='main',run_attempt=attempt)
+            original=api.call
+            def call(path,*args,**kwargs):
+                if path.endswith('/actions/workflows/100'):return {'path':'.github/workflows/oracle-tla.yml'}
+                return original(path,*args,**kwargs)
+            def snapshot(fake,head,root):root.mkdir();return {'tracked_files':['README.md']}
+            with mock.patch.object(api,'call',side_effect=call),mock.patch.object(d.shutil,'which',return_value='/client'),mock.patch.object(d,'snapshot',side_effect=snapshot),mock.patch.object(d,'execute_phases',return_value={'native_job':'a'*32,'tests_job':'b'*32}) as phases:
+                self.assertEqual(0,d.dispatch_manual(api,env))
+            executions.append(phases.call_args.args[-1]);published.append(api.writes[0][2]['external_id'])
+            self.assertEqual(attempt,executions[-1]['source_run_attempt'])
+            self.assertEqual(attempt,executions[-1]['dispatcher_run_attempt'])
+            self.assertIn('No upstream success is assumed',api.writes[0][2]['output']['summary'])
+        self.assertNotEqual(published[0],published[1])
+        for phase in ('native','tests'):
+            self.assertNotEqual(d.execution_key(phase,executions[0]),d.execution_key(phase,executions[1]))
 
 
 class PushAndManualTests(unittest.TestCase):
@@ -126,7 +219,8 @@ class BootstrapProcessTests(unittest.TestCase):
             'website/build.py':'print("website fixture unchanged")'}
         for name,text in files.items():
             p=root/name;p.parent.mkdir(parents=True,exist_ok=True);p.write_text(text)
-        d.write_source_receipt(root,HEAD,99,'fixture',list(files))
+        event,env=context();execution=d.execution_context(env,event['workflow_run'],'workflow_run:pull_request')
+        d.write_source_receipt(root,HEAD,99,'workflow_run:pull_request',list(files),execution)
 
     def test_fixed_isolated_driver_runs_all_non_native_phases_without_fake_head(self):
         with tempfile.TemporaryDirectory() as temp:
@@ -135,6 +229,7 @@ class BootstrapProcessTests(unittest.TestCase):
             self.assertEqual(0,result.returncode,result.stdout+result.stderr)
             report=json.loads((root/d.RESULT_RECEIPT).read_text())
             self.assertIs(True,report['complete']);self.assertEqual(d.PHASES,[x['name'] for x in report['phases']])
+            self.assertEqual(json.loads((root/d.SOURCE_RECEIPT).read_text())['execution'],report['execution'])
             self.assertNotIn('native',[x['name'] for x in report['phases']])
             head=subprocess.run(['git','rev-parse','--verify','HEAD'],cwd=root,capture_output=True)
             self.assertNotEqual(0,head.returncode)
@@ -241,6 +336,7 @@ class TrustedVerifierTests(unittest.TestCase):
                     shutil.copyfile(ROOT/'formal/RegistrySnapshot.tla',fetch/'subject/formal/RegistrySnapshot.tla')
                     authority['manifest']=fetch/'subject/formal/evidence/manifest.json'
                     authority['bytes']=authority['manifest'].read_bytes()
+                    shutil.copyfile(payload/d.SOURCE_RECEIPT,fetch/d.SOURCE_RECEIPT)
                     return {'id':'a'*32}
                 # Simulate hostile B rewriting its copied proof/report. A is in
                 # another terminal queue job and not declared as a B output.
@@ -250,7 +346,8 @@ class TrustedVerifierTests(unittest.TestCase):
                 return {'id':'b'*32,'native_cases':999}
             tracked=['tools/check.py','formal/RegistrySnapshot.tla','formal/evidence/manifest.json']
             with mock.patch.object(d,'queue_job',side_effect=queue),mock.patch.object(d,'verify_returned',return_value=12) as verifier:
-                result=d.execute_phases('/client',source,HEAD,99,'workflow_run:pull_request',tracked,root)
+                event,env=context();execution=d.execution_context(env,event['workflow_run'],'workflow_run:pull_request')
+                result=d.execute_phases('/client',source,HEAD,99,'workflow_run:pull_request',tracked,root,execution)
             self.assertEqual(12,result['native_cases']);self.assertEqual('a'*32,result['native_job'])
             self.assertEqual(authority['bytes'],authority['manifest'].read_bytes())
             self.assertEqual(1,verifier.call_count)
