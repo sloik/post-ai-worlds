@@ -7,7 +7,7 @@ permissions:
   checks: write
 jobs:
   tla:
-    if: github.repository == 'sloik/post-ai-worlds' && github.ref == 'refs/heads/main'
+    if: github.repository == 'sloik/post-ai-worlds'
     runs-on: [self-hosted, Linux, ARM64, oracle, post-ai-worlds]
     timeout-minutes: 120
     steps:
