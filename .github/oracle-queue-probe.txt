@@ -1,0 +1,3 @@
+Owner migration qualification: exact fork head; application, models and producers unchanged.
+
+Advance the fork ref during an accepted native verification.
