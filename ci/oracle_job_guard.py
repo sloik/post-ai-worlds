@@ -13,6 +13,9 @@ WORKFLOWS = {
     "workflow_run": REPOSITORY + "/.github/workflows/oracle-pr-tla.yml@" + MAIN_REF,
 }
 MAX_EVENT_BYTES = 2 * 1024 * 1024
+# GitHub reruns may execute this historical definition even after main advances.
+# Its dispatcher predates the attempt/fork fixes; retire only that known epoch.
+RETIRED_WORKFLOW_SHAS = frozenset({"a1c4e8f09bebcce22a97bc4e69d87a1c40b6e404"})
 
 
 def commit_sha(value):
@@ -34,6 +37,8 @@ def refusal(env, event):
         return "workflow-ref"
     if not commit_sha(env.get("GITHUB_WORKFLOW_SHA")):
         return "workflow-sha"
+    if env["GITHUB_WORKFLOW_SHA"] in RETIRED_WORKFLOW_SHAS:
+        return "retired-workflow-sha"
     if not isinstance(event, dict) or "pull_request" in event:
         return "event-shape"
     repo = event.get("repository")
