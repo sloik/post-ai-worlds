@@ -33,6 +33,27 @@ def event(kind="workflow_run", source="pull_request"):
 
 
 class Admission(unittest.TestCase):
+    def test_known_retired_dispatcher_epoch_is_refused_by_real_entrypoint(self):
+        retired = "a1c4e8f09bebcce22a97bc4e69d87a1c40b6e404"
+        for kind in ("workflow_run", "workflow_dispatch"):
+            with self.subTest(kind=kind):
+                env = environment(kind); env["GITHUB_WORKFLOW_SHA"] = retired
+                result = self.invoke(json.dumps(event(kind)).encode(), env)
+                self.assertEqual(1, result.returncode, result.stdout + result.stderr)
+                self.assertIn("rejected (retired-workflow-sha)", result.stdout)
+
+    def test_current_and_future_workflow_epochs_keep_existing_admission(self):
+        current = "04d6d80f62da0e92367e5a476d4dde1e141d1362"
+        for kind in ("workflow_run", "workflow_dispatch"):
+            for workflow in (current, "f" * 40):
+                with self.subTest(kind=kind, workflow=workflow):
+                    env = environment(kind); env["GITHUB_WORKFLOW_SHA"] = workflow
+                    payload = event(kind)
+                    if kind == "workflow_run":
+                        payload["workflow_run"]["head_sha"] = "a1c4e8f09bebcce22a97bc4e69d87a1c40b6e404"
+                    result = self.invoke(json.dumps(payload).encode(), env)
+                    self.assertEqual(0, result.returncode, result.stdout + result.stderr)
+
     def test_manual_main(self):
         for ref in ("main", g.MAIN_REF):
             e = event("workflow_dispatch"); e["ref"] = ref
