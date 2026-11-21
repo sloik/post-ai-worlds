@@ -89,7 +89,7 @@
       "label": "Manual forecast review queue",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/FORECAST-REVIEWS.md",
       "kind": "document",
-      "sha256": "64046690ebfe5813b8333632ad249b0e8ea6e225be3c4d20de40eff68f60adc1"
+      "sha256": "b86eabc1a37409416953ee4f760306ddf19cade60b38211d956dac9116fd5b04"
     },
     {
       "id": "evidence/README.md",
@@ -111,6 +111,13 @@
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/forecasts/2026-11-13-rsi-forecasts.md",
       "kind": "document",
       "sha256": "42469bdb1c1d7a220bc41a903a7e60856215c93150e53b29d2797e06563e95d0"
+    },
+    {
+      "id": "evidence/forecasts/2026-11-21-ai-only-operations.md",
+      "label": "AI-only production code and public roads",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/forecasts/2026-11-21-ai-only-operations.md",
+      "kind": "document",
+      "sha256": "aa9b5539ea38c34336d45040367436b94d1e80444c3ab4b7c4c4c3f8e74ef09e"
     },
     {
       "id": "evidence/social-measurement-protocol.md",
@@ -837,6 +844,16 @@
       "anchors": []
     },
     {
+      "source": "evidence/FORECAST-REVIEWS.md",
+      "target": "evidence/forecasts/2026-11-21-ai-only-operations.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/FORECAST-REVIEWS.md",
+      "source_lines": [
+        19
+      ],
+      "anchors": []
+    },
+    {
       "source": "evidence/README.md",
       "target": "CONTRIBUTING.md",
       "relation": "markdown_link",
@@ -964,6 +981,16 @@
       "source_file": "evidence/forecasts/2026-11-13-rsi-forecasts.md",
       "source_lines": [
         67
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/forecasts/2026-11-21-ai-only-operations.md",
+      "target": "evidence/FORECAST-REVIEWS.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/forecasts/2026-11-21-ai-only-operations.md",
+      "source_lines": [
+        57
       ],
       "anchors": []
     },
