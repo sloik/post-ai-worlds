@@ -89,7 +89,7 @@
       "label": "Manual forecast review queue",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/FORECAST-REVIEWS.md",
       "kind": "document",
-      "sha256": "c8d5e184204ad9ea1661ee37979cc80f0f7112a81ece3d4fb4fab61321fb5c89"
+      "sha256": "c08bb3fae08069e760fe57167129deb5214c1b3343b3e9013d2def90322d9759"
     },
     {
       "id": "evidence/README.md",
@@ -229,7 +229,7 @@
       "label": "Evidence and forecasts",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/14-EVIDENCE-AND-FORECASTS.md",
       "kind": "document",
-      "sha256": "eb6f94aa50b25588f42904758196a10fd23a6b9d90d77889783030f14beebe51"
+      "sha256": "9c67a1b3844c2f0b083acae859907647dd965dbdfdaf3ab2c48a28212e27a571"
     },
     {
       "id": "omnicorp/15-CULTURE-INTIMACY-AND-POWER.md",
@@ -376,7 +376,7 @@
       "label": "The evaluation validity problem",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/14-THE-EVAL-VALIDITY-PROBLEM.md",
       "kind": "document",
-      "sha256": "73314a81150f53c60fa9e6dd28768683c5b355e009c936c9724e3b43ff2e1906"
+      "sha256": "b65755cc2bbe848fb16fc6486ff2dc83c00a8f9edb8318d468a046fc9861b941"
     },
     {
       "id": "post-ai/15-THE-LAWYERS-FORK.md",

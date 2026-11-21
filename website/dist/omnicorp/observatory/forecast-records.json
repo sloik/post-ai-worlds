@@ -7,7 +7,7 @@
     "window_start": "2026-11-06",
     "deadline": "2028-12-31",
     "issued_on": "2026-11-05",
-    "prob": 0.65,
+    "prob": 0.7,
     "status": "Open forecast",
     "forecast_id": 1,
     "forecaster": "Argo / research-team synthesis",
@@ -32,7 +32,7 @@
     ],
     "up_trigger": {
       "description": "A newly published first-domain case meets every gate, including independently checked provenance and either qualifying unaffiliated endorsements or substantive reuse, while an unaffiliated team has a concrete second-domain result under external validation.",
-      "lr": 2.0
+      "lr": 2
     },
     "down_trigger": {
       "description": "By end2027, the strongest new cases repeatedly fail provenance/novelty review or lack independent reproduction, leaving no fully qualifying first-domain case.",
@@ -74,6 +74,11 @@
         "date": "2026-11-05",
         "prob": 0.65,
         "reason": "Initial estimate, after prospective criteria were fixed; no earlier public probability."
+      },
+      {
+        "date": "2026-11-21",
+        "prob": 0.7,
+        "reason": "Revised at the maintainer's direction after the claimed Riemann Hypothesis proof of 20 November 2026. The claim does not qualify and the up-trigger is not met, so the full multiplier of 2.0 was not applied. A partial multiplier of about 1.25 on the odds reflects stronger evidence that frontier models can supply decisive steps in major research, discounted because the claim is unverified, shares one laboratory lineage with the same week's other results, and has no released provenance. Single-forecaster update; the two initial views were not re-elicited. A failed Comparator run, a statement mismatch or a confirmed error would reverse it."
       }
     ]
   },
@@ -111,7 +116,7 @@
     ],
     "up_trigger": {
       "description": "A post-cutoff candidate has public AI-selection provenance, independently documented physical testing and a named qualification programme scheduled to decide before end2028.",
-      "lr": 2.0
+      "lr": 2
     },
     "down_trigger": {
       "description": "By end2027, candidate reports consistently disclose human decisive selection or decline to release acceptance records; no public candidate with a named pending qualification can be identified.",

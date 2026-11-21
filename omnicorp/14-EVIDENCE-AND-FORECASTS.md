@@ -10,7 +10,7 @@ For an evidence entry, retain a primary source, publication date, observation da
 
 State the object being improved. A better benchmark score, a useful scientific result, a revised model checkpoint and an organisation learning across tasks are different outcomes. Evidence about one can motivate a question about another without establishing it.
 
-Formal acceptance also has a correspondence problem. A checker can accept a precise statement while that statement differs from the claim people believe was proved. Evaluation should examine the translation between intended claim and checked object, alongside the checker result.
+Formal acceptance also has a correspondence problem. A checker can accept a precise statement while that statement differs from the claim people believe was proved. Evaluation should examine the translation between intended claim and checked object, alongside the checker result. The public checking of a claimed Riemann Hypothesis proof in November 2026 shows one workable form: the challenge statement is written and exported apart from the submitted proof and read by people, and the proof is then replayed in independent checkers. [Lean community, 2026](https://github.com/leanprover-community/riemann-hypothesis). The claim was unverified as of 21 November 2026; the method is what matters here.
 
 ## Define a forecast before assigning odds
 

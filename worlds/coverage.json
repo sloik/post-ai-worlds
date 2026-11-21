@@ -367,7 +367,7 @@
       "assurance": "editorial_inventory_only"
     },
     "post-ai/14-THE-EVAL-VALIDITY-PROBLEM.md": {
-      "sha256": "73314a81150f53c60fa9e6dd28768683c5b355e009c936c9724e3b43ff2e1906",
+      "sha256": "b65755cc2bbe848fb16fc6486ff2dc83c00a8f9edb8318d468a046fc9861b941",
       "headings": [
         {
           "level": 1,
@@ -387,7 +387,7 @@
         {
           "level": 2,
           "text": "What a trustworthy report carries",
-          "line": 25
+          "line": 27
         }
       ],
       "assurance": "editorial_inventory_only"
@@ -1031,7 +1031,7 @@
       "assurance": "editorial_inventory_only"
     },
     "omnicorp/14-EVIDENCE-AND-FORECASTS.md": {
-      "sha256": "eb6f94aa50b25588f42904758196a10fd23a6b9d90d77889783030f14beebe51",
+      "sha256": "9c67a1b3844c2f0b083acae859907647dd965dbdfdaf3ab2c48a28212e27a571",
       "headings": [
         {
           "level": 1,
