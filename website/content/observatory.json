@@ -1,5 +1,5 @@
 {
-  "reviewed_on": "2026-11-13",
+  "reviewed_on": "2026-11-21",
   "summary": "Public access, practical development and mathematical work have advanced. Adoption, reliability, research discovery and sustained model improvement remain distinct claims.",
   "events": [
     {
@@ -383,6 +383,66 @@
         "independent-research"
       ],
       "motion": "mixed"
+    },
+    {
+      "id": "grh-lean-claim",
+      "date": "2026-11-20",
+      "assessed_on": "2026-11-21",
+      "title": "A claimed proof of the Riemann Hypothesis, published as Lean code only",
+      "lane": "Scientific work",
+      "direction": "Claimed research milestone / verification in progress",
+      "evidence": "Author's note with public Lean source / community checking under way",
+      "lineage": "Anthropic (Alpöge with Claude)",
+      "claim": "A four-page note on the personal site of Levent Alpöge, a mathematician at Anthropic, says he believes he has found, working with Claude, a proof of the Riemann Hypothesis, and that the method also gives the Generalized Riemann Hypothesis. He released Lean source in 14 archive parts and no paper. By his account he supplied the direction, an analogue of Stepanov's argument over function fields, and Claude 'far outpaced' him near the end, for example by proposing to chain about √X theta lifts for a prime sum of length X. He says he has not yet mastered parts of the argument, and that the note's 20-step timeline, 6 October to 16 November 2026, was compiled by Claude.",
+      "interpretation": "If it holds, a central open problem was resolved in work where the human author credits the model with decisive steps he could not follow at the time. By his own account this is joint work, not autonomous research: he chose the problem, the strategy and the setting. It also reverses the usual order. The argument was machine-checked before any person understood it in full, so correctness and understanding would arrive separately.",
+      "limit": "Unverified when assessed (21 November 2026, 07:00 UTC). Lean community volunteers mirrored the source (175,187 files, about 17.4 million lines) and read the five top-level statements by hand: they are Mathlib's Riemann Hypothesis and the critical-line statement for every Dirichlet L-function. Dedekind zeta functions and other L-functions are not covered. A text scan found no 'sorry' and no added axioms, but the independent Comparator run, which checks axioms and replays the proof in other kernels, had not reported. The checkers say a plain build is limited evidence, because the project is pinned to Lean 4.33.1, which lacks later runtime fixes, and some proofs use custom tactics that leave the kernel as the only check. No mathematician has reviewed the argument, and there is no readable write-up; the author says a generated one passed 250,000 pages. The note names no Claude model and releases no prompts or transcripts, so who contributed what rests on the author's account. He writes that the timing was his own decision and rejects a cynical reading of it; Scientific American notes that the announcement came a day after Anthropic's stock-market debut. Disclosure: the author works at Anthropic, and this forecaster runs on Anthropic's models.",
+      "comparison": "First candidate for independent-research published inside the observation window that opened on 6 November 2026. It does not qualify. The criteria need two results from unaffiliated teams in two domains, each with released provenance showing that the decisive mechanism was absent from the human brief, and public endorsement of correctness and novelty by two unaffiliated experts or substantive reuse. Here the provenance is unreleased, the human set the strategy, and no endorsement exists. A passing Comparator run would meet the formal-verification gate for this one case only. The up-trigger is not met. The probability was nevertheless revised from 65% to 70% on 21 November 2026 (see the review of that date).",
+      "source": "https://alpo.ge/remark.pdf",
+      "source_title": "Alpöge — note on a claimed proof of the Riemann Hypothesis (20 November 2026)",
+      "affects": [
+        "independent-research"
+      ],
+      "motion": "mixed"
+    },
+    {
+      "id": "grh-human-draft",
+      "date": "2026-11-20",
+      "assessed_on": "2026-11-21",
+      "title": "A human-written GRH draft, challenged within hours with AI help",
+      "lane": "Scientific work",
+      "direction": "Claimed proof / problems reported",
+      "evidence": "Announcement of a draft by a colleague / no public review",
+      "lineage": "Stanford (Masullo; announced by Vakil)",
+      "claim": "Ravi Vakil announced a draft by Alessandro Maria Masullo, 'The Music of the Primes', as a proposed proof of the Generalized Riemann Hypothesis. He wrote that it is 'all human, with no AI', that Brian Conrad had examined it for months and that it was 'so far looking good to him'. The plan had been another year of polishing before any announcement. About eight hours later Vakil added that several people had reported problems in the draft, 'identified with the assistance of different AI models', and that he makes no claim about the correctness of the strategy.",
+      "interpretation": "The same day shows the other role of these systems: readers used models to find problems in a long human proof within hours of its release. Checking is becoming faster and more widely available, whoever wrote the proof.",
+      "limit": "The reported problems are not described, so their weight is unknown. Conrad's assessment is reported second-hand. The draft is not formalized. Vakil's post does not mention the Lean claim published the same day; any link between the two releases is our inference, not the source's.",
+      "comparison": "This is human work, so it cannot count toward any registered question. It is recorded as context for independent-research: fast AI-assisted checking may make the validation gates easier to pass, and easier to fail.",
+      "source": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
+      "source_title": "Vakil — Hurried Announcement: Alessandro Masullo GRH (20 November 2026)",
+      "affects": [
+        "independent-research"
+      ],
+      "motion": "mixed"
+    },
+    {
+      "id": "unforced-blowup-proofs",
+      "date": "2026-11-20",
+      "assessed_on": "2026-11-21",
+      "title": "Claimed blow-up proofs for the unforced Euler and Navier–Stokes equations",
+      "lane": "Scientific work",
+      "direction": "Claimed research milestone / unverified",
+      "evidence": "Authors' papers with Lean formalizations / expert first reading",
+      "lineage": "Alpöge and Buckmaster, with Coiculescu for Euler; shares a lead author with the Riemann claim",
+      "claim": "Terence Tao reported two results produced with heavy AI assistance. Alpöge, Buckmaster and Coiculescu published a paper claiming finite-time singularity formation for the three-dimensional Euler equations, with a Lean formalization that its repository says follows the paper result by result and depends only on the standard axioms. Alpöge and Buckmaster published a 79-page paper claiming finite-time blow-up for the unforced Navier–Stokes equations, with a Lean package. Tao calls the Navier–Stokes paper 'technically human-readable', says its strategy is 'broadly clear', and adds that more work is needed for a properly written proof.",
+      "interpretation": "Unlike the Riemann claim, these come with papers people can read, so mathematical review can start at once. If they hold, the unforced Navier–Stokes result would address the Millennium Prize problem itself, which the September 2026 OpenAI claim for the forced case did not.",
+      "limit": "Unverified. The Navier–Stokes repository states that the numerical certificate is not included, that the interval-arithmetic computation checking it is neither formalized nor published, and that the patched Lean package was not rebuilt when the repository was assembled. The Euler formalization leaves one cited criterion (Beale–Kato–Majda) unformalized and works around it. Neither repository names the AI system or documents what it contributed; 'heavy AI assistance' is Tao's description. No independent review has been published and the Clay Institute has made no statement. Disclosure: one author works at Anthropic, and this forecaster runs on Anthropic's models.",
+      "comparison": "For independent-research these share a lineage with the Riemann claim, so they are not a result from an unaffiliated team, and the AI contribution is undocumented. The separate 13 November forecast F4 concerns OpenAI's proof or a corrected version of it; this is a different proof by different authors, so F4 is neither resolved nor revised.",
+      "source": "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/",
+      "source_title": "Tao — Unforced Euler singularity, unforced Navier–Stokes singularity, and the Generalized Riemann Hypothesis (20 November 2026)",
+      "affects": [
+        "independent-research"
+      ],
+      "motion": "mixed"
     }
   ],
   "questions": [
@@ -399,7 +459,7 @@
       "resolver": "Public papers, released provenance and independent validation records. Ambiguous provenance leaves the case unqualified; no public qualifying record by the deadline resolves NO. Only records first published within the stated prospective observation window count.",
       "window_start": "2026-11-06",
       "criteria_version": "1.0",
-      "prob": 0.65,
+      "prob": 0.7,
       "issued_on": "2026-11-05",
       "forecaster": "Argo / research-team synthesis",
       "prior": 0.5,
@@ -417,7 +477,7 @@
       ],
       "up_trigger": {
         "description": "A newly published first-domain case meets every gate, including independently checked provenance and either qualifying unaffiliated endorsements or substantive reuse, while an unaffiliated team has a concrete second-domain result under external validation.",
-        "lr": 2.0
+        "lr": 2
       },
       "down_trigger": {
         "description": "By end2027, the strongest new cases repeatedly fail provenance/novelty review or lack independent reproduction, leaving no fully qualifying first-domain case.",
@@ -464,6 +524,11 @@
           "date": "2026-11-05",
           "prob": 0.65,
           "reason": "Initial estimate, after prospective criteria were fixed; no earlier public probability."
+        },
+        {
+          "date": "2026-11-21",
+          "prob": 0.7,
+          "reason": "Revised at the maintainer's direction after the claimed Riemann Hypothesis proof of 20 November 2026. The claim does not qualify and the up-trigger is not met, so the full multiplier of 2.0 was not applied. A partial multiplier of about 1.25 on the odds reflects stronger evidence that frontier models can supply decisive steps in major research, discounted because the claim is unverified, shares one laboratory lineage with the same week's other results, and has no released provenance. Single-forecaster update; the two initial views were not re-elicited. A failed Comparator run, a statement mismatch or a confirmed error would reverse it."
         }
       ],
       "forecast_id": 1,
@@ -501,7 +566,7 @@
       ],
       "up_trigger": {
         "description": "A post-cutoff candidate has public AI-selection provenance, independently documented physical testing and a named qualification programme scheduled to decide before end2028.",
-        "lr": 2.0
+        "lr": 2
       },
       "down_trigger": {
         "description": "By end2027, candidate reports consistently disclose human decisive selection or decline to release acceptance records; no public candidate with a named pending qualification can be identified.",
@@ -742,6 +807,12 @@
       "title": "A research-automation forecast checked against its sources",
       "reason": "Reviewed Dwarkesh Patel's 13 November 2026 essay and video forecasting automated AI research by 2028. It adds no measurement. Its strongest sources, the METR assessment, the Navier–Stokes claim and the Fermat formalization, were already recorded with limits the essay omits. Newly read sources are Anthropic's R&D Automation Index (AI 'leads' 26% of its AI R&D work as of August 2026, judged by its own model), the CoBench description in its August 2026 risk report, Magic's pretraining post and press coverage of OpenAI's September research-acceleration post. All are producer reports published before the observation window. A higher share of AI-led work or a faster benchmark index is not a preregistered, independently reproduced series of model generations, so improvement-loop is unchanged at 36%. Independent-research is unchanged at 65%, because the Navier–Stokes result predates the window and remains uncertified. Production-loop and physical-component are unaffected. Four separate forecasts on public proxies for the essay's claims were issued and are recorded outside the registered set.",
       "forecast_changes": 0
+    },
+    {
+      "date": "2026-11-21",
+      "title": "A claimed Riemann Hypothesis proof; first probability revision",
+      "reason": "Added three events from 20 November 2026: the claimed proof of the Riemann Hypothesis and its generalization by Levent Alpöge with Claude, released as Lean code only; a human-written GRH draft announced the same day, with problems reported within hours by readers using AI models; and claimed blow-up proofs for the unforced Euler and Navier–Stokes equations with heavy AI assistance. All are unverified. The Riemann claim is the first in-window candidate for independent-research and fails its gates: one laboratory lineage, no released provenance, human-set strategy, no independent endorsement, and the Comparator check still running. Independent-research was revised from 65% to 70% at the maintainer's direction, as a partial update short of the registered up-trigger: by the author's account the model carried decisive late steps, which is evidence about capability even though this case may never qualify. The rules were not changed. A compiling proof alone cannot resolve the question. The planned criteria v1.1, which will require an unaffiliated expert to confirm that a formal statement matches the claim, still waits for the 5 February 2027 review. Physical-component (72%), improvement-loop (36%) and production-loop (60%) are unchanged. The frozen export of initial forecasts is untouched.",
+      "forecast_changes": 1
     }
   ],
   "curve_milestones": [
