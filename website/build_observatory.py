@@ -3,6 +3,13 @@ import html,json,re
 from datetime import date
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent;OUT=ROOT/'dist'/'omnicorp';e=html.escape
+
+
+def forecast_date(value):
+    parsed = date.fromisoformat(value)
+    return f'{parsed.day} {parsed:%B %Y}'
+
+
 d=json.loads((ROOT/'content/observatory.json').read_text())
 library=(OUT/'field-notes/index.html').read_text();home=(OUT/'index.html').read_text()
 header=re.search(r'<header>.*?</header>',library,re.S).group().replace('aria-current="page"','aria-current="false"').replace('href="/omnicorp/observatory/"','href="/omnicorp/observatory/" aria-current="page"');footer=re.search(r'<footer>.*?</footer>',library,re.S).group()
@@ -38,17 +45,20 @@ for i,q in enumerate(d['questions']):
  issued_note=f' at {initial}% · revised {hist[-1]["date"]}' if revised else ''
  current_note=f' · current estimate {percent}% since {hist[-1]["date"]}: {e(hist[-1]["reason"])}' if revised else ''
  views=' / '.join(str(round(x*100))+'%' for x in q['views'])
- p+=f'<article class="forecast-card" id="{q["id"]}"><div class="forecast-card-top mono"><span>Q{i+1:02} / {e(q["lane"])}</span><span>BY {q["deadline"]}</span></div><h3>{e(q["title"])}</h3><div class="forecast-number"><strong>{percent}<span>%</span></strong><div>CHANCE OF YES<small>New public record by {q["deadline"]}<br>Issued 5 November 2026{issued_note} · open forecast</small></div></div><p class="forecast-precision">Subjective estimate, not an empirical base rate or a singularity probability.</p><div class="forecast-cases"><div><h4>Why we think this may happen</h4><ul>'+''.join('<li>'+e(x)+'</li>' for x in q['why_right'])+'</ul></div><div><h4>Why we might be wrong</h4><ul>'+''.join('<li>'+e(x)+'</li>' for x in q['why_wrong'])+'</ul></div></div><details><summary>Exact outcome, timeframe & update signals +</summary><dl>'
+ p+=f'<article class="forecast-card" id="{q["id"]}"><div class="forecast-card-top mono"><span>Q{i+1:02} / {e(q["lane"])}</span><span>BY {q["deadline"]}</span></div><h3>{e(q["title"])}</h3><div class="forecast-number"><strong>{percent}<span>%</span></strong><div>CHANCE OF YES<small>New public record by {q["deadline"]}<br>Issued {forecast_date(q["issued_on"])}{issued_note} · open forecast</small></div></div><p class="forecast-precision">Subjective estimate, not an empirical base rate or a singularity probability.</p><div class="forecast-cases"><div><h4>Why we think this may happen</h4><ul>'+''.join('<li>'+e(x)+'</li>' for x in q['why_right'])+'</ul></div><div><h4>Why we might be wrong</h4><ul>'+''.join('<li>'+e(x)+'</li>' for x in q['why_wrong'])+'</ul></div></div><details><summary>Exact outcome, timeframe & update signals +</summary><dl>'
  for field,label in [('criteria','What counts as YES'),('resolver','Resolution source & edge cases')]:p+=f'<dt>{label}</dt><dd>{e(q[field])}</dd>'
- p+=f'<dt>Observation window</dt><dd>6 November 2026 through {q["deadline"]} at 23:59 UTC. Criteria version 1.0. Previously published cases do not count as new outcomes.</dd>'
+ p+=f'<dt>Observation window</dt><dd>{forecast_date(q["window_start"])} through {q["deadline"]} at 23:59 UTC. Criteria version {e(q["criteria_version"])}. Previously published cases do not count as new outcomes.</dd>'
  for field,label in [('up_trigger','Evidence that would raise the probability'),('down_trigger','Evidence that would lower it')]:
   trigger=q[field];p+=f'<dt>{label}</dt><dd>{e(trigger["description"])} Proposed likelihood-ratio multiplier: {trigger["lr"]}. This is an update rule for review, not an automatic score.</dd>'
  p+='</dl></details><details><summary>How we estimated this +</summary><dl>'
  for field,label in [('prior_basis','One contributing analyst’s starting point'),('reference_class','Reference-class limitations'),('method','Combining perspectives'),('confidence_note','Limits of confidence')]:p+=f'<dt>{label}</dt><dd>{e(q[field])}</dd>'
  p+=f'<dt>Separately elicited views</dt><dd>{views}. The spread reflects analyst disagreement, not a confidence interval. Shared model-family and source dependencies limit the ensemble.</dd><dt>Current record</dt><dd>Forecast #{q["forecast_id"]} · initial estimate {initial}%{current_note} · not yet resolved or scored.</dd></dl><p class="eyebrow">PRIMARY EVIDENCE</p><ul class="forecast-sources">'
  for source in q['sources']:p+=f'<li><a href="{e(source["url"],quote=True)}">{e(source["title"])} ↗</a></li>'
- p+='</ul></details></article>'
-p+='</div><div class="calibration-note"><span class="mono">FORECASTING, NOT DECORATION</span><p>Before publishing a number: define the reference class, weigh evidence for and against, compare separately elicited assessments, record the probability and name its update triggers. At resolution: score it and retain the lesson. A Brier score measures accuracy on those questions; it does not validate a singularity-distance scale.</p><p>Four forecasts were registered on 5 November 2026 with fixed prospective criteria, probabilities and opposing cases. No resolved outcomes are available for this series, so calibration is not yet measured. Earlier internal forecasts remain separate. This is a reviewed snapshot, not automatic monitoring.</p><a class="text-link" href="https://github.com/sloik/superforecasting">The superforecasting playbook ↗</a><br><a class="text-link" href="/omnicorp/observatory/forecast-records.json">Download the dated forecast records ↗</a></div></section><section class="section" id="revisions"><div class="section-heading"><p class="eyebrow">03 / KEEP THE RECEIPTS</p><span class="mono dim">WHAT CHANGED / AND WHY</span></div><h2>Revision is<br><span>part of the work.</span></h2>'
+ p+='</ul>'
+ if 'record_url' in q:
+  p+=f'<a class="text-link" href="{e(q["record_url"],quote=True)}">Read the forecast record</a>'
+ p+='</details></article>'
+p+='</div><div class="calibration-note"><span class="mono">FORECASTING, NOT DECORATION</span><p>Before publishing a number: define the reference class, weigh evidence for and against, compare separately elicited assessments, record the probability and name its update triggers. At resolution: score it and retain the lesson. A Brier score measures accuracy on those questions; it does not validate a singularity-distance scale.</p><p>The first forecasts were registered on 5 November 2026. Each record gives its own issue date, prospective criteria and opposing cases. The series has no resolved outcomes for measuring calibration yet. Earlier internal forecasts remain separate. This is a reviewed snapshot, not automatic monitoring.</p><a class="text-link" href="https://github.com/sloik/superforecasting">The superforecasting playbook ↗</a><br><a class="text-link" href="/omnicorp/observatory/forecast-records.json">Download the dated forecast records ↗</a></div></section><section class="section" id="revisions"><div class="section-heading"><p class="eyebrow">03 / KEEP THE RECEIPTS</p><span class="mono dim">WHAT CHANGED / AND WHY</span></div><h2>Revision is<br><span>part of the work.</span></h2>'
 for r in d['reviews']:p+=f'<article class="revision-entry"><time class="mono">{r["date"]}</time><div><h3>{e(r["title"])}</h3><p>{e(r["reason"])}</p><span class="mono">INITIAL FORECASTS ISSUED: {r.get("initial_forecasts",0)} · PROBABILITY REVISIONS: {r["forecast_changes"]}</span></div></article>'
 p+='''<div class="review-method"><p class="eyebrow">HOW THE POSITION CHANGES</p><ol><li><strong>Record the event.</strong> Retain its date, source and research lineage.</li><li><strong>Test the criterion.</strong> Distinguish a new capability from another announcement of the same result.</li><li><strong>Revise a registered forecast.</strong> Explain the evidence, retain the prior and consider both directions. No change is a valid conclusion.</li><li><strong>Show the revision.</strong> Keep the registered initial probability and every subsequent revision visible. Failed expectations and retractions can move the outlook back; calendar time never moves backward.</li></ol><p>Demonstrated milestones change our picture of the future. They are not a percentage of the journey to singularity.</p></div><a class="button" href="/omnicorp/field-notes/">Read the thinking behind it <span>↗</span></a></section></main>'''
 p+=footer.replace('</body></html>','')+'<script id="observatory-data" type="application/json">'+json.dumps(d,ensure_ascii=False).replace('<','\\u003c')+'</script></body></html>'
@@ -70,4 +80,7 @@ p=p.replace('</main>',fallback+'</main>')
 print('Built Observatory.')
 
 public_records=[{k:q[k] for k in ["id","title","criteria_version","criteria","window_start","deadline","issued_on","prob","status","forecast_id","forecaster","prior","prior_basis","prior_role","method","views","why_right","why_wrong","up_trigger","down_trigger","resolver","sources","probability_history"]} for q in d["questions"]]
+for question, record in zip(d['questions'], public_records):
+    if 'record_url' in question:
+        record['record_url'] = question['record_url']
 (OUT/"observatory/forecast-records.json").write_text(json.dumps(public_records,ensure_ascii=False,indent=2)+"\n")

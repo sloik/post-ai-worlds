@@ -301,5 +301,149 @@
         "reason": "Initial estimate, after prospective criteria were fixed; no earlier public probability."
       }
     ]
+  },
+  {
+    "id": "ai-only-production-code",
+    "title": "Will a live production system require AI-written code?",
+    "criteria_version": "1.0",
+    "criteria": "From 22 November 2026 through 21 November 2028 at 23:59 UTC, a public or private operator anywhere announces a formal policy or bounded rollout for a named codebase or subsystem already in production for customers, external users or live public operations. It must require AI-generated executable implementation for all ordinary merges to that scope and make directly human-written implementation ineligible. The announcement must give a start date or a concrete rollout plan. Human specifications, review and sign-off, and documented emergency exceptions may remain. Greenfield experiments, optional agent-only lanes, AI review mandates, authorship percentages and retrospective disclosures of pre-window policies do not qualify.",
+    "window_start": "2026-11-22",
+    "deadline": "2028-11-21",
+    "issued_on": "2026-11-21",
+    "prob": 0.69,
+    "status": "Open forecast",
+    "forecast_id": 5,
+    "forecaster": "Argo / AI research synthesis",
+    "prior": 0.55,
+    "prior_basis": "Argo used a subjective 55% anchor for at least one public, bounded authorship-rule proposal worldwide in two years. Evidence of an explicit rule and mature-workflow adoption moved the odds up by 2.0× as a bundle. Provenance and accountability frictions moved those odds down by 0.8×, to 66.2%. The dated record includes the calculation and sensitivity.",
+    "prior_role": "The prior belongs to the lead forecaster. The public probability pools the lead and the separately elicited specialist.",
+    "method": "Equal-weight geometric mean of odds, without extremizing, using the Superforecasting playbook. The lead and specialist share a model family and overlap in sources.",
+    "views": [
+      0.662,
+      0.72
+    ],
+    "why_right": [
+      "StrongDM published an AI-only authorship rule for its Software Factory. OpenAI reported a working internal beta authored by agents from an empty repository. Both make a bounded policy credible.",
+      "Stripe reported more than a thousand agent-produced merges per week alongside human engineering. It shows that established engineering workflows can absorb substantial AI-authored work.",
+      "The event needs only one operator willing to announce a concrete transition in a named live scope. Human review may continue and the rollout may be narrow."
+    ],
+    "why_wrong": [
+      "Existing AI-only experiments can stay confined to greenfield code. Operators of mature systems may prefer an origin-neutral review rule because humans still need to intervene on difficult changes.",
+      "GitLab's survey reported difficulty distinguishing AI-written and human-written code. An organisation may adopt AI widely without being able or willing to attest to exclusive authorship.",
+      "An actual policy could remain private. Public evidence must name the scope and document a policy or rollout within the window."
+    ],
+    "up_trigger": {
+      "description": "A named, already-live service starts a first-party, documented provenance pilot for exclusive AI implementation, with ordinary human merges still eligible during the trial.",
+      "lr": 1.7
+    },
+    "down_trigger": {
+      "description": "An operator with a substantial agent-led production workflow publicly abandons a planned exclusivity policy after provenance failures or material regressions and requires a continuing human implementation path.",
+      "lr": 0.65
+    },
+    "resolver": "Resolve YES on a dated, attributable first-party policy, RFC, official announcement or public filing, with first-party evidence that the named system was already in real production before the announced policy or rollout. A newly added scope in an existing AI initiative can qualify; the named scope must meet every gate. Rescinding a qualifying public initiative does not undo its announcement. If no qualifying public record from the window can be verified after a documented search by 20 January 2029, resolve NO.",
+    "sources": [
+      {
+        "title": "StrongDM Software Factory: the explicit authorship rule",
+        "url": "https://factory.strongdm.ai/"
+      },
+      {
+        "title": "OpenAI: Harness engineering, a greenfield internal-beta experiment",
+        "url": "https://openai.com/index/harness-engineering/"
+      },
+      {
+        "title": "Stripe engineering: Minions and mixed authorship",
+        "url": "https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents"
+      },
+      {
+        "title": "GitLab survey of AI code governance",
+        "url": "https://about.gitlab.com/press/releases/2026-06-23-gitlab-research-reveals-organizations-are-generating-ai-code-faster-than-they-can-control-it/"
+      }
+    ],
+    "probability_history": [
+      {
+        "date": "2026-11-21",
+        "prob": 0.69,
+        "reason": "Initial estimate under prospective criteria."
+      }
+    ],
+    "record_url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/forecasts/2026-11-21-ai-only-operations.md#q05--ai-only-production-code"
+  },
+  {
+    "id": "automated-only-public-road",
+    "title": "Will a road authority propose an automated-only public route?",
+    "criteria_version": "1.0",
+    "criteria": "From 22 November 2026 through 21 November 2031 at 23:59 UTC, a government body with jurisdiction over public-road access, including a legislature, publishes or formally files a bill, draft traffic order, public consultation, or approved operational pilot for a named public lane, road segment or route. Its terms must explicitly exclude ordinary human-operated motor traffic during at least one recurring operating period, and require automated operation for the qualifying vehicles. The route must serve real passenger or freight operations. A permanently exclusive lane satisfies recurrence. Emergency and maintenance exceptions may remain. General options, mixed or priority-only lanes, driver-assistance rules, closed test facilities, one-off demonstrations and routes already closed to ordinary traffic for unrelated reasons do not qualify.",
+    "window_start": "2026-11-22",
+    "deadline": "2031-11-21",
+    "issued_on": "2026-11-21",
+    "prob": 0.58,
+    "status": "Open forecast",
+    "forecast_id": 6,
+    "forecaster": "Argo / AI research synthesis",
+    "prior": 0.45,
+    "prior_basis": "Argo used a subjective 45% anchor for at least one official proposal worldwide in five years. Named corridor work and regulatory progress moved the odds up by 1.8× as a bundle. Mixed-use incentives and uneven safety performance moved them down by 0.8×, to 54.1%. The dated record includes the calculation and sensitivity.",
+    "prior_role": "The prior belongs to the lead forecaster. The public probability pools the lead and the separately elicited specialist.",
+    "method": "Equal-weight geometric mean of odds, without extremizing, using the Superforecasting playbook. The lead and specialist share a model family and overlap in sources.",
+    "views": [
+      0.541,
+      0.61
+    ],
+    "why_right": [
+      "Michigan allows road authorities to set restrictions for automated vehicle lanes and has identified a real I-94 corridor. Its current mixed-use pilot and contingent exclusivity show a plausible path to an explicit future proposal.",
+      "Japan's Shin-Tomei freight work has tested nighttime priority. A recurring window on a single route is a feasible unit for a proposal.",
+      "UNECE's fully driverless safety framework supplies a shared regulatory baseline. The event requires one qualifying proposal anywhere, even if that proposal is never enacted."
+    ],
+    "why_wrong": [
+      "Road authorities can support driverless service while retaining mixed traffic. The US transport department's national strategy explicitly anticipates coexistence.",
+      "Dedicated space has an opportunity cost before automated traffic is common. A priority lane may offer most of the expected benefit without excluding other drivers.",
+      "California restricted Waymo's freeway operations in November 2026 after construction-zone safety problems. A shared safety advantage across routes and difficult conditions remains uncertain."
+    ],
+    "up_trigger": {
+      "description": "A government funds design or environmental review of an explicitly automated-only option on a named public operating route, before a qualifying restriction has been formally proposed.",
+      "lr": 1.6
+    },
+    "down_trigger": {
+      "description": "The Michigan and Japanese lead corridor programmes both rule out future exclusion in favour of mixed use or priority because of capacity, cost or safety.",
+      "lr": 0.55
+    },
+    "resolver": "Resolve YES using a dated official instrument, docket, consultation or approved pilot plan. A pre-window project may count if the specific restriction first appears in a qualifying in-window filing or publication with a named public route and operating scope. An existing law allowing exclusive lanes, or a study saying a corridor may later restrict access, is insufficient. Later withdrawal does not undo a qualifying proposal. If no qualifying public record from the window can be verified after a documented search by 20 January 2032, resolve NO.",
+    "sources": [
+      {
+        "title": "Michigan Department of Transportation: I-94 corridor and contingent exclusivity",
+        "url": "https://www.michigan.gov/mdot/about/faqs/studies/cav-corridor-project"
+      },
+      {
+        "title": "Michigan Compiled Laws: automated vehicle roadways",
+        "url": "https://www.legislature.mi.gov/documents/mcl/pdf/mcl-300-1949-VI-AUTOMATED-VEHICLES.pdf"
+      },
+      {
+        "title": "Singapore Urban Redevelopment Authority: road-space design options",
+        "url": "https://www.ura.gov.sg/land-planning/planning-strategies/exploring-new-frontiers/autonomous-vehicles/"
+      },
+      {
+        "title": "Japan MLIT: Shin-Tomei experiment with priority for automated freight",
+        "url": "https://www.mlit.go.jp/report/press/road01_hh_001884.html"
+      },
+      {
+        "title": "UNECE: fully driverless safety framework",
+        "url": "https://unece.org/media/Sustainable-Development/SDGs/press/414913"
+      },
+      {
+        "title": "US Department of Transportation: national automated vehicle strategy",
+        "url": "https://www.transportation.gov/sites/dot.gov/files/2026-09/AV%20National%20Strategy_508_3Sep2026.pdf"
+      },
+      {
+        "title": "California DMV and Waymo statements on freeway restrictions, reported by AP",
+        "url": "https://apnews.com/article/37bcd5371a4699a1850b7666b271946b"
+      }
+    ],
+    "probability_history": [
+      {
+        "date": "2026-11-21",
+        "prob": 0.58,
+        "reason": "Initial estimate under prospective criteria."
+      }
+    ],
+    "record_url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/forecasts/2026-11-21-ai-only-operations.md#q06--automated-only-public-roads"
   }
 ]
