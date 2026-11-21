@@ -10,3 +10,4 @@
 
 .evidence-dot span,.evidence-lane.scientific .evidence-dot span{top:1px;left:26px;transform:none}
 @media(max-width:520px){.evidence-dot span{display:none}}
+.forecast-card:target,.revision-entry:target{outline:1px solid var(--acid);outline-offset:6px}.revision-entry{scroll-margin-top:30px}.revision-entry .permalink{margin-left:12px}.forecast-card-top .permalink{white-space:nowrap}
