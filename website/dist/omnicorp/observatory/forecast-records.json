@@ -32,7 +32,7 @@
     ],
     "up_trigger": {
       "description": "A newly published first-domain case meets every gate, including independently checked provenance and either qualifying unaffiliated endorsements or substantive reuse, while an unaffiliated team has a concrete second-domain result under external validation.",
-      "lr": 2
+      "lr": 2.0
     },
     "down_trigger": {
       "description": "By end2027, the strongest new cases repeatedly fail provenance/novelty review or lack independent reproduction, leaving no fully qualifying first-domain case.",
@@ -116,7 +116,7 @@
     ],
     "up_trigger": {
       "description": "A post-cutoff candidate has public AI-selection provenance, independently documented physical testing and a named qualification programme scheduled to decide before end2028.",
-      "lr": 2
+      "lr": 2.0
     },
     "down_trigger": {
       "description": "By end2027, candidate reports consistently disclose human decisive selection or decline to release acceptance records; no public candidate with a named pending qualification can be identified.",
