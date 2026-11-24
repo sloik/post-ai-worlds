@@ -81,7 +81,7 @@
       "assurance": "editorial_inventory_only"
     },
     "post-ai/03-SIGNALS.md": {
-      "sha256": "108cbe86ed82b99d3dc4c53dae0860e0993c7df3f474f238232a277c8b2e4c90",
+      "sha256": "af767cbdb2eeed1d08fdb52b429c9866b43b62999c7dca9bf4ebcf8ea6913a4b",
       "headings": [
         {
           "level": 1,
@@ -96,12 +96,12 @@
         {
           "level": 2,
           "text": "Preserve three dates",
-          "line": 25
+          "line": 32
         },
         {
           "level": 2,
           "text": "Separate monitoring from forecasting",
-          "line": 29
+          "line": 36
         }
       ],
       "assurance": "editorial_inventory_only"
@@ -133,7 +133,7 @@
       "assurance": "editorial_inventory_only"
     },
     "post-ai/05-FUTURE-OF-WORK.md": {
-      "sha256": "369dbb22bfb54ddbad8e2c8250837c775e6d0754021a1b3198747e500e12ec15",
+      "sha256": "6c36c5333d4e05512cd524f5dd267a05f8cbaa23e019a51cb885c31b3346e40a",
       "headings": [
         {
           "level": 1,
@@ -147,13 +147,18 @@
         },
         {
           "level": 2,
-          "text": "Four work-and-purpose branches",
+          "text": "Capability, deployment and the labour market move at different speeds",
           "line": 11
         },
         {
           "level": 2,
-          "text": "Institutions matter before a post-work society",
+          "text": "Four work-and-purpose branches",
           "line": 17
+        },
+        {
+          "level": 2,
+          "text": "Institutions matter before a post-work society",
+          "line": 23
         }
       ],
       "assurance": "editorial_inventory_only"
@@ -502,7 +507,7 @@
       "assurance": "editorial_inventory_only"
     },
     "post-ai/19-THE-SMALL-COUNTRY.md": {
-      "sha256": "6c2cf5526c94a34bd14baa25a2f5de11e18d6f1db4a344e300877df31959cdc1",
+      "sha256": "594eeb9f9a1e0b245a24a1a40a36c1706065b722682a90080fe64cb02b451320",
       "headings": [
         {
           "level": 1,
@@ -517,12 +522,12 @@
         {
           "level": 2,
           "text": "Scale can be shared",
-          "line": 13
+          "line": 15
         },
         {
           "level": 2,
           "text": "A plural strategy",
-          "line": 19
+          "line": 21
         }
       ],
       "assurance": "editorial_inventory_only"
@@ -912,7 +917,7 @@
       "assurance": "editorial_inventory_only"
     },
     "omnicorp/10-EFFICIENCY-AND-LEGITIMACY.md": {
-      "sha256": "e778fd828bba3d14faf47474613a3ea02afef0ab3c08984628c9e678fadb100e",
+      "sha256": "c9acd841e47971dc17e7063c5b72951e1472b1bdcd9ab7e76c3fb445d641f3e4",
       "headings": [
         {
           "level": 1,
@@ -936,8 +941,13 @@
         },
         {
           "level": 2,
-          "text": "A proposed steering loop",
+          "text": "Test what happens when labour demand changes",
           "line": 25
+        },
+        {
+          "level": 2,
+          "text": "A proposed steering loop",
+          "line": 31
         }
       ],
       "assurance": "editorial_inventory_only"

@@ -8,6 +8,12 @@ AI can change the composition of a job without eliminating it. Workers might spe
 
 We should therefore ask who controls the redesigned job, whose skills improve and who captures the saved time. Higher output per worker can coexist with longer hours or less security. Conversely, fewer hours can improve life without producing a dramatic productivity headline.
 
+## Capability, deployment and the labour market move at different speeds
+
+In November 2026, Anthropic Safeguards researcher Tao Lin placed broadly superhuman capability around late 2027 and described lasting mass unemployability as likely eventually. He answered no when asked whether this would happen within 15 months and pointed to the time needed to build and deploy robots. This is a personal scenario with a rough date for capability and an open horizon for employment. [Palisade Research, 03:58](https://www.youtube.com/watch?v=OPZCQk8jF-I&t=238s) · [Employment exchange, 15:33](https://www.youtube.com/watch?v=OPZCQk8jF-I&t=933s)
+
+An early warning could show up in hiring before layoffs or aggregate unemployment. US payroll evidence through June 2026 shows weaker hiring among young workers in more exposed occupations, while Danish data from the early chatbot period show task change with little measurable movement in earnings or hours. Our near-term outlook is uneven reorganisation and tighter entry routes in some occupations. Broad, persistent displacement needs corroboration across cohorts, sectors and data sources. [US payroll study](https://digitaleconomy.stanford.edu/publication/canaries-in-the-coal-mine-six-facts-about-the-recent-employment-effects-of-artificial-intelligence/) · [Danish administrative study](https://www.nber.org/papers/w33777) · [Dated assessment](../evidence/2026-11-24-tao-lin-labour-transition.md)
+
 ## Four work-and-purpose branches
 
 WORK-Renaissance describes wider access to craft, learning, care and civic activity. WORK-Anomie describes abundant consumption with weak belonging and few meaningful commitments. WORK-Stratified describes an owning group with consequential choices alongside a dependent population. WORK-Renewal describes communities rebuilding purpose around voluntary traditions, service or discipline.

@@ -22,6 +22,12 @@ Repeated interaction can make cooperation attractive when conduct is observable,
 
 Omnicorp's proposed commitments to honest evidence, practical alternatives and effective remedies therefore need their own justification. They should not depend solely on a promise that markets eventually punish misconduct. Opposition, enforceable sanction and actual repair are different observations.
 
+## Test what happens when labour demand changes
+
+A faster model release can precede reliable workflows and commercial adoption by very different intervals across sectors. Measure paid human hours and all-in cost per accepted unit, including exception handling, oversight and recovery. For physical operations, verify utilisation, maintenance and repeat deployment. For demand, distinguish the user from the payer and measure whether paid demand recurs as customers' budgets or purchasing authority change. [Labour-transition assessment](../evidence/2026-11-24-tao-lin-labour-transition.md)
+
+If cheaper production and falling labour income arrive together, efficiency gains can coexist with dependence on a few employers, buyers or infrastructure providers. Test whether affected people can switch providers, challenge a decision and obtain repair, and whether an independent operator can keep the service running. Public purchasing and broad productive ownership give different routes to access and control. [Demand in the Post-AI Era](../post-ai/02-DEMAND-SIDE.md) · [Shared worlds](../worlds/README.md)
+
 ## A proposed steering loop
 
 Observe outcomes and dependencies; assess them against explicit purposes and rights; make a bounded change; examine its consequences; retain or revise the resulting lesson. Include affected perspectives and failure reports rather than relying entirely on the organisation's own satisfaction measures.

@@ -1,5 +1,5 @@
 {
-  "reviewed_on": "2026-11-21",
+  "reviewed_on": "2026-11-24",
   "summary": "Public access, practical development and mathematical work have advanced. Adoption, reliability, research discovery and sustained model improvement remain distinct claims.",
   "events": [
     {
@@ -383,6 +383,45 @@
         "independent-research"
       ],
       "motion": "mixed"
+    },
+    {
+      "id": "tao-lin-labour-transition",
+      "date": "2026-11-15",
+      "title": "Tao Lin expects a lag between AI capability and job displacement",
+      "lane": "Real-world usefulness",
+      "claim": "In a Palisade Research interview, Anthropic Safeguards researcher Tao Lin gives roughly 1.3 years to broadly superhuman capability and expects near-universal unemployability eventually. He answers no when asked whether mass unemployability follows within 15 months, citing the time it takes to build and deploy robots.",
+      "interpretation": "Track expert task performance, repeat deployment, hiring and paid hours as separate signals. Public welfare dependence also requires assumptions about ownership and public policy.",
+      "limit": "A personal judgment from one interview. It supplies no population evidence about employment, deployment measurement or fixed deadline for mass displacement.",
+      "source": "https://www.youtube.com/watch?v=OPZCQk8jF-I",
+      "source_title": "Palisade Research — Tao Lin interview",
+      "lineage": "Tao Lin interview with Palisade Research",
+      "evidence": "Insider interview / scenario",
+      "affects": [],
+      "assessed_on": "2026-11-24",
+      "motion": "mixed",
+      "direction": "Scenario context",
+      "comparison": "The review adds labour-transition watch signals. The interview meets none of the evidence triggers for the six registered forecasts."
+    },
+    {
+      "id": "metr-november-capability-update",
+      "date": "2026-11-20",
+      "title": "Measured AI task horizons grow quickly while judgment remains uneven",
+      "lane": "Autonomous work",
+      "claim": "METR estimates roughly 3.6-month doubling of its 50% task-completion horizon on a combined software and AI R&D task suite. It finds weaker model judgment than human expertise on tasks without clear empirical feedback.",
+      "interpretation": "Track verifiable task performance and expert judgment separately. A rough timeline to broadly superhuman AI needs evidence across substantially more kinds of work.",
+      "limit": "The estimate applies to a selected task suite at a 50% success threshold. A separate public-frontier composite shows no strong slope change in the tested models.",
+      "source": "https://metr.org/blog/2026-11-20-q4-2026-capability-update/",
+      "source_title": "METR — November 2026 capability update",
+      "lineage": "METR task-horizon evaluations",
+      "evidence": "Independent evaluator / bounded task measurement",
+      "affects": [
+        "independent-research",
+        "improvement-loop"
+      ],
+      "assessed_on": "2026-11-24",
+      "motion": "mixed",
+      "direction": "Rapid task progress with judgment limitations",
+      "comparison": "Stronger context for rapid capabilities. No registered test of successive checkpoints or qualifying discovery is reported."
     },
     {
       "id": "grh-lean-claim",
@@ -973,6 +1012,12 @@
       "title": "Two forecasts about who can operate a system",
       "reason": "Issued Q05 at 69% for a concrete AI-only implementation policy or rollout in an already-live system by November 2028, and Q06 at 58% for a formal proposal to exclude ordinary human driving on a named public route by November 2031. Both score public initiatives. Earlier examples inform the estimates. Existing forecasts keep their criteria and probabilities.",
       "initial_forecasts": 2,
+      "forecast_changes": 0
+    },
+    {
+      "date": "2026-11-24",
+      "title": "Capability, deployment and job displacement have different timelines",
+      "reason": "Tao Lin’s interview gives an insider view of fast capability progress and a slower transition to job displacement. The review adds signals for live adoption, entry-level hiring, paid hours and income distribution. METR measured rapid progress on bounded tasks with gaps in expert judgment. The latest Stanford payroll panel adds evidence of pressure on young workers, and preliminary BLS figures put the nonfarm business labour share at 53.0%. This evidence meets no update trigger for the six milestones.",
       "forecast_changes": 0
     }
   ],
