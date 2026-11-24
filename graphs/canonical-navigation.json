@@ -89,14 +89,14 @@
       "label": "Manual forecast review queue",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/FORECAST-REVIEWS.md",
       "kind": "document",
-      "sha256": "b86eabc1a37409416953ee4f760306ddf19cade60b38211d956dac9116fd5b04"
+      "sha256": "598a3c162a6cfc9f5e561472aca6b7b88c1472c6b4ce71d9f9e212c14f51491a"
     },
     {
       "id": "evidence/README.md",
       "label": "Evidence and forecasts",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/README.md",
       "kind": "document",
-      "sha256": "a381efb9b5bc684dab82544a0a4b4ac67d3c86b042737f16eb18195c7e4331a3"
+      "sha256": "3a39b9d07df9cb00010de3249d71f88c16284bf80bf2259bc8985bbc8ea1ce7d"
     },
     {
       "id": "evidence/companions-and-civic-dependence.md",
@@ -208,7 +208,7 @@
       "label": "Efficiency and legitimacy are separate assessments",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/10-EFFICIENCY-AND-LEGITIMACY.md",
       "kind": "document",
-      "sha256": "e778fd828bba3d14faf47474613a3ea02afef0ab3c08984628c9e678fadb100e"
+      "sha256": "c9acd841e47971dc17e7063c5b72951e1472b1bdcd9ab7e76c3fb445d641f3e4"
     },
     {
       "id": "omnicorp/11-THE-INCOMPRESSIBLE-HUMAN.md",
@@ -306,7 +306,7 @@
       "label": "Signals: deciding what would change our minds",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/03-SIGNALS.md",
       "kind": "document",
-      "sha256": "108cbe86ed82b99d3dc4c53dae0860e0993c7df3f474f238232a277c8b2e4c90"
+      "sha256": "979ef8e01d16946279be55f58d16c2db1f823dd568d60b55b73f2d1ffb1cfb54"
     },
     {
       "id": "post-ai/04-PUBLIC-SCENARIOS-AND-RESOURCE-ECONOMICS.md",
@@ -320,7 +320,7 @@
       "label": "Work, purpose and the distribution of agency",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/05-FUTURE-OF-WORK.md",
       "kind": "document",
-      "sha256": "369dbb22bfb54ddbad8e2c8250837c775e6d0754021a1b3198747e500e12ec15"
+      "sha256": "6c36c5333d4e05512cd524f5dd267a05f8cbaa23e019a51cb885c31b3346e40a"
     },
     {
       "id": "post-ai/06-THE-ALIGNMENT-QUESTION.md",
@@ -859,7 +859,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        30
+        32
       ],
       "anchors": []
     },
@@ -869,7 +869,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        17
+        19
       ],
       "anchors": []
     },
@@ -899,7 +899,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        30
+        32
       ],
       "anchors": []
     },
@@ -909,7 +909,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        30
+        32
       ],
       "anchors": []
     },
@@ -1241,11 +1241,22 @@
     },
     {
       "source": "omnicorp/10-EFFICIENCY-AND-LEGITIMACY.md",
-      "target": "worlds/README.md",
+      "target": "post-ai/02-DEMAND-SIDE.md",
       "relation": "markdown_link",
       "source_file": "omnicorp/10-EFFICIENCY-AND-LEGITIMACY.md",
       "source_lines": [
         29
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/10-EFFICIENCY-AND-LEGITIMACY.md",
+      "target": "worlds/README.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/10-EFFICIENCY-AND-LEGITIMACY.md",
+      "source_lines": [
+        29,
+        35
       ],
       "anchors": []
     },

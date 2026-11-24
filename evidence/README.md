@@ -12,6 +12,8 @@ For intimate AI and youth development, distinguish adult choice from adolescent 
 
 The [companions and civic dependence table](companions-and-civic-dependence.md) separates assigned-condition effects, associations, official investigations and policy analysis. Its [proposed measurement protocols](social-measurement-protocol.md) make baseline and missing-data requirements concrete.
 
+The [November 2026 labour-transition assessment](2026-11-24-tao-lin-labour-transition.md) separates an insider capability timeline from evidence about deployment, hiring, hours and income. It records independent labour and adoption baselines alongside the interview.
+
 ## Forecast discipline
 
 Prediction submissions must meet the [superforecasting-style contribution standard](../docs/forecasting-guide.md). Prefer our public skill/tool; equivalent manual analysis is accepted. Numerical belief, resolution terms, outside-view rationale, clashing cases, dependence disclosure and update/scoring plans are required. TLA+ verification is encouraged but optional, and its absence is never an acceptance blocker. Question-design ideas without odds remain ideas.

@@ -81,7 +81,7 @@
       "assurance": "editorial_inventory_only"
     },
     "post-ai/03-SIGNALS.md": {
-      "sha256": "108cbe86ed82b99d3dc4c53dae0860e0993c7df3f474f238232a277c8b2e4c90",
+      "sha256": "979ef8e01d16946279be55f58d16c2db1f823dd568d60b55b73f2d1ffb1cfb54",
       "headings": [
         {
           "level": 1,
@@ -96,12 +96,12 @@
         {
           "level": 2,
           "text": "Preserve three dates",
-          "line": 25
+          "line": 30
         },
         {
           "level": 2,
           "text": "Separate monitoring from forecasting",
-          "line": 29
+          "line": 34
         }
       ],
       "assurance": "editorial_inventory_only"
@@ -133,7 +133,7 @@
       "assurance": "editorial_inventory_only"
     },
     "post-ai/05-FUTURE-OF-WORK.md": {
-      "sha256": "369dbb22bfb54ddbad8e2c8250837c775e6d0754021a1b3198747e500e12ec15",
+      "sha256": "6c36c5333d4e05512cd524f5dd267a05f8cbaa23e019a51cb885c31b3346e40a",
       "headings": [
         {
           "level": 1,
@@ -147,13 +147,18 @@
         },
         {
           "level": 2,
-          "text": "Four work-and-purpose branches",
+          "text": "Capability, deployment and the labour market move at different speeds",
           "line": 11
         },
         {
           "level": 2,
-          "text": "Institutions matter before a post-work society",
+          "text": "Four work-and-purpose branches",
           "line": 17
+        },
+        {
+          "level": 2,
+          "text": "Institutions matter before a post-work society",
+          "line": 23
         }
       ],
       "assurance": "editorial_inventory_only"
@@ -912,7 +917,7 @@
       "assurance": "editorial_inventory_only"
     },
     "omnicorp/10-EFFICIENCY-AND-LEGITIMACY.md": {
-      "sha256": "e778fd828bba3d14faf47474613a3ea02afef0ab3c08984628c9e678fadb100e",
+      "sha256": "c9acd841e47971dc17e7063c5b72951e1472b1bdcd9ab7e76c3fb445d641f3e4",
       "headings": [
         {
           "level": 1,
@@ -936,8 +941,13 @@
         },
         {
           "level": 2,
-          "text": "A proposed steering loop",
+          "text": "Test what happens when labour demand changes",
           "line": 25
+        },
+        {
+          "level": 2,
+          "text": "A proposed steering loop",
+          "line": 31
         }
       ],
       "assurance": "editorial_inventory_only"
