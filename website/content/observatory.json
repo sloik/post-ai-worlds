@@ -403,6 +403,27 @@
       "comparison": "The review adds labour-transition watch signals. The interview meets none of the evidence triggers for the six registered forecasts."
     },
     {
+      "id": "metr-november-capability-update",
+      "date": "2026-11-20",
+      "title": "Measured AI task horizons grow quickly while judgment remains uneven",
+      "lane": "Autonomous work",
+      "claim": "METR estimates roughly 3.6-month doubling of its 50% task-completion horizon on a combined software and AI R&D task suite. It finds weaker model judgment than human expertise on tasks without clear empirical feedback.",
+      "interpretation": "Track verifiable task performance and expert judgment separately. A rough timeline to broadly superhuman AI needs evidence across substantially more kinds of work.",
+      "limit": "The estimate applies to a selected task suite at a 50% success threshold. A separate public-frontier composite shows no strong slope change in the tested models.",
+      "source": "https://metr.org/blog/2026-11-20-q4-2026-capability-update/",
+      "source_title": "METR — November 2026 capability update",
+      "lineage": "METR task-horizon evaluations",
+      "evidence": "Independent evaluator / bounded task measurement",
+      "affects": [
+        "independent-research",
+        "improvement-loop"
+      ],
+      "assessed_on": "2026-11-24",
+      "motion": "mixed",
+      "direction": "Rapid task progress with judgment limitations",
+      "comparison": "Stronger context for rapid capabilities. No registered test of successive checkpoints or qualifying discovery is reported."
+    },
+    {
       "id": "grh-lean-claim",
       "date": "2026-11-20",
       "assessed_on": "2026-11-21",
@@ -996,7 +1017,7 @@
     {
       "date": "2026-11-24",
       "title": "Capability, deployment and job displacement have different timelines",
-      "reason": "Tao Lin’s interview gives an insider view of fast capability progress and a slower transition to job displacement. The review adds signals for live adoption, entry-level hiring, paid hours and income distribution. The source supplies no qualifying result or update trigger for any of the six registered milestones.",
+      "reason": "Tao Lin’s interview gives an insider view of fast capability progress and a slower transition to job displacement. The review adds signals for live adoption, entry-level hiring, paid hours and income distribution. METR measured rapid progress on bounded tasks with gaps in expert judgment. The latest Stanford payroll panel adds evidence of pressure on young workers, and preliminary BLS figures put the nonfarm business labour share at 53.0%. This evidence meets no update trigger for the six milestones.",
       "forecast_changes": 0
     }
   ],

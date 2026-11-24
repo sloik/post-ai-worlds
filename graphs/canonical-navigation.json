@@ -89,14 +89,14 @@
       "label": "Tao Lin on the transition from AI capability to labour displacement",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/2026-11-24-tao-lin-labour-transition.md",
       "kind": "document",
-      "sha256": "70e447bc1aaf16b95cb608c0ffcb52c06240b51f65781bf136d4e6547f6fcadb"
+      "sha256": "fac93fba5de6732aa71b15d28591bc2a8a919066ae32809785c41dd1f37cd4d5"
     },
     {
       "id": "evidence/FORECAST-REVIEWS.md",
       "label": "Manual forecast review queue",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/FORECAST-REVIEWS.md",
       "kind": "document",
-      "sha256": "598a3c162a6cfc9f5e561472aca6b7b88c1472c6b4ce71d9f9e212c14f51491a"
+      "sha256": "0425e0a0ab4cd6826fd33d0df33ec81c8d5209ef9cdd96125c985c0189cb678d"
     },
     {
       "id": "evidence/README.md",
@@ -313,7 +313,7 @@
       "label": "Signals: deciding what would change our minds",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/03-SIGNALS.md",
       "kind": "document",
-      "sha256": "979ef8e01d16946279be55f58d16c2db1f823dd568d60b55b73f2d1ffb1cfb54"
+      "sha256": "af767cbdb2eeed1d08fdb52b429c9866b43b62999c7dca9bf4ebcf8ea6913a4b"
     },
     {
       "id": "post-ai/04-PUBLIC-SCENARIOS-AND-RESOURCE-ECONOMICS.md",
@@ -425,7 +425,7 @@
       "label": "The small country: influence without owning the frontier",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/19-THE-SMALL-COUNTRY.md",
       "kind": "document",
-      "sha256": "6c2cf5526c94a34bd14baa25a2f5de11e18d6f1db4a344e300877df31959cdc1"
+      "sha256": "594eeb9f9a1e0b245a24a1a40a36c1706065b722682a90080fe64cb02b451320"
     },
     {
       "id": "post-ai/20-THE-MOVING-BASELINE.md",
@@ -846,7 +846,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/2026-11-24-tao-lin-labour-transition.md",
       "source_lines": [
-        37
+        52
       ],
       "anchors": []
     },
@@ -856,7 +856,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/2026-11-24-tao-lin-labour-transition.md",
       "source_lines": [
-        35
+        50
       ],
       "anchors": []
     },
@@ -866,7 +866,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/2026-11-24-tao-lin-labour-transition.md",
       "source_lines": [
-        33
+        48
       ],
       "anchors": []
     },
@@ -876,9 +876,12 @@
       "relation": "markdown_link",
       "source_file": "evidence/FORECAST-REVIEWS.md",
       "source_lines": [
-        21
+        21,
+        22
       ],
-      "anchors": []
+      "anchors": [
+        "what-independent-sources-validate"
+      ]
     },
     {
       "source": "evidence/FORECAST-REVIEWS.md",
@@ -1793,7 +1796,7 @@
       "relation": "markdown_link",
       "source_file": "post-ai/03-SIGNALS.md",
       "source_lines": [
-        26
+        28
       ],
       "anchors": []
     },

@@ -81,7 +81,7 @@
       "assurance": "editorial_inventory_only"
     },
     "post-ai/03-SIGNALS.md": {
-      "sha256": "979ef8e01d16946279be55f58d16c2db1f823dd568d60b55b73f2d1ffb1cfb54",
+      "sha256": "af767cbdb2eeed1d08fdb52b429c9866b43b62999c7dca9bf4ebcf8ea6913a4b",
       "headings": [
         {
           "level": 1,
@@ -96,12 +96,12 @@
         {
           "level": 2,
           "text": "Preserve three dates",
-          "line": 30
+          "line": 32
         },
         {
           "level": 2,
           "text": "Separate monitoring from forecasting",
-          "line": 34
+          "line": 36
         }
       ],
       "assurance": "editorial_inventory_only"
@@ -507,7 +507,7 @@
       "assurance": "editorial_inventory_only"
     },
     "post-ai/19-THE-SMALL-COUNTRY.md": {
-      "sha256": "6c2cf5526c94a34bd14baa25a2f5de11e18d6f1db4a344e300877df31959cdc1",
+      "sha256": "594eeb9f9a1e0b245a24a1a40a36c1706065b722682a90080fe64cb02b451320",
       "headings": [
         {
           "level": 1,
@@ -522,12 +522,12 @@
         {
           "level": 2,
           "text": "Scale can be shared",
-          "line": 13
+          "line": 15
         },
         {
           "level": 2,
           "text": "A plural strategy",
-          "line": 19
+          "line": 21
         }
       ],
       "assurance": "editorial_inventory_only"

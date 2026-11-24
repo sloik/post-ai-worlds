@@ -10,6 +10,8 @@ This is relevant to countries such as Poland, but the chapter does not claim a c
 
 These capacities need not all be domestic, but their dependencies should be visible. Buying a local data centre does not establish model independence. Access to a model does not provide electricity, healthcare or a functioning public administration. A sovereign label should not hide a single replaceable dependency inside a much larger unexamined chain.
 
+Epoch AI estimates that 72% of new AI chip compute measured in H100-equivalents from 2022 through June 2026 went to the United States and about 10% went to China. Its estimates combine customs data with adjustments for hardware mix and domestic Chinese production. This makes geographic concentration a baseline worth tracking. To assess a country’s practical options, also measure access to external capacity and whether essential workloads can move between suppliers under comparable terms. [Epoch AI’s chip-arrival estimates](https://epoch.ai/latest/introducing-the-ai-chip-imports-explorer)
+
 ## Scale can be shared
 
 Regional cooperation, public-interest research and common procurement might make capabilities affordable that a small country cannot supply alone. But pooling resources creates governance questions: who sets priorities, who can inspect decisions and what happens if participants disagree? A shared institution needs more than technical efficiency.
