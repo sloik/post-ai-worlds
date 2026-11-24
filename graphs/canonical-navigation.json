@@ -85,6 +85,13 @@
       "sha256": "3dbb536a418be1540c66b05511be52f8c1a83358740d6cab17d07d5e310763f0"
     },
     {
+      "id": "evidence/2026-11-24-tao-lin-labour-transition.md",
+      "label": "Tao Lin on the transition from AI capability to labour displacement",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/2026-11-24-tao-lin-labour-transition.md",
+      "kind": "document",
+      "sha256": "70e447bc1aaf16b95cb608c0ffcb52c06240b51f65781bf136d4e6547f6fcadb"
+    },
+    {
       "id": "evidence/FORECAST-REVIEWS.md",
       "label": "Manual forecast review queue",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/FORECAST-REVIEWS.md",
@@ -834,6 +841,46 @@
       "anchors": []
     },
     {
+      "source": "evidence/2026-11-24-tao-lin-labour-transition.md",
+      "target": "evidence/FORECAST-REVIEWS.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/2026-11-24-tao-lin-labour-transition.md",
+      "source_lines": [
+        37
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/2026-11-24-tao-lin-labour-transition.md",
+      "target": "omnicorp/10-EFFICIENCY-AND-LEGITIMACY.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/2026-11-24-tao-lin-labour-transition.md",
+      "source_lines": [
+        35
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/2026-11-24-tao-lin-labour-transition.md",
+      "target": "worlds/README.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/2026-11-24-tao-lin-labour-transition.md",
+      "source_lines": [
+        33
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/FORECAST-REVIEWS.md",
+      "target": "evidence/2026-11-24-tao-lin-labour-transition.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/FORECAST-REVIEWS.md",
+      "source_lines": [
+        21
+      ],
+      "anchors": []
+    },
+    {
       "source": "evidence/FORECAST-REVIEWS.md",
       "target": "evidence/forecasts/2026-11-13-rsi-forecasts.md",
       "relation": "markdown_link",
@@ -870,6 +917,16 @@
       "source_file": "evidence/README.md",
       "source_lines": [
         19
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/README.md",
+      "target": "evidence/2026-11-24-tao-lin-labour-transition.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/README.md",
+      "source_lines": [
+        15
       ],
       "anchors": []
     },
@@ -1234,6 +1291,16 @@
       "target": "worlds/README.md",
       "relation": "markdown_link",
       "source_file": "omnicorp/09-CASE-EVERY.md",
+      "source_lines": [
+        27
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/10-EFFICIENCY-AND-LEGITIMACY.md",
+      "target": "evidence/2026-11-24-tao-lin-labour-transition.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/10-EFFICIENCY-AND-LEGITIMACY.md",
       "source_lines": [
         27
       ],
@@ -1717,6 +1784,26 @@
       "source_file": "post-ai/01-VISION.md",
       "source_lines": [
         23
+      ],
+      "anchors": []
+    },
+    {
+      "source": "post-ai/03-SIGNALS.md",
+      "target": "evidence/2026-11-24-tao-lin-labour-transition.md",
+      "relation": "markdown_link",
+      "source_file": "post-ai/03-SIGNALS.md",
+      "source_lines": [
+        26
+      ],
+      "anchors": []
+    },
+    {
+      "source": "post-ai/05-FUTURE-OF-WORK.md",
+      "target": "evidence/2026-11-24-tao-lin-labour-transition.md",
+      "relation": "markdown_link",
+      "source_file": "post-ai/05-FUTURE-OF-WORK.md",
+      "source_lines": [
+        15
       ],
       "anchors": []
     },
