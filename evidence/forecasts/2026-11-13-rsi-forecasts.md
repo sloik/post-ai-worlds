@@ -64,4 +64,15 @@ These have no resolver and are recorded only to show where this review stands ag
 
 Review these with the registered questions on 5 February 2027.
 
+## 24 November 2026 review
+
+| Record | Issued | Current | Scoring ledger |
+|---|---:|---:|---:|
+| F1 · Unaffiliated 4× estimate | 11% | **13%** | 83 |
+| F2 · Anthropic index at 50% AI-led | 39% | 39% | 84 |
+| F3 · Official automated-researcher milestone | 38% | **41%** | 85 |
+| F4 · Acceptance of OpenAI’s Navier–Stokes proof | 10% | 10% | 86 |
+
+F1 receives about 1.21× on odds for a second lab’s acceleration signal, with a discount for the difference in metric and lack of unaffiliated attribution. F3 receives about 1.13× on odds for reported design contributions and growing autonomous success on bounded tasks. The two OpenAI reports share lineage. No comparable Anthropic index update or acceptance of OpenAI’s proof appears in this evidence. Criteria, deadlines and the initial ensemble estimates above continue to govern the records. [Evidence and sensitivity](../2026-11-24-openai-pretraining-loss.md#forecast-review)
+
 [Forecast review queue](../FORECAST-REVIEWS.md) · [Forecasting guide](../../docs/forecasting-guide.md)

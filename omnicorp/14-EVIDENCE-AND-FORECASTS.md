@@ -12,6 +12,8 @@ State the object being improved. A better benchmark score, a useful scientific r
 
 Formal acceptance also has a correspondence problem. A checker can accept a precise statement while that statement differs from the claim people believe was proved. Evaluation should examine the translation between intended claim and checked object, alongside the checker result. The public checking of a claimed Riemann Hypothesis proof in November 2026 shows one workable form: the challenge statement is written and exported apart from the submitted proof and read by people, and the proof is then replayed in independent checkers. [Lean community, 2026](https://github.com/leanprover-community/riemann-hypothesis). The claim was unverified as of 21 November 2026; the method is what matters here.
 
+The November 2026 OpenAI series measures pretraining loss. Its separate attribution of some model design contributions to AI supports a small upward revision to the independently reproduced checkpoint forecast. The metric lacks fixed-budget task-success and external replication evidence required to qualify. [Chart, attribution and forecast review](../evidence/2026-11-24-openai-pretraining-loss.md)
+
 ## Define a forecast before assigning odds
 
 A prospective question needs a future deadline, qualifying evidence, exclusions and a missing-data outcome. Conditional questions also need a rule for an antecedent that never occurs. Establish the current baseline so an already realised event cannot be scored as a new prediction.

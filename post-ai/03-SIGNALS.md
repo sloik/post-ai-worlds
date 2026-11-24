@@ -25,6 +25,10 @@ The research-speed row follows two 2026 reports. METR's assessment estimates tha
 
 METR’s 20 November follow-up estimates that the 50% task-completion horizon on its combined suite doubles about every 3.6 months. The combined suite covers software and AI R&D tasks. METR also reports worse judgment than experts in tasks with unclear feedback and finds no strong slope change across its tested public frontier on a separate ability index. Track performance on judgment tasks alongside progress on easily scored tasks. [METR capability update](https://metr.org/blog/2026-11-20-q4-2026-capability-update/)
 
+OpenAI’s held-out code loss dropped faster in 2026. Track that output series alongside disclosed AI-originated pretraining ideas, fixed-compute comparisons, reproduced checkpoint gains and independent research-rate estimates. Comparing these series helps distinguish research investment from a feedback loop, and comparing safety and capability progress helps reveal an oversight gap. [Pretraining-loss assessment](../evidence/2026-11-24-openai-pretraining-loss.md)
+
+
+
 The labour rows use a dated starting point for US hiring, Danish hours and earnings, US business adoption and industrial robot stock. Watch for replication across cohorts and jurisdictions, plus a corresponding change in the depth of deployment. Where labour income falls, track who can still pay, choose and exit. [Labour-transition assessment and baselines](../evidence/2026-11-24-tao-lin-labour-transition.md)
 
 These are candidates. No baseline search, numerical threshold or resolved outcome is asserted by listing them. A future investigator must define the population, interval, comparison and qualifying evidence before scoring a result.

@@ -18,6 +18,8 @@ For a named task, compare the unchanged model, better instructions, tools, retri
 
 Improved behaviour need not reduce model size or hardware requirements. Several useful agents need not imply several complete models running simultaneously. Resource savings and total memory use are measurements to make, not conclusions that follow from the architecture.
 
+OpenAI reports that recent AI systems contributed to model design, alongside a steeper fall in held-out code loss that it attributes mostly to earlier research and compute investment. For a bounded Omnicorp experiment, record who proposed a change, wall-clock and compute per accepted improvement, reproducibility and regressions. Compare against the current baseline and distinguish harness changes from new checkpoints. Keep human decisions and rollback explicit for consequential changes. [November 2026 evidence review](../evidence/2026-11-24-openai-pretraining-loss.md)
+
 ## Preserve what makes improvement meaningful
 
 Retain parent versions, proposed changes, evaluation identities and rollback. A member should not be able to improve its apparent score by changing the test, authority rules or canonical record. Independent review should examine whether gains survive unfamiliar tasks and repeated cycles.
