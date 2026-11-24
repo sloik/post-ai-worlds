@@ -29,7 +29,7 @@
       "assurance": "editorial_inventory_only"
     },
     "post-ai/01-VISION.md": {
-      "sha256": "2ec372cbe31ccfcc0a798977c7721ea962721bba1533449672bb8f5fef31cdf3",
+      "sha256": "77ea2f2bde757fc8a8bd8e4725e865717030fa1b877ba5de877afd787283d384",
       "headings": [
         {
           "level": 1,
@@ -44,12 +44,12 @@
         {
           "level": 2,
           "text": "Constraints can be targets",
-          "line": 11
+          "line": 13
         },
         {
           "level": 2,
           "text": "The human and political remainder",
-          "line": 17
+          "line": 19
         }
       ],
       "assurance": "editorial_inventory_only"
@@ -81,7 +81,7 @@
       "assurance": "editorial_inventory_only"
     },
     "post-ai/03-SIGNALS.md": {
-      "sha256": "af767cbdb2eeed1d08fdb52b429c9866b43b62999c7dca9bf4ebcf8ea6913a4b",
+      "sha256": "8f9ae149296e101572789276c18cf4ec419e834c1f9836ba1d701618a3fe305f",
       "headings": [
         {
           "level": 1,
@@ -96,12 +96,12 @@
         {
           "level": 2,
           "text": "Preserve three dates",
-          "line": 32
+          "line": 36
         },
         {
           "level": 2,
           "text": "Separate monitoring from forecasting",
-          "line": 36
+          "line": 40
         }
       ],
       "assurance": "editorial_inventory_only"
@@ -242,7 +242,7 @@
       "assurance": "editorial_inventory_only"
     },
     "post-ai/09-PUBLIC-SOURCES.md": {
-      "sha256": "63ead7501c59be94c69e406a047c75dfca902f03a3c643aa60654da632383983",
+      "sha256": "1e268deb9962dc3167c8778111da6c61aa214985a9f7bd9bad5890d8856f6fb6",
       "headings": [
         {
           "level": 1,
@@ -257,12 +257,12 @@
         {
           "level": 2,
           "text": "Measurement, institutions and people",
-          "line": 14
+          "line": 16
         },
         {
           "level": 2,
           "text": "Contributing a source",
-          "line": 24
+          "line": 26
         }
       ],
       "assurance": "editorial_inventory_only"
@@ -1010,7 +1010,7 @@
       "assurance": "editorial_inventory_only"
     },
     "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md": {
-      "sha256": "77032be15c5a6c7b9224e8097f6b432255d6f4cada9ab318a0b227e5ee7a2c6a",
+      "sha256": "d80a3d73f689eb1d4838aab779e199a1c10adc061f10a273e28c4e6a769e7658",
       "headings": [
         {
           "level": 1,
@@ -1030,18 +1030,18 @@
         {
           "level": 2,
           "text": "Preserve what makes improvement meaningful",
-          "line": 21
+          "line": 23
         },
         {
           "level": 2,
           "text": "Develop the physical substrate as well \u2014 direction clarified 7 November 2026",
-          "line": 31
+          "line": 33
         }
       ],
       "assurance": "editorial_inventory_only"
     },
     "omnicorp/14-EVIDENCE-AND-FORECASTS.md": {
-      "sha256": "9c67a1b3844c2f0b083acae859907647dd965dbdfdaf3ab2c48a28212e27a571",
+      "sha256": "5da4a0165dc773bcd4311d292a3f41f53e17f982b9eb856b0666477cfa9e3660",
       "headings": [
         {
           "level": 1,
@@ -1056,12 +1056,12 @@
         {
           "level": 2,
           "text": "Define a forecast before assigning odds",
-          "line": 15
+          "line": 17
         },
         {
           "level": 2,
           "text": "Update visibly",
-          "line": 21
+          "line": 23
         }
       ],
       "assurance": "editorial_inventory_only"

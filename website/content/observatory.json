@@ -1,6 +1,6 @@
 {
   "reviewed_on": "2026-11-24",
-  "summary": "Public access, practical development and mathematical work have advanced. Adoption, reliability, research discovery and sustained model improvement remain distinct claims.",
+  "summary": "Public access, practical development and mathematical work have advanced. OpenAI reports AI contributions to recent model design alongside lower pretraining loss. Reproduced checkpoint gains and reliable deployment remain separate milestones.",
   "events": [
     {
       "id": "chatgpt",
@@ -482,6 +482,26 @@
         "independent-research"
       ],
       "motion": "mixed"
+    },
+    {
+      "id": "openai-pretraining-loss",
+      "date": "2026-11-22",
+      "assessed_on": "2026-11-24",
+      "title": "OpenAI’s pretraining loss falls faster in 2026",
+      "lane": "Cumulative improvement",
+      "direction": "Measured capability trend / early feedback signal",
+      "evidence": "Producer-reported fixed-snapshot internal code evaluation",
+      "lineage": "OpenAI. Companion workflow evidence comes from the same laboratory.",
+      "claim": "The plot begins with GPT-3.5 at 0.986 and GPT-4 at 0.913. The later decline steepens from GPT-5.2 at 0.888 through GPT-5.3-Codex / 5.4 at 0.871 and GPT-5.5 at 0.848, reaching GPT-6.2 Astra at 0.761 and an unreleased model at 0.732.",
+      "interpretation": "OpenAI attributes most of the 2026 acceleration to earlier research and compute investment and some to automation. It reports that AI made meaningful contributions to recent model design. That is an early sign of AI helping build successors.",
+      "limit": "The private code snapshot measures next-token prediction. The curve does not isolate AI’s contribution, control for compute and data, or show independent replication. The author’s 0.68–0.70 watch band applies to this evaluation.",
+      "comparison": "Q03 rises from 36% to 40%. The chart and reported design work support a small change in odds. The exact trigger still requires prospective preregistration and independently reproduced checkpoint improvements within fixed limits.",
+      "source": "https://openai.com/index/perplexity-and-intelligence/",
+      "source_title": "OpenAI — Perplexity and Intelligence (22 November 2026)",
+      "affects": [
+        "improvement-loop"
+      ],
+      "motion": "mixed"
     }
   ],
   "questions": [
@@ -666,7 +686,7 @@
       "resolver": "Public preregistration, lineage and independent evaluation. Any missing gate disqualifies a result. No fully qualifying public three-generation result by the deadline resolves NO. Only records first published within the stated prospective observation window count.",
       "window_start": "2026-11-06",
       "criteria_version": "1.0",
-      "prob": 0.36,
+      "prob": 0.4,
       "issued_on": "2026-11-05",
       "forecaster": "Argo / research-team synthesis",
       "prior": 0.25,
@@ -727,6 +747,11 @@
           "date": "2026-11-05",
           "prob": 0.36,
           "reason": "Initial estimate, after prospective criteria were fixed; no earlier public probability."
+        },
+        {
+          "date": "2026-11-24",
+          "prob": 0.4,
+          "reason": "OpenAI reports meaningful AI contributions to recent model design, alongside a faster fall in held-out code loss. Most of the acceleration is attributed to previous research and compute investment. About 1.19× on the odds is a small subjective update below the exact trigger. The source supplies no independently reproduced, preregistered fixed-budget task gains and the initial views were not re-elicited."
         }
       ],
       "forecast_id": 3,
@@ -1019,6 +1044,12 @@
       "title": "Capability, deployment and job displacement have different timelines",
       "reason": "Tao Lin’s interview gives an insider view of fast capability progress and a slower transition to job displacement. The review adds signals for live adoption, entry-level hiring, paid hours and income distribution. METR measured rapid progress on bounded tasks with gaps in expert judgment. The latest Stanford payroll panel adds evidence of pressure on young workers, and preliminary BLS figures put the nonfarm business labour share at 53.0%. This evidence meets no update trigger for the six milestones.",
       "forecast_changes": 0
+    },
+    {
+      "date": "2026-11-24",
+      "title": "OpenAI’s loss curve and AI-assisted research",
+      "reason": "The loss series starts with GPT-3.5. The 2026 decline is steeper, and OpenAI reports AI contributions to recent model design. Q03 rises 36% → 40%, below its exact trigger. The other five Observatory estimates are retained. In the separate research-automation forecasts, the chance of an unaffiliated 4× estimate rises 11% → 13% and the chance of an official automated-researcher milestone rises 38% → 41%.",
+      "forecast_changes": 1
     }
   ],
   "curve_milestones": [
@@ -1073,7 +1104,7 @@
       "question_id": "improvement-loop",
       "label": "03 / Better models build better models",
       "position": 0.88,
-      "mechanism": "Replicated gains across successive model generations would be evidence for a feedback loop: better models helping create more capable successors. This is the most direct candidate for a self-reinforcing capability cycle.",
+      "mechanism": "OpenAI reports that AI contributed to recent model design. Replicated gains across successive model generations under fixed budgets would give stronger evidence that better models help create more capable successors.",
       "brake": "Diminishing returns, compute budgets and evaluation gaming could stop the loop. Three bounded gains would not establish unlimited recursive improvement."
     },
     {

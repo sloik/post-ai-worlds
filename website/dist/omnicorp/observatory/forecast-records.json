@@ -165,7 +165,7 @@
     "window_start": "2026-11-06",
     "deadline": "2029-12-31",
     "issued_on": "2026-11-05",
-    "prob": 0.36,
+    "prob": 0.4,
     "status": "Open forecast",
     "forecast_id": 3,
     "forecaster": "Argo / research-team synthesis",
@@ -228,6 +228,11 @@
         "date": "2026-11-05",
         "prob": 0.36,
         "reason": "Initial estimate, after prospective criteria were fixed; no earlier public probability."
+      },
+      {
+        "date": "2026-11-24",
+        "prob": 0.4,
+        "reason": "OpenAI reports meaningful AI contributions to recent model design, alongside a faster fall in held-out code loss. Most of the acceleration is attributed to previous research and compute investment. About 1.19× on the odds is a small subjective update below the exact trigger. The source supplies no independently reproduced, preregistered fixed-budget task gains and the initial views were not re-elicited."
       }
     ]
   },

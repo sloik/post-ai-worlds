@@ -8,6 +8,8 @@ We use ERA-A for expanding computational and organisational infrastructure, ERA-
 
 Energy illustrates the connection between cognition and physical systems. The IEA's 2025 analysis treats data centres and electricity supply as an interconnected planning problem. The relevant quantities include location and the timing of deliverable power, not just annual national generation. This supports studying infrastructure; it does not establish that every supplier captures lasting economic value. [IEA, *Energy and AI*, 2025](https://www.iea.org/reports/energy-and-ai).
 
+AI-assisted AI research raises the possibility that the cognitive side of this transition moves faster than institutions can adapt. Follow the passage from better checkpoints to affordable live deployment, and track who controls access at each step. Physical capacity, paid work and household purchasing power have their own evidence and timings. [November 2026 assessment](../evidence/2026-11-24-openai-pretraining-loss.md)
+
 ## Constraints can be targets
 
 A shortage can invite investment, substitution or redesign. Better intelligence might accelerate those responses, but building and qualifying new capacity still requires resources and elapsed time. An asset can be physically important while becoming commercially unattractive if competitors expand, customers integrate production or contracts allocate the gains elsewhere.

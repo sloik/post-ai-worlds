@@ -85,6 +85,13 @@
       "sha256": "3dbb536a418be1540c66b05511be52f8c1a83358740d6cab17d07d5e310763f0"
     },
     {
+      "id": "evidence/2026-11-24-openai-pretraining-loss.md",
+      "label": "OpenAI pretraining loss and the prospect of AI accelerating AI",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/2026-11-24-openai-pretraining-loss.md",
+      "kind": "document",
+      "sha256": "015f27329400b08cd4e3b6cdcc550968bf33ce48b477bffd52c17af6dc1c4eeb"
+    },
+    {
       "id": "evidence/2026-11-24-tao-lin-labour-transition.md",
       "label": "Tao Lin on the transition from AI capability to labour displacement",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/2026-11-24-tao-lin-labour-transition.md",
@@ -96,14 +103,14 @@
       "label": "Manual forecast review queue",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/FORECAST-REVIEWS.md",
       "kind": "document",
-      "sha256": "0425e0a0ab4cd6826fd33d0df33ec81c8d5209ef9cdd96125c985c0189cb678d"
+      "sha256": "fb25dbb979f6ece74f1250cde49dd4ea84bf541b2e0d6e44020c6e330d2bcf9c"
     },
     {
       "id": "evidence/README.md",
       "label": "Evidence and forecasts",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/README.md",
       "kind": "document",
-      "sha256": "3a39b9d07df9cb00010de3249d71f88c16284bf80bf2259bc8985bbc8ea1ce7d"
+      "sha256": "ac8a4c843fd693e190eba65e31ae035f408e19e38108ecd51e2e06b245dbd7a8"
     },
     {
       "id": "evidence/companions-and-civic-dependence.md",
@@ -117,7 +124,7 @@
       "label": "Forecasts issued 13 November 2026: research-automation claims",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/forecasts/2026-11-13-rsi-forecasts.md",
       "kind": "document",
-      "sha256": "42469bdb1c1d7a220bc41a903a7e60856215c93150e53b29d2797e06563e95d0"
+      "sha256": "b1403a3faf3d085711f6d552b9f90af8c3d89b027ca6f14beec10ac7f858e3f6"
     },
     {
       "id": "evidence/forecasts/2026-11-21-ai-only-operations.md",
@@ -236,14 +243,14 @@
       "label": "Continual development as the cornerstone",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
       "kind": "document",
-      "sha256": "77032be15c5a6c7b9224e8097f6b432255d6f4cada9ab318a0b227e5ee7a2c6a"
+      "sha256": "d80a3d73f689eb1d4838aab779e199a1c10adc061f10a273e28c4e6a769e7658"
     },
     {
       "id": "omnicorp/14-EVIDENCE-AND-FORECASTS.md",
       "label": "Evidence and forecasts",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/14-EVIDENCE-AND-FORECASTS.md",
       "kind": "document",
-      "sha256": "9c67a1b3844c2f0b083acae859907647dd965dbdfdaf3ab2c48a28212e27a571"
+      "sha256": "5da4a0165dc773bcd4311d292a3f41f53e17f982b9eb856b0666477cfa9e3660"
     },
     {
       "id": "omnicorp/15-CULTURE-INTIMACY-AND-POWER.md",
@@ -299,7 +306,7 @@
       "label": "The vision: abundance changes the scarce things",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/01-VISION.md",
       "kind": "document",
-      "sha256": "2ec372cbe31ccfcc0a798977c7721ea962721bba1533449672bb8f5fef31cdf3"
+      "sha256": "77ea2f2bde757fc8a8bd8e4725e865717030fa1b877ba5de877afd787283d384"
     },
     {
       "id": "post-ai/02-DEMAND-SIDE.md",
@@ -313,7 +320,7 @@
       "label": "Signals: deciding what would change our minds",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/03-SIGNALS.md",
       "kind": "document",
-      "sha256": "af767cbdb2eeed1d08fdb52b429c9866b43b62999c7dca9bf4ebcf8ea6913a4b"
+      "sha256": "8f9ae149296e101572789276c18cf4ec419e834c1f9836ba1d701618a3fe305f"
     },
     {
       "id": "post-ai/04-PUBLIC-SCENARIOS-AND-RESOURCE-ECONOMICS.md",
@@ -355,7 +362,7 @@
       "label": "Public sources and how to read them",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/09-PUBLIC-SOURCES.md",
       "kind": "document",
-      "sha256": "63ead7501c59be94c69e406a047c75dfca902f03a3c643aa60654da632383983"
+      "sha256": "1e268deb9962dc3167c8778111da6c61aa214985a9f7bd9bad5890d8856f6fb6"
     },
     {
       "id": "post-ai/10-THE-CULTURE-AS-ENDPOINT.md",
@@ -841,6 +848,28 @@
       "anchors": []
     },
     {
+      "source": "evidence/2026-11-24-openai-pretraining-loss.md",
+      "target": "evidence/FORECAST-REVIEWS.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/2026-11-24-openai-pretraining-loss.md",
+      "source_lines": [
+        60
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/2026-11-24-openai-pretraining-loss.md",
+      "target": "evidence/forecasts/2026-11-13-rsi-forecasts.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/2026-11-24-openai-pretraining-loss.md",
+      "source_lines": [
+        60
+      ],
+      "anchors": [
+        "24-november-2026-review"
+      ]
+    },
+    {
       "source": "evidence/2026-11-24-tao-lin-labour-transition.md",
       "target": "evidence/FORECAST-REVIEWS.md",
       "relation": "markdown_link",
@@ -867,6 +896,16 @@
       "source_file": "evidence/2026-11-24-tao-lin-labour-transition.md",
       "source_lines": [
         48
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/FORECAST-REVIEWS.md",
+      "target": "evidence/2026-11-24-openai-pretraining-loss.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/FORECAST-REVIEWS.md",
+      "source_lines": [
+        26
       ],
       "anchors": []
     },
@@ -909,7 +948,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        32
+        34
       ],
       "anchors": []
     },
@@ -919,7 +958,17 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        19
+        21
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/README.md",
+      "target": "evidence/2026-11-24-openai-pretraining-loss.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/README.md",
+      "source_lines": [
+        17
       ],
       "anchors": []
     },
@@ -959,7 +1008,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        32
+        34
       ],
       "anchors": []
     },
@@ -969,7 +1018,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        32
+        34
       ],
       "anchors": []
     },
@@ -1030,9 +1079,21 @@
       "relation": "markdown_link",
       "source_file": "evidence/forecasts/2026-11-13-rsi-forecasts.md",
       "source_lines": [
-        67
+        78
       ],
       "anchors": []
+    },
+    {
+      "source": "evidence/forecasts/2026-11-13-rsi-forecasts.md",
+      "target": "evidence/2026-11-24-openai-pretraining-loss.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/forecasts/2026-11-13-rsi-forecasts.md",
+      "source_lines": [
+        76
+      ],
+      "anchors": [
+        "forecast-review"
+      ]
     },
     {
       "source": "evidence/forecasts/2026-11-13-rsi-forecasts.md",
@@ -1040,7 +1101,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/forecasts/2026-11-13-rsi-forecasts.md",
       "source_lines": [
-        67
+        78
       ],
       "anchors": []
     },
@@ -1352,11 +1413,21 @@
     },
     {
       "source": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
+      "target": "evidence/2026-11-24-openai-pretraining-loss.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
+      "source_lines": [
+        21
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
       "target": "omnicorp/05-REAL-WORLD-PRODUCTION.md",
       "relation": "markdown_link",
       "source_file": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
       "source_lines": [
-        41
+        43
       ],
       "anchors": [
         "computing-hardware-as-a-productive-capability"
@@ -1368,7 +1439,7 @@
       "relation": "markdown_link",
       "source_file": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
       "source_lines": [
-        41
+        43
       ],
       "anchors": [
         "hardware-development-path"
@@ -1380,7 +1451,17 @@
       "relation": "markdown_link",
       "source_file": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
       "source_lines": [
-        29
+        31
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/14-EVIDENCE-AND-FORECASTS.md",
+      "target": "evidence/2026-11-24-openai-pretraining-loss.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/14-EVIDENCE-AND-FORECASTS.md",
+      "source_lines": [
+        15
       ],
       "anchors": []
     },
@@ -1390,7 +1471,7 @@
       "relation": "markdown_link",
       "source_file": "omnicorp/14-EVIDENCE-AND-FORECASTS.md",
       "source_lines": [
-        25
+        27
       ],
       "anchors": []
     },
@@ -1782,11 +1863,31 @@
     },
     {
       "source": "post-ai/01-VISION.md",
+      "target": "evidence/2026-11-24-openai-pretraining-loss.md",
+      "relation": "markdown_link",
+      "source_file": "post-ai/01-VISION.md",
+      "source_lines": [
+        11
+      ],
+      "anchors": []
+    },
+    {
+      "source": "post-ai/01-VISION.md",
       "target": "post-ai/03-SIGNALS.md",
       "relation": "markdown_link",
       "source_file": "post-ai/01-VISION.md",
       "source_lines": [
-        23
+        25
+      ],
+      "anchors": []
+    },
+    {
+      "source": "post-ai/03-SIGNALS.md",
+      "target": "evidence/2026-11-24-openai-pretraining-loss.md",
+      "relation": "markdown_link",
+      "source_file": "post-ai/03-SIGNALS.md",
+      "source_lines": [
+        28
       ],
       "anchors": []
     },
@@ -1796,7 +1897,7 @@
       "relation": "markdown_link",
       "source_file": "post-ai/03-SIGNALS.md",
       "source_lines": [
-        28
+        32
       ],
       "anchors": []
     },

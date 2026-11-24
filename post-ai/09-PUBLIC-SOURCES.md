@@ -11,6 +11,8 @@ This is a curated entry point, not a transcript collection or a certification th
 - [IEA, *Energy and AI*](https://www.iea.org/reports/energy-and-ai): modelling and evidence on electricity and data centres. National totals should not substitute for local delivery constraints.
 - [OECD infrastructure competition study](https://www.oecd.org/en/publications/competition-in-artificial-intelligence-infrastructure_623d1874-en.html): supply-chain structure and competition questions. Concentration is a mechanism to investigate, not proof of inevitable corporate sovereignty.
 
+- [OpenAI’s pretraining loss series, 2026](https://openai.com/index/perplexity-and-intelligence/): model-by-model loss on a fixed internal code snapshot, with OpenAI’s qualitative attribution and a proposed range to monitor. [Companion research workflow report](https://openai.com/index/research-acceleration-jagged-frontier/) measures agent activity and estimated task success.
+
 ## Measurement, institutions and people
 
 - [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework): lifecycle and context for risk management; not a certificate of safety.
