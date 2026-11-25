@@ -31,3 +31,88 @@ buttons.forEach(button=>button.addEventListener('click',()=>{
 }));
 addEventListener('hashchange',eventFromHash);
 if(!eventFromHash())showEvent(snapshot.events.length-1);
+
+function initEventTooltips() {
+    const tooltip = document.createElement('div');
+    tooltip.className = 'evidence-tooltip';
+    // The same title is already the button's accessible name.
+    tooltip.setAttribute('aria-hidden', 'true');
+    document.body.append(tooltip);
+
+    let hoveredDot = null;
+    let focusedDot = null;
+
+    function positionTooltip() {
+        const dot = hoveredDot || focusedDot;
+        if (!dot) {
+            tooltip.hidden = true;
+            return;
+        }
+
+        const viewport = document.documentElement;
+        const anchor = dot.getBoundingClientRect();
+        if (anchor.bottom <= 0 || anchor.top >= viewport.clientHeight) {
+            tooltip.hidden = true;
+            return;
+        }
+
+        const inset = 12;
+        const gap = 8;
+        const center = anchor.left + anchor.width / 2;
+        tooltip.textContent = snapshot.events[Number(dot.dataset.event)].title;
+        tooltip.hidden = false;
+        const {width, height} = tooltip.getBoundingClientRect();
+        const left = Math.max(inset, Math.min(center - width / 2, viewport.clientWidth - width - inset));
+        const above = anchor.top - height - gap;
+        const below = anchor.bottom + gap;
+        const placeBelow = above < inset && below + height <= viewport.clientHeight - inset;
+        const top = Math.max(inset, Math.min(placeBelow ? below : above, viewport.clientHeight - height - inset));
+        tooltip.style.left = `${left}px`;
+        tooltip.style.top = `${top}px`;
+        tooltip.style.setProperty('--tip-arrow', `${Math.max(12, Math.min(center - left, width - 12))}px`);
+        tooltip.dataset.side = placeBelow ? 'below' : 'above';
+    }
+
+    function dismissTooltip() {
+        hoveredDot = null;
+        focusedDot = null;
+        positionTooltip();
+    }
+
+    for (const dot of document.querySelectorAll('.evidence-dot')) {
+        dot.addEventListener('pointerenter', event => {
+            if (event.pointerType === 'touch') return;
+            hoveredDot = dot;
+            positionTooltip();
+        });
+        dot.addEventListener('pointerleave', event => {
+            if (hoveredDot !== dot || event.relatedTarget === tooltip) return;
+            hoveredDot = null;
+            positionTooltip();
+        });
+        dot.addEventListener('focus', () => {
+            if (!dot.matches(':focus-visible')) return;
+            focusedDot = dot;
+            positionTooltip();
+        });
+        dot.addEventListener('blur', () => {
+            if (focusedDot !== dot) return;
+            focusedDot = null;
+            positionTooltip();
+        });
+        dot.addEventListener('click', dismissTooltip);
+    }
+
+    tooltip.addEventListener('pointerleave', event => {
+        if (event.relatedTarget === hoveredDot) return;
+        hoveredDot = null;
+        positionTooltip();
+    });
+    document.addEventListener('keydown', event => {
+        if (event.key === 'Escape' && !tooltip.hidden) dismissTooltip();
+    });
+    window.addEventListener('scroll', positionTooltip, {capture: true, passive: true});
+    window.addEventListener('resize', positionTooltip);
+}
+
+initEventTooltips();
