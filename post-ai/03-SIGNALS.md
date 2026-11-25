@@ -35,6 +35,8 @@ The labour rows use a dated starting point for US hiring, Danish hours and earni
 
 These are candidates. No baseline search, numerical threshold or resolved outcome is asserted by listing them. A future investigator must define the population, interval, comparison and qualifying evidence before scoring a result.
 
+**AI plurality and human authority.** Count independently controlled frontier developers as well as models. Look for practical supplier exit and cases where independent oversight helps an accountable human halt or reverse a consequential action. Wolfram's argument for computational diversity leaves control of compute and deployment open. Barak's human-empowerment argument adds the test of whether overseers can actually intervene. [Review and candidate forecast](../evidence/2026-11-25-ai-plurality-and-human-control.md).
+
 ## Preserve three dates
 
 Record when the underlying event occurred, when its source was published and when we inspected it. An old event encountered today is not a new observation of progress. A revised source should retain the earlier interpretation so that changed beliefs remain auditable.

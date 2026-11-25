@@ -23,6 +23,24 @@
       "comparison": "Evidence for the initial forecast assessment on 5 November 2026; not retrospectively credited as a successful prediction."
     },
     {
+      "id": "wolfram-ai-ecosystem",
+      "date": "2023-03-15",
+      "title": "Wolfram argues for a long-run AI ecosystem",
+      "lane": "Cumulative improvement",
+      "direction": "Historical argument / context",
+      "evidence": "Primary essay",
+      "lineage": "Stephen Wolfram",
+      "claim": "Wolfram argues that no computational system can excel at every task and expects an ecosystem of AIs over the long run. He allows for shorter-term centralization.",
+      "interpretation": "Computational variety is compatible with common control over access, compute and deployment. Count genuinely independent groups when assessing who can act.",
+      "limit": "The argument supplies no timetable, concentration estimate or evidence of effective human oversight.",
+      "comparison": "Historical context for the frontier-developer question under design.",
+      "source": "https://writings.stephenwolfram.com/2023/03/will-ais-take-all-our-jobs-and-end-human-history-or-not-well-its-complicated/#so-will-it-end-badly",
+      "source_title": "Stephen Wolfram — So Will It End Badly?",
+      "affects": [],
+      "motion": "mixed",
+      "assessed_on": "2026-11-25"
+    },
+    {
       "id": "imo-silver",
       "date": "2024-07-25",
       "title": "AI proofs reach IMO silver standard",
@@ -563,6 +581,26 @@
         "improvement-loop"
       ],
       "motion": "mixed"
+    },
+    {
+      "id": "barak-human-empowerment",
+      "date": "2026-11-23",
+      "title": "Barak proposes AI-assisted human oversight",
+      "lane": "Autonomous work",
+      "direction": "Governance argument / forecast design",
+      "evidence": "Primary essay",
+      "lineage": "Boaz Barak",
+      "claim": "Barak proposes using AI to make consequential choices legible to humans, strengthen resilience and counter misuse. He argues that pacing progress may be necessary if oversight falls behind.",
+      "interpretation": "An AI reviewer can help humans detect and stop harmful actions if people retain the means to intervene. Wolfram’s long-run AI ecosystem argument makes it worth measuring the variety of models and the independence of their operators separately.",
+      "limit": "The essay's graphs illustrate mechanisms. They report no measured trends or real-world intervention. Many models can share an operator or a single point of failure.",
+      "comparison": "The six Observatory and four research-proxy probabilities carry forward. The 5 February 2027 review will consider a forecast on independent frontier developers.",
+      "source": "https://x.com/i/article/2124879181011914754",
+      "source_title": "Boaz Barak — Human empowerment in a few fake graphs",
+      "affects": [
+        "production-loop"
+      ],
+      "motion": "mixed",
+      "assessed_on": "2026-11-25"
     },
     {
       "id": "patel-rsi-objections",
@@ -1137,6 +1175,12 @@
       "date": "2026-11-25",
       "title": "Recursive self-improvement objections and source checks",
       "reason": "Added reports on the Hugging Face containment failure, OpenAI’s October math release and Epoch’s inference-capacity estimates, plus Patel’s follow-up. The follow-up clarifies the distinction between assisted work and an autonomous research loop. All six Observatory and four research-proxy probabilities are retained. Next review: 5 February 2027.",
+      "forecast_changes": 0
+    },
+    {
+      "date": "2026-11-25",
+      "title": "Candidate question on independent frontier developers",
+      "reason": "Will at least three independently controlled organizations each publicly release a separately pretrained general-purpose model during 2030 whose estimated training compute is at least one tenth of the largest publicly estimated training run among eligible releases that year? This candidate carries no odds. The 5 February 2027 review will test historical coverage and common control. Barak's human-oversight proposal calls for separate evidence of intervention. All ten existing probabilities carry forward.",
       "forecast_changes": 0
     }
   ],

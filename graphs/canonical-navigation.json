@@ -99,6 +99,13 @@
       "sha256": "fac93fba5de6732aa71b15d28591bc2a8a919066ae32809785c41dd1f37cd4d5"
     },
     {
+      "id": "evidence/2026-11-25-ai-plurality-and-human-control.md",
+      "label": "AI plurality and human control",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/2026-11-25-ai-plurality-and-human-control.md",
+      "kind": "document",
+      "sha256": "1e0e50f6c5bfe0f64b5afda312d3bcb34dcc21e94587d6c2c4442994d1d2addb"
+    },
+    {
       "id": "evidence/2026-11-25-rsi-objections.md",
       "label": "What the objections to recursive self-improvement change",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/2026-11-25-rsi-objections.md",
@@ -110,14 +117,14 @@
       "label": "Manual forecast review queue",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/FORECAST-REVIEWS.md",
       "kind": "document",
-      "sha256": "86a27f9092ffb62a24b63405737822beb5dfb0f8241cf30fa69b00171b8130f0"
+      "sha256": "2804d80f2805626a9c3af03e7d1d4320409447800babeaa4030d55054f0bf1cd"
     },
     {
       "id": "evidence/README.md",
       "label": "Evidence and forecasts",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/README.md",
       "kind": "document",
-      "sha256": "d6a5a28d63904830a3b444655b86c84e2e32c4c89f847f1c97d88ef9436e09a4"
+      "sha256": "9cd46ad1fd66bc64e5b4a681991ded07fcb2ec562fdcc7580aaa97f8701bd0f1"
     },
     {
       "id": "evidence/companions-and-civic-dependence.md",
@@ -250,7 +257,7 @@
       "label": "Continual development as the cornerstone",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
       "kind": "document",
-      "sha256": "2a5b1640ebcf5eb722e6308c5a81fab543a8131aed4fc911eb2728479a93f7c2"
+      "sha256": "0f57b9394b576e793d00407d38c9c552b5196337724781d955becca107c8a76b"
     },
     {
       "id": "omnicorp/14-EVIDENCE-AND-FORECASTS.md",
@@ -327,7 +334,7 @@
       "label": "Signals: deciding what would change our minds",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/03-SIGNALS.md",
       "kind": "document",
-      "sha256": "1f772d4e08e4b293ca68100064d5796f1a6342228e76865a79c2c8c8d0d2ecb2"
+      "sha256": "3b224a9f34e45e497e95dfaf4c4a01cebed3036f1ae1fd48c2253617749e5d49"
     },
     {
       "id": "post-ai/04-PUBLIC-SCENARIOS-AND-RESOURCE-ECONOMICS.md",
@@ -907,6 +914,26 @@
       "anchors": []
     },
     {
+      "source": "evidence/2026-11-25-ai-plurality-and-human-control.md",
+      "target": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/2026-11-25-ai-plurality-and-human-control.md",
+      "source_lines": [
+        25
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/2026-11-25-ai-plurality-and-human-control.md",
+      "target": "worlds/README.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/2026-11-25-ai-plurality-and-human-control.md",
+      "source_lines": [
+        23
+      ],
+      "anchors": []
+    },
+    {
       "source": "evidence/2026-11-25-rsi-objections.md",
       "target": "evidence/FORECAST-REVIEWS.md",
       "relation": "markdown_link",
@@ -951,6 +978,16 @@
     },
     {
       "source": "evidence/FORECAST-REVIEWS.md",
+      "target": "evidence/2026-11-25-ai-plurality-and-human-control.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/FORECAST-REVIEWS.md",
+      "source_lines": [
+        30
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/FORECAST-REVIEWS.md",
       "target": "evidence/2026-11-25-rsi-objections.md",
       "relation": "markdown_link",
       "source_file": "evidence/FORECAST-REVIEWS.md",
@@ -985,7 +1022,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        36
+        38
       ],
       "anchors": []
     },
@@ -995,7 +1032,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        23
+        25
       ],
       "anchors": []
     },
@@ -1005,7 +1042,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        17
+        19
       ],
       "anchors": []
     },
@@ -1015,7 +1052,17 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        15
+        17
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/README.md",
+      "target": "evidence/2026-11-25-ai-plurality-and-human-control.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/README.md",
+      "source_lines": [
+        7
       ],
       "anchors": []
     },
@@ -1025,7 +1072,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        19
+        21
       ],
       "anchors": []
     },
@@ -1035,7 +1082,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        13
+        15
       ],
       "anchors": []
     },
@@ -1045,7 +1092,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        13
+        15
       ],
       "anchors": []
     },
@@ -1055,7 +1102,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        36
+        38
       ],
       "anchors": []
     },
@@ -1065,7 +1112,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        36
+        38
       ],
       "anchors": []
     },
@@ -1482,6 +1529,16 @@
     },
     {
       "source": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
+      "target": "evidence/2026-11-25-ai-plurality-and-human-control.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
+      "source_lines": [
+        35
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
       "target": "evidence/2026-11-25-rsi-objections.md",
       "relation": "markdown_link",
       "source_file": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
@@ -1496,7 +1553,7 @@
       "relation": "markdown_link",
       "source_file": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
       "source_lines": [
-        45
+        47
       ],
       "anchors": [
         "computing-hardware-as-a-productive-capability"
@@ -1508,7 +1565,7 @@
       "relation": "markdown_link",
       "source_file": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
       "source_lines": [
-        45
+        47
       ],
       "anchors": [
         "hardware-development-path"
@@ -1967,6 +2024,16 @@
       "source_file": "post-ai/03-SIGNALS.md",
       "source_lines": [
         34
+      ],
+      "anchors": []
+    },
+    {
+      "source": "post-ai/03-SIGNALS.md",
+      "target": "evidence/2026-11-25-ai-plurality-and-human-control.md",
+      "relation": "markdown_link",
+      "source_file": "post-ai/03-SIGNALS.md",
+      "source_lines": [
+        38
       ],
       "anchors": []
     },

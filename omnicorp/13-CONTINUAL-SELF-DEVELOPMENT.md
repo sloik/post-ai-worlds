@@ -32,6 +32,8 @@ Evidence note (13 November 2026): a widely read essay gives even odds between th
 
 `OMNI-301` and `OMNI-401` keep improvement and plateau explicit. Material expansion and ownership vary separately in the [shared worlds](../worlds/README.md). The challenge is to demonstrate useful cumulative development while preserving continuity and legitimate authority.
 
+**Make AI-assisted oversight actionable.** Give a reviewer the evidence needed to flag a consequential action, apply pre-authorized pause rules at the execution boundary, and let an accountable human decide what happens next. Exercise supplier exit on a real workflow, including its logs and recovery state. Record shared dependencies that could defeat both the operating system and its reviewer. These tests check specific authority and recovery claims. [AI plurality and human control](../evidence/2026-11-25-ai-plurality-and-human-control.md).
+
 ## Develop the physical substrate as well — direction clarified 7 November 2026
 
 The intended long-term scope includes developing hardware alongside software and model capabilities. An organisation could learn to design the machines on which its members operate, progressively shaping its own computational substrate. Hardware is both a possible productive capability for Omnicorp and a way to expand an individual persistent agent's capabilities.
