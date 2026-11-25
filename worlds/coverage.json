@@ -81,7 +81,7 @@
       "assurance": "editorial_inventory_only"
     },
     "post-ai/03-SIGNALS.md": {
-      "sha256": "3b224a9f34e45e497e95dfaf4c4a01cebed3036f1ae1fd48c2253617749e5d49",
+      "sha256": "403bf32e6b760dea663cc44b198191f3f780161c4bde54408e42a517cf0357f4",
       "headings": [
         {
           "level": 1,
@@ -96,12 +96,12 @@
         {
           "level": 2,
           "text": "Preserve three dates",
-          "line": 40
+          "line": 42
         },
         {
           "level": 2,
           "text": "Separate monitoring from forecasting",
-          "line": 44
+          "line": 46
         }
       ],
       "assurance": "editorial_inventory_only"
@@ -1010,7 +1010,7 @@
       "assurance": "editorial_inventory_only"
     },
     "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md": {
-      "sha256": "0f57b9394b576e793d00407d38c9c552b5196337724781d955becca107c8a76b",
+      "sha256": "73af266bb996c3fe68532e1b00e7749432ea01a54f938acc4e4c5d827314fee3",
       "headings": [
         {
           "level": 1,

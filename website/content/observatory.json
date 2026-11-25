@@ -482,6 +482,47 @@
       "assessed_on": "2026-11-25"
     },
     {
+      "id": "architect-labs-frostbite",
+      "date": "2026-11-18",
+      "title": "Architect Labs reports a pre-silicon AI-designed CPU",
+      "lane": "Physical work",
+      "direction": "Positive design signal / qualification pending",
+      "evidence": "Producer-reported RTL, layout and pre-silicon benchmarks",
+      "lineage": "Architect Labs; same design-automation lineage as Redwood",
+      "claim": "Agents reportedly co-designed an interaction-net CPU from compiler and architecture through 7 nm layout. Architect Labs reports 4.59× geometric-mean performance per watt across 25 workloads and 3.83× on 15 held-out workloads, against one unnamed similar-area dual-issue in-order CPU core.",
+      "interpretation": "An AI-guided search can produce a bounded design candidate, such as the reported work-stealing scheduler, with technical artifacts worth testing.",
+      "limit": "The post reports no fabricated Frostbite die, measured power on silicon, independent reproduction, or acceptance for intended use.",
+      "comparison": "Frostbite is a positive upstream signal. Q02 moves from 72% to 74% on the combined evidence including the separate OpenAI chip-design disclosure.",
+      "source": "https://architectlabs.com/blog/frostbite",
+      "source_title": "Architect Labs — Introducing Frostbite",
+      "affects": [
+        "physical-component",
+        "independent-research"
+      ],
+      "motion": "mixed",
+      "assessed_on": "2026-11-25"
+    },
+    {
+      "id": "openai-silicon-design-integration",
+      "date": "2026-11-18",
+      "title": "OpenAI links AI-proposed designs to chip bring-up",
+      "lane": "Physical work",
+      "direction": "Positive integration signal / qualification pending",
+      "evidence": "Producer report on bounded silicon and manufacturing changes",
+      "lineage": "OpenAI; Jalapeño follow-up and commercial AMD collaboration",
+      "claim": "OpenAI reports that AI-proposed changes to Jalapeño compute blocks were checked on silicon at bring-up. It reports that AMD included some AI-written changes in a design sent for manufacturing.",
+      "interpretation": "The reported changes establish a stronger integration signal than a layout or simulation alone.",
+      "limit": "The report gives no public record tying decisive AI selection of the same bounded component to acceptance by a named authority for its intended use. Treat the AMD section as part of the same producer disclosure.",
+      "comparison": "Together with Frostbite, this supports a small Q02 update to 74%. The qualification trigger has yet to be met.",
+      "source": "https://openai.com/index/advancing-chip-design-with-our-models/",
+      "source_title": "OpenAI — Advancing chip design with OpenAI models",
+      "affects": [
+        "physical-component"
+      ],
+      "motion": "mixed",
+      "assessed_on": "2026-11-25"
+    },
+    {
       "id": "metr-november-capability-update",
       "date": "2026-11-20",
       "title": "Measured AI task horizons grow quickly while judgment remains uneven",
@@ -726,7 +767,7 @@
       "resolver": "Public provenance and the named qualification record. No publicly documented case satisfying both gates by the deadline resolves NO. This does not establish that no private case exists. Only records first published within the stated prospective observation window count.",
       "window_start": "2026-11-06",
       "criteria_version": "1.0",
-      "prob": 0.72,
+      "prob": 0.74,
       "issued_on": "2026-11-05",
       "forecaster": "Argo / research-team synthesis",
       "prior": 0.75,
@@ -775,6 +816,14 @@
         {
           "title": "AlphaEvolve: A Gemini-powered coding agent for designing advanced algorithms — Google DeepMind",
           "url": "https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/"
+        },
+        {
+          "title": "Architect Labs — Frostbite architecture and pre-silicon evaluation",
+          "url": "https://architectlabs.com/blog/frostbite"
+        },
+        {
+          "title": "OpenAI — chip-design changes in Jalapeño and AMD hardware",
+          "url": "https://openai.com/index/advancing-chip-design-with-our-models/"
         }
       ],
       "views": [
@@ -788,6 +837,11 @@
           "date": "2026-11-05",
           "prob": 0.72,
           "reason": "Initial estimate, after prospective criteria were fixed; no earlier public probability."
+        },
+        {
+          "date": "2026-11-25",
+          "prob": 0.74,
+          "reason": "Architect Labs’ Frostbite adds a pre-silicon architecture candidate. The separate OpenAI chip-design disclosure links AI-proposed circuit changes to Jalapeño silicon bring-up and reports an AMD manufacturing handoff. An approximately 1.11× subjective odds multiplier credits the improved evidence of integration. The full up-trigger is unmet, and no public intended-use acceptance mapped to decisive AI selection has been established."
         }
       ],
       "forecast_id": 2,
@@ -1188,6 +1242,12 @@
       "title": "Frontier operator forecast backtest",
       "reason": "The screened 2023–2025 records show 6, 11 and 2 developers within a tenfold training-compute gap after release and lineage checks. At threefold the counts are 2, 6 and 2. These are counts of public estimates. Nearly 60% of screened 2025 model rows lacked a compute estimate, including Gemini 3 Pro. Estimate uncertainty can change whether one, two or three-plus operators qualify. The compute question stays an unscored indicator. Existing forecast probabilities carry forward.",
       "forecast_changes": 0
+    },
+    {
+      "date": "2026-11-25",
+      "title": "Frostbite and physical component qualification",
+      "reason": "Frostbite adds an AI-led pre-silicon design case. The separate OpenAI report links model-proposed circuit changes to Jalapeño bring-up and reports an AMD manufacturing handoff. The combined evidence raises Q02 from 72% to 74%. It leaves public decisive-selection provenance and intended-use acceptance unresolved. The other nine probabilities carry forward.",
+      "forecast_changes": 1
     }
   ],
   "curve_milestones": [

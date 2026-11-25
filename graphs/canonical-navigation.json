@@ -113,6 +113,13 @@
       "sha256": "621d7617bd0d1645a5e160c0ea6704b8f8e5d81bd8e22efcb188256e836d1aaa"
     },
     {
+      "id": "evidence/2026-11-25-frostbite.md",
+      "label": "Frostbite and the path from AI design to qualified hardware",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/2026-11-25-frostbite.md",
+      "kind": "document",
+      "sha256": "9fd784f525718d435f28f5d28906f187c6ce525e8956f079e8a003e9c664ffb0"
+    },
+    {
       "id": "evidence/2026-11-25-rsi-objections.md",
       "label": "What the objections to recursive self-improvement change",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/2026-11-25-rsi-objections.md",
@@ -124,14 +131,14 @@
       "label": "Manual forecast review queue",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/FORECAST-REVIEWS.md",
       "kind": "document",
-      "sha256": "89bdb7e544741cf2127b925e45aed74b16741ee4650130e138db7279161d87b0"
+      "sha256": "72a1d45a7e1006f81f2d4d084d42de2163f3468a7a805a013714aad0522dfc20"
     },
     {
       "id": "evidence/README.md",
       "label": "Evidence and forecasts",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/README.md",
       "kind": "document",
-      "sha256": "a827f93199378f8aeac03528fe45375c21653082fbeb0c25b459fd5698ac961b"
+      "sha256": "ab6ab3715217b87a457b8af0424b7d8a57f2d98cb2235ed6e1b761af85369f46"
     },
     {
       "id": "evidence/companions-and-civic-dependence.md",
@@ -264,7 +271,7 @@
       "label": "Continual development as the cornerstone",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
       "kind": "document",
-      "sha256": "0f57b9394b576e793d00407d38c9c552b5196337724781d955becca107c8a76b"
+      "sha256": "73af266bb996c3fe68532e1b00e7749432ea01a54f938acc4e4c5d827314fee3"
     },
     {
       "id": "omnicorp/14-EVIDENCE-AND-FORECASTS.md",
@@ -341,7 +348,7 @@
       "label": "Signals: deciding what would change our minds",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/03-SIGNALS.md",
       "kind": "document",
-      "sha256": "3b224a9f34e45e497e95dfaf4c4a01cebed3036f1ae1fd48c2253617749e5d49"
+      "sha256": "403bf32e6b760dea663cc44b198191f3f780161c4bde54408e42a517cf0357f4"
     },
     {
       "id": "post-ai/04-PUBLIC-SCENARIOS-AND-RESOURCE-ECONOMICS.md",
@@ -963,6 +970,16 @@
       ]
     },
     {
+      "source": "evidence/2026-11-25-frostbite.md",
+      "target": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/2026-11-25-frostbite.md",
+      "source_lines": [
+        36
+      ],
+      "anchors": []
+    },
+    {
       "source": "evidence/2026-11-25-rsi-objections.md",
       "target": "evidence/FORECAST-REVIEWS.md",
       "relation": "markdown_link",
@@ -1027,6 +1044,18 @@
     },
     {
       "source": "evidence/FORECAST-REVIEWS.md",
+      "target": "evidence/2026-11-25-frostbite.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/FORECAST-REVIEWS.md",
+      "source_lines": [
+        34
+      ],
+      "anchors": [
+        "forecast-review"
+      ]
+    },
+    {
+      "source": "evidence/FORECAST-REVIEWS.md",
       "target": "evidence/2026-11-25-rsi-objections.md",
       "relation": "markdown_link",
       "source_file": "evidence/FORECAST-REVIEWS.md",
@@ -1061,7 +1090,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        40
+        42
       ],
       "anchors": []
     },
@@ -1071,7 +1100,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        27
+        29
       ],
       "anchors": []
     },
@@ -1081,7 +1110,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        21
+        23
       ],
       "anchors": []
     },
@@ -1091,7 +1120,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        19
+        21
       ],
       "anchors": []
     },
@@ -1117,11 +1146,21 @@
     },
     {
       "source": "evidence/README.md",
+      "target": "evidence/2026-11-25-frostbite.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/README.md",
+      "source_lines": [
+        11
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/README.md",
       "target": "evidence/2026-11-25-rsi-objections.md",
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        23
+        25
       ],
       "anchors": []
     },
@@ -1131,7 +1170,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        17
+        19
       ],
       "anchors": []
     },
@@ -1141,7 +1180,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        17
+        19
       ],
       "anchors": []
     },
@@ -1151,7 +1190,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        40
+        42
       ],
       "anchors": []
     },
@@ -1161,7 +1200,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        40
+        42
       ],
       "anchors": []
     },
@@ -1583,6 +1622,16 @@
       "source_file": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
       "source_lines": [
         35
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
+      "target": "evidence/2026-11-25-frostbite.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
+      "source_lines": [
+        49
       ],
       "anchors": []
     },
@@ -2083,6 +2132,16 @@
       "source_file": "post-ai/03-SIGNALS.md",
       "source_lines": [
         38
+      ],
+      "anchors": []
+    },
+    {
+      "source": "post-ai/03-SIGNALS.md",
+      "target": "evidence/2026-11-25-frostbite.md",
+      "relation": "markdown_link",
+      "source_file": "post-ai/03-SIGNALS.md",
+      "source_lines": [
+        40
       ],
       "anchors": []
     },
