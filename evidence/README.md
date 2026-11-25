@@ -8,6 +8,8 @@ Distinguish observations, candidate indicators, forecasts, conditional arguments
 
 [Frontier operator forecast backtest](2026-11-25-frontier-operator-backtest.md) finds that missing compute estimates and lineage choices can change the projected resolution category. The compute question remains an unscored indicator.
 
+[Frostbite and qualified hardware](2026-11-25-frostbite.md) distinguishes pre-silicon results from chip bring-up and acceptance. The physical-component forecast rises from 72% to 74% after also reviewing the OpenAI chip-design report.
+
 ## Signals worth developing
 
 Track capability and concentration separately. Candidate indicators include practical model portability, switching cost, independent access to compute and energy, productive ownership, labour bargaining power, enforceable public oversight, synthetic-companion use, displacement of human interaction, AI-welfare advocacy, and cultural expression around automation. Each needs a population, measurement instrument, sampling limits and a dated baseline before prospective thresholds can be registered.

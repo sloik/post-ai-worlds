@@ -31,4 +31,6 @@ Next review: **2027-02-05**, or earlier on material evidence. Owner: Łukasz wit
 
 - **Backtest completed 2026-11-25.** Keep the relative-compute question as an unscored indicator. The 2023–2025 backtest was sensitive to gap, estimate and coverage choices. The February review can revisit this if plausible frontier runs can be bounded or a benchmark-based rule is ready to validate. [Results and control checks](2026-11-25-frontier-operator-backtest.md).
 
+- **Evidence reviewed 2026-11-25, Q02 rises from 72% to 74%.** Frostbite is a pre-silicon architecture candidate. OpenAI separately reports AI-proposed block changes that reached Jalapeño silicon and changes incorporated into an AMD design sent for manufacturing. The combined evidence supports integration, with no decisive AI-selection and intended-use acceptance record for the same component. The other nine probabilities carry forward. [Evidence and forecast treatment](2026-11-25-frostbite.md#forecast-review).
+
 Canonical public records: [frozen issued export](forecasts/2026-11-05-records.json) and [website snapshot](../website/content/observatory.json). Earlier private calculation/source ledgers remain historical and are not required to read these public records. Rebuild the canonical website after accepted snapshot changes; retain the immutable initial export.
