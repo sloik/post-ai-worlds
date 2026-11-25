@@ -1182,6 +1182,12 @@
       "title": "Candidate question on independent frontier developers",
       "reason": "Will at least three independently controlled organizations each publicly release a separately pretrained general-purpose model during 2030 whose estimated training compute is at least one tenth of the largest publicly estimated training run among eligible releases that year? This candidate carries no odds. The 5 February 2027 review will test historical coverage and common control. Barak's human-oversight proposal calls for separate evidence of intervention. All ten existing probabilities carry forward.",
       "forecast_changes": 0
+    },
+    {
+      "date": "2026-11-25",
+      "title": "Frontier operator forecast backtest",
+      "reason": "The screened 2023–2025 records show 6, 11 and 2 developers within a tenfold training-compute gap after release and lineage checks. At threefold the counts are 2, 6 and 2. These are counts of public estimates. Nearly 60% of screened 2025 model rows lacked a compute estimate, including Gemini 3 Pro. Estimate uncertainty can change whether one, two or three-plus operators qualify. The compute question stays an unscored indicator. Existing forecast probabilities carry forward.",
+      "forecast_changes": 0
     }
   ],
   "curve_milestones": [

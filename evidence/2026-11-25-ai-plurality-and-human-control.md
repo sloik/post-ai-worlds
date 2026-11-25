@@ -26,6 +26,8 @@ The guardian interpretation is one possible implementation. An AI reviewer could
 
 ## Candidate forecast for the February 2027 review
 
+**Backtest completed 25 November.** The compute-based draft remains an unscored indicator. Missing estimates and lineage choices can change the one/two/three-plus outcome. [Backtest and decision](2026-11-25-frontier-operator-backtest.md).
+
 **Will at least three independently controlled organizations each publicly release a separately pretrained general-purpose AI model during 2030 whose estimated training compute is at least one tenth of the largest publicly estimated training run among eligible 2030 releases?**
 
 - **Scope and date.** Worldwide, for releases from 1 January through 31 December 2030 UTC. Use a dataset snapshot with revisions through 30 June 2031 to allow for reporting lag. A public API, public product or downloadable weights can qualify if the underlying model and release date are identifiable. Fine-tunes, wrappers and successive snapshots of the same base model count once for its controller.

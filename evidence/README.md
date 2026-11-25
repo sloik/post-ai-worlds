@@ -6,6 +6,8 @@ Distinguish observations, candidate indicators, forecasts, conditional arguments
 
 [AI plurality and human control](2026-11-25-ai-plurality-and-human-control.md) reviews Barak and Wolfram, describes what would demonstrate effective oversight, and proposes a forecast on independent frontier development.
 
+[Frontier operator forecast backtest](2026-11-25-frontier-operator-backtest.md) finds that missing compute estimates and lineage choices can change the projected resolution category. The compute question remains an unscored indicator.
+
 ## Signals worth developing
 
 Track capability and concentration separately. Candidate indicators include practical model portability, switching cost, independent access to compute and energy, productive ownership, labour bargaining power, enforceable public oversight, synthetic-companion use, displacement of human interaction, AI-welfare advocacy, and cultural expression around automation. Each needs a population, measurement instrument, sampling limits and a dated baseline before prospective thresholds can be registered.
