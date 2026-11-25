@@ -1,0 +1,38 @@
+# AI plurality and human control
+
+Reviewed 25 November 2026.
+
+## Two mechanisms
+
+Boaz Barak argues that human institutions have learned to supervise projects beyond any individual's comprehension. AI could extend that ability by making options and risks legible to human decision-makers. He also envisages aligned AI effort countering misuse and misalignment, and AI improving society's resilience. If capability growth outpaces oversight, he argues that technical safeguards and international agreements may have to slow the rate of advance. His graphs illustrate these mechanisms. They supply neither measured trends nor a demonstrated intervention. [Barak, 23 November 2026](https://x.com/i/article/2124879181011914754) · [Readable copy of the X article](https://xitter.cf/boazbaraktcs/article/2124884201283485934).
+
+Stephen Wolfram argues that no computational system is best at every possible task. In his account, computational irreducibility limits prediction, different systems can excel in different corners of the computational universe, and a long-run ecosystem could emerge. He explicitly allows for near-term centralization. The step from computational diversity to durable independent power is an empirical conjecture. A single institution can run many specialists, and an actor only needs a decisive advantage on the tasks and infrastructure that confer control. [Wolfram, 2023, “So Will It End Badly?”](https://writings.stephenwolfram.com/2023/03/will-ais-take-all-our-jobs-and-end-human-history-or-not-well-its-complicated/#so-will-it-end-badly).
+
+We therefore track three distinct observations.
+
+| Observation | Evidence that would matter |
+| --- | --- |
+| Variety of systems | Different model lineages, specializations and failure patterns on comparable tasks |
+| Independent power | Distinct decision rights and credible alternatives for compute, deployment and operation |
+| Human authority | Humans can understand choices, halt or reverse consequential actions and appeal decisions. The intervention still works when the main system or its provider disagrees. |
+
+The guardian interpretation is one possible implementation. An AI reviewer could flag an unsafe action, present evidence to an authorized person and trigger a bounded pause under a previously adopted rule. Multiple reviewers can still share a blind spot, common upstream data or the same operator. Some harmful events may be asymmetric or irreversible, so a higher aggregate supply of defensive compute gives little assurance by itself. Published AI-control experiments offer a bounded precedent for monitoring and selective intervention. They evaluate specific protocols against specified adverse behavior in test settings. [Greenblatt et al., AI Control](https://arxiv.org/abs/2312.06942).
+
+## Implications for the two tracks
+
+**Post-AI Worlds.** OMNI-103 can involve institutions using AI to make decisions contestable. OMNI-104 or OMNI-202 can feature many AI products while concentrated infrastructure or an unaccountable safety authority constrains exit and appeal. OMNI-201 requires usable alternatives. Advancing capability alone can fit any of these worlds. The OECD's evidence on cloud capital intensity, switching costs and vertical integration gives a concrete reason to measure control independently of model count. [World register](../worlds/README.md) · [OECD AI markets report](https://www.oecd.org/en/publications/artificial-intelligence-markets_d531d73f-en/full-report.html).
+
+**Omnicorp.** A bounded operating test would let one system propose a consequential release, another flag a problem with traceable evidence, and the authorized human decide. Show that an enforceable pause and recovery still work when the primary system is unavailable or disagrees. Exercise exit by moving a real workflow, its decision record and its recovery information to an independently operated alternative. Record interventions, missed problems, false stops, response time and recovery success. Different model names can share a failure domain through credentials, hosting, training lineage or the route to production. Keep the power to set mandates, revoke access and resume action with accountable humans. [Continual development](../omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md).
+
+## Candidate forecast for the February 2027 review
+
+**Will at least three independently controlled organizations each publicly release a separately pretrained general-purpose AI model during 2030 whose estimated training compute is at least one tenth of the largest publicly estimated training run among eligible 2030 releases?**
+
+- **Scope and date.** Worldwide, for releases from 1 January through 31 December 2030 UTC. Use a dataset snapshot with revisions through 30 June 2031 to allow for reporting lag. A public API, public product or downloadable weights can qualify if the underlying model and release date are identifiable. Fine-tunes, wrappers and successive snapshots of the same base model count once for its controller.
+- **Resolution proposal.** Start from Epoch AI's public model dataset, using comparable estimates for distinct pretraining runs and contemporaneous public documentation of release and control. Group affiliates and joint ventures by who actually holds decisive release or operating authority. A shared supplier counts as common control only where it can substantively veto a participant's model release beyond ordinary contractual hosting terms. Before issuance, freeze source and adjudication rules for ambiguous ownership and compute ranges. Void the question if coverage is too incomplete to distinguish the outcomes under those rules.
+- **Why this instrument.** Counting organizations within an order of magnitude of the most compute-intensive observed release supplies a moving threshold as the frontier scales. Development compute is a proxy for capacity to train at scale. Models with less compute can be more useful, and the measure leaves secret systems, downstream dependence and effective power outside its scope. Behind a binary three-or-more question, preserve the observed count to distinguish one from two. [Epoch AI model data](https://epoch.ai/data/ai-models) · [Epoch AI compute-threshold study](https://epoch.ai/publications/model-counts-compute-thresholds).
+- **Before assigning odds.** Backtest the rule over completed years and test sensitivity to a threefold versus tenfold compute gap. Check whether ownership can be coded consistently and whether disclosure is enough to resolve borderline outcomes. Track consolidation, independently financed large training runs and credible evidence that low-compute approaches weaken the proxy. The threshold and horizon are proposed design choices. This question is unregistered and carries no probability.
+
+**Companion question about guardians.** Could two unaffiliated operators each publish an independently audited production case by the end of 2030 in which a separately operated AI reviewer caused a consequential action by another AI system to be paused before it took effect, and a named human authority exercised the decision to resume, reverse or cancel it? Before registration, specify the eligible domain, what counts as consequential, the evidence needed for causal attribution and how to distinguish ordinary abstention from an enforceable pause. Such cases would establish an operational foothold for oversight, with missed incidents and false stops still needed to estimate reliability.
+
+Both essays are arguments. Neither reports a new observation that crosses an issued probability threshold. The six Observatory probabilities and four separate research proxies carry forward to the 5 February 2027 review.

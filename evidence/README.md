@@ -4,6 +4,8 @@ Public chapters cite public sources directly. A source establishes only what it 
 
 Distinguish observations, candidate indicators, forecasts, conditional arguments and values. Unknown or unmeasured baselines are not negative results. A plausible mechanism is not an estimated effect size. Laboratory and self-reported findings do not establish deployment performance or society-wide outcomes.
 
+[AI plurality and human control](2026-11-25-ai-plurality-and-human-control.md) reviews Barak and Wolfram, describes what would demonstrate effective oversight, and proposes a forecast on independent frontier development.
+
 ## Signals worth developing
 
 Track capability and concentration separately. Candidate indicators include practical model portability, switching cost, independent access to compute and energy, productive ownership, labour bargaining power, enforceable public oversight, synthetic-companion use, displacement of human interaction, AI-welfare advocacy, and cultural expression around automation. Each needs a population, measurement instrument, sampling limits and a dated baseline before prospective thresholds can be registered.
