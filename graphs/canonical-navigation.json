@@ -103,7 +103,14 @@
       "label": "AI plurality and human control",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/2026-11-25-ai-plurality-and-human-control.md",
       "kind": "document",
-      "sha256": "1e0e50f6c5bfe0f64b5afda312d3bcb34dcc21e94587d6c2c4442994d1d2addb"
+      "sha256": "575c9f87e61dcda8633ae587ee3030b94b82275fc0efbcdc38d75419807fd4c0"
+    },
+    {
+      "id": "evidence/2026-11-25-frontier-operator-backtest.md",
+      "label": "Backtest of the frontier operator forecast",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/2026-11-25-frontier-operator-backtest.md",
+      "kind": "document",
+      "sha256": "621d7617bd0d1645a5e160c0ea6704b8f8e5d81bd8e22efcb188256e836d1aaa"
     },
     {
       "id": "evidence/2026-11-25-rsi-objections.md",
@@ -117,14 +124,14 @@
       "label": "Manual forecast review queue",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/FORECAST-REVIEWS.md",
       "kind": "document",
-      "sha256": "2804d80f2805626a9c3af03e7d1d4320409447800babeaa4030d55054f0bf1cd"
+      "sha256": "89bdb7e544741cf2127b925e45aed74b16741ee4650130e138db7279161d87b0"
     },
     {
       "id": "evidence/README.md",
       "label": "Evidence and forecasts",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/README.md",
       "kind": "document",
-      "sha256": "9cd46ad1fd66bc64e5b4a681991ded07fcb2ec562fdcc7580aaa97f8701bd0f1"
+      "sha256": "a827f93199378f8aeac03528fe45375c21653082fbeb0c25b459fd5698ac961b"
     },
     {
       "id": "evidence/companions-and-civic-dependence.md",
@@ -915,6 +922,16 @@
     },
     {
       "source": "evidence/2026-11-25-ai-plurality-and-human-control.md",
+      "target": "evidence/2026-11-25-frontier-operator-backtest.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/2026-11-25-ai-plurality-and-human-control.md",
+      "source_lines": [
+        29
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/2026-11-25-ai-plurality-and-human-control.md",
       "target": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
       "relation": "markdown_link",
       "source_file": "evidence/2026-11-25-ai-plurality-and-human-control.md",
@@ -932,6 +949,18 @@
         23
       ],
       "anchors": []
+    },
+    {
+      "source": "evidence/2026-11-25-frontier-operator-backtest.md",
+      "target": "evidence/2026-11-25-ai-plurality-and-human-control.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/2026-11-25-frontier-operator-backtest.md",
+      "source_lines": [
+        33
+      ],
+      "anchors": [
+        "candidate-forecast-for-the-february-2027-review"
+      ]
     },
     {
       "source": "evidence/2026-11-25-rsi-objections.md",
@@ -988,6 +1017,16 @@
     },
     {
       "source": "evidence/FORECAST-REVIEWS.md",
+      "target": "evidence/2026-11-25-frontier-operator-backtest.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/FORECAST-REVIEWS.md",
+      "source_lines": [
+        32
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/FORECAST-REVIEWS.md",
       "target": "evidence/2026-11-25-rsi-objections.md",
       "relation": "markdown_link",
       "source_file": "evidence/FORECAST-REVIEWS.md",
@@ -1022,7 +1061,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        38
+        40
       ],
       "anchors": []
     },
@@ -1032,7 +1071,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        25
+        27
       ],
       "anchors": []
     },
@@ -1042,7 +1081,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        19
+        21
       ],
       "anchors": []
     },
@@ -1052,7 +1091,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        17
+        19
       ],
       "anchors": []
     },
@@ -1068,11 +1107,21 @@
     },
     {
       "source": "evidence/README.md",
+      "target": "evidence/2026-11-25-frontier-operator-backtest.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/README.md",
+      "source_lines": [
+        9
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/README.md",
       "target": "evidence/2026-11-25-rsi-objections.md",
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        21
+        23
       ],
       "anchors": []
     },
@@ -1082,7 +1131,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        15
+        17
       ],
       "anchors": []
     },
@@ -1092,7 +1141,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        15
+        17
       ],
       "anchors": []
     },
@@ -1102,7 +1151,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        38
+        40
       ],
       "anchors": []
     },
@@ -1112,7 +1161,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        38
+        40
       ],
       "anchors": []
     },
