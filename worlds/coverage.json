@@ -81,7 +81,7 @@
       "assurance": "editorial_inventory_only"
     },
     "post-ai/03-SIGNALS.md": {
-      "sha256": "8f9ae149296e101572789276c18cf4ec419e834c1f9836ba1d701618a3fe305f",
+      "sha256": "1f772d4e08e4b293ca68100064d5796f1a6342228e76865a79c2c8c8d0d2ecb2",
       "headings": [
         {
           "level": 1,
@@ -96,12 +96,12 @@
         {
           "level": 2,
           "text": "Preserve three dates",
-          "line": 36
+          "line": 38
         },
         {
           "level": 2,
           "text": "Separate monitoring from forecasting",
-          "line": 40
+          "line": 42
         }
       ],
       "assurance": "editorial_inventory_only"
@@ -1010,7 +1010,7 @@
       "assurance": "editorial_inventory_only"
     },
     "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md": {
-      "sha256": "d80a3d73f689eb1d4838aab779e199a1c10adc061f10a273e28c4e6a769e7658",
+      "sha256": "2a5b1640ebcf5eb722e6308c5a81fab543a8131aed4fc911eb2728479a93f7c2",
       "headings": [
         {
           "level": 1,
@@ -1030,12 +1030,12 @@
         {
           "level": 2,
           "text": "Preserve what makes improvement meaningful",
-          "line": 23
+          "line": 25
         },
         {
           "level": 2,
           "text": "Develop the physical substrate as well \u2014 direction clarified 7 November 2026",
-          "line": 33
+          "line": 35
         }
       ],
       "assurance": "editorial_inventory_only"

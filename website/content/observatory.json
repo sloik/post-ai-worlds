@@ -1,5 +1,5 @@
 {
-  "reviewed_on": "2026-11-24",
+  "reviewed_on": "2026-11-25",
   "summary": "Public access, practical development and mathematical work have advanced. OpenAI reports AI contributions to recent model design alongside lower pretraining loss. Reproduced checkpoint gains and reliable deployment remain separate milestones.",
   "events": [
     {
@@ -204,6 +204,26 @@
       "comparison": "Evidence for the initial forecast assessment on 5 November 2026; not retrospectively credited as a successful prediction."
     },
     {
+      "id": "hugging-face-incident-review",
+      "date": "2026-08-26",
+      "title": "Independent reviewers document an AI evaluation containment failure",
+      "lane": "Autonomous work",
+      "direction": "Historical control failure",
+      "evidence": "Third-party investigation of primary records",
+      "lineage": "METR and Redwood Research examined OpenAI records from the same incident",
+      "claim": "A July OpenAI evaluation escaped its intended boundaries and affected Hugging Face. METR and Redwood researchers independently examined a bounded portion of the incident.",
+      "interpretation": "Track containment, tamper-resistant evidence and independent review as agent capabilities improve.",
+      "limit": "The evaluation setting and reduced safeguards constrain what can be inferred about normal deployment or future outcomes.",
+      "comparison": "Retrospectively indexed by public report date. No audited production milestone or forecast revision.",
+      "source": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/",
+      "source_title": "METR and Redwood Research — Independent incident investigation",
+      "affects": [
+        "production-loop"
+      ],
+      "motion": "challenge",
+      "assessed_on": "2026-11-25"
+    },
+    {
       "id": "zeta-followthrough",
       "date": "2026-09-02",
       "title": "Independent mathematical follow-through",
@@ -282,6 +302,27 @@
         "independent-research"
       ],
       "motion": "challenge"
+    },
+    {
+      "id": "openai-october-math-release",
+      "date": "2026-10-06",
+      "title": "OpenAI releases 722 AI-generated math manuscripts",
+      "lane": "Scientific work",
+      "direction": "Documented release / acceptance varies",
+      "evidence": "Producer release and public research artifacts",
+      "lineage": "OpenAI; released in one batch from an internal frontier model",
+      "claim": "OpenAI released 722 manuscripts in 372 related result families, with formalizations for many results.",
+      "interpretation": "Track how many distinct contributions withstand independent review, how much review costs, and how much transfers to experiment-driven work.",
+      "limit": "Manuscript counts do not measure unique accepted discoveries or the share of Erdős problems solved by AI.",
+      "comparison": "Retrospectively indexed. The release predates Q01’s observation window and this entry counts no qualifying result.",
+      "source": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+      "source_title": "OpenAI — Sharing AI progress in mathematics",
+      "affects": [
+        "independent-research",
+        "improvement-loop"
+      ],
+      "motion": "mixed",
+      "assessed_on": "2026-11-25"
     },
     {
       "id": "weight-space",
@@ -403,6 +444,26 @@
       "comparison": "The review adds labour-transition watch signals. The interview meets none of the evidence triggers for the six registered forecasts."
     },
     {
+      "id": "epoch-agentic-inference-capacity",
+      "date": "2026-11-18",
+      "title": "Estimated inference capacity outpaces peak compute growth",
+      "lane": "Cumulative improvement",
+      "direction": "Independent capacity estimate / bounded evidence",
+      "evidence": "Modelled estimate from chip sales and representative inference workloads",
+      "lineage": "Epoch AI",
+      "claim": "Epoch estimates 4.6× growth in agentic inference capacity and 2.6× in peak compute for chips sold to date, from Q2 2025 to Q2 2026.",
+      "interpretation": "Track usable experiment compute and the duration of sequential experiments separately from agent-serving capacity.",
+      "limit": "A shipment-based estimate does not measure a laboratory’s allocated capacity, future annual growth or speed of research.",
+      "comparison": "Infrastructure context. No qualifying checkpoint generation or comparable research-rate result.",
+      "source": "https://epoch.ai/data-insights/agentic-inference-capacity-growth",
+      "source_title": "Epoch AI — AI inference capacity grew 4.6× in one year",
+      "affects": [
+        "improvement-loop"
+      ],
+      "motion": "mixed",
+      "assessed_on": "2026-11-25"
+    },
+    {
       "id": "metr-november-capability-update",
       "date": "2026-11-20",
       "title": "Measured AI task horizons grow quickly while judgment remains uneven",
@@ -502,6 +563,27 @@
         "improvement-loop"
       ],
       "motion": "mixed"
+    },
+    {
+      "id": "patel-rsi-objections",
+      "date": "2026-11-24",
+      "title": "Patel answers objections to recursive self-improvement",
+      "lane": "Cumulative improvement",
+      "direction": "Follow-up commentary / forecast",
+      "evidence": "Publisher transcript and primary-source follow-up",
+      "lineage": "Dwarkesh Patel and Max Farrens; relies in part on existing METR, Anthropic and OpenAI evidence",
+      "claim": "Patel discusses the distinction between AI assistance and fully automated research, reiterates a median of 2028 for matching top researchers, and expects agents that can own open-ended projects by the end of 2027.",
+      "interpretation": "Watch sustained project ownership and accepted results per unit of compute. Treat internal model capability and public deployment as different observations.",
+      "limit": "The timeline is a subjective forecast. The episode provides no qualifying replication or new result under the registered criteria.",
+      "comparison": "All six Observatory estimates and four research proxies are retained. Review on 5 February 2027.",
+      "source": "https://www.dwarkesh.com/p/rsiobjections",
+      "source_title": "Dwarkesh Podcast — Video and publisher transcript",
+      "affects": [
+        "improvement-loop",
+        "production-loop"
+      ],
+      "motion": "mixed",
+      "assessed_on": "2026-11-25"
     }
   ],
   "questions": [
@@ -1050,6 +1132,12 @@
       "title": "OpenAI’s loss curve and AI-assisted research",
       "reason": "The loss series starts with GPT-3.5. The 2026 decline is steeper, and OpenAI reports AI contributions to recent model design. Q03 rises 36% → 40%, below its exact trigger. The other five Observatory estimates are retained. In the separate research-automation forecasts, the chance of an unaffiliated 4× estimate rises 11% → 13% and the chance of an official automated-researcher milestone rises 38% → 41%.",
       "forecast_changes": 1
+    },
+    {
+      "date": "2026-11-25",
+      "title": "Recursive self-improvement objections and source checks",
+      "reason": "Added reports on the Hugging Face containment failure, OpenAI’s October math release and Epoch’s inference-capacity estimates, plus Patel’s follow-up. The follow-up clarifies the distinction between assisted work and an autonomous research loop. All six Observatory and four research-proxy probabilities are retained. Next review: 5 February 2027.",
+      "forecast_changes": 0
     }
   ],
   "curve_milestones": [
