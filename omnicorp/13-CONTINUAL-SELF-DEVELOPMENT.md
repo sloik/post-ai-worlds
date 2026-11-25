@@ -20,6 +20,8 @@ Improved behaviour need not reduce model size or hardware requirements. Several 
 
 OpenAI reports that recent AI systems contributed to model design, alongside a steeper fall in held-out code loss that it attributes mostly to earlier research and compute investment. For a bounded Omnicorp experiment, record who proposed a change, wall-clock and compute per accepted improvement, reproducibility and regressions. Compare against the current baseline and distinguish harness changes from new checkpoints. Keep human decisions and rollback explicit for consequential changes. [November 2026 evidence review](../evidence/2026-11-24-openai-pretraining-loss.md)
 
+For recurring work, time the stages that determine delivery: active work, experiment queues, human decisions, independent verification and rework. Compare accepted improvements per week and per compute budget against the current workflow. Test whether an agent needs less help on an unfamiliar follow-on task after days or weeks. These measurements distinguish better session tools from skill transfer and locate the next bottleneck. [November RSI objections review](../evidence/2026-11-25-rsi-objections.md)
+
 ## Preserve what makes improvement meaningful
 
 Retain parent versions, proposed changes, evaluation identities and rollback. A member should not be able to improve its apparent score by changing the test, authority rules or canonical record. Independent review should examine whether gains survive unfamiliar tasks and repeated cycles.

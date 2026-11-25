@@ -16,6 +16,8 @@ The [November 2026 labour-transition assessment](2026-11-24-tao-lin-labour-trans
 
 The [November 2026 pretraining-loss assessment](2026-11-24-openai-pretraining-loss.md) retains OpenAI’s model-by-model chart values, examines the evidence of AI contributions to successor models, and records three probability revisions.
 
+The [recursive self-improvement follow-up](2026-11-25-rsi-objections.md) checks the claims about research automation, math, compute and oversight, and records the review of all ten forecasts.
+
 ## Forecast discipline
 
 Prediction submissions must meet the [superforecasting-style contribution standard](../docs/forecasting-guide.md). Prefer our public skill/tool; equivalent manual analysis is accepted. Numerical belief, resolution terms, outside-view rationale, clashing cases, dependence disclosure and update/scoring plans are required. TLA+ verification is encouraged but optional, and its absence is never an acceptance blocker. Question-design ideas without odds remain ideas.

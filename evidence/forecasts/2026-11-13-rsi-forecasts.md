@@ -75,4 +75,8 @@ Review these with the registered questions on 5 February 2027.
 
 F1 receives about 1.21× on odds for a second lab’s acceleration signal, with a discount for the difference in metric and lack of unaffiliated attribution. F3 receives about 1.13× on odds for reported design contributions and growing autonomous success on bounded tasks. The two OpenAI reports share lineage. No comparable Anthropic index update or acceptance of OpenAI’s proof appears in this evidence. Criteria, deadlines and the initial ensemble estimates above continue to govern the records. [Evidence and sensitivity](../2026-11-24-openai-pretraining-loss.md#forecast-review)
 
+## 25 November 2026 review
+
+F1 stays at 13%, F2 at 39%, F3 at 41% and F4 at 10%. Patel’s follow-up gives an outside timeline and revisits existing lab data. It supplies no qualifying 4× estimate, comparable index update, official milestone or proof acceptance. The 5 February review will look for those observations. [Claim checks and Observatory review](../2026-11-25-rsi-objections.md#forecast-review)
+
 [Forecast review queue](../FORECAST-REVIEWS.md) · [Forecasting guide](../../docs/forecasting-guide.md)

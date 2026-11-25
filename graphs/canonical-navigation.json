@@ -99,18 +99,25 @@
       "sha256": "fac93fba5de6732aa71b15d28591bc2a8a919066ae32809785c41dd1f37cd4d5"
     },
     {
+      "id": "evidence/2026-11-25-rsi-objections.md",
+      "label": "What the objections to recursive self-improvement change",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/2026-11-25-rsi-objections.md",
+      "kind": "document",
+      "sha256": "7015eabccede4385c1c5e281ec50b6d5d6069597f909e15f27f6da04a9f36da2"
+    },
+    {
       "id": "evidence/FORECAST-REVIEWS.md",
       "label": "Manual forecast review queue",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/FORECAST-REVIEWS.md",
       "kind": "document",
-      "sha256": "fb25dbb979f6ece74f1250cde49dd4ea84bf541b2e0d6e44020c6e330d2bcf9c"
+      "sha256": "86a27f9092ffb62a24b63405737822beb5dfb0f8241cf30fa69b00171b8130f0"
     },
     {
       "id": "evidence/README.md",
       "label": "Evidence and forecasts",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/README.md",
       "kind": "document",
-      "sha256": "ac8a4c843fd693e190eba65e31ae035f408e19e38108ecd51e2e06b245dbd7a8"
+      "sha256": "d6a5a28d63904830a3b444655b86c84e2e32c4c89f847f1c97d88ef9436e09a4"
     },
     {
       "id": "evidence/companions-and-civic-dependence.md",
@@ -124,7 +131,7 @@
       "label": "Forecasts issued 13 November 2026: research-automation claims",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/forecasts/2026-11-13-rsi-forecasts.md",
       "kind": "document",
-      "sha256": "b1403a3faf3d085711f6d552b9f90af8c3d89b027ca6f14beec10ac7f858e3f6"
+      "sha256": "05be11178acdb6ff6cc69a27444fb3d9e530485d7ffa7a8bc7d077f98998d4a5"
     },
     {
       "id": "evidence/forecasts/2026-11-21-ai-only-operations.md",
@@ -243,7 +250,7 @@
       "label": "Continual development as the cornerstone",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
       "kind": "document",
-      "sha256": "d80a3d73f689eb1d4838aab779e199a1c10adc061f10a273e28c4e6a769e7658"
+      "sha256": "2a5b1640ebcf5eb722e6308c5a81fab543a8131aed4fc911eb2728479a93f7c2"
     },
     {
       "id": "omnicorp/14-EVIDENCE-AND-FORECASTS.md",
@@ -320,7 +327,7 @@
       "label": "Signals: deciding what would change our minds",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/03-SIGNALS.md",
       "kind": "document",
-      "sha256": "8f9ae149296e101572789276c18cf4ec419e834c1f9836ba1d701618a3fe305f"
+      "sha256": "1f772d4e08e4b293ca68100064d5796f1a6342228e76865a79c2c8c8d0d2ecb2"
     },
     {
       "id": "post-ai/04-PUBLIC-SCENARIOS-AND-RESOURCE-ECONOMICS.md",
@@ -900,6 +907,26 @@
       "anchors": []
     },
     {
+      "source": "evidence/2026-11-25-rsi-objections.md",
+      "target": "evidence/FORECAST-REVIEWS.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/2026-11-25-rsi-objections.md",
+      "source_lines": [
+        39
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/2026-11-25-rsi-objections.md",
+      "target": "evidence/forecasts/2026-11-13-rsi-forecasts.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/2026-11-25-rsi-objections.md",
+      "source_lines": [
+        39
+      ],
+      "anchors": []
+    },
+    {
       "source": "evidence/FORECAST-REVIEWS.md",
       "target": "evidence/2026-11-24-openai-pretraining-loss.md",
       "relation": "markdown_link",
@@ -921,6 +948,16 @@
       "anchors": [
         "what-independent-sources-validate"
       ]
+    },
+    {
+      "source": "evidence/FORECAST-REVIEWS.md",
+      "target": "evidence/2026-11-25-rsi-objections.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/FORECAST-REVIEWS.md",
+      "source_lines": [
+        28
+      ],
+      "anchors": []
     },
     {
       "source": "evidence/FORECAST-REVIEWS.md",
@@ -948,7 +985,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        34
+        36
       ],
       "anchors": []
     },
@@ -958,7 +995,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        21
+        23
       ],
       "anchors": []
     },
@@ -979,6 +1016,16 @@
       "source_file": "evidence/README.md",
       "source_lines": [
         15
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/README.md",
+      "target": "evidence/2026-11-25-rsi-objections.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/README.md",
+      "source_lines": [
+        19
       ],
       "anchors": []
     },
@@ -1008,7 +1055,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        34
+        36
       ],
       "anchors": []
     },
@@ -1018,7 +1065,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        34
+        36
       ],
       "anchors": []
     },
@@ -1079,7 +1126,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/forecasts/2026-11-13-rsi-forecasts.md",
       "source_lines": [
-        78
+        82
       ],
       "anchors": []
     },
@@ -1097,11 +1144,23 @@
     },
     {
       "source": "evidence/forecasts/2026-11-13-rsi-forecasts.md",
+      "target": "evidence/2026-11-25-rsi-objections.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/forecasts/2026-11-13-rsi-forecasts.md",
+      "source_lines": [
+        80
+      ],
+      "anchors": [
+        "forecast-review"
+      ]
+    },
+    {
+      "source": "evidence/forecasts/2026-11-13-rsi-forecasts.md",
       "target": "evidence/FORECAST-REVIEWS.md",
       "relation": "markdown_link",
       "source_file": "evidence/forecasts/2026-11-13-rsi-forecasts.md",
       "source_lines": [
-        78
+        82
       ],
       "anchors": []
     },
@@ -1423,11 +1482,21 @@
     },
     {
       "source": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
+      "target": "evidence/2026-11-25-rsi-objections.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
+      "source_lines": [
+        23
+      ],
+      "anchors": []
+    },
+    {
+      "source": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
       "target": "omnicorp/05-REAL-WORLD-PRODUCTION.md",
       "relation": "markdown_link",
       "source_file": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
       "source_lines": [
-        43
+        45
       ],
       "anchors": [
         "computing-hardware-as-a-productive-capability"
@@ -1439,7 +1508,7 @@
       "relation": "markdown_link",
       "source_file": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
       "source_lines": [
-        43
+        45
       ],
       "anchors": [
         "hardware-development-path"
@@ -1451,7 +1520,7 @@
       "relation": "markdown_link",
       "source_file": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
       "source_lines": [
-        31
+        33
       ],
       "anchors": []
     },
@@ -1887,7 +1956,7 @@
       "relation": "markdown_link",
       "source_file": "post-ai/03-SIGNALS.md",
       "source_lines": [
-        28
+        30
       ],
       "anchors": []
     },
@@ -1897,7 +1966,17 @@
       "relation": "markdown_link",
       "source_file": "post-ai/03-SIGNALS.md",
       "source_lines": [
-        32
+        34
+      ],
+      "anchors": []
+    },
+    {
+      "source": "post-ai/03-SIGNALS.md",
+      "target": "evidence/2026-11-25-rsi-objections.md",
+      "relation": "markdown_link",
+      "source_file": "post-ai/03-SIGNALS.md",
+      "source_lines": [
+        28
       ],
       "anchors": []
     },
