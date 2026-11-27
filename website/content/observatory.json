@@ -1,6 +1,6 @@
 {
   "reviewed_on": "2026-11-27",
-  "summary": "Public access, practical development and mathematical work have advanced. OpenAI reports AI contributions to recent model design alongside lower pretraining loss. Reproduced checkpoint gains and reliable deployment remain separate milestones.",
+  "summary": "Independent checks now support Alpöge’s formal Riemann proof. The research forecast also requires AI-origin provenance and a second domain. Track research ownership, replicated checkpoint gains and deployed work as separate milestones.",
   "events": [
     {
       "id": "chatgpt",
@@ -683,6 +683,46 @@
         "physical-component"
       ],
       "motion": "mixed"
+    },
+    {
+      "id": "riemann-proof-independent-checks",
+      "date": "2026-11-25",
+      "assessed_on": "2026-11-27",
+      "title": "Independent checks accept Alpöge’s Lean proof",
+      "lane": "Scientific work",
+      "direction": "Independent verification of a previously reported result",
+      "evidence": "Public Comparator and kernel logs, supported by a separate LUMI build and replay",
+      "lineage": "One Alpöge/Claude proof, checked by independent teams using multiple kernels",
+      "claim": "The 25 November Comparator run matched the submitted proof to its formal challenge and checked the axioms. Independent kernels also accepted the full export.",
+      "interpretation": "The checks strengthen the correctness evidence for the formal Riemann and Dirichlet L-function statements.",
+      "limit": "The public proof artifacts do not establish that Claude supplied the decisive mechanism independently of the human brief. The checks cover the same mathematical result lineage.",
+      "comparison": "Q01 rises from 70% to 72% on new independent correctness evidence. Its full up-trigger and resolution criteria require additional provenance and a separate research domain.",
+      "source": "https://math.mit.edu/~drew/grh/",
+      "source_title": "Andrew Sutherland — RH Lean proof verification files",
+      "affects": [
+        "independent-research"
+      ],
+      "motion": "support"
+    },
+    {
+      "id": "erdil-kokotajlo-takeoff",
+      "date": "2026-11-27",
+      "assessed_on": "2026-11-27",
+      "title": "Erdil and Kokotajlo disagree on the pace of AI takeoff",
+      "lane": "Cumulative improvement",
+      "direction": "Competing timelines and proposed evidence for research automation",
+      "evidence": "Primary interview, checked against independent assessments and producer reports",
+      "lineage": "Erdil and Kokotajlo in the same interview. Several underlying lab measurements were already recorded.",
+      "claim": "Erdil puts a software-only explosion in the next three years at roughly 10–20%. Kokotajlo expects full AI research automation in 2027 at slightly better than even odds absent substantial slowdown.",
+      "interpretation": "Watch for ownership of whole research projects, independent replication at a fixed experiment budget, and improvements across checkpoints. Measure physical transfer in sustained operation.",
+      "limit": "The guests give judgments about different endpoints. The episode supplies no new qualifying checkpoint series or measured whole-lab substitution.",
+      "comparison": "Q03 stays at 40% and the official automated-researcher proxy at 41%.",
+      "source": "https://www.dwarkesh.com/p/daniel-kokotajlo-ege-erdil",
+      "source_title": "Dwarkesh Patel — Ege Erdil and Daniel Kokotajlo",
+      "affects": [
+        "improvement-loop"
+      ],
+      "motion": "mixed"
     }
   ],
   "questions": [
@@ -699,7 +739,7 @@
       "resolver": "Public papers, released provenance and independent validation records. Ambiguous provenance leaves the case unqualified; no public qualifying record by the deadline resolves NO. Only records first published within the stated prospective observation window count.",
       "window_start": "2026-11-06",
       "criteria_version": "1.0",
-      "prob": 0.7,
+      "prob": 0.72,
       "issued_on": "2026-11-05",
       "forecaster": "Argo / research-team synthesis",
       "prior": 0.5,
@@ -769,6 +809,11 @@
           "date": "2026-11-21",
           "prob": 0.7,
           "reason": "Revised at the maintainer's direction after the claimed Riemann Hypothesis proof of 20 November 2026. The claim does not qualify and the up-trigger is not met, so the full multiplier of 2.0 was not applied. A partial multiplier of about 1.25 on the odds reflects stronger evidence that frontier models can supply decisive steps in major research, discounted because the claim is unverified, shares one laboratory lineage with the same week's other results, and has no released provenance. Single-forecaster update; the two initial views were not re-elicited. A failed Comparator run, a statement mismatch or a confirmed error would reverse it."
+        },
+        {
+          "date": "2026-11-27",
+          "prob": 0.72,
+          "reason": "Independent Comparator and kernel checks strengthen correctness for Alpöge’s formal result. A single forecaster applied a subjective 1.12× multiplier on prior odds, below the full trigger. The case still lacks qualifying AI-origin provenance and a separate validated research domain."
         }
       ],
       "forecast_id": 1,
@@ -1274,6 +1319,12 @@
       "title": "Prometheus, factory processes and robotics",
       "reason": "Prometheus reports design examples and a Blue Origin private alpha. The foundry lead-time example is hypothetical. Separately, Condals reported early scrap results and BMW reported parts handled on a live line. The existing forecasts retain their probabilities. A draft asks whether two foundries under different control will publish auditable, sustained scrap reductions by the end of 2029.",
       "forecast_changes": 0
+    },
+    {
+      "date": "2026-11-27",
+      "title": "The AI takeoff debate and independent verification of the Riemann proof",
+      "reason": "The debate raises testable questions about transfer and verification, with no new checkpoint sequence. Independent checks of Alpöge’s formal proof now pass. Q01 rises from 70% to 72% and remains open. Review the evidence of who supplied the decisive mechanism, any qualifying second domain, and fixed-budget replications on 5 February 2027.",
+      "forecast_changes": 1
     }
   ],
   "curve_milestones": [

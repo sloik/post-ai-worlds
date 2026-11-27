@@ -12,6 +12,8 @@ Distinguish observations, candidate indicators, forecasts, conditional arguments
 
 [Prometheus, foundry optimisation and production robotics](2026-11-27-prometheus-physical-ai.md) checks the named trial and casting example against real production cases and proposes a forecast on sustained scrap reduction.
 
+[Erdil and Kokotajlo on takeoff](2026-11-27-erdil-kokotajlo-takeoff.md) checks the competing timelines, research verification costs and physical transfer claims. It follows independent checks of the Alpöge proof and records the Q01 revision.
+
 ## Signals worth developing
 
 Track capability and concentration separately. Candidate indicators include practical model portability, switching cost, independent access to compute and energy, productive ownership, labour bargaining power, enforceable public oversight, synthetic-companion use, displacement of human interaction, AI-welfare advocacy, and cultural expression around automation. Each needs a population, measurement instrument, sampling limits and a dated baseline before prospective thresholds can be registered.

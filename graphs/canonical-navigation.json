@@ -127,6 +127,13 @@
       "sha256": "7015eabccede4385c1c5e281ec50b6d5d6069597f909e15f27f6da04a9f36da2"
     },
     {
+      "id": "evidence/2026-11-27-erdil-kokotajlo-takeoff.md",
+      "label": "What would turn faster AI research into a fast takeoff?",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/2026-11-27-erdil-kokotajlo-takeoff.md",
+      "kind": "document",
+      "sha256": "658d4480743d1ddb33e6713bce40b6d4754fa95819bbcd261aeda05d4924d52b"
+    },
+    {
       "id": "evidence/2026-11-27-prometheus-physical-ai.md",
       "label": "Prometheus, foundry optimisation and production robotics",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/2026-11-27-prometheus-physical-ai.md",
@@ -138,14 +145,14 @@
       "label": "Manual forecast review queue",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/FORECAST-REVIEWS.md",
       "kind": "document",
-      "sha256": "7e71135292bc690d60272a10ce64006de4f69f095d86c2410015c5cf6fae85d0"
+      "sha256": "aed3510ac2d7383d336571a5d3c0d8409a1eecf5b73187bf11f420b5588defbd"
     },
     {
       "id": "evidence/README.md",
       "label": "Evidence and forecasts",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/README.md",
       "kind": "document",
-      "sha256": "a2d7cb002dad689e3fb8df5edca285211c92f2b334a756dd66b99dbe6cc3f7cd"
+      "sha256": "a5b5b2a981b2b9077896abce40c6a54c911886d456ff34b11b599c23698ee7fd"
     },
     {
       "id": "evidence/companions-and-civic-dependence.md",
@@ -159,7 +166,7 @@
       "label": "Forecasts issued 13 November 2026: research-automation claims",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/forecasts/2026-11-13-rsi-forecasts.md",
       "kind": "document",
-      "sha256": "05be11178acdb6ff6cc69a27444fb3d9e530485d7ffa7a8bc7d077f98998d4a5"
+      "sha256": "cba40a44bcb3ae242d05cf7e23cc9636546ac203a6f6d02ed60a02759a26d165"
     },
     {
       "id": "evidence/forecasts/2026-11-21-ai-only-operations.md",
@@ -278,14 +285,14 @@
       "label": "Continual development as the cornerstone",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
       "kind": "document",
-      "sha256": "73af266bb996c3fe68532e1b00e7749432ea01a54f938acc4e4c5d827314fee3"
+      "sha256": "1b3b6dcfcbfd56051c6ce8a169c5e5f60cfe504a237cd1d44c3ae2199f64c3f4"
     },
     {
       "id": "omnicorp/14-EVIDENCE-AND-FORECASTS.md",
       "label": "Evidence and forecasts",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/14-EVIDENCE-AND-FORECASTS.md",
       "kind": "document",
-      "sha256": "5da4a0165dc773bcd4311d292a3f41f53e17f982b9eb856b0666477cfa9e3660"
+      "sha256": "89b7731d6a84cbb6df020d818a51c7c6afa77428c89a755d6f11f65e14bc2c91"
     },
     {
       "id": "omnicorp/15-CULTURE-INTIMACY-AND-POWER.md",
@@ -355,7 +362,7 @@
       "label": "Signals: deciding what would change our minds",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/03-SIGNALS.md",
       "kind": "document",
-      "sha256": "403bf32e6b760dea663cc44b198191f3f780161c4bde54408e42a517cf0357f4"
+      "sha256": "17dc2ce39e7bc6f0974e2c96a9b600b480dd3326357ca1bd6253f246603465b8"
     },
     {
       "id": "post-ai/04-PUBLIC-SCENARIOS-AND-RESOURCE-ECONOMICS.md",
@@ -1007,6 +1014,46 @@
       "anchors": []
     },
     {
+      "source": "evidence/2026-11-27-erdil-kokotajlo-takeoff.md",
+      "target": "evidence/FORECAST-REVIEWS.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/2026-11-27-erdil-kokotajlo-takeoff.md",
+      "source_lines": [
+        37
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/2026-11-27-erdil-kokotajlo-takeoff.md",
+      "target": "evidence/forecasts/2026-11-13-rsi-forecasts.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/2026-11-27-erdil-kokotajlo-takeoff.md",
+      "source_lines": [
+        41
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/2026-11-27-erdil-kokotajlo-takeoff.md",
+      "target": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/2026-11-27-erdil-kokotajlo-takeoff.md",
+      "source_lines": [
+        43
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/2026-11-27-erdil-kokotajlo-takeoff.md",
+      "target": "post-ai/03-SIGNALS.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/2026-11-27-erdil-kokotajlo-takeoff.md",
+      "source_lines": [
+        43
+      ],
+      "anchors": []
+    },
+    {
       "source": "evidence/FORECAST-REVIEWS.md",
       "target": "evidence/2026-11-24-openai-pretraining-loss.md",
       "relation": "markdown_link",
@@ -1073,6 +1120,18 @@
     },
     {
       "source": "evidence/FORECAST-REVIEWS.md",
+      "target": "evidence/2026-11-27-erdil-kokotajlo-takeoff.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/FORECAST-REVIEWS.md",
+      "source_lines": [
+        38
+      ],
+      "anchors": [
+        "forecast-review"
+      ]
+    },
+    {
+      "source": "evidence/FORECAST-REVIEWS.md",
       "target": "evidence/2026-11-27-prometheus-physical-ai.md",
       "relation": "markdown_link",
       "source_file": "evidence/FORECAST-REVIEWS.md",
@@ -1109,7 +1168,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        44
+        46
       ],
       "anchors": []
     },
@@ -1119,7 +1178,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        31
+        33
       ],
       "anchors": []
     },
@@ -1129,7 +1188,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        25
+        27
       ],
       "anchors": []
     },
@@ -1139,7 +1198,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        23
+        25
       ],
       "anchors": []
     },
@@ -1179,7 +1238,17 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        27
+        29
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/README.md",
+      "target": "evidence/2026-11-27-erdil-kokotajlo-takeoff.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/README.md",
+      "source_lines": [
+        15
       ],
       "anchors": []
     },
@@ -1199,7 +1268,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        21
+        23
       ],
       "anchors": []
     },
@@ -1209,7 +1278,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        21
+        23
       ],
       "anchors": []
     },
@@ -1219,7 +1288,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        44
+        46
       ],
       "anchors": []
     },
@@ -1229,7 +1298,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        44
+        46
       ],
       "anchors": []
     },
@@ -1290,7 +1359,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/forecasts/2026-11-13-rsi-forecasts.md",
       "source_lines": [
-        82
+        86
       ],
       "anchors": []
     },
@@ -1320,11 +1389,23 @@
     },
     {
       "source": "evidence/forecasts/2026-11-13-rsi-forecasts.md",
+      "target": "evidence/2026-11-27-erdil-kokotajlo-takeoff.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/forecasts/2026-11-13-rsi-forecasts.md",
+      "source_lines": [
+        84
+      ],
+      "anchors": [
+        "forecast-review"
+      ]
+    },
+    {
+      "source": "evidence/forecasts/2026-11-13-rsi-forecasts.md",
       "target": "evidence/FORECAST-REVIEWS.md",
       "relation": "markdown_link",
       "source_file": "evidence/forecasts/2026-11-13-rsi-forecasts.md",
       "source_lines": [
-        82
+        86
       ],
       "anchors": []
     },
@@ -1662,7 +1743,7 @@
       "relation": "markdown_link",
       "source_file": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
       "source_lines": [
-        35
+        37
       ],
       "anchors": []
     },
@@ -1672,7 +1753,7 @@
       "relation": "markdown_link",
       "source_file": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
       "source_lines": [
-        49
+        51
       ],
       "anchors": []
     },
@@ -1688,11 +1769,23 @@
     },
     {
       "source": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
+      "target": "evidence/2026-11-27-erdil-kokotajlo-takeoff.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
+      "source_lines": [
+        25
+      ],
+      "anchors": [
+        "follow-up-on-5-february-2027"
+      ]
+    },
+    {
+      "source": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
       "target": "omnicorp/05-REAL-WORLD-PRODUCTION.md",
       "relation": "markdown_link",
       "source_file": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
       "source_lines": [
-        47
+        49
       ],
       "anchors": [
         "computing-hardware-as-a-productive-capability"
@@ -1704,7 +1797,7 @@
       "relation": "markdown_link",
       "source_file": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
       "source_lines": [
-        47
+        49
       ],
       "anchors": [
         "hardware-development-path"
@@ -1716,7 +1809,7 @@
       "relation": "markdown_link",
       "source_file": "omnicorp/13-CONTINUAL-SELF-DEVELOPMENT.md",
       "source_lines": [
-        33
+        35
       ],
       "anchors": []
     },
@@ -1729,6 +1822,18 @@
         15
       ],
       "anchors": []
+    },
+    {
+      "source": "omnicorp/14-EVIDENCE-AND-FORECASTS.md",
+      "target": "evidence/2026-11-27-erdil-kokotajlo-takeoff.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/14-EVIDENCE-AND-FORECASTS.md",
+      "source_lines": [
+        13
+      ],
+      "anchors": [
+        "forecast-review"
+      ]
     },
     {
       "source": "omnicorp/14-EVIDENCE-AND-FORECASTS.md",
@@ -2152,7 +2257,7 @@
       "relation": "markdown_link",
       "source_file": "post-ai/03-SIGNALS.md",
       "source_lines": [
-        30
+        32
       ],
       "anchors": []
     },
@@ -2162,7 +2267,7 @@
       "relation": "markdown_link",
       "source_file": "post-ai/03-SIGNALS.md",
       "source_lines": [
-        34
+        36
       ],
       "anchors": []
     },
@@ -2172,7 +2277,7 @@
       "relation": "markdown_link",
       "source_file": "post-ai/03-SIGNALS.md",
       "source_lines": [
-        38
+        40
       ],
       "anchors": []
     },
@@ -2182,13 +2287,23 @@
       "relation": "markdown_link",
       "source_file": "post-ai/03-SIGNALS.md",
       "source_lines": [
-        40
+        42
       ],
       "anchors": []
     },
     {
       "source": "post-ai/03-SIGNALS.md",
       "target": "evidence/2026-11-25-rsi-objections.md",
+      "relation": "markdown_link",
+      "source_file": "post-ai/03-SIGNALS.md",
+      "source_lines": [
+        30
+      ],
+      "anchors": []
+    },
+    {
+      "source": "post-ai/03-SIGNALS.md",
+      "target": "evidence/2026-11-27-erdil-kokotajlo-takeoff.md",
       "relation": "markdown_link",
       "source_file": "post-ai/03-SIGNALS.md",
       "source_lines": [
