@@ -22,6 +22,8 @@ OpenAI reports that recent AI systems contributed to model design, alongside a s
 
 For recurring work, time the stages that determine delivery: active work, experiment queues, human decisions, independent verification and rework. Compare accepted improvements per week and per compute budget against the current workflow. Test whether an agent needs less help on an unfamiliar follow-on task after days or weeks. These measurements distinguish better session tools from skill transfer and locate the next bottleneck. [November RSI objections review](../evidence/2026-11-25-rsi-objections.md)
 
+When a cheap screening task stands in for a larger experiment, compare its decisions with independent acceptance at the target scale. Record rejected proposals sampled for follow-up as well as accepted ones, so the organisation can see both missed gains and screen results that fail to transfer. Fold that review cost into accepted improvements per accelerator-hour and per week. The team that proposes changes should have neither final acceptance authority nor control of the comparison baseline. [Takeoff debate follow-up](../evidence/2026-11-27-erdil-kokotajlo-takeoff.md#follow-up-on-5-february-2027)
+
 ## Preserve what makes improvement meaningful
 
 Retain parent versions, proposed changes, evaluation identities and rollback. A member should not be able to improve its apparent score by changing the test, authority rules or canonical record. Independent review should examine whether gains survive unfamiliar tasks and repeated cycles.

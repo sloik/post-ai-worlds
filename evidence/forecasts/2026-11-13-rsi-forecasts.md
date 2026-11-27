@@ -79,4 +79,8 @@ F1 receives about 1.21× on odds for a second lab’s acceleration signal, with 
 
 F1 stays at 13%, F2 at 39%, F3 at 41% and F4 at 10%. Patel’s follow-up gives an outside timeline and revisits existing lab data. It supplies no qualifying 4× estimate, comparable index update, official milestone or proof acceptance. The 5 February review will look for those observations. [Claim checks and Observatory review](../2026-11-25-rsi-objections.md#forecast-review)
 
+## 27 November 2026 review
+
+F1, F2, F3 and F4 remain at 13%, 39%, 41% and 10%. Kokotajlo’s conditional end-to-end R&D timeline supplies no qualifying company declaration. The independent checks of Alpöge’s Riemann result concern a different subject from F4. Keep the February review date and follow the issued resolvers. [Erdil and Kokotajlo claim checks](../2026-11-27-erdil-kokotajlo-takeoff.md#forecast-review)
+
 [Forecast review queue](../FORECAST-REVIEWS.md) · [Forecasting guide](../../docs/forecasting-guide.md)
