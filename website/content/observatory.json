@@ -1,5 +1,5 @@
 {
-  "reviewed_on": "2026-11-25",
+  "reviewed_on": "2026-11-27",
   "summary": "Public access, practical development and mathematical work have advanced. OpenAI reports AI contributions to recent model design alongside lower pretraining loss. Reproduced checkpoint gains and reliable deployment remain separate milestones.",
   "events": [
     {
@@ -663,6 +663,26 @@
       ],
       "motion": "mixed",
       "assessed_on": "2026-11-25"
+    },
+    {
+      "id": "prometheus-physical-ai",
+      "date": "2026-11-17",
+      "assessed_on": "2026-11-27",
+      "title": "Prometheus reports engineering speed and tests at Blue Origin",
+      "lane": "Physical work",
+      "direction": "Engineering design and process optimisation",
+      "evidence": "Founder interview, compared with separately reported production cases",
+      "lineage": "Prometheus founders. Blue Origin is a Bezos-linked alpha user. Condals and BMW are separate cases.",
+      "claim": "Prometheus uses learned simulation surrogates and reports 12-hour engineering design examples. Bezos names Blue Origin as a private alpha user on two undisclosed projects. Casting is used to illustrate a potential process improvement.",
+      "interpretation": "Measure design time, accepted production output and robot operations separately. A bounded plant bottleneck can be measured against scrap, throughput and delivery baselines.",
+      "limit": "The interview gives no comparable design baseline, finished casting outcome, robot deployment results or named component qualification.",
+      "comparison": "Q02 remains 74% and the other nine probabilities carry forward. The evidence review proposes a separate 40% draft forecast on documented, sustained scrap reduction at two independently controlled foundries.",
+      "source": "https://www.youtube.com/watch?v=1Z3ro4ocj-Y&t=304s",
+      "source_title": "Semafor — Jeff Bezos and Vik Bajaj on Compound Interest",
+      "affects": [
+        "physical-component"
+      ],
+      "motion": "mixed"
     }
   ],
   "questions": [
@@ -1248,6 +1268,12 @@
       "title": "Frostbite and physical component qualification",
       "reason": "Frostbite adds an AI-led pre-silicon design case. The separate OpenAI report links model-proposed circuit changes to Jalapeño bring-up and reports an AMD manufacturing handoff. The combined evidence raises Q02 from 72% to 74%. It leaves public decisive-selection provenance and intended-use acceptance unresolved. The other nine probabilities carry forward.",
       "forecast_changes": 1
+    },
+    {
+      "date": "2026-11-27",
+      "title": "Prometheus, factory processes and robotics",
+      "reason": "Prometheus reports design examples and a Blue Origin private alpha. The foundry lead-time example is hypothetical. Separately, Condals reported early scrap results and BMW reported parts handled on a live line. The existing forecasts retain their probabilities. A draft asks whether two foundries under different control will publish auditable, sustained scrap reductions by the end of 2029.",
+      "forecast_changes": 0
     }
   ],
   "curve_milestones": [

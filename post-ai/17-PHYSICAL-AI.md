@@ -14,6 +14,10 @@ Observation (producer self-report, 9 November 2026): Anthropic reports that Clau
 
 If the result generalises, the scarce step in bounded electronics shifts from drafting a board to establishing that it is safe, compliant and durable in its intended use. A working prototype on a bench is the first of the three claims this chapter separates, not the second or third.
 
+## Process gains and robot deployment
+
+Prometheus reports rapid engineering design examples and a private alpha at Blue Origin. Its precision-casting example illustrates why having fewer trial runs could matter. Named foundry and robotic deployments provide a different measurement opportunity. Condals reported early scrap reductions on two patterns. BMW reported parts positioned over sustained operating hours in a single production task. Both are interested-party reports. Compare the same process before and after deployment, measuring accepted units, scrap, downtime, interventions and delivered cost. An improvement in one step reaches customers only if it changes a binding constraint. [Dated evidence review](../evidence/2026-11-27-prometheus-physical-ai.md).
+
 ## Safety cannot be only a conversational instruction
 
 Physical limits need appropriate implementation. Depending on the system, that might include mechanical constraints, deterministic controllers, bounded permissions, emergency stops and independent observation. A model can propose what to do while another component enforces permitted ranges. This is a design proposal whose effectiveness must be tested for the actual application.

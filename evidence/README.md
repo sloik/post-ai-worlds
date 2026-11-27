@@ -10,6 +10,8 @@ Distinguish observations, candidate indicators, forecasts, conditional arguments
 
 [Frostbite and qualified hardware](2026-11-25-frostbite.md) distinguishes pre-silicon results from chip bring-up and acceptance. The physical-component forecast rises from 72% to 74% after also reviewing the OpenAI chip-design report.
 
+[Prometheus, foundry optimisation and production robotics](2026-11-27-prometheus-physical-ai.md) checks the named trial and casting example against real production cases and proposes a forecast on sustained scrap reduction.
+
 ## Signals worth developing
 
 Track capability and concentration separately. Candidate indicators include practical model portability, switching cost, independent access to compute and energy, productive ownership, labour bargaining power, enforceable public oversight, synthetic-companion use, displacement of human interaction, AI-welfare advocacy, and cultural expression around automation. Each needs a population, measurement instrument, sampling limits and a dated baseline before prospective thresholds can be registered.

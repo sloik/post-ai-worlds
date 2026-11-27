@@ -8,6 +8,8 @@ A useful first question is whether existing operators have a decision or coordin
 
 Working with an incumbent can provide access to assets and domain knowledge. It can also make the new service dependent on that incumbent's capacity and willingness to act. If output is limited by an unavailable component or a lengthy physical process, supplying another recommendation may not increase production. The right question is which constraint the proposed intervention changes.
 
+Prometheus proposes serving manufacturers with engineering tools and investing in some users. That is a concrete comparison for an organisation that wants to share in the gains from helping an operator improve. Start with one instrumented process and one operator-owned acceptance metric. Record who approves changes, how operators can export their observations and what rights each side retains over training data and improvements. A foundry can reduce scrap using recommendations and existing equipment. Robotics earns a place when it improves a measured constraint under actual operating conditions. [Prometheus and production comparators](../evidence/2026-11-27-prometheus-physical-ai.md#what-actual-process-and-robotics-deployments-add).
+
 ## Domain questions before a deployment claim
 
 | Domain | A question the operation must answer |
