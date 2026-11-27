@@ -127,18 +127,25 @@
       "sha256": "7015eabccede4385c1c5e281ec50b6d5d6069597f909e15f27f6da04a9f36da2"
     },
     {
+      "id": "evidence/2026-11-27-prometheus-physical-ai.md",
+      "label": "Prometheus, foundry optimisation and production robotics",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/2026-11-27-prometheus-physical-ai.md",
+      "kind": "document",
+      "sha256": "4b04d32a72ab2ade78556d6cae0cdb0fe6136e3ca52a4f9e3b3b4a24b9c005cc"
+    },
+    {
       "id": "evidence/FORECAST-REVIEWS.md",
       "label": "Manual forecast review queue",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/FORECAST-REVIEWS.md",
       "kind": "document",
-      "sha256": "72a1d45a7e1006f81f2d4d084d42de2163f3468a7a805a013714aad0522dfc20"
+      "sha256": "7e71135292bc690d60272a10ce64006de4f69f095d86c2410015c5cf6fae85d0"
     },
     {
       "id": "evidence/README.md",
       "label": "Evidence and forecasts",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/README.md",
       "kind": "document",
-      "sha256": "ab6ab3715217b87a457b8af0424b7d8a57f2d98cb2235ed6e1b761af85369f46"
+      "sha256": "a2d7cb002dad689e3fb8df5edca285211c92f2b334a756dd66b99dbe6cc3f7cd"
     },
     {
       "id": "evidence/companions-and-civic-dependence.md",
@@ -215,7 +222,7 @@
       "label": "Moving from digital artifacts to physical operations",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/omnicorp/05-REAL-WORLD-PRODUCTION.md",
       "kind": "document",
-      "sha256": "6e37bf7e8453d62904b43cdff3749acb2ee2588f414f2baca06aff483117ee5e"
+      "sha256": "d1ef2971dbd3bb534e674ad701972073bb167d76aa5a6659bc76533f4f73670b"
     },
     {
       "id": "omnicorp/06-CAPITAL.md",
@@ -446,7 +453,7 @@
       "label": "Physical AI: when an answer must survive contact with the world",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/post-ai/17-PHYSICAL-AI.md",
       "kind": "document",
-      "sha256": "c242a1c66147b2ef7910c0829019132a540a11f4a6571e24dc90d2ff3e675323"
+      "sha256": "2b472dd83bb168d6f2ed4c7cb6418c46a8a051b015a0b47f32f45edaefeed46f"
     },
     {
       "id": "post-ai/18-THE-DEEP-HORIZON.md",
@@ -1066,6 +1073,18 @@
     },
     {
       "source": "evidence/FORECAST-REVIEWS.md",
+      "target": "evidence/2026-11-27-prometheus-physical-ai.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/FORECAST-REVIEWS.md",
+      "source_lines": [
+        36
+      ],
+      "anchors": [
+        "proposed-forecast-on-sustained-casting-scrap-reduction"
+      ]
+    },
+    {
+      "source": "evidence/FORECAST-REVIEWS.md",
       "target": "evidence/forecasts/2026-11-13-rsi-forecasts.md",
       "relation": "markdown_link",
       "source_file": "evidence/FORECAST-REVIEWS.md",
@@ -1090,7 +1109,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        42
+        44
       ],
       "anchors": []
     },
@@ -1100,7 +1119,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        29
+        31
       ],
       "anchors": []
     },
@@ -1110,7 +1129,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        23
+        25
       ],
       "anchors": []
     },
@@ -1120,7 +1139,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        21
+        23
       ],
       "anchors": []
     },
@@ -1160,7 +1179,17 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        25
+        27
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/README.md",
+      "target": "evidence/2026-11-27-prometheus-physical-ai.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/README.md",
+      "source_lines": [
+        13
       ],
       "anchors": []
     },
@@ -1170,7 +1199,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        19
+        21
       ],
       "anchors": []
     },
@@ -1180,7 +1209,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        19
+        21
       ],
       "anchors": []
     },
@@ -1190,7 +1219,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        42
+        44
       ],
       "anchors": []
     },
@@ -1200,7 +1229,7 @@
       "relation": "markdown_link",
       "source_file": "evidence/README.md",
       "source_lines": [
-        42
+        44
       ],
       "anchors": []
     },
@@ -1482,11 +1511,23 @@
     },
     {
       "source": "omnicorp/05-REAL-WORLD-PRODUCTION.md",
+      "target": "evidence/2026-11-27-prometheus-physical-ai.md",
+      "relation": "markdown_link",
+      "source_file": "omnicorp/05-REAL-WORLD-PRODUCTION.md",
+      "source_lines": [
+        11
+      ],
+      "anchors": [
+        "what-actual-process-and-robotics-deployments-add"
+      ]
+    },
+    {
+      "source": "omnicorp/05-REAL-WORLD-PRODUCTION.md",
       "target": "omnicorp/07-ROADMAP-AND-KPIS.md",
       "relation": "markdown_link",
       "source_file": "omnicorp/05-REAL-WORLD-PRODUCTION.md",
       "source_lines": [
-        38
+        40
       ],
       "anchors": [
         "hardware-development-path"
@@ -1498,7 +1539,7 @@
       "relation": "markdown_link",
       "source_file": "omnicorp/05-REAL-WORLD-PRODUCTION.md",
       "source_lines": [
-        48
+        50
       ],
       "anchors": []
     },
@@ -2172,6 +2213,16 @@
       "source_file": "post-ai/06-THE-ALIGNMENT-QUESTION.md",
       "source_lines": [
         25
+      ],
+      "anchors": []
+    },
+    {
+      "source": "post-ai/17-PHYSICAL-AI.md",
+      "target": "evidence/2026-11-27-prometheus-physical-ai.md",
+      "relation": "markdown_link",
+      "source_file": "post-ai/17-PHYSICAL-AI.md",
+      "source_lines": [
+        19
       ],
       "anchors": []
     },

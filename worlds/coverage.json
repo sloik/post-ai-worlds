@@ -450,7 +450,7 @@
       "assurance": "editorial_inventory_only"
     },
     "post-ai/17-PHYSICAL-AI.md": {
-      "sha256": "c242a1c66147b2ef7910c0829019132a540a11f4a6571e24dc90d2ff3e675323",
+      "sha256": "2b472dd83bb168d6f2ed4c7cb6418c46a8a051b015a0b47f32f45edaefeed46f",
       "headings": [
         {
           "level": 1,
@@ -469,13 +469,18 @@
         },
         {
           "level": 2,
-          "text": "Safety cannot be only a conversational instruction",
+          "text": "Process gains and robot deployment",
           "line": 17
         },
         {
           "level": 2,
+          "text": "Safety cannot be only a conversational instruction",
+          "line": 21
+        },
+        {
+          "level": 2,
           "text": "Physical capability could change its own constraints",
-          "line": 23
+          "line": 27
         }
       ],
       "assurance": "editorial_inventory_only"
@@ -767,7 +772,7 @@
       "assurance": "editorial_inventory_only"
     },
     "omnicorp/05-REAL-WORLD-PRODUCTION.md": {
-      "sha256": "6e37bf7e8453d62904b43cdff3749acb2ee2588f414f2baca06aff483117ee5e",
+      "sha256": "d1ef2971dbd3bb534e674ad701972073bb167d76aa5a6659bc76533f4f73670b",
       "headings": [
         {
           "level": 1,
@@ -782,27 +787,27 @@
         {
           "level": 2,
           "text": "Domain questions before a deployment claim",
-          "line": 11
+          "line": 13
         },
         {
           "level": 2,
           "text": "Treat constraints separately",
-          "line": 24
+          "line": 26
         },
         {
           "level": 2,
           "text": "Build the evidence chain",
-          "line": 30
+          "line": 32
         },
         {
           "level": 2,
           "text": "Computing hardware as a productive capability",
-          "line": 36
+          "line": 38
         },
         {
           "level": 2,
           "text": "Expansion remains conditional",
-          "line": 44
+          "line": 46
         }
       ],
       "assurance": "editorial_inventory_only"
