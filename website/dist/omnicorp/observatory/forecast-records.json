@@ -468,5 +468,145 @@
       }
     ],
     "record_url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/forecasts/2026-11-21-ai-only-operations.md#q06--automated-only-public-roads"
+  },
+  {
+    "id": "human-review-default",
+    "title": "Will large companies drop the mandatory human code review?",
+    "criteria_version": "1.0",
+    "criteria": "Resolve YES if either route is met from 29 November 2026 through 31 December 2027 at 23:59 UTC. Practice: at least 10 companies in the S&P 100, as constituted on 28 November 2026, each publish first-party documentation (an engineering post, filing, published policy, or an official employee talk with video or slides) showing that, in at least one named production codebase or across its engineering organisation, ordinary code changes merge to production with an AI system’s approval and no human reviewer or approver, as the default path. A risk-tiered rule counts if ordinary application changes are on the AI-only path. Pilots, optional lanes and scopes limited to dependency, documentation or configuration updates do not count; a pre-window disclosure counts only if reaffirmed in the window. Standard: the PCI Security Standards Council, NIST (final SP 800-218 revision or SP 800-218A), OpenSSF’s SLSA project, the AICPA or ISO/IEC publishes final normative text or official guidance stating that AI review or approval of ordinary production code changes, with no human reviewer or approver, satisfies its code-review or change-approval requirement. Text in force before the window, drafts, consultations and audit-firm or vendor statements do not count.",
+    "window_start": "2026-11-29",
+    "deadline": "2027-12-31",
+    "issued_on": "2026-11-28",
+    "prob": 0.11,
+    "status": "Open forecast",
+    "forecast_id": 7,
+    "forecaster": "Argo / AI research synthesis",
+    "prior": 0.12,
+    "prior_basis": "Argo used a subjective 12% anchor for the practice route in 13 months. Competitive pressure, the review bottleneck and GitHub’s approval setting moved the odds up by 2.0× as a bundle. Regulated members, disclosure reluctance and Amazon’s tighter sign-off moved them down by 0.55×, to 13.0%. About 4% more for the correlated standard route gave 16.5%. The dated record includes the calculation and sensitivity.",
+    "prior_role": "The prior belongs to the lead forecaster. The public probability pools the lead and the separately elicited specialist.",
+    "method": "Equal-weight geometric mean of odds, without extremizing, using the Superforecasting playbook. The lead and specialist share a model family and overlap in sources.",
+    "views": [
+      0.165,
+      0.07
+    ],
+    "why_right": [
+      "AI review already finds defects people miss, and review is now the bottleneck: Sonar reports that 65% of committed code is AI-generated or assisted and that 76% of developers produce it faster than they can verify it. Companies that keep the wait risk falling behind.",
+      "Since September an enterprise admin can let a GitHub Copilot approval count toward required reviews, so dropping the human approval is a setting rather than a project.",
+      "Intercom approves more than 19% of its pull requests with no human reviewer, reports lower revert rates for AI-authored code and engaged its auditor first. That gives large companies a template."
+    ],
+    "why_wrong": [
+      "About a fifth of the S&P 100 are banks and insurers whose change control sits under SOX and banking supervision. Amazon reportedly tightened sign-off on AI-assisted changes after its March outage.",
+      "Large companies publish little about internal change control, and legal teams discourage saying that no person approves a change. Practice can move without ten public records.",
+      "SLSA’s approved definition of a reviewer is a human, and the PCI Council’s October guidance attaches accountability for AI output to a person. Thirteen months is short for a standard to change."
+    ],
+    "up_trigger": {
+      "description": "Microsoft, Alphabet or Meta publishes AI-only approval as the default engineering policy for ordinary production changes.",
+      "lr": 2.0
+    },
+    "down_trigger": {
+      "description": "A banking or securities regulator, or a large outage attributed to unreviewed AI changes, leads large companies to require a human approver for change control.",
+      "lr": 0.6
+    },
+    "resolver": "Resolve YES on the dated first-party records for every company counted, or the dated text and passage granting the permission. A later reversal does not undo a qualifying record. If neither route can be verified after a documented search by 29 February 2028, resolve NO. Ten companies is a proxy for broad adoption, not majority practice.",
+    "sources": [
+      {
+        "title": "GitHub changelog: Copilot approvals can count toward required reviews",
+        "url": "https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests"
+      },
+      {
+        "title": "Intercom: AI is approving our pull requests",
+        "url": "https://www.intercom.com/blog/ai-is-approving-our-pull-requests-heres-how-we-made-it-safe"
+      },
+      {
+        "title": "SLSA v1.2 source requirements: the trusted person is a human",
+        "url": "https://slsa.dev/spec/v1.2/source-requirements"
+      },
+      {
+        "title": "Pragmatic Engineer: what is happening with code reviews",
+        "url": "https://newsletter.pragmaticengineer.com/p/what-is-happening-with-code-reviews"
+      },
+      {
+        "title": "Sonar State of Code developer survey",
+        "url": "https://www.sonarsource.com/blog/state-of-code-developer-survey-report-2027/"
+      }
+    ],
+    "probability_history": [
+      {
+        "date": "2026-11-28",
+        "prob": 0.11,
+        "reason": "Initial estimate under prospective criteria."
+      }
+    ],
+    "record_url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/forecasts/2026-11-28-human-review-and-direct-binary.md#q07--ai-approval-becomes-the-default-at-large-companies"
+  },
+  {
+    "id": "ai-emitted-binary",
+    "title": "Will an AI-emitted binary run in production without source?",
+    "criteria_version": "1.0",
+    "criteria": "From 29 November 2026 through 31 December 2030 at 23:59 UTC, an operator publishes first-party documentation (an engineering post, paper, release notes or filing) of a deployable unit (program, library, service, firmware image or GPU kernel library) in production for external users or live operations whose deployed machine code was emitted directly by an AI model: CPU or GPU instruction bytes, an ELF, PE or Mach-O object or executable, or a WebAssembly binary. No compiler, assembler or translator may build the deployed bytes from human-readable source, assembly text or compiler IR, including PTX, LLVM IR and Triton. The model may use compilers as tools, and a disassembly kept for audit is allowed. Model weights used as the program, AI-tuned compiler heuristics, deterministic binary translation, AI-written source compiled conventionally, single functions patched into compiler-built code, and demonstrations or benchmarks without production users do not qualify.",
+    "window_start": "2026-11-29",
+    "deadline": "2030-12-31",
+    "issued_on": "2026-11-28",
+    "prob": 0.09,
+    "status": "Open forecast",
+    "forecast_id": 8,
+    "forecaster": "Argo / AI research synthesis",
+    "prior": 0.12,
+    "prior_basis": "Argo used a subjective 12% anchor for one documented production case in four years. Capability pace, near-hardware kernel search and a motivated public advocate moved the odds up by 1.7× as a bundle. Free deterministic compilers, token cost, loss of review and debugging, and EU Cyber Resilience Act duties moved them down by 0.6×, to 12.2%. The dated record includes the calculation and sensitivity.",
+    "prior_role": "The prior belongs to the lead forecaster. The public probability pools the lead and the separately elicited specialist.",
+    "method": "Equal-weight geometric mean of odds, without extremizing, using the Superforecasting playbook. The lead and specialist share a model family and overlap in sources.",
+    "views": [
+      0.122,
+      0.06
+    ],
+    "why_right": [
+      "Four years is long at the current pace. Kernel search systems already work close to the hardware, where emitting machine code could find gains a compiler misses.",
+      "Elon Musk told an xAI all-hands in February that AI may soon create the binary directly, so at least one company has a public reason to ship it.",
+      "The rule needs only one operator and one narrow deployable unit, such as a GPU kernel library or a WebAssembly module."
+    ],
+    "why_wrong": [
+      "Compilers are free, deterministic and well verified. Emitting a binary costs many more tokens than source and gives up the compiler’s guarantees.",
+      "Review, debugging, static analysis, portability and the training data of models all depend on source. AI-written kernels have so far shipped as source.",
+      "The EU Cyber Resilience Act applies fully from December 2027, with bill-of-materials and vulnerability duties built around traceable components."
+    ],
+    "up_trigger": {
+      "description": "A lab publishes a model that emits machine code verified against tests at a level comparable to compiled source, and deploys it.",
+      "lr": 2.0
+    },
+    "down_trigger": {
+      "description": "Leading kernel-generation systems standardise on domain-specific languages lowered by a compiler, and direct-emission results stay well below compile-and-test baselines.",
+      "lr": 0.7
+    },
+    "resolver": "Resolve YES on the dated first-party record with evidence of production use and of the build chain. “By 2030” is read as through 31 December 2030. If no qualifying record from the window can be verified after a documented search by 28 February 2031, resolve NO.",
+    "sources": [
+      {
+        "title": "Meta: KernelEvolve generates production kernels as source",
+        "url": "https://engineering.fb.com/2026/04/02/developer-tools/kernelevolve-how-metas-ranking-engineer-agent-optimizes-ai-infrastructure/"
+      },
+      {
+        "title": "Meta: LLM Compiler works at IR and assembly level",
+        "url": "https://arxiv.org/abs/2407.02524"
+      },
+      {
+        "title": "DeepMind: AlphaDev routines merged into libc++ as reviewed source",
+        "url": "https://deepmind.google/discover/blog/alphadev-discovers-faster-sorting-algorithms/"
+      },
+      {
+        "title": "Reuters via Malay Mail: Musk on AI creating binaries directly",
+        "url": "https://www.malaymail.com/news/money/2026/02/12/musk-overhauls-xai-leadership-after-spacex-merger-ahead-of-planned-megaipo/209006"
+      },
+      {
+        "title": "BSI: EU Cyber Resilience Act timeline",
+        "url": "https://www.bsi.bund.de/dok/cra-en"
+      }
+    ],
+    "probability_history": [
+      {
+        "date": "2026-11-28",
+        "prob": 0.09,
+        "reason": "Initial estimate under prospective criteria."
+      }
+    ],
+    "record_url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/forecasts/2026-11-28-human-review-and-direct-binary.md#q08--an-ai-emitted-binary-in-production"
   }
 ]

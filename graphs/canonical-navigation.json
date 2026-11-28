@@ -145,7 +145,7 @@
       "label": "Manual forecast review queue",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/FORECAST-REVIEWS.md",
       "kind": "document",
-      "sha256": "aed3510ac2d7383d336571a5d3c0d8409a1eecf5b73187bf11f420b5588defbd"
+      "sha256": "e6094eb27743476798a7d7a330b46100f1f74f52b8a2df1baf0420df7e4e0fd7"
     },
     {
       "id": "evidence/README.md",
@@ -174,6 +174,13 @@
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/forecasts/2026-11-21-ai-only-operations.md",
       "kind": "document",
       "sha256": "aa9b5539ea38c34336d45040367436b94d1e80444c3ab4b7c4c4c3f8e74ef09e"
+    },
+    {
+      "id": "evidence/forecasts/2026-11-28-human-review-and-direct-binary.md",
+      "label": "The last required human code review and AI-emitted binaries",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/forecasts/2026-11-28-human-review-and-direct-binary.md",
+      "kind": "document",
+      "sha256": "a60a066819d6209bf6837b004b66d396e26163547b65e285a05922229656b7b3"
     },
     {
       "id": "evidence/social-measurement-protocol.md",
@@ -1163,6 +1170,16 @@
       "anchors": []
     },
     {
+      "source": "evidence/FORECAST-REVIEWS.md",
+      "target": "evidence/forecasts/2026-11-28-human-review-and-direct-binary.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/FORECAST-REVIEWS.md",
+      "source_lines": [
+        40
+      ],
+      "anchors": []
+    },
+    {
       "source": "evidence/README.md",
       "target": "CONTRIBUTING.md",
       "relation": "markdown_link",
@@ -1416,6 +1433,16 @@
       "source_file": "evidence/forecasts/2026-11-21-ai-only-operations.md",
       "source_lines": [
         57
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/forecasts/2026-11-28-human-review-and-direct-binary.md",
+      "target": "evidence/FORECAST-REVIEWS.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/forecasts/2026-11-28-human-review-and-direct-binary.md",
+      "source_lines": [
+        72
       ],
       "anchors": []
     },
