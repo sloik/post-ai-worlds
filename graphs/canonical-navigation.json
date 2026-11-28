@@ -145,7 +145,7 @@
       "label": "Manual forecast review queue",
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/FORECAST-REVIEWS.md",
       "kind": "document",
-      "sha256": "aed3510ac2d7383d336571a5d3c0d8409a1eecf5b73187bf11f420b5588defbd"
+      "sha256": "0d9b2480a381f2efe8e2ee1651cf84c625b5f59f3998953d31d374e416338855"
     },
     {
       "id": "evidence/README.md",
@@ -174,6 +174,20 @@
       "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/forecasts/2026-11-21-ai-only-operations.md",
       "kind": "document",
       "sha256": "aa9b5539ea38c34336d45040367436b94d1e80444c3ab4b7c4c4c3f8e74ef09e"
+    },
+    {
+      "id": "evidence/forecasts/2026-11-28-human-review-and-direct-binary.md",
+      "label": "The last required human code review and AI-emitted binaries",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/forecasts/2026-11-28-human-review-and-direct-binary.md",
+      "kind": "document",
+      "sha256": "f44f3622d0acb4571a39370dbc5ab3f66fa860b8712deb2d833fc0106ba83f3e"
+    },
+    {
+      "id": "evidence/forecasts/2026-11-28-sp100-constituents.md",
+      "label": "S&P 100 constituents fixed for Q07",
+      "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/forecasts/2026-11-28-sp100-constituents.md",
+      "kind": "document",
+      "sha256": "44af29ef42065a7410d4303caba00414269367e938e1ab2f7b022c9aa59468fc"
     },
     {
       "id": "evidence/social-measurement-protocol.md",
@@ -1163,6 +1177,16 @@
       "anchors": []
     },
     {
+      "source": "evidence/FORECAST-REVIEWS.md",
+      "target": "evidence/forecasts/2026-11-28-human-review-and-direct-binary.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/FORECAST-REVIEWS.md",
+      "source_lines": [
+        40
+      ],
+      "anchors": []
+    },
+    {
       "source": "evidence/README.md",
       "target": "CONTRIBUTING.md",
       "relation": "markdown_link",
@@ -1418,6 +1442,38 @@
         57
       ],
       "anchors": []
+    },
+    {
+      "source": "evidence/forecasts/2026-11-28-human-review-and-direct-binary.md",
+      "target": "evidence/FORECAST-REVIEWS.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/forecasts/2026-11-28-human-review-and-direct-binary.md",
+      "source_lines": [
+        74
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/forecasts/2026-11-28-human-review-and-direct-binary.md",
+      "target": "evidence/forecasts/2026-11-28-sp100-constituents.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/forecasts/2026-11-28-human-review-and-direct-binary.md",
+      "source_lines": [
+        26
+      ],
+      "anchors": []
+    },
+    {
+      "source": "evidence/forecasts/2026-11-28-sp100-constituents.md",
+      "target": "evidence/forecasts/2026-11-28-human-review-and-direct-binary.md",
+      "relation": "markdown_link",
+      "source_file": "evidence/forecasts/2026-11-28-sp100-constituents.md",
+      "source_lines": [
+        3
+      ],
+      "anchors": [
+        "q07--ai-approval-becomes-the-default-at-large-companies"
+      ]
     },
     {
       "source": "evidence/social-measurement-protocol.md",
