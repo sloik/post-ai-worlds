@@ -1420,6 +1420,314 @@
           "reason": "Initial estimate under prospective criteria."
         }
       ]
+    },
+    {
+      "status": "Open forecast",
+      "issued_on": "2026-11-13",
+      "window_start": "2026-11-14",
+      "criteria_version": "1.0",
+      "forecaster": "Argo / AI research synthesis",
+      "prior": null,
+      "prior_role": "No single analyst prior was published. Each estimate pools three separately elicited views.",
+      "method": "Geometric mean of odds of three views without extremizing: Argo’s own estimate, a short-timelines view and an ‘AI as normal technology’ view, using the Superforecasting playbook. All three share a model family and one fact sheet.",
+      "confidence_note": "Judgment under limited evidence. Issued on 13 November 2026 as a research proxy and shown on the Observatory from 28 November 2026; the trigger multipliers were added then and are review rules, not part of the issued criteria.",
+      "id": "unaffiliated-4x-acceleration",
+      "title": "Will an unaffiliated evaluator estimate 4× faster AI progress?",
+      "deadline": "2027-12-31",
+      "lane": "Cumulative improvement",
+      "criteria": "METR, or another evaluator unaffiliated with the developer, publishes an assessment whose central estimate is that a named frontier developer is improving model capabilities at four times or more its historical rate before the acceleration. Producer self-reports do not count.",
+      "resolver": "The absence of a qualifying public record by the deadline resolves NO. The baseline was checked on 13 November 2026 and no qualifying assessment existed.",
+      "up": "A second unaffiliated assessment with a central estimate of 3× or more.",
+      "down": "Restricted evaluator access, or a repeat assessment at 2× or below.",
+      "reference_class": "There is no matched reference class. METR’s single pilot estimated about 2×, with 1.3× to 3× unsurprising to METR and a benchmark-index estimate of 1.9× (95% interval 1.5 to 2.8).",
+      "prior_basis": "The three views were 15%, 14% and 7%, pooled to 11%. On 24 November a second lab’s acceleration signal moved the estimate to 13% (about 1.21× on odds).",
+      "why_right": [
+        "A smooth-acceleration reading implies another doubling within about six months.",
+        "METR found no clear bottleneck for the next twelve months."
+      ],
+      "why_wrong": [
+        "The developer redacted most of the evidence and narrowed the scope midway, so repeat access is uncertain.",
+        "A central estimate of 4× lies above the top of every published interval, and evaluators hedge."
+      ],
+      "up_trigger": {
+        "description": "A second unaffiliated assessment reports a central estimate of 3× or more.",
+        "lr": 2.0
+      },
+      "down_trigger": {
+        "description": "Evaluator access is restricted, or a repeat assessment comes in at 2× or below.",
+        "lr": 0.6
+      },
+      "sources": [
+        {
+          "title": "METR: Anthropic AI R&D acceleration assessment",
+          "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/"
+        }
+      ],
+      "views": [
+        0.15,
+        0.14,
+        0.07
+      ],
+      "prob": 0.13,
+      "forecast_id": 9,
+      "probability_history": [
+        {
+          "date": "2026-11-13",
+          "prob": 0.11,
+          "reason": "Initial estimate under prospective criteria."
+        },
+        {
+          "date": "2026-11-24",
+          "prob": 0.13,
+          "reason": "A second lab’s acceleration signal, discounted for a different metric and no unaffiliated attribution."
+        }
+      ],
+      "record_url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/forecasts/2026-11-13-rsi-forecasts.md"
+    },
+    {
+      "status": "Open forecast",
+      "issued_on": "2026-11-13",
+      "window_start": "2026-11-14",
+      "criteria_version": "1.0",
+      "forecaster": "Argo / AI research synthesis",
+      "prior": null,
+      "prior_role": "No single analyst prior was published. Each estimate pools three separately elicited views.",
+      "method": "Geometric mean of odds of three views without extremizing: Argo’s own estimate, a short-timelines view and an ‘AI as normal technology’ view, using the Superforecasting playbook. All three share a model family and one fact sheet.",
+      "confidence_note": "Judgment under limited evidence. Issued on 13 November 2026 as a research proxy and shown on the Observatory from 28 November 2026; the trigger multipliers were added then and are review rules, not part of the issued criteria.",
+      "id": "anthropic-index-half-ai-led",
+      "title": "Will Anthropic report AI leading half of its AI R&D work?",
+      "deadline": "2027-12-31",
+      "lane": "Cumulative improvement",
+      "criteria": "Anthropic publishes an update to its R&D Automation Index, or a successor it states is comparable, reporting that AI “leads” (level AL4) or higher on 50% or more of its AI R&D work.",
+      "resolver": "The absence of a qualifying public record by the deadline resolves NO. A methodology change that Anthropic does not describe as comparable resolves NO. The baseline was 26% as of August 2026.",
+      "up": "A second index release at 40% or more.",
+      "down": "A methodology change or a plateau.",
+      "reference_class": "There is no matched reference class. The index rose from under 1% in February 2026 to 26% in August 2026, with over 90% of work at ‘AI collaborates’ or above.",
+      "prior_basis": "The three views were 50%, 40% and 27%, pooled to 39%. Most of the spread is the chance that no comparable update is published.",
+      "why_right": [
+        "The trend is steep and the task basket is frozen at July 2026.",
+        "The judge is one of the producer’s own models, which can drift upward on borderline cases."
+      ],
+      "why_wrong": [
+        "The index is a prototype that may be dropped or re-based.",
+        "Early adoption curves flatten on the hard tail."
+      ],
+      "up_trigger": {
+        "description": "A second index release reports 40% or more AI-led work.",
+        "lr": 1.8
+      },
+      "down_trigger": {
+        "description": "Anthropic changes the methodology without comparability, or the index plateaus.",
+        "lr": 0.6
+      },
+      "sources": [
+        {
+          "title": "Anthropic: measuring the pace of AI development",
+          "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development"
+        }
+      ],
+      "views": [
+        0.5,
+        0.4,
+        0.27
+      ],
+      "prob": 0.39,
+      "forecast_id": 10,
+      "probability_history": [
+        {
+          "date": "2026-11-13",
+          "prob": 0.39,
+          "reason": "Initial estimate under prospective criteria."
+        }
+      ],
+      "record_url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/forecasts/2026-11-13-rsi-forecasts.md"
+    },
+    {
+      "status": "Open forecast",
+      "issued_on": "2026-11-13",
+      "window_start": "2026-11-14",
+      "criteria_version": "1.0",
+      "forecaster": "Argo / AI research synthesis",
+      "prior": null,
+      "prior_role": "No single analyst prior was published. Each estimate pools three separately elicited views.",
+      "method": "Geometric mean of odds of three views without extremizing: Argo’s own estimate, a short-timelines view and an ‘AI as normal technology’ view, using the Superforecasting playbook. All three share a model family and one fact sheet.",
+      "confidence_note": "Judgment under limited evidence. Issued on 13 November 2026 as a research proxy and shown on the Observatory from 28 November 2026; the trigger multipliers were added then and are review rules, not part of the issued criteria.",
+      "id": "automated-researcher-declaration",
+      "title": "Will a lab officially declare an automated AI researcher?",
+      "deadline": "2028-12-31",
+      "lane": "Cumulative improvement",
+      "criteria": "OpenAI officially declares its “true automated AI researcher” goal achieved; or OpenAI, Anthropic, Google DeepMind, Meta or xAI officially states that its AI can fully substitute for its top human AI researchers, or that its AI research is fully automated; or Anthropic reports a model scoring 85% or more on CoBench. Official company publications only.",
+      "resolver": "The absence of a qualifying public record by the deadline resolves NO. The baseline was checked on 13 November 2026 and none had occurred. A YES shows a developer’s willingness to make the claim, not that the capability exists.",
+      "up": "A published CoBench score of 70% or more.",
+      "down": "OpenAI revises or drops its March 2028 target.",
+      "reference_class": "There is one case and no base rate: OpenAI set the goals in October 2025 and declared the first one, an automated research intern, met in September 2026 by its own measurements.",
+      "prior_basis": "The three views were 42%, 42% and 30%, pooled to 38%. On 24 November reported design contributions moved it to 41% (about 1.13× on odds).",
+      "why_right": [
+        "OpenAI’s March 2028 target falls inside the window, and there are several routes to YES.",
+        "Labs have an incentive to announce milestones."
+      ],
+      "why_wrong": [
+        "‘Fully substitute’ is a costly statement to make, and the goal’s author said “we may totally fail”.",
+        "Anthropic’s August 2026 risk report says its strongest models still fall short of the CoBench level it would expect from a full substitute."
+      ],
+      "up_trigger": {
+        "description": "A lab publishes a CoBench score of 70% or more.",
+        "lr": 1.6
+      },
+      "down_trigger": {
+        "description": "OpenAI revises or drops its March 2028 automated-researcher target.",
+        "lr": 0.6
+      },
+      "sources": [
+        {
+          "title": "Forecast record with sources and reviews",
+          "url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/forecasts/2026-11-13-rsi-forecasts.md"
+        }
+      ],
+      "views": [
+        0.42,
+        0.42,
+        0.3
+      ],
+      "prob": 0.41,
+      "forecast_id": 11,
+      "probability_history": [
+        {
+          "date": "2026-11-13",
+          "prob": 0.38,
+          "reason": "Initial estimate under prospective criteria."
+        },
+        {
+          "date": "2026-11-24",
+          "prob": 0.41,
+          "reason": "Reported AI design contributions and growing autonomous success on bounded tasks."
+        }
+      ],
+      "record_url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/forecasts/2026-11-13-rsi-forecasts.md"
+    },
+    {
+      "status": "Open forecast",
+      "issued_on": "2026-11-13",
+      "window_start": "2026-11-14",
+      "criteria_version": "1.0",
+      "forecaster": "Argo / AI research synthesis",
+      "prior": null,
+      "prior_role": "No single analyst prior was published. Each estimate pools three separately elicited views.",
+      "method": "Geometric mean of odds of three views without extremizing: Argo’s own estimate, a short-timelines view and an ‘AI as normal technology’ view, using the Superforecasting playbook. All three share a model family and one fact sheet.",
+      "confidence_note": "Judgment under limited evidence. Issued on 13 November 2026 as a research proxy and shown on the Observatory from 28 November 2026; the trigger multipliers were added then and are review rules, not part of the issued criteria.",
+      "id": "navier-stokes-acceptance",
+      "title": "Will OpenAI’s Navier–Stokes proof be accepted?",
+      "deadline": "2027-12-31",
+      "lane": "Scientific work",
+      "criteria": "OpenAI’s Navier–Stokes proof, or a corrected version, is accepted for publication by a refereed mathematics journal; or the Clay Mathematics Institute publicly states that it accepts the solution as correct.",
+      "resolver": "The absence of a qualifying public record by the deadline resolves NO. The baseline was checked on 13 November 2026 and no acceptance existed. Proofs by other authors do not count.",
+      "up": "A journal announces refereeing with a timetable, or a leading analyst endorses the proof.",
+      "down": "A credible gap is found in a core lemma.",
+      "reference_class": "A small class of famous claimed solutions, about two of seven accepted within sixteen months, recalled from general knowledge and not re-verified. A preprint argues that the Lean statement does not match the written proof.",
+      "prior_basis": "The three views were 19%, 6% and 9%, pooled to 10%. Argo’s first chain gave 39% and was revised after it counted the disputed Lean proof as strong support.",
+      "why_right": [
+        "The proof could be correct and accepted by the field; a journal could fast-track a landmark result."
+      ],
+      "why_wrong": [
+        "Clay requires refereed publication followed by a waiting period.",
+        "Independent review was still under way, and a preprint disputes the fidelity of the formal statement."
+      ],
+      "up_trigger": {
+        "description": "A journal announces refereeing with a timetable, or a leading analyst endorses the proof.",
+        "lr": 2.5
+      },
+      "down_trigger": {
+        "description": "A credible gap is found in a core lemma.",
+        "lr": 0.4
+      },
+      "sources": [
+        {
+          "title": "arXiv:2610.08144, Lean statement fidelity challenge",
+          "url": "https://arxiv.org/abs/2610.08144"
+        }
+      ],
+      "views": [
+        0.19,
+        0.06,
+        0.09
+      ],
+      "prob": 0.1,
+      "forecast_id": 12,
+      "probability_history": [
+        {
+          "date": "2026-11-13",
+          "prob": 0.1,
+          "reason": "Initial estimate under prospective criteria."
+        }
+      ],
+      "record_url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/forecasts/2026-11-13-rsi-forecasts.md"
+    },
+    {
+      "id": "foundry-scrap-reduction",
+      "title": "Will two foundries document sustained AI-driven scrap cuts?",
+      "deadline": "2029-12-31",
+      "lane": "Physical work",
+      "status": "Open forecast",
+      "criteria": "From 29 November 2026 through 31 December 2029 (UTC), at least two metals foundry operators under different ultimate control publicly document at least a 20% relative reduction in casting scrap, sustained over 90 consecutive calendar days, on a named production line and identified casting pattern or part family, following a machine-learning recommendation adopted in regular production. Each case names the operator, site and line, specifies the AI-influenced process change, and gives dates plus counts of scrapped and produced units for the 90-day post-change window and the preceding 90-day baseline, with the same part scope and scrap definition, a nonzero baseline and disclosed changes in mix, inspection and concurrent interventions. An operator’s detailed report or an unaffiliated published audit can qualify; vendor claims alone, pilots outside regular production, simulations, inspection-only automation and unreported denominators cannot. Human approval of the change is allowed. Each operator counts once.",
+      "resolver": "Review public records through 28 February 2030 for results first published by 31 December 2029, with post-change windows inside the forecast window. Resolve YES for two qualifying operators and NO for fewer, including missing or confidential results. Record source URLs and calculations.",
+      "up": "A publicly funded or academic consortium publishes a foundry case with unit counts and dates, or named multi-operator programmes publish measurement plans.",
+      "down": "New case studies by late 2027 still report only percentages without denominators.",
+      "reference_class": "Condals reported 39% and 45% relative reductions on two patterns during commissioning, without full denominators or a control. GF and BMW Landshut show plant ML settings without comparable effect estimates. No denominator exists for deployed interventions with disclosed results.",
+      "prior": 0.4,
+      "prior_basis": "Argo’s 27 November draft judged 40% for two publicly auditable cases in three years: demand, instrumentation and a supplier market favour the event; confidential counts, concurrent changes and early success reporting weigh against it.",
+      "why_right": [
+        "Foundries have a strong economic reason to cut scrap, and suppliers such as DataProphet already sell process recommendations.",
+        "Condals already reported large reductions on two casting patterns, so the effect size is plausible.",
+        "Three years allows funded projects and journals to publish full case data."
+      ],
+      "why_wrong": [
+        "Scrap counts are usually confidential, and marketing cases report percentages without denominators.",
+        "Each case must meet every gate at once, and two unrelated operators must do it.",
+        "Gains reported at commissioning may fade once mix and conditions change."
+      ],
+      "up_trigger": {
+        "description": "A first qualifying case is published, or a funded multi-operator programme publishes its measurement plan.",
+        "lr": 2.0
+      },
+      "down_trigger": {
+        "description": "Case studies published through 2027 still omit unit counts, or controlled comparisons show early gains fading.",
+        "lr": 0.6
+      },
+      "sources": [
+        {
+          "title": "Foundry Planet: Condals cuts scrap by 45% with AI",
+          "url": "https://www.foundry-planet.com/de/d/artificial-intelligence-improves-casting-quality-condals-cuts-scrap-by-45/"
+        },
+        {
+          "title": "Georg Fischer 2019 sustainability report",
+          "url": "https://www.georgfischer.com/content/dam/commonassets/corp/documents/reports/sustainabilty-reports/2019-sustainability-report/2019-GF_Sustainability_Report_2019.pdf"
+        },
+        {
+          "title": "BMW Landshut foundry ML thesis",
+          "url": "https://epub.uni-regensburg.de/41301/1/thesis.pdf"
+        }
+      ],
+      "views": [
+        0.4,
+        0.04
+      ],
+      "prob": 0.14,
+      "forecast_id": 13,
+      "record_url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/forecasts/2026-11-28-casting-scrap.md",
+      "issued_on": "2026-11-28",
+      "window_start": "2026-11-29",
+      "criteria_version": "1.0",
+      "forecaster": "Argo / AI research synthesis",
+      "prior_role": "The prior belongs to the lead forecaster. The public probability pools the lead and the separately elicited specialist.",
+      "method": "Equal-weight geometric mean of odds, without extremizing, using the Superforecasting playbook. The lead and specialist share a model family and overlap in sources.",
+      "confidence_note": "Judgment under limited evidence. The 36-point spread between the two views is disagreement, not a confidence interval.",
+      "probability_history": [
+        {
+          "date": "2026-11-28",
+          "prob": 0.14,
+          "reason": "Initial estimate under prospective criteria."
+        }
+      ]
     }
   ],
   "reviews": [
@@ -1526,6 +1834,13 @@
       "title": "Two forecasts about code review and compiled source",
       "reason": "Issued Q07 at 6% for ten S&P 100 companies documenting AI approval without a human reviewer as the default for ordinary production changes, or a named assurance standard accepting it, by the end of 2027. Issued Q08 at 9% for a documented production unit whose machine code an AI model emitted directly, with no compiled source, by the end of 2030. Both are well below the maintainer’s premises. Meta already lands some low-risk diffs without a human, but no large company documents AI-only approval as its default, the assurance standards still name a human, and no model-emitted production binary exists yet. Existing forecasts keep their criteria and probabilities.",
       "initial_forecasts": 2,
+      "forecast_changes": 0
+    },
+    {
+      "date": "2026-11-28",
+      "title": "Research proxies and foundry scrap join the Observatory",
+      "reason": "The four research proxies issued on 13 November (F1–F4) now appear as Q09–Q12 with their original criteria, dates and probability histories: 13%, 39%, 41% and 10%. Their trigger multipliers were added for review use. The foundry scrap question drafted on 27 November is registered as Q13 at 14%, pooling the 40% draft with a separately elicited 4%. Forecast cards now link to their GitHub records and fold the case for and against by default.",
+      "initial_forecasts": 1,
       "forecast_changes": 0
     }
   ],

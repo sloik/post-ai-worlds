@@ -83,4 +83,8 @@ F1 stays at 13%, F2 at 39%, F3 at 41% and F4 at 10%. Patel’s follow-up gives a
 
 F1, F2, F3 and F4 remain at 13%, 39%, 41% and 10%. Kokotajlo’s conditional end-to-end R&D timeline supplies no qualifying company declaration. The independent checks of Alpöge’s Riemann result concern a different subject from F4. Keep the February review date and follow the issued resolvers. [Erdil and Kokotajlo claim checks](../2026-11-27-erdil-kokotajlo-takeoff.md#forecast-review)
 
+## 28 November 2026: shown on the Observatory
+
+At the maintainer’s request, F1–F4 now appear on the Observatory as Q09–Q12. Their criteria, issue date, three views and probability history are unchanged; the observation window is read as opening on 14 November 2026. The Observatory format needs a proposed multiplier for each update trigger above. These were added for review use only: F1 2.0 up and 0.6 down, F2 1.8 and 0.6, F3 1.6 and 0.6, F4 2.5 and 0.4. They are not part of the issued criteria. [Observatory](https://stocki-apps.pages.dev/omnicorp/observatory/#unaffiliated-4x-acceleration)
+
 [Forecast review queue](../FORECAST-REVIEWS.md) · [Forecasting guide](../../docs/forecasting-guide.md)

@@ -58,3 +58,4 @@
     bottom: auto;
     transform: translateX(-50%) rotate(225deg);
 }
+.forecast-record-link{margin:10px 0 0;font-size:15px}.forecast-card details.forecast-reasons{margin-top:20px}.forecast-reasons>.forecast-cases{margin-top:5px}
