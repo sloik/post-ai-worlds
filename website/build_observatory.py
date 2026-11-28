@@ -25,7 +25,32 @@ def review_anchors(reviews):
 library=(OUT/'field-notes/index.html').read_text();home=(OUT/'index.html').read_text()
 header=re.search(r'<header>.*?</header>',library,re.S).group().replace('aria-current="page"','aria-current="false"').replace('href="/omnicorp/observatory/"','href="/omnicorp/observatory/" aria-current="page"');footer=re.search(r'<footer>.*?</footer>',library,re.S).group()
 plot=(ROOT/'content/curve-fragment.html').read_text()
-p=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>The Observatory — Omnicorp</title><meta name="description" content="A growth horizon, reviewed events and testable forecast questions."><link rel="stylesheet" href="/omnicorp/style.css"><link rel="stylesheet" href="/omnicorp/publications.css"><link rel="stylesheet" href="/omnicorp/observatory.css"><script defer src="/omnicorp/observatory.js"></script><script defer src="/omnicorp/curve.js"></script><script defer src="/omnicorp/permalink.js"></script></head><body class="publication-page observatory-page"><a class="skip" href="#main">Skip to content</a>{header}<main id="main"><section class="section observatory-hero"><div class="section-heading"><p class="eyebrow">THE OMNICORP OBSERVATORY</p><span class="mono dim">REVIEWED / {date.fromisoformat(d["reviewed_on"]).strftime("%d %b %Y").upper()}</span></div><h1>The world moves.<br><span>We update.</span></h1><p class="observatory-deck">From the transistor moment to an open horizon.<br>Track the evidence. Challenge the expectations.</p><div class="observatory-console"><div class="console-top mono"><span><i class="signal"></i> TODAY / SCHEMATIC POSITION</span><span>SINGULARITY: AN OPEN QUESTION</span></div>{plot}<div class="horizon-reading"><h2>Today is dated.<br><span>The height is schematic.</span></h2><p>{e(d['summary'])} The dot’s height was chosen for the illustration, not estimated from data. Its accuracy has no defined probability. The curves are scenarios, not confidence bands. The percentages below refer only to specific dated forecasts.</p></div></div><div class="observatory-links"><a href="#evidence">Explore the events ↓</a><a href="#questions">Forecast questions ↓</a><a href="#revisions">What changed ↓</a></div></section><section class="section" id="evidence"><div class="section-heading"><p class="eyebrow">01 / WHAT CHANGED?</p><span class="mono dim">EVENT ≠ ASSESSMENT ≠ FORECAST</span></div><h2>Read the signals.<br><span>Keep the counterevidence.</span></h2><p class="observatory-deck">A selected evidence timeline from public access to mathematical discovery. Dates and our assessments are distinct. Related reports retain their source lineage: a sequel is not another independent discovery. Public proof corrections stay visible alongside advances.</p><div class="evidence-workspace"><div><div class="evidence-rail mono"><span>2022</span><span>NOV 2026 / REVIEW SNAPSHOT</span></div>'''
+# Piecewise time scale anchored on the review date: recent evidence is dense, so the
+# last 60 days take the right half of the track and earlier years are compressed.
+REVIEW=date.fromisoformat(d['reviewed_on']);START=date(2022,1,1)
+from datetime import timedelta
+SEGMENTS=[(START,REVIEW-timedelta(days=365),3.0,25.0),(REVIEW-timedelta(days=365),REVIEW-timedelta(days=60),25.0,50.0),(REVIEW-timedelta(days=60),REVIEW,50.0,97.0)]
+def track_position(day):
+    for a,b,x0,x1 in SEGMENTS:
+        if day<=b: return x0+max(0,(day-a).days)/max(1,(b-a).days)*(x1-x0)
+    return SEGMENTS[-1][3]
+def rail_ticks():
+    ticks=[(track_position(date(y,1,1)),str(y)) for y in range(START.year,REVIEW.year+1) if date(y,1,1)<SEGMENTS[0][1]]
+    ticks+=[(25.0,SEGMENTS[1][0].strftime('%b %Y').upper()),(50.0,SEGMENTS[2][0].strftime('%-d %b').upper())]
+    m=date(SEGMENTS[2][0].year,SEGMENTS[2][0].month,1)
+    while True:
+        m=date(m.year+(m.month==12),m.month%12+1,1)
+        if m>=REVIEW-timedelta(days=8): break
+        ticks.append((track_position(m),m.strftime('%-d %b').upper()))
+    ticks.append((97.0,REVIEW.strftime('%-d %b %Y').upper()))
+    fixed=ticks[-1:]+[t for t in ticks if t[0] in (25.0,50.0)]
+    kept=list(fixed)
+    for t in ticks:
+        if t not in kept and all(abs(t[0]-k[0])>=13 for k in kept): kept.append(t)
+    ticks=sorted(kept)
+    return ''.join(f'<span class="rail-tick{" rail-end" if x==97.0 else ""}" style="left:{x:.2f}%">{e(t)}</span>' for x,t in ticks)
+RAIL=rail_ticks()
+p=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>The Observatory — Omnicorp</title><meta name="description" content="A growth horizon, reviewed events and testable forecast questions."><link rel="stylesheet" href="/omnicorp/style.css"><link rel="stylesheet" href="/omnicorp/publications.css"><link rel="stylesheet" href="/omnicorp/observatory.css"><script defer src="/omnicorp/observatory.js"></script><script defer src="/omnicorp/curve.js"></script><script defer src="/omnicorp/permalink.js"></script></head><body class="publication-page observatory-page"><a class="skip" href="#main">Skip to content</a>{header}<main id="main"><section class="section observatory-hero"><div class="section-heading"><p class="eyebrow">THE OMNICORP OBSERVATORY</p><span class="mono dim">REVIEWED / {date.fromisoformat(d["reviewed_on"]).strftime("%d %b %Y").upper()}</span></div><h1>The world moves.<br><span>We update.</span></h1><p class="observatory-deck">From the transistor moment to an open horizon.<br>Track the evidence. Challenge the expectations.</p><div class="observatory-console"><div class="console-top mono"><span><i class="signal"></i> TODAY / SCHEMATIC POSITION</span><span>SINGULARITY: AN OPEN QUESTION</span></div>{plot}<div class="horizon-reading"><h2>Today is dated.<br><span>The height is schematic.</span></h2><p>{e(d['summary'])} The dot’s height was chosen for the illustration, not estimated from data. Its accuracy has no defined probability. The curves are scenarios, not confidence bands. The percentages below refer only to specific dated forecasts.</p></div></div><div class="observatory-links"><a href="#evidence">Explore the events ↓</a><a href="#questions">Forecast questions ↓</a><a href="#revisions">What changed ↓</a></div></section><section class="section" id="evidence"><div class="section-heading"><p class="eyebrow">01 / WHAT CHANGED?</p><span class="mono dim">EVENT ≠ ASSESSMENT ≠ FORECAST</span></div><h2>Read the signals.<br><span>Keep the counterevidence.</span></h2><p class="observatory-deck">A selected evidence timeline from public access to mathematical discovery. Dates and our assessments are distinct. Related reports retain their source lineage: a sequel is not another independent discovery. Public proof corrections stay visible alongside advances.</p><div class="evidence-workspace"><div><div class="evidence-rail mono">'''+RAIL+'</div>'
 for lane in ['Public access','Scientific work','Autonomous work','Real-world usefulness','Cumulative improvement','Physical work']:
  p+=f'<div class="evidence-lane {"scientific" if lane=="Scientific work" else ""}"><span>{e(lane)}</span><div class="lane-track">'
  events=[(i,x) for i,x in enumerate(d['events']) if x['lane']==lane]
@@ -33,7 +58,7 @@ for lane in ['Public access','Scientific work','Autonomous work','Real-world use
  # Greedy row packing: events never share a row closer than 11% of the track (dot plus side label).
  rows_end=[];placed=[]
  for i,x in events:
-  pos=8+(date.fromisoformat(x['date'])-date(2022,1,1)).days/(date(2026,11,5)-date(2022,1,1)).days*84
+  pos=track_position(date.fromisoformat(x['date']))
   row=next((r for r,end in enumerate(rows_end) if pos-end>=11),None)
   if row is None: rows_end.append(pos); row=len(rows_end)-1
   else: rows_end[row]=pos
@@ -44,9 +69,9 @@ for lane in ['Public access','Scientific work','Autonomous work','Real-world use
  if need>base: p=p[:track_open]+f'<div class="lane-track" style="height:{need}px">'+p[track_open+len('<div class="lane-track">'):]
  for i,x,pos,row in placed:
   top=6+row*30 if lane=='Scientific work' else (29 if len(rows_end)==1 else 14+row*30)
-  p+=f'<button data-event="{i}" class="evidence-dot {x["motion"]}" style="left:{pos:.2f}%;top:{top}px" aria-pressed="false" aria-label="{e(x["title"],quote=True)}"><span>{x["date"][5:]}</span></button>'
+  p+=f'<button data-event="{i}" class="evidence-dot {x["motion"]}" style="left:{pos:.2f}%;top:{top}px" aria-pressed="false" aria-label="{e(x["title"],quote=True)}"><span>{x["date"][5:] if date.fromisoformat(x["date"])>=SEGMENTS[2][0] else x["date"][:7]}</span></button>'
  p+='</div></div>'
-p+='<p class="evidence-key mono">ACID / CAPABILITY SIGNAL · AMBER / LIMIT · CYAN / MIXED</p><div class="event-list" role="group" aria-label="Select a reviewed event">'
+p+='<p class="evidence-key mono">ACID / CAPABILITY SIGNAL · AMBER / LIMIT · CYAN / MIXED<br>SCALE WIDENS TOWARD THE REVIEW DATE: THE LAST 60 DAYS FILL THE RIGHT HALF, ENDING AT THE REVIEW</p><div class="event-list" role="group" aria-label="Select a reviewed event">'
 for i,x in enumerate(d['events']):p+=f'<button data-event="{i}" aria-pressed="false"><time>{x["date"]}</time><span>{e(x["title"])}</span><b>↗</b></button>'
 p+='</div></div><article class="evidence-detail" aria-live="polite" aria-atomic="true"><p class="eyebrow" id="event-evidence"></p><h3 id="event-title"></h3><p class="event-meta mono"><span id="event-date"></span><br><span id="event-reviewed"></span></p><span id="event-direction" class="direction-label"></span><dl>'
 for field,label in [('claim','What the source reports'),('interpretation','Our reading'),('limit','What it does not establish'),('comparison','Compared with expectations')]:p+=f'<dt>{label}</dt><dd id="event-{field}"></dd>'
