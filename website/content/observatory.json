@@ -1,6 +1,6 @@
 {
   "reviewed_on": "2026-11-28",
-  "summary": "AI review can already approve code changes at some companies, while the largest firms and the assurance standards still name a human reviewer. AI-written low-level code reaches production as source. Track default AI approval at large companies and model-emitted binaries as separate milestones.",
+  "summary": "AI review already approves some low-risk changes, including at Meta, while the largest firms’ defaults and the assurance standards still name a human reviewer. AI-written low-level code reaches production as source. Track default AI approval at large companies and model-emitted binaries as separate milestones.",
   "events": [
     {
       "id": "chatgpt",
@@ -733,10 +733,10 @@
       "direction": "Platform permission for AI approval",
       "evidence": "First-party product changelog",
       "lineage": "GitHub (Microsoft), the vendor of the reviewer",
-      "claim": "When an admin enables it, a Copilot code review approval counts toward a repository’s required-approvals rule. The feature is a public preview and off by default. New commits dismiss the approval.",
-      "interpretation": "Removing the human approval becomes a setting rather than an engineering project. Intercom separately reports that more than 19% of its pull requests are approved with no human reviewer.",
-      "limit": "A permission is not adoption. The feature is optional and in preview, and the vendor reports no usage. Known AI-only approval policies come from smaller companies.",
-      "comparison": "Q07 is issued at 11% for ten S&P 100 companies documenting AI-only approval as default for ordinary changes, or a named assurance standard accepting it, by the end of 2027.",
+      "claim": "When an admin enables it, a Copilot code review approval counts toward a repository’s required-approvals rule. It launched in preview on 1 September and became generally available on 28 October. It is off by default, and new commits dismiss the approval.",
+      "interpretation": "Removing the human approval becomes a setting rather than an engineering project. Meta separately reports AI-only landing of low-risk diffs in production, and Intercom approves more than 19% of its pull requests with no human reviewer.",
+      "limit": "A permission is not adoption. The feature is off by default and GitHub reports no usage. Meta’s system is capped at low-risk changes, and no S&P 100 company documents AI-only approval as its default.",
+      "comparison": "Q07 is issued at 6% for ten S&P 100 companies documenting AI-only approval as default for ordinary changes, or a named assurance standard accepting it, by the end of 2027.",
       "source": "https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests",
       "source_title": "GitHub changelog — Copilot code review can now approve pull requests",
       "affects": [
@@ -756,7 +756,7 @@
       "claim": "Friedman argues that context, not model quality, now limits automated review. Teams should codify their rules and move to automatic approval and blocking gradually, rule by rule. Qodo aims for zero critical production bugs in 2027.",
       "interpretation": "The talk prompted two new forecasts: AI approval replacing the mandatory human sign-off at large companies, and AI models emitting production binaries directly.",
       "limit": "Qodo sells AI code review. The talk reports no measurements, and its 2027 aim is a company mission, not an industry forecast. It says nothing about binaries.",
-      "comparison": "Q07 starts at 11% and Q08 at 9%. The SLSA source standard still defines a reviewer as a human, and no production binary has been documented as model-emitted.",
+      "comparison": "Q07 starts at 6% and Q08 at 9%. The SLSA source standard still defines a reviewer as a human, and no production binary has been documented as model-emitted.",
       "source": "https://www.youtube.com/watch?v=s-aixZYJG4c",
       "source_title": "AI Engineer — Itamar Friedman, The Last Human Code Review",
       "affects": [
@@ -1273,25 +1273,25 @@
       "deadline": "2027-12-31",
       "lane": "Autonomous work",
       "status": "Open forecast",
-      "criteria": "Resolve YES if either route is met from 29 November 2026 through 31 December 2027 at 23:59 UTC. Practice: at least 10 companies in the S&P 100, as constituted on 28 November 2026, each publish first-party documentation (an engineering post, filing, published policy, or an official employee talk with video or slides) showing that, in at least one named production codebase or across its engineering organisation, ordinary code changes merge to production with an AI system’s approval and no human reviewer or approver, as the default path. A risk-tiered rule counts if ordinary application changes are on the AI-only path. Pilots, optional lanes and scopes limited to dependency, documentation or configuration updates do not count; a pre-window disclosure counts only if reaffirmed in the window. Standard: the PCI Security Standards Council, NIST (final SP 800-218 revision or SP 800-218A), OpenSSF’s SLSA project, the AICPA or ISO/IEC publishes final normative text or official guidance stating that AI review or approval of ordinary production code changes, with no human reviewer or approver, satisfies its code-review or change-approval requirement. Text in force before the window, drafts, consultations and audit-firm or vendor statements do not count.",
-      "resolver": "Resolve YES on the dated first-party records for every company counted, or the dated text and passage granting the permission. A later reversal does not undo a qualifying record. If neither route can be verified after a documented search by 29 February 2028, resolve NO. Ten companies is a proxy for broad adoption, not majority practice.",
-      "up": "Microsoft, Alphabet or Meta states AI-only approval as the default engineering policy for ordinary changes, or a listed body drafts text accepting AI approvers.",
+      "criteria": "Resolve YES if either route is met from 29 November 2026 through 31 December 2027 at 23:59 UTC. Practice: at least 10 distinct companies on the fixed S&P 100 list archived with the record each publish first-party documentation (an engineering post, filing, published policy, or an official employee talk with video or slides); a wholly owned subsidiary counts once for its parent. It must show, for a named production codebase or the engineering organisation, that code changes merge to production with an AI system’s approval and no human reviewer or approver other than the author, either (i) for at least half of the changes merged in that scope over a stated period, or (ii) as the default policy for all ordinary changes, with a human required only for named high-risk categories. Pilots, optional lanes, and paths limited to dependency, documentation or configuration updates or to a small low-risk fraction do not count; a pre-window disclosure counts only if reaffirmed in the window. Standard: the PCI Security Standards Council, NIST (final SP 800-218 revision or SP 800-218A), OpenSSF’s SLSA project, the AICPA or ISO/IEC publishes final normative text or official guidance stating that AI review or approval of ordinary production code changes, with no human reviewer or approver, satisfies its code-review or change-approval requirement. Text in force before the window, drafts, consultations and audit-firm or vendor statements do not count.",
+      "resolver": "Resolve YES on the dated first-party records for every company counted, or the dated text and passage granting the permission. A later reversal does not undo a qualifying record. If neither route can be verified after a documented search by 29 February 2028, resolve NO. Ten companies is a proxy for broad adoption, not majority practice. Meta’s RADAR, as published before the window, meets neither form.",
+      "up": "Meta, Microsoft or Alphabet states AI-only approval as the default policy for ordinary changes, or a listed body drafts text accepting AI approvers.",
       "down": "Another large outage is attributed to unreviewed AI changes, or a banking or securities regulator requires a human approver for change control.",
-      "reference_class": "AI coding tools spread through large companies within about two years, but removing a control and saying so publicly is a separate step. None of the known AI-only approval disclosures (Intercom, StrongDM, Amp, Duckbill) comes from the S&P 100. Assurance bodies revise slowly and have not relaxed a human-review control to count from.",
-      "prior": 0.12,
-      "prior_basis": "Argo used a subjective 12% anchor for the practice route in 13 months. Competitive pressure, the review bottleneck and GitHub’s approval setting moved the odds up by 2.0× as a bundle. Regulated members, disclosure reluctance and Amazon’s tighter sign-off moved them down by 0.55×, to 13.0%. About 4% more for the correlated standard route gave 16.5%. The dated record includes the calculation and sensitivity.",
+      "reference_class": "AI coding tools spread through large companies within about two years, but removing a control and saying so publicly is a separate step. At the cutoff no S&P 100 company has a qualifying disclosure; Meta’s risk-capped RADAR is the closest. Assurance bodies revise slowly and have not relaxed a human-review control to count from.",
+      "prior": 0.06,
+      "prior_basis": "Argo used a subjective 6% anchor for the practice route in 13 months. Competitive pressure, the review bottleneck, Copilot approvals and Meta’s existing system moved the odds up by 2.0× as a bundle. Regulated members, disclosure reluctance and Amazon’s position moved them down by 0.55×, to 6.6%. About 4% more for the standard route gave 10.3%. The dated record includes the calculation, drafting history and sensitivity.",
       "why_right": [
-        "AI review already finds defects people miss, and review is now the bottleneck: Sonar reports that 65% of committed code is AI-generated or assisted and that 76% of developers produce it faster than they can verify it. Companies that keep the wait risk falling behind.",
-        "Since September an enterprise admin can let a GitHub Copilot approval count toward required reviews, so dropping the human approval is a setting rather than a project.",
+        "AI review already finds defects people miss, and review is now the bottleneck: Sonar reports that AI generates or significantly assists 65% of committed code, and 76% say they generate AI code faster than they can verify it. Companies that keep the wait risk falling behind.",
+        "Meta already lands hundreds of thousands of low-risk diffs with an AI reviewer and no human, and could widen its caps. GitHub’s Copilot approvals, generally available since October, make the step a setting.",
         "Intercom approves more than 19% of its pull requests with no human reviewer, reports lower revert rates for AI-authored code and engaged its auditor first. That gives large companies a template."
       ],
       "why_wrong": [
-        "About a fifth of the S&P 100 are banks and insurers whose change control sits under SOX and banking supervision. Amazon reportedly tightened sign-off on AI-assisted changes after its March outage.",
+        "About a fifth of the S&P 100 are banks and insurers under SOX and banking supervision; Meta’s own system excludes SOX-scoped code. Amazon’s retail leadership says a person checks everything that ships.",
         "Large companies publish little about internal change control, and legal teams discourage saying that no person approves a change. Practice can move without ten public records.",
-        "SLSA’s approved definition of a reviewer is a human, and the PCI Council’s October guidance attaches accountability for AI output to a person. Thirteen months is short for a standard to change."
+        "SLSA defines a reviewer as a human, PCI DSS requires change approval by authorised parties, and the PCI Council’s October guidance attaches accountability for AI output to a person. Thirteen months is short."
       ],
       "up_trigger": {
-        "description": "Microsoft, Alphabet or Meta publishes AI-only approval as the default engineering policy for ordinary production changes.",
+        "description": "Meta, Microsoft or Alphabet publishes AI-only approval as the default policy for ordinary production changes.",
         "lr": 2.0
       },
       "down_trigger": {
@@ -1300,8 +1300,12 @@
       },
       "sources": [
         {
-          "title": "GitHub changelog: Copilot approvals can count toward required reviews",
-          "url": "https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests"
+          "title": "Meta: RADAR automates low-risk code review",
+          "url": "https://arxiv.org/abs/2605.30208"
+        },
+        {
+          "title": "GitHub changelog: Copilot approvals generally available",
+          "url": "https://github.blog/changelog/2026-10-28-copilot-code-review-merge-with-confidence-with-max-and-approvals"
         },
         {
           "title": "Intercom: AI is approving our pull requests",
@@ -1312,8 +1316,8 @@
           "url": "https://slsa.dev/spec/v1.2/source-requirements"
         },
         {
-          "title": "Pragmatic Engineer: what is happening with code reviews",
-          "url": "https://newsletter.pragmaticengineer.com/p/what-is-happening-with-code-reviews"
+          "title": "The Register: Amazon says a person checks what ships",
+          "url": "https://www.theregister.com/software/2026/04/29/amazon-tells-its-engineers-to-review-all-ai-output/5224124"
         },
         {
           "title": "Sonar State of Code developer survey",
@@ -1321,10 +1325,10 @@
         }
       ],
       "views": [
-        0.165,
-        0.07
+        0.103,
+        0.03
       ],
-      "prob": 0.11,
+      "prob": 0.06,
       "forecast_id": 7,
       "record_url": "https://github.com/sloik/post-ai-worlds/blob/main/evidence/forecasts/2026-11-28-human-review-and-direct-binary.md#q07--ai-approval-becomes-the-default-at-large-companies",
       "issued_on": "2026-11-28",
@@ -1337,7 +1341,7 @@
       "probability_history": [
         {
           "date": "2026-11-28",
-          "prob": 0.11,
+          "prob": 0.06,
           "reason": "Initial estimate under prospective criteria."
         }
       ]
@@ -1363,7 +1367,7 @@
       "why_wrong": [
         "Compilers are free, deterministic and well verified. Emitting a binary costs many more tokens than source and gives up the compiler’s guarantees.",
         "Review, debugging, static analysis, portability and the training data of models all depend on source. AI-written kernels have so far shipped as source.",
-        "The EU Cyber Resilience Act applies fully from December 2027, with bill-of-materials and vulnerability duties built around traceable components."
+        "All EU Cyber Resilience Act requirements apply from December 2027, including a software bill of materials used for vulnerability handling."
       ],
       "up_trigger": {
         "description": "A lab publishes a model that emits machine code verified against tests at a level comparable to compiled source, and deploys it.",
@@ -1387,8 +1391,8 @@
           "url": "https://deepmind.google/discover/blog/alphadev-discovers-faster-sorting-algorithms/"
         },
         {
-          "title": "Reuters via Malay Mail: Musk on AI creating binaries directly",
-          "url": "https://www.malaymail.com/news/money/2026/02/12/musk-overhauls-xai-leadership-after-spacex-merger-ahead-of-planned-megaipo/209006"
+          "title": "Reuters via Devdiscourse: Musk on AI creating binaries directly",
+          "url": "https://www.devdiscourse.com/article/technology/3801896-update-5-musk-reorganizes-xai-after-spacex-merger-and-ahead-of-blockbuster-ipo"
         },
         {
           "title": "BSI: EU Cyber Resilience Act timeline",
@@ -1520,7 +1524,7 @@
     {
       "date": "2026-11-28",
       "title": "Two forecasts about code review and compiled source",
-      "reason": "Issued Q07 at 11% for ten S&P 100 companies documenting AI approval without a human reviewer as the default for ordinary production changes, or a named assurance standard accepting it, by the end of 2027. Issued Q08 at 9% for a documented production unit whose machine code an AI model emitted directly, with no compiled source, by the end of 2030. Both are well below the maintainer’s premises. Practice is moving faster than published policy and standards, and no model-emitted production binary exists yet. Existing forecasts keep their criteria and probabilities.",
+      "reason": "Issued Q07 at 6% for ten S&P 100 companies documenting AI approval without a human reviewer as the default for ordinary production changes, or a named assurance standard accepting it, by the end of 2027. Issued Q08 at 9% for a documented production unit whose machine code an AI model emitted directly, with no compiled source, by the end of 2030. Both are well below the maintainer’s premises. Meta already lands some low-risk diffs without a human, but no large company documents AI-only approval as its default, the assurance standards still name a human, and no model-emitted production binary exists yet. Existing forecasts keep their criteria and probabilities.",
       "initial_forecasts": 2,
       "forecast_changes": 0
     }
