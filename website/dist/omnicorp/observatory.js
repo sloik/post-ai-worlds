@@ -116,3 +116,76 @@ function initEventTooltips() {
 }
 
 initEventTooltips();
+
+// Click a dot: a pop-up beside it gives the date, title, a short summary and the source.
+function initEventPopover() {
+    const pop = document.createElement('div');
+    pop.className = 'evidence-popover';
+    pop.setAttribute('role', 'dialog');
+    pop.setAttribute('aria-modal', 'false');
+    pop.hidden = true;
+    pop.innerHTML = '<button type="button" class="popover-close" aria-label="Close">×</button><p class="popover-meta mono"></p><h3></h3><p class="popover-summary"></p><p class="popover-links"><a class="popover-source text-link" target="_blank" rel="noopener"></a><a class="popover-more text-link" href="#">Full assessment ↓</a></p>';
+    document.body.append(pop);
+    const tooltip = document.querySelector('.evidence-tooltip');
+    let openDot = null;
+
+    function summary(text) {
+        const sentences = text.match(/[^.!?]+[.!?]+(\s|$)/g) || [text];
+        return sentences.slice(0, 2).join('').trim();
+    }
+    function place() {
+        if (!openDot) return;
+        const viewport = document.documentElement;
+        const anchor = openDot.getBoundingClientRect();
+        if (anchor.bottom <= 0 || anchor.top >= viewport.clientHeight) { pop.style.visibility = 'hidden'; return; }
+        pop.style.visibility = '';
+        const inset = 12, gap = 12;
+        const {width, height} = pop.getBoundingClientRect();
+        const center = anchor.left + anchor.width / 2;
+        const left = Math.max(inset, Math.min(center - width / 2, viewport.clientWidth - width - inset));
+        const below = anchor.bottom + gap, above = anchor.top - height - gap;
+        const placeBelow = below + height <= viewport.clientHeight - inset || above < inset;
+        pop.style.left = `${left}px`;
+        pop.style.top = `${Math.max(inset, placeBelow ? below : above)}px`;
+        pop.style.setProperty('--tip-arrow', `${Math.max(16, Math.min(center - left, width - 16))}px`);
+        pop.dataset.side = placeBelow ? 'below' : 'above';
+    }
+    function open(dot) {
+        const event = snapshot.events[Number(dot.dataset.event)];
+        openDot = dot;
+        pop.querySelector('.popover-meta').textContent = `${event.date} · ${event.lane.toUpperCase()}`;
+        pop.querySelector('h3').textContent = event.title;
+        pop.querySelector('.popover-summary').textContent = summary(event.claim);
+        const source = pop.querySelector('.popover-source');
+        source.href = event.source;
+        source.textContent = event.source_title + ' ↗';
+        pop.setAttribute('aria-label', event.title);
+        pop.hidden = false;
+        if (tooltip) tooltip.hidden = true;
+        place();
+    }
+    function close(returnFocus) {
+        if (!openDot) return;
+        const dot = openDot;
+        openDot = null;
+        pop.hidden = true;
+        if (returnFocus) dot.focus();
+    }
+    for (const dot of document.querySelectorAll('.evidence-dot')) {
+        dot.addEventListener('click', () => (openDot === dot ? close(false) : open(dot)));
+    }
+    pop.querySelector('.popover-close').addEventListener('click', () => close(true));
+    pop.querySelector('.popover-more').addEventListener('click', event => {
+        event.preventDefault();
+        close(false);
+        detail.scrollIntoView({block: 'start', behavior: reduced.matches ? 'auto' : 'smooth'});
+    });
+    document.addEventListener('pointerdown', event => {
+        if (openDot && !pop.contains(event.target) && !event.target.closest('.evidence-dot')) close(false);
+    });
+    document.addEventListener('keydown', event => { if (event.key === 'Escape' && openDot) close(true); });
+    window.addEventListener('scroll', place, {capture: true, passive: true});
+    window.addEventListener('resize', place);
+}
+
+initEventPopover();
